@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-mode="light">
+<html lang="en" data-mode="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -648,7 +648,7 @@ footer {
   font-weight: 900;
   line-height: 0.88;
   letter-spacing: 0.02em;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -659,7 +659,7 @@ footer {
   font-family: var(--font-mono);
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .footer-rule {
@@ -728,6 +728,317 @@ footer {
 }
 
 
+
+/* ═══════════════════════════════════
+   ARCHIVE
+═══════════════════════════════════ */
+.archive-view-toggle {
+  display: flex;
+  gap: 2px;
+}
+
+.archive-view-btn,
+.upcoming-view-btn {
+  background: none;
+  border: 1px solid var(--border-mid);
+  color: var(--text-faint);
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.archive-view-btn:hover,
+.upcoming-view-btn:hover { color: var(--text); border-color: var(--text); }
+.archive-view-btn.active,
+.upcoming-view-btn.active { background: var(--accent); color: var(--accent-inv); border-color: var(--accent); }
+
+.archive-list { display: flex; flex-direction: column; }
+
+.archive-list-row {
+  display: grid;
+  grid-template-columns: 90px 1fr auto;
+  align-items: center;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: var(--row-border);
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+.archive-list-row:first-child { border-top: none; }
+.archive-list-row:hover { opacity: 0.6; }
+
+.archive-list-date-block { flex-shrink: 0; }
+
+.archive-list-date {
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.0;
+  color: var(--text);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.archive-list-day {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  margin-top: 3px;
+}
+
+.archive-list-info { min-width: 0; }
+
+.archive-list-name {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text);
+  white-space: normal;
+  word-break: break-word;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.archive-list-meta {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.archive-month-block-list { margin-bottom: 2.5rem; }
+
+@media (max-width: 640px) {
+  .archive-list-row { grid-template-columns: 72px 1fr; gap: 14px; }
+  .archive-list-date { font-size: 22px; }
+  .archive-list-name { font-size: 16px; }
+}
+  display: flex;
+  gap: 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.archive-year-tab {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 10px 18px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: color 0.15s;
+  margin-bottom: -1px;
+}
+.archive-year-tab:hover { color: var(--text); }
+.archive-year-tab.active { color: var(--text); border-bottom-color: var(--text); }
+
+.archive-month-block { margin-bottom: 2.5rem; }
+
+.archive-month-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px dashed var(--border-mid);
+}
+
+.archive-month-name {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.archive-month-count {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+}
+
+.archive-poster {
+  aspect-ratio: 4/5;
+  background: var(--surface2);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: opacity 0.15s;
+}
+.archive-poster:hover { opacity: 0.85; }
+
+.archive-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.archive-poster-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface2);
+}
+
+.archive-poster-placeholder-inner {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--text-faint);
+  text-align: center;
+  padding: 12px;
+  line-height: 1.1;
+}
+
+@media (max-width: 640px) {
+  .archive-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 5px; }
+  .archive-year-tab { padding: 10px 12px; font-size: 9px; }
+}
+
+/* ═══════════════════════════════════
+   CHEATSHEET
+═══════════════════════════════════ */
+.cheatsheet-wrap { max-width: 1100px; }
+
+.cheatsheet-section { margin-bottom: 3rem; }
+
+.cheatsheet-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-dark);
+  margin-bottom: 2px;
+}
+
+.cheatsheet-name {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.cheatsheet-count {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.cheatsheet-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: var(--row-border);
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  position: relative;
+}
+.cheatsheet-row:last-child { border-bottom: none; }
+.cheatsheet-row:hover { opacity: 0.6; }
+.cheatsheet-row:hover .cheatsheet-ext { opacity: 1; }
+
+.cheatsheet-title-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 240px;
+  flex-shrink: 0;
+}
+
+.cheatsheet-ext {
+  opacity: 0;
+  transition: opacity 0.15s;
+  color: var(--text-faint);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.cheatsheet-ext svg {
+  width: 13px;
+  height: 13px;
+}
+
+.cheatsheet-item {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+.cheatsheet-note {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.cheatsheet-badge {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.cheatsheet-badge-free  { border-color: rgba(93,202,165,0.4);  color: #5DCAA5; }
+.cheatsheet-badge-paid  { border-color: rgba(239,159,39,0.35); color: #EF9F27; }
+.cheatsheet-badge-mixed { border-color: rgba(175,169,236,0.4); color: #AFA9EC; }
+.cheatsheet-badge-note  { border-color: var(--border);         color: var(--text-faint); }
+.cheatsheet-badge-scope { border-color: rgba(133,183,235,0.4); color: #85B7EB; }
+
+@media (max-width: 640px) {
+  .cheatsheet-row { flex-wrap: wrap; gap: 6px; }
+  .cheatsheet-item { min-width: 100%; font-size: 16px; }
+  .cheatsheet-note { min-width: 100%; font-size: 11px; }
+}
 
 /* ═══════════════════════════════════
    ABOUT
@@ -953,7 +1264,7 @@ footer {
 .modal {
   background: var(--bg);
   border: 1px solid var(--border-mid);
-  max-width: 560px;
+  max-width: 680px;
   width: 100%;
   max-height: 90vh;
   display: flex;
@@ -964,12 +1275,11 @@ footer {
 .modal-body {
   display: flex;
   flex: 1;
-  overflow: hidden;
-  position: relative;
+  min-height: 0;
 }
 
 .modal-poster-wrap {
-  width: 180px;
+  width: 220px;
   flex-shrink: 0;
   border-right: 1px dashed var(--border-mid);
   background: var(--surface2);
@@ -981,6 +1291,7 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   display: block;
 }
 
@@ -1004,6 +1315,7 @@ footer {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .modal-details-header {
@@ -1162,10 +1474,18 @@ footer {
 
 @media (max-width: 600px) {
   .modal-overlay { padding: 0; align-items: flex-end; }
-  .modal { max-width: 100%; max-height: 95vh; border-left: none; border-right: none; border-bottom: none; }
-  .modal-body { flex-direction: column; overflow-y: auto; }
-  .modal-poster-wrap { width: 100%; aspect-ratio: 4/5; border-right: none; border-bottom: 1px dashed var(--border-mid); position: relative; }
-  .modal-poster-wrap img { height: 100%; }
+  .modal { max-width: 100%; max-height: 92vh; border-left: none; border-right: none; border-bottom: none; overflow-y: auto; }
+  .modal-body { flex-direction: column; overflow: visible; }
+  .modal-poster-wrap {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px dashed var(--border-mid);
+    position: relative;
+    flex-shrink: 0;
+  }
+  .modal-poster-wrap img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
   .modal-close-mobile {
     display: flex !important;
     position: absolute; top: 10px; right: 10px;
@@ -1177,9 +1497,9 @@ footer {
     cursor: pointer; z-index: 10;
   }
   .modal-details-header { display: none; }
-  .modal-details { padding: 16px; overflow-y: visible; }
+  .modal-details { padding: 16px; overflow-y: visible; flex-shrink: 0; }
   .modal-title { font-size: 20px; }
-  .modal-footer { padding: 12px 16px; }
+  .modal-footer { padding: 12px 16px; flex-shrink: 0; }
 }
 </style>
 </head>
@@ -1194,7 +1514,7 @@ footer {
   <div class="nav-right-slot">
     <a class="nav-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
     <button class="mode-toggle" onclick="toggleMode()" aria-label="Toggle dark mode">
-      <span class="icon-moon">🌙</span>
+      <span class="icon-moon">🌑</span>
       <span class="icon-sun">☀️</span>
     </button>
     <button class="hamburger" id="hamburger" onclick="toggleMenu()">
@@ -1233,11 +1553,21 @@ footer {
       <h2 class="section-title">Upcoming Shows</h2>
       <span class="section-meta">After this week</span>
     </div>
-    <div class="filter-bar" id="type-filter-upcoming">
-      <button class="filter-btn active" onclick="filterUpcoming('all',this)">All</button>
-      <button class="filter-btn" onclick="filterUpcoming('open mic',this)">Open Mic</button>
-      <button class="filter-btn" onclick="filterUpcoming('stand-up',this)">Stand-up</button>
-      <button class="filter-btn" onclick="filterUpcoming('improv',this)">Improv</button>
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
+      <div class="filter-bar" style="margin-bottom:0;" id="type-filter-upcoming">
+        <button class="filter-btn active" onclick="filterUpcoming('all',this)">All</button>
+        <button class="filter-btn" onclick="filterUpcoming('open mic',this)">Open Mic</button>
+        <button class="filter-btn" onclick="filterUpcoming('stand-up',this)">Stand-up</button>
+        <button class="filter-btn" onclick="filterUpcoming('improv',this)">Improv</button>
+      </div>
+      <div class="archive-view-toggle">
+        <button class="upcoming-view-btn active" id="upcoming-btn-poster" onclick="setUpcomingView('poster',this)" aria-label="Poster view">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="5" height="6" rx="0.5" stroke="currentColor"/><rect x="8.5" y="0.5" width="5" height="6" rx="0.5" stroke="currentColor"/><rect x="0.5" y="9.5" width="5" height="4" rx="0.5" stroke="currentColor"/><rect x="8.5" y="9.5" width="5" height="4" rx="0.5" stroke="currentColor"/></svg>
+        </button>
+        <button class="upcoming-view-btn" id="upcoming-btn-list" onclick="setUpcomingView('list',this)" aria-label="List view">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="2.5" x2="14" y2="2.5" stroke="currentColor"/><line x1="0" y1="7" x2="14" y2="7" stroke="currentColor"/><line x1="0" y1="11.5" x2="14" y2="11.5" stroke="currentColor"/></svg>
+        </button>
+      </div>
     </div>
     <div id="upcoming-content"><div class="loading">Loading...</div></div>
   </div>
@@ -1264,6 +1594,148 @@ footer {
       </div>
       <div class="form-group"><label class="form-label" for="f-email">Contact email <span>*</span></label><input id="f-email" name="contact_email" type="email" placeholder="your@email.com"><p class="form-hint">Not displayed publicly. Used for moderation only.</p></div>
       <a class="submit-btn" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit for review →</a>
+    </div>
+  </div>
+
+  <!-- ARCHIVE -->
+  <div class="section" id="section-archive">
+    <div class="section-header">
+      <h2 class="section-title">2026 Archive</h2>
+      <span class="section-meta" id="archive-total"></span>
+    </div>
+    <div class="archive-year-tabs" id="archive-year-tabs"></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
+      <div class="filter-bar" style="margin-bottom:0;" id="type-filter-archive">
+        <button class="filter-btn active" onclick="filterArchive('all',this)">All</button>
+        <button class="filter-btn" onclick="filterArchive('open mic',this)">Open Mic</button>
+        <button class="filter-btn" onclick="filterArchive('stand-up',this)">Stand-up</button>
+        <button class="filter-btn" onclick="filterArchive('improv',this)">Improv</button>
+      </div>
+      <div class="archive-view-toggle">
+        <button class="archive-view-btn active" id="archive-btn-poster" onclick="setArchiveView('poster',this)" aria-label="Poster view">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="5" height="6" rx="0.5" stroke="currentColor"/><rect x="8.5" y="0.5" width="5" height="6" rx="0.5" stroke="currentColor"/><rect x="0.5" y="9.5" width="5" height="4" rx="0.5" stroke="currentColor"/><rect x="8.5" y="9.5" width="5" height="4" rx="0.5" stroke="currentColor"/></svg>
+        </button>
+        <button class="archive-view-btn" id="archive-btn-list" onclick="setArchiveView('list',this)" aria-label="List view">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="2.5" x2="14" y2="2.5" stroke="currentColor"/><line x1="0" y1="7" x2="14" y2="7" stroke="currentColor"/><line x1="0" y1="11.5" x2="14" y2="11.5" stroke="currentColor"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="archive-content"><div class="loading">Loading...</div></div>
+  </div>
+
+  <!-- CHEATSHEET -->
+  <div class="section" id="section-cheatsheet">
+    <div class="section-header">
+      <h2 class="section-title">Victoria Comedy Show Promo Cheatsheet</h2>
+    </div>
+    <div class="cheatsheet-wrap">
+
+      <div class="cheatsheet-section">
+        <div class="cheatsheet-head">
+          <span class="cheatsheet-name">Poster Printing &amp; Distribution</span>
+          <span class="cheatsheet-count">1 option</span>
+        </div>
+        <a class="cheatsheet-row" href="https://www.vicposters.com/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Vic Posters</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">$15 + tax / 15 posters &nbsp;·&nbsp; $40 + tax / 45 posters</span>
+          <span class="cheatsheet-badge cheatsheet-badge-paid">Paid Only</span>
+        </a>
+      </div>
+
+      <div class="cheatsheet-section">
+        <div class="cheatsheet-head">
+          <span class="cheatsheet-name">Event Directories</span>
+          <span class="cheatsheet-count">10 options</span>
+        </div>
+        <a class="cheatsheet-row" href="https://www.lamppostsocial.com/add-an-event" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">LampPost</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Must create an account</span>
+          <span class="cheatsheet-badge cheatsheet-badge-mixed">Free + Paid</span>
+        </a>
+        <a class="cheatsheet-row" href="https://do250.com/p/submit-your-event" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Do250</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Must create an account and be approved before submitting</span>
+          <span class="cheatsheet-badge cheatsheet-badge-mixed">Free + Paid</span>
+        </a>
+        <a class="cheatsheet-row" href="https://livevictoria.com/create_show" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Live Victoria</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Paid promo available</span>
+          <span class="cheatsheet-badge cheatsheet-badge-mixed">Free + Paid</span>
+        </a>
+        <a class="cheatsheet-row" href="https://artsvictoria.ca/create_show" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Arts Victoria</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Paid promo available</span>
+          <span class="cheatsheet-badge cheatsheet-badge-mixed">Free + Paid</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.thezone.fm/submit-event/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">The Zone</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Requires landscape image — 1920×1080px</span>
+          <span class="cheatsheet-badge cheatsheet-badge-free">Free</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.theq.fm/submit-event/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">The Q</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Requires landscape image — 1920×1080px</span>
+          <span class="cheatsheet-badge cheatsheet-badge-free">Free</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.timescolonist.com/local-events" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Times Colonist</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Click "Create an Event" and go through entire process</span>
+          <span class="cheatsheet-badge cheatsheet-badge-free">Free</span>
+        </a>
+        <a class="cheatsheet-row" href="https://cheknews.ca/events/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">CHEK News</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Click "Create an Event" and go through entire process</span>
+          <span class="cheatsheet-badge cheatsheet-badge-free">Free</span>
+        </a>
+        <a class="cheatsheet-row" href="https://victoriabuzz.com/submit-to-buzz-bulletin/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria Buzz</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Paid listings only — $15 + tax</span>
+          <span class="cheatsheet-badge cheatsheet-badge-paid">Paid Only</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.capitaldaily.ca/submit-news-tips" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Capital Daily</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Send a direct email — no self-serve form yet</span>
+          <span class="cheatsheet-badge cheatsheet-badge-free">Free</span>
+        </a>
+      </div>
+
+      <div class="cheatsheet-section">
+        <div class="cheatsheet-head">
+          <span class="cheatsheet-name">Facebook Groups</span>
+          <span class="cheatsheet-count">6 groups</span>
+        </div>
+        <a class="cheatsheet-row" href="https://www.facebook.com/groups/155292841195100/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria Stand Up Comedy</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Share your show once only</span>
+          <span class="cheatsheet-badge cheatsheet-badge-scope">Comedy Only</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.facebook.com/groups/278648485658766/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria Comedy Listings</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Open for all comedy shows</span>
+          <span class="cheatsheet-badge cheatsheet-badge-scope">All Comedy</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.facebook.com/groups/improvinvictoria" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria Improv</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">Improv-related shows only</span>
+          <span class="cheatsheet-badge cheatsheet-badge-scope">Improv Only</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.facebook.com/groups/210291109355538/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria Events</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">General city events group</span>
+          <span class="cheatsheet-badge cheatsheet-badge-scope">All Events</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.facebook.com/groups/VictoriaYYJEvents/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria BC Events</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">General city events group</span>
+          <span class="cheatsheet-badge cheatsheet-badge-scope">All Events</span>
+        </a>
+        <a class="cheatsheet-row" href="https://www.facebook.com/groups/105619069605582/" target="_blank">
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Vancouver Island Events</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-note">General city events group</span>
+          <span class="cheatsheet-badge cheatsheet-badge-scope">Island-wide</span>
+        </a>
+      </div>
+
     </div>
   </div>
 
@@ -1409,6 +1881,8 @@ footer {
         <a href="#" onclick="showSection('about');return false;">About</a>
         <a href="#" onclick="showSection('faq');return false;">FAQ</a>
         <a href="#" onclick="showSection('privacy');return false;">Privacy</a>
+        <a href="#" onclick="showSection('archive');return false;">Show Archive</a>
+        <a href="#" onclick="showSection('cheatsheet');return false;">Producer Cheatsheet</a>
       </div>
       <div class="footer-social">
         <a href="https://www.instagram.com/laughvictoria/" target="_blank" aria-label="Instagram">
@@ -1479,6 +1953,8 @@ const HEROES = {
   home:     { title: 'This Week<br>in Comedy',   sub: 'Every comedy show happening this week in Victoria.' },
   upcoming: { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene.' },
   submit:   { title: 'Submit<br>a Show',          sub: 'Get your show in front of Victoria comedy fans. Reviewed within 48 hours.' },
+  archive:     { title: 'Archive',                   sub: 'Every comedy show that has happened in Victoria.' },
+  cheatsheet:  { title: 'Producer<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
   privacy:  { title: 'Privacy<br>Policy',         sub: '' },
   about:    { title: 'About',                     sub: '' },
   faq:      { title: 'FAQ',                       sub: '' },
@@ -1634,16 +2110,7 @@ function handleModalOverlayClick(e){if(e.target===document.getElementById('show-
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 
 async function loadShows() {
-  try {
-    const shows=await fetchShows();
-    shows.forEach(r=>{showRecords[r.id]=r;});
-    document.getElementById('home-content').innerHTML=buildWeek(shows);
-    document.getElementById('upcoming-content').innerHTML=buildUpcoming(shows);
-  } catch(e) {
-    const err=`<div class="loading">Couldn't load shows: ${e.message}</div>`;
-    document.getElementById('home-content').innerHTML=err;
-    document.getElementById('upcoming-content').innerHTML=err;
-  }
+  return fetchShows();
 }
 
 async function fetchShows() {
@@ -1653,12 +2120,86 @@ async function fetchShows() {
   return (await res.json()).records;
 }
 
+async function fetchArchivedShows() {
+  let records=[], offset=null;
+  do {
+    const url=`https://api.airtable.com/v0/${BASE}/Shows?filterByFormula=${encodeURIComponent("{Status}='Archived'")}&sort[0][field]=Date&sort[0][direction]=desc${offset?`&offset=${offset}`:''}`;
+    const res=await fetch(url,{headers:{Authorization:`Bearer ${TOKEN}`}});
+    if(!res.ok){const body=await res.json().catch(()=>({}));throw new Error(`${res.status} ${res.statusText}`);}
+    const data=await res.json();
+    records=records.concat(data.records);
+    offset=data.offset||null;
+  } while(offset);
+  return records;
+}
+
+let upcomingAllShows=[], upcomingActiveType='all', upcomingView='poster';
+
+function setUpcomingView(view, btn) {
+  upcomingView=view;
+  document.querySelectorAll('.upcoming-view-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderUpcoming();
+}
+
+function buildUpcoming(shows) {
+  const monday=getMondayOfWeek(), cutoff=addDays(monday,7);
+  upcomingAllShows=shows.filter(r=>r.fields['Date']&&parseAirtableDate(r.fields['Date'])>=cutoff);
+  renderUpcoming();
+}
+
+function renderUpcoming() {
+  let shows=upcomingAllShows;
+  if(upcomingActiveType!=='all') shows=shows.filter(r=>getShowType(r).key===upcomingActiveType);
+
+  if(!shows.length){
+    document.getElementById('upcoming-content').innerHTML=`<div class="loading">No upcoming shows yet.</div>`;
+    return;
+  }
+
+  if(upcomingView==='list') {
+    let html='<div class="upcoming-list">';
+    shows.forEach(r=>{
+      const f=r.fields, name=f['Show']||'Untitled', venue=f['Venue']||'', ticket=f['Ticket Link']||'';
+      const type=getShowType(r);
+      const d=f['Date']?parseAirtableDate(f['Date']):null;
+      const dateLabel=d?`${MONTHS[d.getMonth()]} ${d.getDate()}`:'';
+      const dayLabel=d?DAYS_FULL[d.getDay()]:'';
+      const timeStr=d?fmtTime(d):'';
+      const metaText=[timeStr,venue].filter(Boolean).join(' · ');
+      const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
+      html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
+        <div class="upcoming-date-block">
+          <div class="upcoming-date">${dateLabel}</div>
+          <div class="upcoming-day">${dayLabel}</div>
+        </div>
+        <div class="upcoming-info">
+          <div class="upcoming-name">${name}</div>
+          <div class="upcoming-meta"><span>${metaText}</span>${tagPill}</div>
+        </div>
+        ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
+      </div>`;
+    });
+    html+='</div>';
+    document.getElementById('upcoming-content').innerHTML=html;
+  } else {
+    let html='<div class="archive-grid">';
+    shows.forEach(r=>{
+      const f=r.fields, name=f['Show']||'Untitled';
+      const graphic=f['Show Graphic'];
+      const img=graphic&&graphic[0]?`<img src="${graphic[0].url}" alt="${name}">`:`<div class="archive-poster-placeholder"><div class="archive-poster-placeholder-inner">${name}</div></div>`;
+      html+=`<div class="archive-poster" data-rec="${r.id}" onclick="openModalById('${r.id}')">${img}</div>`;
+    });
+    html+='</div>';
+    document.getElementById('upcoming-content').innerHTML=html;
+  }
+}
+
 function filterUpcoming(type,btn){
+  upcomingActiveType=type;
   document.querySelectorAll('#type-filter-upcoming .filter-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  document.querySelectorAll('#upcoming-content [data-type]').forEach(row=>{
-    row.style.display=(type==='all'||(row.dataset.type||'').toLowerCase()===type)?'grid':'none';
-  });
+  renderUpcoming();
 }
 
 function showSection(id,skipHash){
@@ -1704,10 +2245,176 @@ function toggleMenu(){
 function initFromHash(){
   const hash=location.hash.replace('#','');
   if(!hash) return;
-  if(['upcoming','submit','privacy','about','faq'].includes(hash)){showSection(hash,true);}
+  if(['upcoming','submit','privacy','about','faq','archive','cheatsheet'].includes(hash)){showSection(hash,true);}
 }
 
-loadShows().then(initFromHash);
+let archiveAllShows=[], archiveActiveYear='all', archiveActiveType='all', archiveView='poster';
+
+const MONTHS_FULL=['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+function setArchiveView(view, btn) {
+  archiveView=view;
+  document.querySelectorAll('.archive-view-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderArchive();
+}
+
+function buildArchive(shows) {
+  archiveAllShows=shows;
+  document.getElementById('archive-total').textContent=`${shows.length} show${shows.length!==1?'s':''}`;
+  buildArchiveYearTabs(shows);
+  renderArchive();
+}
+
+function buildArchiveYearTabs(shows) {
+  const years=[...new Set(shows.map(r=>{
+    const d=parseAirtableDate(r.fields['Date']);
+    return d.getFullYear();
+  }))].sort((a,b)=>b-a);
+
+  const container=document.getElementById('archive-year-tabs');
+  if(years.length<=1){ container.style.display='none'; return; }
+  container.style.display='flex';
+
+  let html=`<button class="archive-year-tab active" onclick="setArchiveYear('all',this)">All</button>`;
+  years.forEach(y=>{
+    html+=`<button class="archive-year-tab" onclick="setArchiveYear(${y},this)">${y}</button>`;
+  });
+  container.innerHTML=html;
+}
+
+function setArchiveYear(year, btn) {
+  archiveActiveYear=year;
+  document.querySelectorAll('.archive-year-tab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderArchive();
+}
+
+function filterArchive(type, btn) {
+  archiveActiveType=type;
+  document.querySelectorAll('#type-filter-archive .filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderArchive();
+}
+
+function renderArchive() {
+  let shows=archiveAllShows;
+  if(archiveActiveYear!=='all') shows=shows.filter(r=>parseAirtableDate(r.fields['Date']).getFullYear()===archiveActiveYear);
+  if(archiveActiveType!=='all') shows=shows.filter(r=>getShowType(r).key===archiveActiveType);
+
+  const showYear=archiveActiveYear==='all';
+
+  const byMonth={};
+  shows.forEach(r=>{
+    const d=parseAirtableDate(r.fields['Date']);
+    const key=`${d.getFullYear()}-${String(d.getMonth()).padStart(2,'0')}`;
+    if(!byMonth[key]) byMonth[key]={year:d.getFullYear(), month:d.getMonth(), shows:[]};
+    byMonth[key].shows.push(r);
+  });
+
+  const sorted=Object.keys(byMonth).sort((a,b)=>a.localeCompare(b));
+
+  const startKey='2026-00';
+  const now=new Date();
+  const endKey=`${now.getFullYear()}-${String(now.getMonth()).padStart(2,'0')}`;
+
+  let cur=startKey;
+  while(cur<=endKey){
+    if(!byMonth[cur]){
+      const [y,m]=cur.split('-').map(Number);
+      byMonth[cur]={year:y, month:m, shows:[]};
+      if(!sorted.includes(cur)) sorted.push(cur);
+    }
+    const [y,m]=cur.split('-').map(Number);
+    const next=m===11?`${y+1}-00`:`${y}-${String(m+1).padStart(2,'0')}`;
+    cur=next;
+  }
+  sorted.sort((a,b)=>a.localeCompare(b));
+
+  if(!sorted.length){
+    document.getElementById('archive-content').innerHTML=`<div class="loading">No shows found.</div>`;
+    return;
+  }
+
+  let html='';
+
+  if(archiveView==='poster') {
+    sorted.forEach(key=>{
+      const {year, month, shows:ms}=byMonth[key];
+      const label=showYear?`${MONTHS_FULL[month]} ${year}`:MONTHS_FULL[month];
+      const count=ms.length;
+      html+=`<div class="archive-month-block">
+        <div class="archive-month-header">
+          <span class="archive-month-name">${label}</span>
+          <span class="archive-month-count">${count} Show${count!==1?'s':''}</span>
+        </div>
+        <div class="archive-grid">`;
+      ms.sort((a,b)=>parseAirtableDate(a.fields['Date'])-parseAirtableDate(b.fields['Date']));
+      ms.forEach(r=>{
+        const f=r.fields, name=f['Show']||'Untitled';
+        const graphic=f['Show Graphic'];
+        const img=graphic&&graphic[0]?`<img src="${graphic[0].url}" alt="${name}">`:`<div class="archive-poster-placeholder"><div class="archive-poster-placeholder-inner">${name}</div></div>`;
+        html+=`<div class="archive-poster" data-rec="${r.id}" onclick="openModalById('${r.id}')">${img}</div>`;
+      });
+      html+=`</div></div>`;
+    });
+  } else {
+    sorted.forEach(key=>{
+      const {year, month, shows:ms}=byMonth[key];
+      const label=showYear?`${MONTHS_FULL[month]} ${year}`:MONTHS_FULL[month];
+      const count=ms.length;
+      html+=`<div class="archive-month-block-list">
+        <div class="archive-month-header">
+          <span class="archive-month-name">${label}</span>
+          <span class="archive-month-count">${count} Show${count!==1?'s':''}</span>
+        </div>
+        <div class="archive-list">`;
+      ms.sort((a,b)=>parseAirtableDate(a.fields['Date'])-parseAirtableDate(b.fields['Date']));
+      ms.forEach(r=>{
+        const f=r.fields, name=f['Show']||'Untitled', venue=f['Venue']||'';
+        const d=f['Date']?parseAirtableDate(f['Date']):null;
+        const dateLabel=d?`${MONTHS[d.getMonth()]} ${d.getDate()}`:'';
+        const dayLabel=d?DAYS_FULL[d.getDay()]:'';
+        const timeStr=d?fmtTime(d):'';
+        const type=getShowType(r);
+        const metaText=[timeStr,venue].filter(Boolean).join(' · ');
+        const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
+        html+=`<div class="archive-list-row" data-rec="${r.id}" onclick="openModalById('${r.id}')">
+          <div class="archive-list-date-block">
+            <div class="archive-list-date">${dateLabel}</div>
+            <div class="archive-list-day">${dayLabel}</div>
+          </div>
+          <div class="archive-list-info">
+            <div class="archive-list-name">${name}</div>
+            <div class="archive-list-meta"><span>${metaText}</span>${tagPill}</div>
+          </div>
+        </div>`;
+      });
+      html+=`</div></div>`;
+    });
+  }
+
+  document.getElementById('archive-content').innerHTML=html;
+}
+
+loadShows().then(shows=>{
+  shows.forEach(r=>{showRecords[r.id]=r;});
+  document.getElementById('home-content').innerHTML=buildWeek(shows);
+  buildUpcoming(shows);
+
+  fetchArchivedShows().then(archived=>{
+    archived.forEach(r=>{showRecords[r.id]=r;});
+    buildArchive(archived);
+  }).catch(e=>{
+    document.getElementById('archive-content').innerHTML=`<div class="loading">Couldn't load archive: ${e.message}</div>`;
+  });
+
+}).catch(e=>{
+  const err=`<div class="loading">Couldn't load shows: ${e.message}</div>`;
+  document.getElementById('home-content').innerHTML=err;
+  document.getElementById('upcoming-content').innerHTML=err;
+  document.getElementById('archive-content').innerHTML=err;
+}).then(initFromHash);
 </script>
 </body>
 </html>
