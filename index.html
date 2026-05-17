@@ -1479,11 +1479,12 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .modal-overlay { padding: 0; align-items: flex-end; }
+  .modal-overlay { padding: 0; align-items: flex-start; }
   .modal {
     max-width: 100%;
     width: 100%;
-    max-height: 85vh;
+    height: calc(100vh - 64px);
+    margin-top: 64px;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -1495,6 +1496,7 @@ footer {
   .modal-poster-wrap {
     width: 100%;
     aspect-ratio: 4 / 5;
+    max-height: 45vh;
     height: auto;
     border-right: none;
     border-bottom: 1px dashed var(--border-mid);
@@ -1510,13 +1512,15 @@ footer {
   .modal-close-mobile {
     display: flex !important;
     position: absolute; top: 12px; right: 12px;
-    width: 30px; height: 30px;
-    background: rgba(0,0,0,0.55);
-    border: none; border-radius: 50%;
-    color: #fff; font-size: 14px;
+    width: 48px; height: 48px;
+    background: rgba(0,0,0,0.75);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50%;
+    color: #fff; font-size: 18px;
     align-items: center; justify-content: center;
     cursor: pointer; z-index: 10;
     line-height: 1;
+    letter-spacing: 0;
   }
   .modal-details-header { display: none; }
   .modal-details { padding: 16px; overflow-y: visible; flex-shrink: 0; }
