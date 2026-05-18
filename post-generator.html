@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laugh Victoria — Post Generator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+:root{
+  --bg:#f7f5f0;--surface:#fdfcf9;--surface2:#f0ede6;
+  --text:#1a1814;--text-muted:#888078;--text-faint:#cdc8be;
+  --border:#e2ddd4;--border-mid:#cdc8be;--border-dark:#1a1814;
+  --accent:#1a1814;--accent-inv:#f7f5f0;
+  --font-display:'Barlow Condensed',sans-serif;
+  --font-mono:'DM Mono',monospace;
+}
+[data-mode="dark"]{
+  --bg:#141210;--surface:#1c1a17;--surface2:#242118;
+  --text:#f0ece4;--text-muted:#8a8278;--text-faint:#48443c;
+  --border:#2e2a24;--border-mid:#3a362e;--border-dark:#f0ece4;
+  --accent:#f0ece4;--accent-inv:#141210;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:14px;line-height:1.55;min-height:100vh;}
+
+.tool-header{
+  background:var(--surface);border-bottom:1px dashed var(--border-mid);
+  padding:0 2rem;height:54px;display:flex;align-items:center;
+  justify-content:space-between;position:sticky;top:0;z-index:100;
+}
+.tool-logo{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text);}
+.tool-logo span{color:var(--text-muted);}
+.header-right{display:flex;align-items:center;gap:14px;}
+.hbtn{background:none;border:none;cursor:pointer;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:6px 0;transition:color .15s;}
+.hbtn:hover{color:var(--text);}
+.hbtn-solid{background:var(--accent);color:var(--accent-inv);border:none;cursor:pointer;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:8px 18px;transition:opacity .15s;}
+.hbtn-solid:hover{opacity:.8;}
+.hbtn-solid:disabled{opacity:.4;cursor:not-allowed;}
+
+.tool-body{max-width:1380px;margin:0 auto;padding:2rem 2rem 6rem;display:grid;grid-template-columns:360px 1fr;gap:2rem;align-items:start;}
+@media(max-width:860px){.tool-body{grid-template-columns:1fr;}}
+
+.panel{background:var(--surface);border:1px dashed var(--border-mid);}
+.panel+.panel{margin-top:1.5rem;}
+.panel-head{padding:14px 18px;border-bottom:1px dashed var(--border-mid);display:flex;align-items:baseline;justify-content:space-between;}
+.panel-title{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--text-muted);}
+.panel-meta{font-size:10px;letter-spacing:.1em;color:var(--text-faint);text-transform:uppercase;}
+.panel-body{padding:18px;}
+
+.week-range-lbl{font-family:var(--font-display);font-size:26px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:14px;letter-spacing:.01em;}
+.ptype{margin-bottom:18px;}
+.ptype-head{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-faint);padding-bottom:7px;border-bottom:1px dashed var(--border-mid);margin-bottom:7px;display:flex;justify-content:space-between;}
+.pshow{padding:7px 0;border-bottom:1px dotted var(--border);}
+.pshow:last-child{border-bottom:none;}
+.pshow-name{font-family:var(--font-display);font-size:14px;font-weight:700;text-transform:uppercase;color:var(--text);line-height:1.15;}
+.pshow-meta{font-size:11px;color:var(--text-muted);}
+
+.caption-box{position:relative;background:var(--surface2);border:1px dashed var(--border-mid);padding:16px;padding-right:64px;font-size:12px;line-height:1.8;color:var(--text-muted);white-space:pre-wrap;}
+.copy-btn{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:4px 10px;cursor:pointer;transition:all .15s;}
+.copy-btn:hover,.copy-btn.copied{border-color:var(--border-dark);color:var(--text);}
+
+.empty-msg{padding:2rem;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);text-align:center;}
+
+.slides-area{display:flex;flex-direction:column;gap:2.5rem;}
+.slide-block-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:12px;flex-wrap:wrap;}
+.slide-block-label{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-faint);}
+.slide-actions{display:flex;gap:6px;align-items:center;flex-wrap:wrap;}
+.tt-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:5px 12px;cursor:pointer;transition:all .15s;}
+.tt-btn.active{border-color:var(--border-dark);color:var(--text);background:var(--surface2);}
+.dl-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:5px 14px;cursor:pointer;transition:all .15s;}
+.dl-btn:hover{border-color:var(--border-dark);color:var(--text);}
+.dl-btn:disabled{opacity:.4;cursor:not-allowed;}
+
+/* ══ SLIDE SCALER ══
+   The actual slide is always 1080×1350px internally.
+   .slide-scaler is the outer responsive container.
+   .slide-scaler-inner holds the true-size slide and is CSS-transformed to fit. */
+.slide-scaler{width:100%;position:relative;overflow:hidden;}
+.slide-scaler-inner{width:1080px;height:1350px;transform-origin:top left;}
+
+/* ══ SCHEDULE SLIDE — all values in real px ══ */
+.sslide{width:1080px;height:1350px;display:flex;flex-direction:column;padding:90px 96px 72px;font-family:'DM Mono',monospace;}
+.sslide.dark {background:#141210;color:#f0ece4;}
+.sslide.light{background:#f7f5f0;color:#1a1814;}
+
+.sslide-eyebrow{font-size:13px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:28px;}
+.sslide.dark  .sslide-eyebrow{color:#48443c;}
+.sslide.light .sslide-eyebrow{color:#cdc8be;}
+
+.sslide-title{font-family:'Barlow Condensed',sans-serif;font-weight:900;text-transform:uppercase;font-size:108px;line-height:.88;letter-spacing:.01em;margin-bottom:12px;}
+
+.sslide-date{font-size:17px;letter-spacing:.12em;padding-bottom:32px;margin-bottom:32px;}
+.sslide.dark  .sslide-date{color:#8a8278;border-bottom:1px dashed #2e2a24;}
+.sslide.light .sslide-date{color:#888078;border-bottom:1px dashed #e2ddd4;}
+
+.sslide-groups{flex:1;display:flex;flex-direction:column;gap:28px;overflow:hidden;}
+
+.sslide-group-header{display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;margin-bottom:12px;}
+.sslide.dark  .sslide-group-header{border-bottom:1px solid #f0ece4;}
+.sslide.light .sslide-group-header{border-bottom:1px solid #1a1814;}
+
+.sslide-group-name{font-size:15px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;}
+.sslide-group-count{font-size:11px;letter-spacing:.14em;text-transform:uppercase;}
+.sslide.dark  .sslide-group-count{color:#48443c;}
+.sslide.light .sslide-group-count{color:#cdc8be;}
+
+.sslide-show{display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding:11px 0;}
+.sslide.dark  .sslide-show{border-bottom:1px dotted #2e2a24;}
+.sslide.light .sslide-show{border-bottom:1px dotted #e2ddd4;}
+.sslide-show:last-child{border-bottom:none;}
+
+.sslide-show-left{display:flex;align-items:baseline;gap:18px;flex:1;min-width:0;}
+.sslide-day{font-size:11px;letter-spacing:.16em;text-transform:uppercase;flex-shrink:0;width:30px;}
+.sslide.dark  .sslide-day{color:#8a8278;}
+.sslide.light .sslide-day{color:#888078;}
+
+.sslide-name{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:22px;line-height:1.1;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.sslide-venue{font-size:11px;flex-shrink:0;text-align:right;white-space:nowrap;max-width:280px;overflow:hidden;text-overflow:ellipsis;}
+.sslide.dark  .sslide-venue{color:#8a8278;}
+.sslide.light .sslide-venue{color:#888078;}
+
+.sslide-footer{margin-top:auto;padding-top:28px;display:flex;align-items:center;justify-content:space-between;}
+
+.sslide-logo{font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;}
+.sslide-handle{font-size:13px;letter-spacing:.12em;}
+.sslide.dark  .sslide-handle{color:#48443c;}
+.sslide.light .sslide-handle{color:#cdc8be;}
+
+/* poster grid */
+.poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;}
+.poster-item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
+.poster-item-label{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faint);margin-bottom:5px;}
+.poster-item-row{display:flex;align-items:center;justify-content:space-between;margin-top:6px;gap:6px;}
+.poster-item-name{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+.no-poster-list{margin-top:14px;padding:12px 14px;background:var(--surface2);border:1px dashed var(--border-mid);}
+.no-poster-head{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);margin-bottom:8px;}
+.no-poster-item{font-size:11px;color:var(--text-muted);padding:3px 0;font-family:var(--font-mono);}
+</style>
+</head>
+<body>
+
+<header class="tool-header">
+  <div class="tool-logo">Laugh Victoria <span>/ Post Generator</span></div>
+  <div class="header-right">
+    <button class="hbtn" onclick="toggleMode()" id="mode-btn">Light mode</button>
+    <button class="hbtn-solid" onclick="loadData()" id="load-btn">Load This Week</button>
+  </div>
+</header>
+
+<div class="tool-body">
+  <div>
+    <div class="panel">
+      <div class="panel-head">
+        <span class="panel-title">This Week's Shows</span>
+        <span class="panel-meta" id="show-count">—</span>
+      </div>
+      <div class="panel-body" id="show-list">
+        <div class="empty-msg">Hit "Load This Week" to fetch shows</div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-head">
+        <span class="panel-title">Caption</span>
+        <span class="panel-meta" id="caption-meta">—</span>
+      </div>
+      <div class="panel-body" style="padding:0;">
+        <div class="caption-box" id="caption-box">
+          <button class="copy-btn" id="copy-btn" onclick="copyCaption()">Copy</button>
+          <span id="caption-text">Load shows to generate caption.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slides-area" id="slides-area">
+    <div class="empty-msg" style="padding:4rem 2rem;">Load shows to generate the carousel</div>
+  </div>
+</div>
+
+<!-- Off-screen at true resolution for html2canvas -->
+<div id="export-target" style="position:fixed;left:-2000px;top:0;pointer-events:none;"></div>
+
+<script>
+const TOKEN='patPH9P087VATPBEo.0081c484db27aa1fe6606df2928b5f30f3ea4b123a5d65297e6ee2131dd66e8e';
+const BASE='app3CJU1iVnaJcQZL';
+const DAYS_SHORT=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const TYPE_ORDER=['open mic','stand-up','improv','variety'];
+const TYPE_LABELS={'open mic':'Open Mics','stand-up':'Stand-Up','improv':'Improv','variety':'Other'};
+const TYPE_EMOJIS={'open mic':'🎤','stand-up':'😂','improv':'🎭','variety':'🎪'};
+const PRODUCER_HANDLES={
+  'shop talk':'@shoptalkcomedybc',
+  'harbour':'@harbourcomedy',
+  'phoenix bar':'@harbourcomedy',
+  'hecklers':'@hecklersbarandgrill',
+  'ok dope':'@ok_dope_',
+  'ok, dope':'@ok_dope_',
+  'garden city':'@gardencityimprovbc',
+  'paper street':'@paperstreettheatre',
+  'theatre skam':'@theatreskam',
+  'theatreskam':'@theatreskam',
+  'gulabi':'@gulabiproductions',
+  'entertainment village':'@entertainmentvillage',
+  'jon david':'@jon.d.david',
+  'sauvage':'@ilesuuvagebrewing',
+};
+
+let weekShows=[];
+let slideTheme='dark';
+let currentByType={};
+
+function parseDate(s){return new Date(s);}
+function todayMidnight(){const d=new Date();d.setHours(0,0,0,0);return d;}
+function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
+function getMondayOfWeek(){
+  const t=todayMidnight(),day=t.getDay(),diff=day===0?-6:1-day;
+  const m=new Date(t);m.setDate(t.getDate()+diff);return m;
+}
+function fmtTime(d){
+  let h=d.getHours(),m=d.getMinutes(),ap=h>=12?'PM':'AM';
+  h=h%12||12;return `${h}${m?':'+String(m).padStart(2,'0'):''} ${ap}`;
+}
+function getShowType(r){
+  const v=r.fields['Type']||r.fields['Show Type']||'';
+  const raw=(Array.isArray(v)?v[0]:String(v)).toLowerCase().trim();
+  if(raw.includes('open')||raw.includes('mic'))return'open mic';
+  if(raw.includes('improv'))return'improv';
+  if(raw.includes('stand')||raw.includes('comedy night')||raw.includes('headlin'))return'stand-up';
+  return'variety';
+}
+
+function toggleMode(){
+  const html=document.documentElement;
+  const next=html.getAttribute('data-mode')==='dark'?'light':'dark';
+  html.setAttribute('data-mode',next);
+  document.getElementById('mode-btn').textContent=next==='dark'?'Light mode':'Dark mode';
+}
+
+async function loadData(){
+  const btn=document.getElementById('load-btn');
+  btn.disabled=true;btn.textContent='Loading…';
+  const monday=getMondayOfWeek(),sunday=addDays(monday,6);
+  try{
+    let all=[],offset='';
+    do{
+      const params=new URLSearchParams({'sort[0][field]':'Date','sort[0][direction]':'asc'});
+      if(offset)params.set('offset',offset);
+      const res=await fetch(`https://api.airtable.com/v0/${BASE}/Shows?${params}`,
+        {headers:{Authorization:'Bearer '+TOKEN}});
+      const data=await res.json();
+      if(data.error)throw new Error(data.error.message||JSON.stringify(data.error));
+      (data.records||[]).forEach(r=>{
+        if(!r.fields['Date'])return;
+        const d=parseDate(r.fields['Date']);
+        if(d>=monday&&d<addDays(sunday,1))all.push(r);
+      });
+      offset=data.offset||'';
+    }while(offset);
+    weekShows=all;
+    renderAll();
+    btn.textContent='Refresh';
+  }catch(e){
+    btn.textContent='Error — Retry';
+    console.error(e);
+    alert('Could not load shows:\n'+e.message);
+  }
+  btn.disabled=false;
+}
+
+function groupByType(shows){
+  const out={};
+  shows.forEach(r=>{
+    const k=getShowType(r);
+    if(!out[k])out[k]=[];
+    out[k].push(r);
+  });
+  return out;
+}
+
+function getHandles(shows){
+  const found=new Set();
+  shows.forEach(r=>{
+    const src=([r.fields['Producer']||'',r.fields['Produced By']||'',r.fields['Show']||'',r.fields['Venue']||'']).join(' ').toLowerCase();
+    Object.entries(PRODUCER_HANDLES).forEach(([k,h])=>{if(src.includes(k))found.add(h);});
+  });
+  return[...found];
+}
+
+function buildCaption(byType){
+  const lines=["Here's what's happening this week in Victoria comedy:\n"];
+  TYPE_ORDER.forEach(key=>{
+    if(!byType[key]||!byType[key].length)return;
+    const shows=byType[key],count=shows.length;
+    const handles=getHandles(shows);
+    const tail=handles.length?' from '+handles.join(', '):'';
+    lines.push(`${TYPE_EMOJIS[key]} ${count} ${TYPE_LABELS[key].toLowerCase()} show${count!==1?'s':''}${tail}!`);
+  });
+  lines.push("\nGot a comedy show coming up? Submit your show using the link in bio!");
+  return lines.join('\n');
+}
+
+function renderShowList(byType){
+  const monday=getMondayOfWeek(),sunday=addDays(monday,6);
+  const total=weekShows.length;
+  document.getElementById('show-count').textContent=`${total} show${total!==1?'s':''}`;
+  if(!total){document.getElementById('show-list').innerHTML='<div class="empty-msg">No shows found this week.</div>';return;}
+  let html=`<div class="week-range-lbl">${MONTHS[monday.getMonth()]} ${monday.getDate()} — ${MONTHS[sunday.getMonth()]} ${sunday.getDate()}</div>`;
+  TYPE_ORDER.forEach(key=>{
+    if(!byType[key]||!byType[key].length)return;
+    html+=`<div class="ptype"><div class="ptype-head"><span>${TYPE_LABELS[key]}</span><span>${byType[key].length}</span></div>`;
+    byType[key].forEach(r=>{
+      const f=r.fields,name=f['Show']||'Untitled',venue=f['Venue']||'';
+      const d=f['Date']?parseDate(f['Date']):null;
+      const day=d?DAYS_SHORT[d.getDay()]:'',time=d?fmtTime(d):'';
+      html+=`<div class="pshow"><div class="pshow-name">${name}</div><div class="pshow-meta">${[day,time,venue].filter(Boolean).join(' · ')}</div></div>`;
+    });
+    html+=`</div>`;
+  });
+  document.getElementById('show-list').innerHTML=html;
+}
+
+function renderCaption(byType){
+  const cap=buildCaption(byType);
+  document.getElementById('caption-text').textContent=cap;
+  document.getElementById('caption-meta').textContent=cap.length+' chars';
+}
+
+/* Build the slide as a real DOM element (not innerHTML string) so fonts load properly */
+function buildSlideEl(byType,theme){
+  const monday=getMondayOfWeek(),sunday=addDays(monday,6);
+  const dateStr=`${MONTHS[monday.getMonth()]} ${monday.getDate()} — ${MONTHS[sunday.getMonth()]} ${sunday.getDate()}`;
+
+  const slide=document.createElement('div');
+  slide.className=`sslide ${theme}`;
+  slide.id='sslide-live';
+
+  const title=document.createElement('div');title.className='sslide-title';title.innerHTML='This Week<br>in Comedy';
+  const date=document.createElement('div');date.className='sslide-date';date.textContent=dateStr;
+  const groups=document.createElement('div');groups.className='sslide-groups';
+
+  TYPE_ORDER.forEach(key=>{
+    if(!byType[key]||!byType[key].length)return;
+    const shows=byType[key];
+    const group=document.createElement('div');group.className='sslide-group';
+
+    const header=document.createElement('div');header.className='sslide-group-header';
+    const gname=document.createElement('span');gname.className='sslide-group-name';gname.textContent=TYPE_LABELS[key];
+    const gcount=document.createElement('span');gcount.className='sslide-group-count';gcount.textContent=`${shows.length} show${shows.length!==1?'s':''}`;
+    header.appendChild(gname);header.appendChild(gcount);
+    group.appendChild(header);
+
+    shows.forEach(r=>{
+      const f=r.fields,name=f['Show']||'Untitled',venue=f['Venue']||'';
+      const d=f['Date']?parseDate(f['Date']):null;
+      const day=d?DAYS_SHORT[d.getDay()]:'';
+      const time=d?fmtTime(d):'';
+      const venueStr=[time,venue].filter(Boolean).join(' · ');
+      const row=document.createElement('div');row.className='sslide-show';
+      const left=document.createElement('div');left.className='sslide-show-left';
+      const dayEl=document.createElement('span');dayEl.className='sslide-day';dayEl.textContent=day;
+      const nameEl=document.createElement('span');nameEl.className='sslide-name';nameEl.textContent=name;
+      left.appendChild(dayEl);left.appendChild(nameEl);
+      const venueEl=document.createElement('span');venueEl.className='sslide-venue';venueEl.textContent=venueStr;
+      row.appendChild(left);row.appendChild(venueEl);
+      group.appendChild(row);
+    });
+    groups.appendChild(group);
+  });
+
+  const footer=document.createElement('div');footer.className='sslide-footer';
+  const logo=document.createElement('span');logo.className='sslide-logo';logo.textContent='Laugh Victoria';
+  const handle=document.createElement('span');handle.className='sslide-handle';handle.textContent='@laughvictoria';
+  footer.appendChild(logo);footer.appendChild(handle);
+
+  slide.appendChild(title);slide.appendChild(date);
+  slide.appendChild(groups);slide.appendChild(footer);
+  return slide;
+}
+
+function applyScale(){
+  document.querySelectorAll('.slide-scaler').forEach(outer=>{
+    const inner=outer.querySelector('.slide-scaler-inner');
+    if(!inner)return;
+    const scale=outer.offsetWidth/1080;
+    inner.style.transform=`scale(${scale})`;
+    outer.style.height=(1350*scale)+'px';
+  });
+}
+
+function setSlideTheme(theme,el){
+  slideTheme=theme;
+  document.querySelectorAll('.tt-btn').forEach(b=>b.classList.remove('active'));
+  if(el)el.classList.add('active');
+  const slide=document.getElementById('sslide-live');
+  if(slide){slide.classList.remove('dark','light');slide.classList.add(theme);}
+}
+
+async function downloadScheduleSlide(){
+  const btn=event.currentTarget;
+  btn.disabled=true;btn.textContent='Rendering…';
+  try{
+    // Build a fresh clone at 1080×1350 off-screen
+    const clone=buildSlideEl(currentByType,slideTheme);
+    const wrap=document.getElementById('export-target');
+    wrap.innerHTML='';wrap.appendChild(clone);
+    await document.fonts.ready;
+    await new Promise(r=>setTimeout(r,300));
+
+    const canvas=await html2canvas(clone,{
+      width:1080,height:1350,scale:1,
+      useCORS:true,allowTaint:false,
+      backgroundColor:slideTheme==='dark'?'#141210':'#f7f5f0',
+      logging:false,
+    });
+    const link=document.createElement('a');
+    link.download='lv-this-week.png';
+    link.href=canvas.toDataURL('image/png');
+    link.click();
+    wrap.innerHTML='';
+  }catch(e){
+    console.error(e);
+    alert('Export failed: '+e.message);
+  }
+  btn.disabled=false;btn.textContent='Download PNG';
+}
+
+async function downloadPoster(url,slug,idx){
+  const btn=event.currentTarget;
+  btn.disabled=true;btn.textContent='…';
+  try{
+    const res=await fetch(url);
+    const blob=await res.blob();
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download=`slide-${idx+2}-${slug}.jpg`;
+    a.click();
+  }catch(e){
+    window.open(url,'_blank');
+  }
+  btn.disabled=false;btn.textContent='Download';
+}
+
+function renderAll(){
+  const byType=groupByType(weekShows);
+  currentByType=byType;
+  renderShowList(byType);
+  renderCaption(byType);
+
+  if(!weekShows.length){
+    document.getElementById('slides-area').innerHTML='<div class="empty-msg" style="padding:4rem 2rem;">No shows found this week.</div>';
+    return;
+  }
+
+  const withPosters=weekShows.filter(r=>r.fields['Show Graphic']?.[0]?.url);
+  const withoutPosters=weekShows.filter(r=>!r.fields['Show Graphic']?.[0]?.url);
+
+  // Build slide 1 scaler
+  const slideEl=buildSlideEl(byType,slideTheme);
+  const scalerInner=document.createElement('div');scalerInner.className='slide-scaler-inner';scalerInner.appendChild(slideEl);
+  const scaler=document.createElement('div');scaler.className='slide-scaler';scaler.appendChild(scalerInner);
+
+  // Poster section
+  let posterHTML='';
+  if(withPosters.length){
+    let items='';
+    withPosters.forEach((r,i)=>{
+      const name=r.fields['Show']||'Untitled';
+      const url=r.fields['Show Graphic'][0].url;
+      const slug=name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+      items+=`<div class="poster-item">
+        <div class="poster-item-label">Slide ${i+2}</div>
+        <img src="${url}" alt="${name}" crossorigin="anonymous">
+        <div class="poster-item-row">
+          <div class="poster-item-name">${name}</div>
+          <button class="dl-btn" data-url="${url}" data-slug="${slug}" data-idx="${i}">Download</button>
+        </div>
+      </div>`;
+    });
+    posterHTML+=`<div class="poster-grid">${items}</div>`;
+  }
+  if(withoutPosters.length){
+    const items=withoutPosters.map(r=>`<div class="no-poster-item">${r.fields['Show']||'Untitled'}</div>`).join('');
+    posterHTML+=`<div class="no-poster-list"><div class="no-poster-head">No poster uploaded (${withoutPosters.length})</div>${items}</div>`;
+  }
+
+  // Assemble slides area
+  const slidesArea=document.getElementById('slides-area');
+  slidesArea.innerHTML=`
+    <div class="slide-block">
+      <div class="slide-block-head">
+        <span class="slide-block-label">Slide 1 — Schedule</span>
+        <div class="slide-actions">
+          <button class="tt-btn ${slideTheme==='dark'?'active':''}" onclick="setSlideTheme('dark',this)">Dark</button>
+          <button class="tt-btn ${slideTheme==='light'?'active':''}" onclick="setSlideTheme('light',this)">Light</button>
+          <button class="dl-btn" id="dl-schedule-btn">Download PNG</button>
+        </div>
+      </div>
+    </div>
+    ${withPosters.length||withoutPosters.length?`
+    <div class="slide-block">
+      <div class="slide-block-head">
+        <span class="slide-block-label">Slides 2–${withPosters.length+1} — Show Posters</span>
+      </div>
+      ${posterHTML}
+    </div>`:''}
+  `;
+
+  // Insert scaler into slide block (can't innerHTML a DOM node)
+  slidesArea.querySelector('.slide-block').insertBefore(scaler,slidesArea.querySelector('.slide-block-head').nextSibling);
+
+  // Wire up download buttons
+  document.getElementById('dl-schedule-btn').addEventListener('click',downloadScheduleSlide);
+  slidesArea.querySelectorAll('.dl-btn[data-url]').forEach(btn=>{
+    btn.addEventListener('click',function(){
+      downloadPoster(this.dataset.url,this.dataset.slug,parseInt(this.dataset.idx));
+    });
+  });
+
+  requestAnimationFrame(()=>requestAnimationFrame(applyScale));
+}
+
+window.addEventListener('resize',applyScale);
+
+function copyCaption(){
+  const text=document.getElementById('caption-text').textContent;
+  navigator.clipboard.writeText(text).then(()=>{
+    const btn=document.getElementById('copy-btn');
+    btn.textContent='Copied!';btn.classList.add('copied');
+    setTimeout(()=>{btn.textContent='Copy';btn.classList.remove('copied');},2000);
+  });
+}
+</script>
+</body>
+</html>
