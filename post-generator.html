@@ -107,7 +107,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .sslide-date{font-size:17px;letter-spacing:.12em;padding-bottom:32px;margin-bottom:32px;}
 .sslide.dark  .sslide-date{color:#8a8278;border-bottom:1px dashed #2e2a24;}
 .sslide.light .sslide-date{color:#888078;border-bottom:1px dashed #e2ddd4;}
-.sslide-groups{flex:1;display:flex;flex-direction:column;gap:28px;overflow:hidden;}
+.sslide-groups{flex:1;display:flex;flex-direction:column;gap:28px;}
 .sslide-group-header{display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;margin-bottom:12px;}
 .sslide.dark  .sslide-group-header{border-bottom:1px solid #f0ece4;}
 .sslide.light .sslide-group-header{border-bottom:1px solid #1a1814;}
@@ -127,7 +127,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .sslide-venue{font-size:11px;flex-shrink:0;text-align:right;white-space:nowrap;max-width:280px;overflow:hidden;text-overflow:ellipsis;}
 .sslide.dark  .sslide-venue{color:#8a8278;}
 .sslide.light .sslide-venue{color:#888078;}
-.sslide-footer{margin-top:auto;padding-top:28px;display:flex;align-items:center;justify-content:space-between;}
+.sslide-footer{padding-top:28px;display:flex;align-items:center;justify-content:space-between;}
 .sslide-logo{font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;}
 .sslide-handle{font-size:13px;letter-spacing:.12em;}
 .sslide.dark  .sslide-handle{color:#48443c;}
@@ -213,7 +213,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
     </div>
   </div>
 
-  <div class="site-footer">Made with ❤️ in Victoria, BC</div>
+  <div class="site-footer">Made with ❤️ & 🤖 in Victoria, BC</div>
 
 </div>
 
@@ -228,22 +228,54 @@ const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov',
 const TYPE_ORDER=['open mic','stand-up','improv','variety'];
 const TYPE_LABELS={'open mic':'Open Mics','stand-up':'Stand-Up','improv':'Improv','variety':'Other'};
 const TYPE_EMOJIS={'open mic':'🎤','stand-up':'😂','improv':'🎭','variety':'🎪'};
-const PRODUCER_HANDLES={
-  'shop talk':'@shoptalkcomedybc',
-  'harbour':'@harbourcomedy',
-  'phoenix bar':'@harbourcomedy',
-  'hecklers':'@hecklersbarandgrill',
-  'ok dope':'@ok_dope_',
-  'ok, dope':'@ok_dope_',
-  'garden city':'@gardencityimprovbc',
-  'paper street':'@paperstreettheatre',
-  'theatre skam':'@theatreskam',
-  'theatreskam':'@theatreskam',
-  'gulabi':'@gulabiproductions',
-  'entertainment village':'@entertainmentvillage',
-  'jon david':'@jon.d.david',
-  'sauvage':'@ilesuuvagebrewing',
-};
+
+// Open mic shows: producer handle + venue handle
+// Format: { matchString: { producer: '@handle', venue: '@venuehandle' } }
+const OPEN_MIC_MAP=[
+  {match:'shop talk', producer:'@shoptalkcomedybc', venue:'@themintvictoria'},
+  {match:'phoenix',   producer:'@harbourcomedy',    venue:'@phoenixbarandgrill'},
+];
+
+const NUM_WORDS=['','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten',
+  'Eleven','Twelve','Thirteen','Fourteen','Fifteen','Sixteen','Seventeen','Eighteen','Nineteen','Twenty'];
+
+function toWord(n){return(n>0&&n<NUM_WORDS.length)?NUM_WORDS[n]:String(n);}
+
+function buildOpenMicLine(shows){
+  const count=shows.length;
+  const parts=[];
+  shows.forEach(r=>{
+    const src=(r.fields['Show']||'').toLowerCase();
+    const match=OPEN_MIC_MAP.find(m=>src.includes(m.match));
+    if(match) parts.push(`${match.producer} at ${match.venue}`);
+  });
+  const unique=[...new Set(parts)];
+  const tail=unique.length?' from '+unique.join(' and '):'';
+  return `🎤 ${toWord(count)} open mic${count!==1?'s':''}${tail}!`;
+}
+
+function buildCaption(byType){
+  const lines=["Here's what's happening this week in Victoria comedy:\n"];
+
+  if(byType['open mic']?.length){
+    lines.push(buildOpenMicLine(byType['open mic']));
+  }
+  if(byType['stand-up']?.length){
+    const count=byType['stand-up'].length;
+    lines.push(`😂 ${toWord(count)} standup show${count!==1?'s':''}!`);
+  }
+  if(byType['improv']?.length){
+    const count=byType['improv'].length;
+    lines.push(`🎭 ${toWord(count)} improv show${count!==1?'s':''}!`);
+  }
+  if(byType['variety']?.length){
+    const count=byType['variety'].length;
+    lines.push(`🎪 ${toWord(count)} other show${count!==1?'s':''}!`);
+  }
+
+  lines.push("\nGot a comedy show coming up? Submit your show using the link in bio!");
+  return lines.join('\n');
+}
 
 let weekShows=[];
 let slideTheme='dark';
@@ -272,14 +304,6 @@ function groupByType(shows){
   const out={};
   shows.forEach(r=>{const k=getShowType(r);if(!out[k])out[k]=[];out[k].push(r);});
   return out;
-}
-function getHandles(shows){
-  const found=new Set();
-  shows.forEach(r=>{
-    const src=([r.fields['Producer']||'',r.fields['Produced By']||'',r.fields['Show']||'',r.fields['Venue']||'']).join(' ').toLowerCase();
-    Object.entries(PRODUCER_HANDLES).forEach(([k,h])=>{if(src.includes(k))found.add(h);});
-  });
-  return[...found];
 }
 
 async function loadData(){
@@ -312,19 +336,6 @@ async function loadData(){
   btn.disabled=false;
 }
 
-function buildCaption(byType){
-  const lines=["Here's what's happening this week in Victoria comedy:\n"];
-  TYPE_ORDER.forEach(key=>{
-    if(!byType[key]||!byType[key].length)return;
-    const shows=byType[key],count=shows.length;
-    const handles=getHandles(shows);
-    const tail=handles.length?' from '+handles.join(', '):'';
-    lines.push(`${TYPE_EMOJIS[key]} ${count} ${TYPE_LABELS[key].toLowerCase()} show${count!==1?'s':''}${tail}!`);
-  });
-  lines.push("\nGot a comedy show coming up? Submit your show using the link in bio!");
-  return lines.join('\n');
-}
-
 function renderCaption(byType){
   const cap=buildCaption(byType);
   document.getElementById('caption-text').textContent=cap;
@@ -335,19 +346,49 @@ function renderCaption(byType){
 function buildSlideEl(byType,theme){
   const monday=getMondayOfWeek(),sunday=addDays(monday,6);
   const dateStr=`${MONTHS[monday.getMonth()]} ${monday.getDate()} — ${MONTHS[sunday.getMonth()]} ${sunday.getDate()}`;
+
+  // Count total shows to scale spacing
+  const totalShows=TYPE_ORDER.reduce((n,k)=>n+(byType[k]?.length||0),0);
+  const numGroups=TYPE_ORDER.filter(k=>byType[k]?.length).length;
+
+  // Scaling: comfortable up to ~10 shows, tighter above that
+  const density=Math.max(0,Math.min(1,(totalShows-8)/10)); // 0=roomy, 1=tight
+  const padV=Math.round(90-density*30);       // top/bottom padding: 90→60
+  const groupGap=Math.round(28-density*14);   // between groups: 28→14
+  const rowPad=Math.round(11-density*5);      // show row padding: 11→6
+  const titleSize=Math.round(108-density*18); // title: 108→90
+  const datePadB=Math.round(32-density*12);   // date bottom pad: 32→20
+  const dateMargB=Math.round(32-density*12);  // date margin: 32→20
+  const headerPadB=Math.round(12-density*4);  // group header: 12→8
+  const headerMargB=Math.round(12-density*4);
+
   const slide=document.createElement('div');
   slide.className=`sslide ${theme}`;slide.id='sslide-live';
-  const title=document.createElement('div');title.className='sslide-title';title.innerHTML='This Week<br>in Comedy';
-  const date=document.createElement('div');date.className='sslide-date';date.textContent=dateStr;
+  const padBottom=Math.round(padV*0.5);
+  slide.style.cssText=`padding:${padV}px 96px ${padBottom}px;`;
+
+  const title=document.createElement('div');title.className='sslide-title';
+  title.innerHTML='This Week<br>in Comedy';
+  title.style.fontSize=titleSize+'px';
+
+  const date=document.createElement('div');date.className='sslide-date';
+  date.textContent=dateStr;
+  date.style.cssText=`padding-bottom:${datePadB}px;margin-bottom:${dateMargB}px;`;
+
   const groups=document.createElement('div');groups.className='sslide-groups';
+  groups.style.gap=groupGap+'px';
+
   TYPE_ORDER.forEach(key=>{
     if(!byType[key]||!byType[key].length)return;
     const shows=byType[key];
     const group=document.createElement('div');group.className='sslide-group';
+
     const header=document.createElement('div');header.className='sslide-group-header';
+    header.style.cssText=`padding-bottom:${headerPadB}px;margin-bottom:${headerMargB}px;`;
     const gname=document.createElement('span');gname.className='sslide-group-name';gname.textContent=TYPE_LABELS[key];
     const gcount=document.createElement('span');gcount.className='sslide-group-count';gcount.textContent=`${shows.length} show${shows.length!==1?'s':''}`;
     header.appendChild(gname);header.appendChild(gcount);group.appendChild(header);
+
     shows.forEach(r=>{
       const f=r.fields,name=f['Show']||'Untitled',venue=f['Venue']||'';
       const d=f['Date']?parseDate(f['Date']):null;
@@ -355,6 +396,7 @@ function buildSlideEl(byType,theme){
       const time=d?fmtTime(d):'';
       const venueStr=[time,venue].filter(Boolean).join(' · ');
       const row=document.createElement('div');row.className='sslide-show';
+      row.style.cssText=`padding:${rowPad}px 0;`;
       const left=document.createElement('div');left.className='sslide-show-left';
       const dayEl=document.createElement('span');dayEl.className='sslide-day';dayEl.textContent=day;
       const nameEl=document.createElement('span');nameEl.className='sslide-name';nameEl.textContent=name;
@@ -364,6 +406,7 @@ function buildSlideEl(byType,theme){
     });
     groups.appendChild(group);
   });
+
   const footer=document.createElement('div');footer.className='sslide-footer';
   const logo=document.createElement('span');logo.className='sslide-logo';logo.textContent='Laugh Victoria';
   const handle=document.createElement('span');handle.className='sslide-handle';handle.textContent='@laughvictoria';
