@@ -23,7 +23,7 @@
   --accent:#f0ece4;--accent-inv:#141210;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-html,body{height:100%;}
+html,body{height:100%;overflow-x:hidden;}
 body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:14px;line-height:1.55;}
 
 /* ── NAV ── */
@@ -53,7 +53,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .nav-btn:disabled{opacity:.4;cursor:not-allowed;}
 
 /* ── BODY ── */
-.body{max-width:720px;margin:0 auto;padding:24px 16px 80px;}
+.body{max-width:720px;margin:0 auto;padding:24px 16px 80px;overflow-x:hidden;}
+#slides-root{overflow-x:hidden;}
 
 /* ── EMPTY STATE ── */
 .empty-state{
@@ -135,11 +136,12 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 /* ── POSTER GRID ── */
 .poster-grid{
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(2,minmax(0,1fr));
   gap:12px;
+  width:100%;
 }
-@media(min-width:480px){.poster-grid{grid-template-columns:repeat(3,1fr);}}
-.poster-card{display:flex;flex-direction:column;}
+@media(min-width:480px){.poster-grid{grid-template-columns:repeat(3,minmax(0,1fr));}}
+.poster-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;}
 .poster-card-img{width:100%;height:auto;display:block;background:var(--surface2);}
 .poster-card-foot{
   display:flex;align-items:center;justify-content:space-between;
@@ -196,7 +198,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
   <!-- DEFAULT STATE -->
   <div class="empty-state" id="empty-state">
     <div class="empty-state-title">This Week<br>in Comedy</div>
-    <div class="empty-state-sub">Tap "Load This Week" to get started</div>
+    <div class="empty-state-sub">Tap "Generate" to get started</div>
   </div>
 
   <!-- CAPTION — always at bottom -->
@@ -449,7 +451,7 @@ function renderAll(){
 
   // ── SLIDE 1: SCHEDULE ──
   const scheduleSection=document.createElement('div');
-  scheduleSection.style.cssText='max-width:720px;margin:0 auto;padding:0 16px 24px;';
+    scheduleSection.style.cssText='max-width:720px;margin:0 auto;padding:24px 16px 24px;';
   const scheduleHead=document.createElement('div');scheduleHead.className='section-head';
   scheduleHead.innerHTML=`
     <span class="section-label">Slide 1 — Schedule</span>
@@ -465,7 +467,7 @@ function renderAll(){
   // ── SLIDE 2+: POSTERS ──
   if(withPosters.length||withoutPosters.length){
     const posterSection=document.createElement('div');
-    posterSection.style.cssText='max-width:720px;margin:0 auto;padding:0 16px 24px;';
+    posterSection.style.cssText='max-width:720px;margin:0 auto;padding:0 16px 24px;overflow-x:hidden;box-sizing:border-box;';
     const posterHead=document.createElement('div');posterHead.className='section-head';
     posterHead.innerHTML=`<span class="section-label">Slides 2–${withPosters.length+1} — Show Posters</span><span class="section-meta">${withPosters.length} with poster</span>`;
     posterSection.appendChild(posterHead);
