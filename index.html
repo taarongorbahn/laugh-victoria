@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Laugh Victoria</title>
+<title>Laugh Victoria | All the best comedy in Victoria BC 🍁</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet">
 
@@ -1139,11 +1139,15 @@ footer {
   flex-shrink: 0;
 }
 
-.cheatsheet-badge-free  { border-color: rgba(93,202,165,0.4);  color: #5DCAA5; }
-.cheatsheet-badge-paid  { border-color: rgba(239,159,39,0.35); color: #EF9F27; }
-.cheatsheet-badge-mixed { border-color: rgba(175,169,236,0.4); color: #AFA9EC; }
-.cheatsheet-badge-note  { border-color: var(--border);         color: var(--text-faint); }
-.cheatsheet-badge-scope { border-color: rgba(133,183,235,0.4); color: #85B7EB; }
+.cheatsheet-badge-free  { border-color: #1D9E75; color: #0F6E56; }
+.cheatsheet-badge-paid  { border-color: #BA7517; color: #854F0B; }
+.cheatsheet-badge-mixed { border-color: #7F77DD; color: #534AB7; }
+.cheatsheet-badge-note  { border-color: var(--border); color: var(--text-muted); }
+.cheatsheet-badge-scope { border-color: #378ADD; color: #185FA5; }
+[data-mode="dark"] .cheatsheet-badge-free  { border-color: rgba(93,202,165,0.5);  color: #5DCAA5; }
+[data-mode="dark"] .cheatsheet-badge-paid  { border-color: rgba(239,159,39,0.45); color: #EF9F27; }
+[data-mode="dark"] .cheatsheet-badge-mixed { border-color: rgba(175,169,236,0.5); color: #AFA9EC; }
+[data-mode="dark"] .cheatsheet-badge-scope { border-color: rgba(133,183,235,0.5); color: #85B7EB; }
 
 @media (max-width: 640px) {
   .cheatsheet-row { flex-wrap: wrap; gap: 6px; }
@@ -1660,7 +1664,6 @@ footer {
   <ul class="nav-links" id="nav-center">
     <li><a onclick="showSection('home')" id="nav-home" class="active">This Week</a></li>
     <li><a onclick="showSection('upcoming')" id="nav-upcoming">Upcoming Shows</a></li>
-    <li><a onclick="showSection('resources')" id="nav-resources">Resources</a></li>
   </ul>
   <div class="nav-right-slot">
     <a class="nav-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
@@ -1677,7 +1680,6 @@ footer {
 <div class="mobile-drawer" id="drawer">
   <a onclick="nav('home')" id="mob-home" class="active">This Week</a>
   <a onclick="nav('upcoming')" id="mob-upcoming">Upcoming Shows</a>
-  <a onclick="nav('resources')" id="mob-resources">Resources</a>
   <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label">
     <span>Dark mode</span>
     <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span>
@@ -1791,16 +1793,16 @@ footer {
         <div class="resource-card-desc">Every comedy show that has happened in Victoria, organized by month.</div>
         <div class="resource-card-arrow">→</div>
       </div>
-      <div class="resource-card" onclick="showSection('performer')">
-        <div class="resource-card-label">For Performers</div>
-        <div class="resource-card-title">Performer Guide</div>
-        <div class="resource-card-desc">How to get stage time, plug into the community, and carry yourself like a pro in Victoria's comedy scene.</div>
-        <div class="resource-card-arrow">→</div>
-      </div>
       <div class="resource-card" onclick="showSection('producer')">
         <div class="resource-card-label">For Producers</div>
         <div class="resource-card-title">Producer Cheatsheet</div>
         <div class="resource-card-desc">Every place to promote your comedy show in Victoria — directories, Facebook groups, poster printing, and more.</div>
+        <div class="resource-card-arrow">→</div>
+      </div>
+      <div class="resource-card" onclick="showSection('performer')">
+        <div class="resource-card-label">For Performers</div>
+        <div class="resource-card-title">Performer Guide</div>
+        <div class="resource-card-desc">How to get stage time, plug into the community, and carry yourself like a pro in Victoria's comedy scene.</div>
         <div class="resource-card-arrow">→</div>
       </div>
     </div>
@@ -1886,7 +1888,7 @@ footer {
       <div class="cheatsheet-section">
         <div class="cheatsheet-head">
           <span class="cheatsheet-name">Facebook Groups</span>
-          <span class="cheatsheet-count">6 groups</span>
+          <span class="cheatsheet-count">5 groups</span>
         </div>
         <a class="cheatsheet-row" href="https://www.facebook.com/groups/155292841195100/" target="_blank">
           <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria Stand Up Comedy</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
@@ -1899,7 +1901,7 @@ footer {
           <span class="cheatsheet-badge cheatsheet-badge-scope">All Comedy</span>
         </a>
         <a class="cheatsheet-row" href="https://www.facebook.com/groups/improvinvictoria" target="_blank">
-          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria Improv</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
+          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Improv in Victoria</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
           <span class="cheatsheet-note">Improv-related shows only</span>
           <span class="cheatsheet-badge cheatsheet-badge-scope">Improv Only</span>
         </a>
@@ -1912,11 +1914,6 @@ footer {
           <span class="cheatsheet-title-group"><span class="cheatsheet-item">Victoria BC Events</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
           <span class="cheatsheet-note">General city events group</span>
           <span class="cheatsheet-badge cheatsheet-badge-scope">All Events</span>
-        </a>
-        <a class="cheatsheet-row" href="https://www.facebook.com/groups/105619069605582/" target="_blank">
-          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Vancouver Island Events</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
-          <span class="cheatsheet-note">General city events group</span>
-          <span class="cheatsheet-badge cheatsheet-badge-scope">Island-wide</span>
         </a>
       </div>
 
