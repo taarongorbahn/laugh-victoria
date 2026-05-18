@@ -38,7 +38,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .nav-logo{
   font-family:var(--font-mono);font-size:11px;font-weight:500;
   letter-spacing:.18em;text-transform:uppercase;color:var(--text);
-  white-space:nowrap;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:16px;
 }
 .nav-logo span{color:var(--text-muted);font-weight:400;}
 .nav-btn{
@@ -140,7 +140,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 }
 @media(min-width:480px){.poster-grid{grid-template-columns:repeat(3,1fr);}}
 .poster-card{display:flex;flex-direction:column;}
-.poster-card-img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--surface2);}
+.poster-card-img{width:100%;height:auto;display:block;background:var(--surface2);}
 .poster-card-foot{
   display:flex;align-items:center;justify-content:space-between;
   gap:8px;padding:8px 0 0;
@@ -172,14 +172,24 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
   -webkit-tap-highlight-color:transparent;
 }
 .caption-copy.copied{border-color:var(--border-dark);color:var(--text);}
+
+/* ── FOOTER ── */
+.site-footer{
+  text-align:center;padding:32px 16px;
+  font-size:11px;letter-spacing:.12em;color:var(--text-faint);
+  font-family:var(--font-mono);
+}
 </style>
 </head>
 <body>
 
 <nav class="nav">
   <div class="nav-logo">Laugh Victoria <span>/ Post Generator</span></div>
-  <button class="nav-btn" onclick="loadData()" id="load-btn">Load This Week</button>
+  <button class="nav-btn" onclick="loadData()" id="load-btn">Generate</button>
 </nav>
+
+<!-- Slides injected here first -->
+<div id="slides-root"></div>
 
 <div class="body" id="main-body">
 
@@ -189,8 +199,9 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
     <div class="empty-state-sub">Tap "Load This Week" to get started</div>
   </div>
 
-  <div class="caption-wrap" style="display:none;" id="caption-section">
-    <div class="section-head" style="margin-bottom:12px;">
+  <!-- CAPTION — always at bottom -->
+  <div style="display:none;" id="caption-section">
+    <div class="section-head">
       <span class="section-label">Caption</span>
       <span class="section-meta" id="caption-meta">—</span>
     </div>
@@ -200,10 +211,9 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
     </div>
   </div>
 
-</div>
+  <div class="site-footer">Made with ❤️ in Victoria, BC</div>
 
-<!-- Slides injected here by JS -->
-<div id="slides-root"></div>
+</div>
 
 <!-- Off-screen render target -->
 <div id="export-target" style="position:fixed;left:-2000px;top:0;pointer-events:none;"></div>
@@ -292,7 +302,7 @@ async function loadData(){
     }while(offset);
     weekShows=all;
     renderAll();
-    btn.textContent='Refresh';
+    btn.textContent='Regenerate';
   }catch(e){
     btn.textContent='Error — Retry';
     alert('Could not load shows:\n'+e.message);
@@ -424,8 +434,6 @@ function renderAll(){
   // Hide empty state
   document.getElementById('empty-state').style.display='none';
 
-  renderCaption(byType);
-
   const withPosters=weekShows.filter(r=>r.fields['Show Graphic']?.[0]?.url);
   const withoutPosters=weekShows.filter(r=>!r.fields['Show Graphic']?.[0]?.url);
 
@@ -496,6 +504,9 @@ function renderAll(){
 
   // Wire schedule download
   document.getElementById('dl-schedule-btn').addEventListener('click',downloadScheduleSlide);
+
+  // Caption always last
+  renderCaption(byType);
 
   requestAnimationFrame(()=>requestAnimationFrame(applyScale));
 }
