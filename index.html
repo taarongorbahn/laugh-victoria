@@ -161,6 +161,8 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+.mob-mode-row span:first-child { white-space: nowrap; }
+.mob-mode-icon { flex-shrink: 0; white-space: nowrap; }
 .mob-mode-icon .icon-sun  { display: none; }
 .mob-mode-icon .icon-moon { display: block; }
 [data-mode="dark"] .mob-mode-icon .icon-sun  { display: block; }
@@ -324,6 +326,103 @@ nav {
   color: var(--text-faint);
   text-transform: uppercase;
 }
+
+.back-btn {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.15s;
+}
+.back-btn:hover { color: var(--text); }
+
+.resources-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 900px;
+}
+@media (max-width: 640px) { .resources-cards { grid-template-columns: 1fr; } }
+
+.resource-card {
+  border: 1px dashed var(--border-mid);
+  padding: 2rem;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  position: relative;
+}
+.resource-card:hover { border-color: var(--border-dark); background: var(--surface); }
+
+.resource-card-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 0.75rem;
+}
+.resource-card-title {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+.resource-card-desc {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+.resource-card-arrow {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  color: var(--text-faint);
+  transition: color 0.15s, transform 0.15s;
+}
+.resource-card:hover .resource-card-arrow { color: var(--text); transform: translateX(4px); }
+
+.performer-wrap { max-width: 720px; }
+.performer-intro {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed var(--border-mid);
+}
+.performer-section { margin-bottom: 2.5rem; }
+.performer-heading {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+}
+.performer-section p {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+.performer-section p a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--border-mid);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s;
+}
+.performer-section p a:hover { text-decoration-color: var(--text); }
 
 .loading {
   font-size: 12px;
@@ -1539,7 +1638,6 @@ footer {
 }
 </style>
 
-<link rel="icon" href="/favicon.ico">
 <meta property="og:image" content="https://laughvictoria.ca/brand.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -1677,10 +1775,32 @@ footer {
     <div id="archive-content"><div class="loading">Loading...</div></div>
   </div>
 
-  <!-- CHEATSHEET -->
-  <div class="section" id="section-cheatsheet">
+  <!-- RESOURCES LANDING -->
+  <div class="section" id="section-resources">
     <div class="section-header">
-      <h2 class="section-title">Victoria Comedy Show Promo Cheatsheet</h2>
+      <h2 class="section-title">Resources</h2>
+    </div>
+    <div class="resources-cards">
+      <div class="resource-card" onclick="showSection('producer')">
+        <div class="resource-card-label">For Producers</div>
+        <div class="resource-card-title">Producer Cheatsheet</div>
+        <div class="resource-card-desc">Every place to promote your comedy show in Victoria — directories, Facebook groups, poster printing, and more.</div>
+        <div class="resource-card-arrow">→</div>
+      </div>
+      <div class="resource-card" onclick="showSection('performer')">
+        <div class="resource-card-label">For Performers</div>
+        <div class="resource-card-title">Performer Cheatsheet</div>
+        <div class="resource-card-desc">How to get stage time, plug into the community, and carry yourself like a pro in Victoria's comedy scene.</div>
+        <div class="resource-card-arrow">→</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCER CHEATSHEET -->
+  <div class="section" id="section-producer">
+    <div class="section-header">
+      <h2 class="section-title">Producer Cheatsheet</h2>
+      <button class="back-btn" onclick="showSection('resources')">← Resources</button>
     </div>
     <div class="cheatsheet-wrap">
 
@@ -1790,6 +1910,47 @@ footer {
         </a>
       </div>
 
+    </div>
+  </div>
+
+  <!-- PERFORMER CHEATSHEET -->
+  <div class="section" id="section-performer">
+    <div class="section-header">
+      <h2 class="section-title">Performer Cheatsheet</h2>
+      <button class="back-btn" onclick="showSection('resources')">← Resources</button>
+    </div>
+    <div class="performer-wrap">
+      <p class="performer-intro">The stage doesn't care about your excuses. If you want a spot, you have to go get it. Victoria's room runners are constantly putting together fresh lineups, but they can't book you if they don't know you exist. Show up, get your name on the list, and put in the work. Because the landscape shifts fast, make it a habit to regularly visit Laugh Victoria to stay up to date with active shows, room changes, and sign-up times. No excuses, just stage time.</p>
+
+      <div class="performer-section">
+        <h3 class="performer-heading">Get plugged into the community</h3>
+        <p>If you want to do comedy in Victoria, you should absolutely join the <a href="https://www.facebook.com/groups/155292841195100" target="_blank">Victoria Stand Up Comedy</a> Facebook group (and if you're an improviser, the <a href="https://www.facebook.com/groups/improvinvictoria/" target="_blank">Improv in Victoria</a> Facebook group). They help you keep your finger on the pulse and find out about major news in the scene, from sudden stage openings and writing workshops to major show announcements. If you aren't in the groups, you're flying blind. Get in there and stay plugged in.</p>
+      </div>
+
+      <div class="performer-section">
+        <h3 class="performer-heading">Write, perform, repeat</h3>
+        <p>There are no shortcuts, no secret handshakes, and no magical breaks. This is the only way to get good at comedy. You write the jokes, you test them on stage, you fail, you fix them, and you do it all over again tomorrow. The comedians who make an impact in this town are the ones who grind, embrace the bombs, and keep getting funnier. Write. Perform. Repeat. It's that simple.</p>
+      </div>
+
+      <div class="performer-section">
+        <h3 class="performer-heading">Support your fellow comedians</h3>
+        <p>Comedy isn't a solo sport, even if it looks like one from the back of the room. If you only show up thirty seconds before your set and vanish the moment you step off stage, you're doing it wrong. Sit in the crowd. Watch the other sets. Laugh when it's funny. The comedians who build this scene up are the ones who actually buy a drink, stay in the seats, and support the room. If you want people in the seats for your sets, start by being in the seats for theirs.</p>
+      </div>
+
+      <div class="performer-section">
+        <h3 class="performer-heading">Never talk sh*t about the venue (or the other comics) while on stage</h3>
+        <p>You have a live microphone and a room full of people; don't use them to settle a score or whine about the acoustics. Bringing your local drama or venue grievances onto the stage is a fast track to never being booked again. Nobody paid to watch a public tantrum or your weird political opinions. Keep the energy moving forward, respect the room you're standing in, and leave the toxic attitudes at the door.</p>
+      </div>
+
+      <div class="performer-section">
+        <h3 class="performer-heading">Avoid giving unsolicited advice to other performers</h3>
+        <p>Everyone is figuring out their own voice on their own time. Unless another comic specifically asks you for feedback on a premise or a punchline, keep your notes to yourself. Giving unsolicited advice doesn't make you look like a seasoned pro — it just makes you look arrogant. Focus on fixing your own sets, give encouragement where it's due, and let everyone else run their own race.</p>
+      </div>
+
+      <div class="performer-section">
+        <h3 class="performer-heading">Respect the stage, equipment, venue, and staff</h3>
+        <p>The people running the venue and pouring the drinks are the ultimate gatekeepers of the scene. Treat the staff with respect, wrap the mic cord properly, and don't abuse the gear. If you disrespect the venue or mistreat the staff, word travels instantly. The staff control the room, the room controls your set, and the producers control the calendar. Be cool, treat the space like it matters, and act like a professional.</p>
+      </div>
     </div>
   </div>
 
@@ -1928,14 +2089,14 @@ footer {
 <footer>
   <div class="footer-inner">
     <div class="footer-logo">Laugh Victoria</div>
-    <div class="footer-tagline">Built for the scene, by the scene.</div>
+    <div class="footer-tagline">All the best comedy in Victoria BC 🍁</div>
     <div class="footer-rule"></div>
     <div class="footer-bottom">
       <div class="footer-links">
         <a href="#" onclick="showSection('about');return false;">About</a>
         <a href="#" onclick="showSection('faq');return false;">FAQ</a>
         <a href="#" onclick="showSection('privacy');return false;">Privacy</a>
-        <a href="#" onclick="showSection('cheatsheet');return false;">Cheatsheets</a>
+        <a href="#" onclick="showSection('resources');return false;">Resources</a>
       </div>
       <div class="footer-social">
         <a href="https://www.instagram.com/laughvictoria/" target="_blank" aria-label="Instagram">
@@ -2002,14 +2163,16 @@ const TYPE_ORDER  = ['open mic', 'stand-up', 'improv', 'variety'];
 const TYPE_LABELS = { 'open mic': 'Open Mics', 'stand-up': 'Stand-Up', 'improv': 'Improv', 'variety': 'Other' };
 
 const HEROES = {
-  home:     { title: 'This Week<br>in Comedy',   sub: 'Every comedy show happening this week in Victoria.' },
-  upcoming: { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene.' },
-  submit:   { title: 'Submit<br>a Show',          sub: 'Get your show in front of Victoria comedy fans. Reviewed within 48 hours.' },
-  archive:     { title: 'Archive',                   sub: 'Every comedy show that has happened in Victoria.' },
-  cheatsheet:  { title: 'Promo<br>Cheatsheet',       sub: 'Where to promote comedy shows in Victoria.' },
-  privacy:  { title: 'Privacy<br>Policy',         sub: '' },
-  about:    { title: 'About',                     sub: '' },
-  faq:      { title: 'FAQ',                       sub: '' },
+  home:      { title: 'This Week<br>in Comedy',    sub: 'Every comedy show happening this week in Victoria.' },
+  upcoming:  { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene.' },
+  submit:    { title: 'Submit<br>a Show',           sub: 'Get your show in front of Victoria comedy fans. Reviewed within 48 hours.' },
+  archive:   { title: 'Archive',                   sub: 'Every comedy show that has happened in Victoria.' },
+  resources: { title: 'Resources',                 sub: 'Tools and guides for Victoria comics and producers.' },
+  producer:  { title: 'Producer<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
+  performer: { title: 'Performer<br>Cheatsheet',   sub: 'How to get stage time and thrive in Victoria\'s comedy scene.' },
+  privacy:   { title: 'Privacy<br>Policy',         sub: '' },
+  about:     { title: 'About',                     sub: '' },
+  faq:       { title: 'FAQ',                       sub: '' },
 };
 
 function parseAirtableDate(str) { return new Date(str); }
@@ -2299,7 +2462,7 @@ function toggleMenu(){
 function initFromHash(){
   const hash=location.hash.replace('#','');
   if(!hash) return;
-  if(['upcoming','submit','privacy','about','faq','archive','cheatsheet'].includes(hash)){showSection(hash,true);}
+  if(['upcoming','submit','privacy','about','faq','archive','resources','producer','performer'].includes(hash)){showSection(hash,true);}
 }
 
 let archiveAllShows=[], archiveActiveYear='all', archiveActiveType='all', archiveView='poster';
