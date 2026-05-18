@@ -127,7 +127,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .sslide-venue{font-size:11px;flex-shrink:0;text-align:right;white-space:nowrap;max-width:280px;overflow:hidden;text-overflow:ellipsis;}
 .sslide.dark  .sslide-venue{color:#8a8278;}
 .sslide.light .sslide-venue{color:#888078;}
-.sslide-footer{padding-top:28px;display:flex;align-items:center;justify-content:space-between;}
+.sslide-footer{margin-top:auto;padding-top:28px;display:flex;align-items:center;justify-content:space-between;}
 .sslide-logo{font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;}
 .sslide-handle{font-size:13px;letter-spacing:.12em;}
 .sslide.dark  .sslide-handle{color:#48443c;}
@@ -347,24 +347,27 @@ function buildSlideEl(byType,theme){
   const monday=getMondayOfWeek(),sunday=addDays(monday,6);
   const dateStr=`${MONTHS[monday.getMonth()]} ${monday.getDate()} — ${MONTHS[sunday.getMonth()]} ${sunday.getDate()}`;
 
-  // Count total shows to scale spacing
+  // totalShows drives spacing — fewer shows = bigger/more spacious, more = tighter
   const totalShows=TYPE_ORDER.reduce((n,k)=>n+(byType[k]?.length||0),0);
-  const numGroups=TYPE_ORDER.filter(k=>byType[k]?.length).length;
+  // density: 0 = very few shows (roomy), 1 = many shows (tight)
+  // pivot at 10 shows as the "comfortable" baseline
+  const density=Math.max(0,Math.min(1,(totalShows-4)/14));
 
-  // Scaling: comfortable up to ~10 shows, tighter above that
-  const density=Math.max(0,Math.min(1,(totalShows-8)/10)); // 0=roomy, 1=tight
-  const padV=Math.round(90-density*30);       // top/bottom padding: 90→60
-  const groupGap=Math.round(28-density*14);   // between groups: 28→14
-  const rowPad=Math.round(11-density*5);      // show row padding: 11→6
-  const titleSize=Math.round(108-density*18); // title: 108→90
-  const datePadB=Math.round(32-density*12);   // date bottom pad: 32→20
-  const dateMargB=Math.round(32-density*12);  // date margin: 32→20
-  const headerPadB=Math.round(12-density*4);  // group header: 12→8
-  const headerMargB=Math.round(12-density*4);
+  const padV=      Math.round(90 - density*28);   // top pad: 90→62
+  const padBottom= Math.round(72 - density*20);   // bottom pad: 72→52
+  const groupGap=  Math.round(40 - density*20);   // between groups: 40→20
+  const rowPad=    Math.round(16 - density*8);    // row padding: 16→8
+  const titleSize= Math.round(108- density*16);   // title: 108→92
+  const nameSize=  Math.round(26 - density*5);    // show name: 26→21
+  const metaSize=  Math.round(13 - density*2);    // meta text: 13→11
+  const groupNameSize=Math.round(16-density*2);   // group label: 16→14
+  const datePadB=  Math.round(36 - density*14);   // date bottom: 36→22
+  const dateMargB= Math.round(36 - density*14);
+  const headerPadB=Math.round(14 - density*5);    // group header: 14→9
+  const headerMargB=Math.round(14 - density*5);
 
   const slide=document.createElement('div');
   slide.className=`sslide ${theme}`;slide.id='sslide-live';
-  const padBottom=Math.round(padV*0.5);
   slide.style.cssText=`padding:${padV}px 96px ${padBottom}px;`;
 
   const title=document.createElement('div');title.className='sslide-title';
@@ -373,7 +376,7 @@ function buildSlideEl(byType,theme){
 
   const date=document.createElement('div');date.className='sslide-date';
   date.textContent=dateStr;
-  date.style.cssText=`padding-bottom:${datePadB}px;margin-bottom:${dateMargB}px;`;
+  date.style.cssText=`padding-bottom:${datePadB}px;margin-bottom:${dateMargB}px;font-size:${metaSize+2}px;`;
 
   const groups=document.createElement('div');groups.className='sslide-groups';
   groups.style.gap=groupGap+'px';
@@ -386,7 +389,9 @@ function buildSlideEl(byType,theme){
     const header=document.createElement('div');header.className='sslide-group-header';
     header.style.cssText=`padding-bottom:${headerPadB}px;margin-bottom:${headerMargB}px;`;
     const gname=document.createElement('span');gname.className='sslide-group-name';gname.textContent=TYPE_LABELS[key];
+    gname.style.fontSize=groupNameSize+'px';
     const gcount=document.createElement('span');gcount.className='sslide-group-count';gcount.textContent=`${shows.length} show${shows.length!==1?'s':''}`;
+    gcount.style.fontSize=(metaSize-1)+'px';
     header.appendChild(gname);header.appendChild(gcount);group.appendChild(header);
 
     shows.forEach(r=>{
@@ -399,9 +404,12 @@ function buildSlideEl(byType,theme){
       row.style.cssText=`padding:${rowPad}px 0;`;
       const left=document.createElement('div');left.className='sslide-show-left';
       const dayEl=document.createElement('span');dayEl.className='sslide-day';dayEl.textContent=day;
+      dayEl.style.fontSize=metaSize+'px';
       const nameEl=document.createElement('span');nameEl.className='sslide-name';nameEl.textContent=name;
+      nameEl.style.fontSize=nameSize+'px';
       left.appendChild(dayEl);left.appendChild(nameEl);
       const venueEl=document.createElement('span');venueEl.className='sslide-venue';venueEl.textContent=venueStr;
+      venueEl.style.fontSize=metaSize+'px';
       row.appendChild(left);row.appendChild(venueEl);group.appendChild(row);
     });
     groups.appendChild(group);
