@@ -1756,31 +1756,6 @@ footer {
     </div>
   </div>
 
-  <!-- SUBMIT -->
-  <div class="section" id="section-submit">
-    <div class="section-header">
-      <h2 class="section-title">Submit a Show</h2>
-      <span class="section-meta">Reviewed within 48 hrs</span>
-    </div>
-    <div class="submit-wrap">
-      <div class="form-group"><label class="form-label" for="f-show-name">Show name <span>*</span></label><input id="f-show-name" name="show_name" type="text" placeholder="e.g. Shoptalk Comedy"></div>
-      <div class="form-row">
-        <div class="form-group"><label class="form-label" for="f-date">Date <span>*</span></label><input id="f-date" name="date" type="text" placeholder="April 7, 2025"></div>
-        <div class="form-group"><label class="form-label" for="f-time">Time <span>*</span></label><input id="f-time" name="time" type="text" placeholder="8:00 PM"></div>
-      </div>
-      <div class="form-group"><label class="form-label" for="f-type">Show type <span>*</span></label><select id="f-type" name="show_type"><option value="" disabled selected>Select type</option><option>Open Mic</option><option>Stand-up</option><option>Improv</option><option>Variety / Theatre / Other</option></select></div>
-      <div class="form-group"><label class="form-label" for="f-venue">Venue <span>*</span></label><input id="f-venue" name="venue" type="text" placeholder="e.g. Upstairs @ Lucky Bar"></div>
-      <div class="form-group"><label class="form-label" for="f-ticket">Ticket link</label><input id="f-ticket" name="ticket_link" type="url" placeholder="https://..."></div>
-      <div class="form-group">
-        <label class="form-label">Show graphic <span>*</span></label>
-        <label class="file-upload" for="f-graphic"><span class="file-upload-text">Upload 1080 × 1350px JPG or PNG</span><input id="f-graphic" name="graphic" type="file" accept="image/*"></label>
-        <p class="form-hint">Required. 1080×1350px portrait format.</p>
-      </div>
-      <div class="form-group"><label class="form-label" for="f-email">Contact email <span>*</span></label><input id="f-email" name="contact_email" type="email" placeholder="your@email.com"><p class="form-hint">Not displayed publicly. Used for moderation only.</p></div>
-      <a class="submit-btn" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit for review →</a>
-    </div>
-  </div>
-
   <!-- ARCHIVE -->
   <div class="section" id="section-archive">
     <div class="section-header">
@@ -2203,7 +2178,6 @@ const TYPE_LABELS = { 'open mic': 'Open Mics', 'stand-up': 'Stand-Up', 'improv':
 const HEROES = {
   home:      { title: 'This Week<br>in Comedy',    sub: 'Every comedy show happening this week in Victoria.' },
   upcoming:  { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene.' },
-  submit:    { title: 'Submit<br>a Show',           sub: 'Get your show in front of Victoria comedy fans. Reviewed within 48 hours.' },
   archive:   { title: '2026 Show<br>Archive',        sub: 'Every comedy show that has happened in Victoria.' },
   resources: { title: 'Resources',                 sub: 'Everything the Victoria comedy scene needs in one place.' },
   producer:  { title: 'Producer<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
@@ -2501,7 +2475,8 @@ function toggleMenu(){
 function initFromHash(){
   const hash=location.hash.replace('#','');
   if(!hash) return;
-  if(['upcoming','submit','privacy','about','faq','archive','resources','producer','performer'].includes(hash)){showSection(hash,true);}
+  if(hash==='submit'){window.location.href='https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form'; return;}
+  if(['upcoming','privacy','about','faq','archive','resources','producer','performer'].includes(hash)){showSection(hash,true);}
 }
 
 let archiveAllShows=[], archiveActiveYear='all', archiveActiveType='all', archiveView='poster';
