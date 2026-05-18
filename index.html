@@ -156,6 +156,15 @@ nav {
 [data-mode="dark"] .mode-toggle .icon-sun  { display: block; }
 [data-mode="dark"] .mode-toggle .icon-moon { display: none; }
 .mob-mode-toggle { display: none; }
+.mob-mode-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mob-mode-icon .icon-sun  { display: none; }
+.mob-mode-icon .icon-moon { display: block; }
+[data-mode="dark"] .mob-mode-icon .icon-sun  { display: block; }
+[data-mode="dark"] .mob-mode-icon .icon-moon { display: none; }
 
 /* Hamburger */
 .hamburger {
@@ -1428,7 +1437,6 @@ footer {
 @media (max-width: 640px) {
   nav { display: flex; justify-content: space-between; padding: 0 1rem; }
   .nav-center, .nav-links, .nav-submit, .mode-toggle { display: none; }
-  .mob-mode-toggle { display: flex; }
   .hamburger { display: flex; }
 
   .hero { padding: 2rem 1.25rem 1.75rem; }
@@ -1557,10 +1565,6 @@ footer {
       <span class="icon-moon">🌑</span>
       <span class="icon-sun">☀️</span>
     </button>
-    <button class="mode-toggle mob-mode-toggle" onclick="toggleMode()" aria-label="Toggle dark mode">
-      <span class="icon-moon">🌑</span>
-      <span class="icon-sun">☀️</span>
-    </button>
     <button class="hamburger" id="hamburger" onclick="toggleMenu()">
       <span></span><span></span><span></span>
     </button>
@@ -1571,6 +1575,10 @@ footer {
   <a onclick="nav('home')" id="mob-home" class="active">This Week</a>
   <a onclick="nav('upcoming')" id="mob-upcoming">Upcoming Shows</a>
   <a onclick="nav('archive')" id="mob-archive">Archive</a>
+  <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label">
+    <span>Dark mode</span>
+    <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span>
+  </a>
   <a class="mobile-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
 </div>
 
@@ -2248,7 +2256,7 @@ function filterUpcoming(type,btn){
 function showSection(id,skipHash){
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
-  document.querySelectorAll('.mobile-drawer a:not(.mobile-submit)').forEach(a=>a.classList.remove('active'));
+  document.querySelectorAll('.mobile-drawer a:not(.mobile-submit):not(.mob-mode-row)').forEach(a=>a.classList.remove('active'));
   document.getElementById('section-'+id).classList.add('active');
   const el=document.getElementById('nav-'+id); if(el)el.classList.add('active');
   const mob=document.getElementById('mob-'+id); if(mob)mob.classList.add('active');
@@ -2268,6 +2276,8 @@ function toggleMode(){
   localStorage.setItem('lv-mode',next);
   const lbl=document.getElementById('mode-label');
   if(lbl) lbl.textContent=next==='dark'?'Light mode':'Dark mode';
+  const mobLbl=document.querySelector('#mob-mode-label span:first-child');
+  if(mobLbl) mobLbl.textContent=next==='dark'?'Light mode':'Dark mode';
 }
 
 const savedMode=localStorage.getItem('lv-mode');
