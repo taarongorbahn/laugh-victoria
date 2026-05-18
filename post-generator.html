@@ -23,168 +23,189 @@
   --accent:#f0ece4;--accent-inv:#141210;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:14px;line-height:1.55;min-height:100vh;}
+html,body{height:100%;}
+body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:14px;line-height:1.55;}
 
-.tool-header{
-  background:var(--surface);border-bottom:1px dashed var(--border-mid);
-  padding:0 1.25rem;height:54px;display:flex;align-items:center;
-  justify-content:space-between;position:sticky;top:0;z-index:100;
+/* ── NAV ── */
+.nav{
+  background:var(--surface);
+  border-bottom:1px dashed var(--border-mid);
+  height:52px;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 20px;
+  position:sticky;top:0;z-index:100;
 }
-.tool-logo{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text);}
-.tool-logo span{color:var(--text-muted);}
-.hbtn-solid{background:var(--accent);color:var(--accent-inv);border:none;cursor:pointer;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:10px 20px;transition:opacity .15s;-webkit-tap-highlight-color:transparent;}
-.hbtn-solid:active{opacity:.7;}
-.hbtn-solid:disabled{opacity:.4;cursor:not-allowed;}
+.nav-logo{
+  font-family:var(--font-mono);font-size:11px;font-weight:500;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--text);
+  white-space:nowrap;
+}
+.nav-logo span{color:var(--text-muted);font-weight:400;}
+.nav-btn{
+  background:var(--accent);color:var(--accent-inv);
+  border:none;cursor:pointer;
+  font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  padding:9px 16px;
+  white-space:nowrap;
+  -webkit-tap-highlight-color:transparent;
+}
+.nav-btn:active{opacity:.7;}
+.nav-btn:disabled{opacity:.4;cursor:not-allowed;}
 
-.tool-body{max-width:860px;margin:0 auto;padding:1.25rem 1.25rem 6rem;display:flex;flex-direction:column;gap:1.5rem;}
+/* ── BODY ── */
+.body{max-width:720px;margin:0 auto;padding:24px 16px 80px;}
 
-.panel{background:var(--surface);border:1px dashed var(--border-mid);}
-.panel+.panel{margin-top:1.5rem;}
-.panel-head{padding:14px 18px;border-bottom:1px dashed var(--border-mid);display:flex;align-items:baseline;justify-content:space-between;}
-.panel-title{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--text-muted);}
-.panel-meta{font-size:10px;letter-spacing:.1em;color:var(--text-faint);text-transform:uppercase;}
-.panel-body{padding:18px;}
+/* ── EMPTY STATE ── */
+.empty-state{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:80px 24px;
+  border:1px dashed var(--border-mid);
+  margin-bottom:24px;
+}
+.empty-state-title{
+  font-family:var(--font-display);font-weight:900;font-size:48px;
+  text-transform:uppercase;letter-spacing:.02em;
+  color:var(--text-faint);line-height:.9;margin-bottom:16px;
+}
+.empty-state-sub{
+  font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);
+}
 
-.week-range-lbl{font-family:var(--font-display);font-size:26px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:14px;letter-spacing:.01em;}
-.ptype{margin-bottom:18px;}
-.ptype-head{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-faint);padding-bottom:7px;border-bottom:1px dashed var(--border-mid);margin-bottom:7px;display:flex;justify-content:space-between;}
-.pshow{padding:7px 0;border-bottom:1px dotted var(--border);}
-.pshow:last-child{border-bottom:none;}
-.pshow-name{font-family:var(--font-display);font-size:14px;font-weight:700;text-transform:uppercase;color:var(--text);line-height:1.15;}
-.pshow-meta{font-size:11px;color:var(--text-muted);}
+/* ── SECTION ── */
+.section{margin-bottom:24px;}
+.section-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 0 10px;
+  border-bottom:1px dashed var(--border-mid);
+  margin-bottom:16px;
+  gap:12px;flex-wrap:wrap;
+}
+.section-label{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--text-muted);}
+.section-meta{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);}
+.section-actions{display:flex;gap:6px;align-items:center;flex-wrap:wrap;}
 
-.caption-box{position:relative;background:var(--surface2);border:1px dashed var(--border-mid);padding:16px;padding-right:64px;font-size:12px;line-height:1.8;color:var(--text-muted);white-space:pre-wrap;}
-.copy-btn{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
-.copy-btn.copied{border-color:var(--border-dark);color:var(--text);}
+/* ── BUTTONS ── */
+.btn{
+  background:none;border:1px dashed var(--border-mid);
+  font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--text-muted);padding:9px 14px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;white-space:nowrap;
+}
+.btn.active{border-color:var(--border-dark);color:var(--text);background:var(--surface2);}
+.btn:disabled{opacity:.4;cursor:not-allowed;}
 
-.empty-msg{padding:2rem;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);text-align:center;}
-
-.slides-area{display:flex;flex-direction:column;gap:2.5rem;}
-.slide-block-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:12px;flex-wrap:wrap;}
-.slide-block-label{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-faint);}
-.slide-actions{display:flex;gap:6px;align-items:center;flex-wrap:wrap;}
-.tt-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
-.tt-btn.active{border-color:var(--border-dark);color:var(--text);background:var(--surface2);}
-.dl-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
-.dl-btn:hover{border-color:var(--border-dark);color:var(--text);}
-.dl-btn:disabled{opacity:.4;cursor:not-allowed;}
-
-/* poster grid */
-.poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;}
-.poster-item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
-.poster-item-label{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faint);margin-bottom:5px;}
-.poster-item-name{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);margin-top:5px;}
-
-.no-poster-list{margin-top:14px;padding:12px 14px;background:var(--surface2);border:1px dashed var(--border-mid);}
-.no-poster-head{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);margin-bottom:8px;}
-.no-poster-item{font-size:11px;color:var(--text-muted);padding:3px 0;font-family:var(--font-mono);}
-
-/* ══ SLIDE SCALER ══
-   The actual slide is always 1080×1350px internally.
-   .slide-scaler is the outer responsive container.
-   .slide-scaler-inner holds the true-size slide and is CSS-transformed to fit. */
+/* ── SLIDE SCALER ── */
 .slide-scaler{width:100%;position:relative;overflow:hidden;}
 .slide-scaler-inner{width:1080px;height:1350px;transform-origin:top left;}
 
-/* ══ SCHEDULE SLIDE — all values in real px ══ */
+/* ── SCHEDULE SLIDE (1080×1350 internal) ── */
 .sslide{width:1080px;height:1350px;display:flex;flex-direction:column;padding:90px 96px 72px;font-family:'DM Mono',monospace;}
 .sslide.dark {background:#141210;color:#f0ece4;}
 .sslide.light{background:#f7f5f0;color:#1a1814;}
-
-.sslide-eyebrow{font-size:13px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:28px;}
-.sslide.dark  .sslide-eyebrow{color:#48443c;}
-.sslide.light .sslide-eyebrow{color:#cdc8be;}
-
 .sslide-title{font-family:'Barlow Condensed',sans-serif;font-weight:900;text-transform:uppercase;font-size:108px;line-height:.88;letter-spacing:.01em;margin-bottom:12px;}
-
 .sslide-date{font-size:17px;letter-spacing:.12em;padding-bottom:32px;margin-bottom:32px;}
 .sslide.dark  .sslide-date{color:#8a8278;border-bottom:1px dashed #2e2a24;}
 .sslide.light .sslide-date{color:#888078;border-bottom:1px dashed #e2ddd4;}
-
 .sslide-groups{flex:1;display:flex;flex-direction:column;gap:28px;overflow:hidden;}
-
 .sslide-group-header{display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;margin-bottom:12px;}
 .sslide.dark  .sslide-group-header{border-bottom:1px solid #f0ece4;}
 .sslide.light .sslide-group-header{border-bottom:1px solid #1a1814;}
-
 .sslide-group-name{font-size:15px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;}
 .sslide-group-count{font-size:11px;letter-spacing:.14em;text-transform:uppercase;}
 .sslide.dark  .sslide-group-count{color:#48443c;}
 .sslide.light .sslide-group-count{color:#cdc8be;}
-
 .sslide-show{display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding:11px 0;}
 .sslide.dark  .sslide-show{border-bottom:1px dotted #2e2a24;}
 .sslide.light .sslide-show{border-bottom:1px dotted #e2ddd4;}
 .sslide-show:last-child{border-bottom:none;}
-
 .sslide-show-left{display:flex;align-items:baseline;gap:18px;flex:1;min-width:0;}
 .sslide-day{font-size:11px;letter-spacing:.16em;text-transform:uppercase;flex-shrink:0;width:30px;}
 .sslide.dark  .sslide-day{color:#8a8278;}
 .sslide.light .sslide-day{color:#888078;}
-
 .sslide-name{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:22px;line-height:1.1;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-
 .sslide-venue{font-size:11px;flex-shrink:0;text-align:right;white-space:nowrap;max-width:280px;overflow:hidden;text-overflow:ellipsis;}
 .sslide.dark  .sslide-venue{color:#8a8278;}
 .sslide.light .sslide-venue{color:#888078;}
-
 .sslide-footer{margin-top:auto;padding-top:28px;display:flex;align-items:center;justify-content:space-between;}
-
 .sslide-logo{font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;}
 .sslide-handle{font-size:13px;letter-spacing:.12em;}
 .sslide.dark  .sslide-handle{color:#48443c;}
 .sslide.light .sslide-handle{color:#cdc8be;}
 
-/* poster grid */
-.poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;}
-.poster-item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
-.poster-item-label{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faint);margin-bottom:5px;}
-.poster-item-row{display:flex;align-items:center;justify-content:space-between;margin-top:6px;gap:6px;}
-.poster-item-name{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+/* ── POSTER GRID ── */
+.poster-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+@media(min-width:480px){.poster-grid{grid-template-columns:repeat(3,1fr);}}
+.poster-card{display:flex;flex-direction:column;}
+.poster-card-img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--surface2);}
+.poster-card-foot{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:8px;padding:8px 0 0;
+  border-top:1px dashed var(--border-mid);
+  margin-top:8px;
+}
+.poster-card-num{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);}
+.poster-card-name{font-size:10px;color:var(--text-muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 
-.no-poster-list{margin-top:14px;padding:12px 14px;background:var(--surface2);border:1px dashed var(--border-mid);}
+/* ── NO POSTER LIST ── */
+.no-poster-section{margin-top:16px;padding:14px 16px;background:var(--surface2);border:1px dashed var(--border-mid);}
 .no-poster-head{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);margin-bottom:8px;}
-.no-poster-item{font-size:11px;color:var(--text-muted);padding:3px 0;font-family:var(--font-mono);}
+.no-poster-item{font-size:11px;color:var(--text-muted);padding:3px 0;}
+
+/* ── CAPTION ── */
+.caption-wrap{position:relative;}
+.caption-text{
+  display:block;width:100%;
+  background:var(--surface2);border:1px dashed var(--border-mid);
+  padding:16px 80px 16px 16px;
+  font-family:var(--font-mono);font-size:12px;line-height:1.9;
+  color:var(--text-muted);white-space:pre-wrap;
+}
+.caption-copy{
+  position:absolute;top:12px;right:12px;
+  background:none;border:1px dashed var(--border-mid);
+  font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--text-muted);padding:9px 14px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.caption-copy.copied{border-color:var(--border-dark);color:var(--text);}
 </style>
 </head>
 <body>
 
-<header class="tool-header">
-  <div class="tool-logo">Laugh Victoria <span>/ Post Generator</span></div>
-  <button class="hbtn-solid" onclick="loadData()" id="load-btn">Load This Week</button>
-</header>
+<nav class="nav">
+  <div class="nav-logo">Laugh Victoria <span>/ Post Generator</span></div>
+  <button class="nav-btn" onclick="loadData()" id="load-btn">Load This Week</button>
+</nav>
 
-<div class="tool-body">
-  <div class="slides-area" id="slides-area">
-    <div class="empty-msg" style="padding:4rem 2rem;">Load shows to generate the carousel</div>
+<div class="body" id="main-body">
+
+  <!-- DEFAULT STATE -->
+  <div class="empty-state" id="empty-state">
+    <div class="empty-state-title">This Week<br>in Comedy</div>
+    <div class="empty-state-sub">Tap "Load This Week" to get started</div>
   </div>
 
-  <div id="bottom-panels">
-    <div class="panel">
-      <div class="panel-head">
-        <span class="panel-title">Caption</span>
-        <span class="panel-meta" id="caption-meta">—</span>
-      </div>
-      <div class="panel-body" style="padding:0;">
-        <div class="caption-box" id="caption-box">
-          <button class="copy-btn" id="copy-btn" onclick="copyCaption()">Copy</button>
-          <span id="caption-text">Load shows to generate caption.</span>
-        </div>
-      </div>
+  <div class="caption-wrap" style="display:none;" id="caption-section">
+    <div class="section-head" style="margin-bottom:12px;">
+      <span class="section-label">Caption</span>
+      <span class="section-meta" id="caption-meta">—</span>
     </div>
-    <div class="panel">
-      <div class="panel-head">
-        <span class="panel-title">This Week's Shows</span>
-        <span class="panel-meta" id="show-count">—</span>
-      </div>
-      <div class="panel-body" id="show-list">
-        <div class="empty-msg">Hit "Load This Week" to fetch shows</div>
-      </div>
+    <div class="caption-wrap">
+      <span class="caption-text" id="caption-text"></span>
+      <button class="caption-copy" id="copy-btn" onclick="copyCaption()">Copy</button>
     </div>
   </div>
+
 </div>
 
-<!-- Off-screen at true resolution for html2canvas -->
+<!-- Slides injected here by JS -->
+<div id="slides-root"></div>
+
+<!-- Off-screen render target -->
 <div id="export-target" style="position:fixed;left:-2000px;top:0;pointer-events:none;"></div>
 
 <script>
@@ -235,7 +256,19 @@ function getShowType(r){
   if(raw.includes('stand')||raw.includes('comedy night')||raw.includes('headlin'))return'stand-up';
   return'variety';
 }
-
+function groupByType(shows){
+  const out={};
+  shows.forEach(r=>{const k=getShowType(r);if(!out[k])out[k]=[];out[k].push(r);});
+  return out;
+}
+function getHandles(shows){
+  const found=new Set();
+  shows.forEach(r=>{
+    const src=([r.fields['Producer']||'',r.fields['Produced By']||'',r.fields['Show']||'',r.fields['Venue']||'']).join(' ').toLowerCase();
+    Object.entries(PRODUCER_HANDLES).forEach(([k,h])=>{if(src.includes(k))found.add(h);});
+  });
+  return[...found];
+}
 
 async function loadData(){
   const btn=document.getElementById('load-btn');
@@ -262,29 +295,9 @@ async function loadData(){
     btn.textContent='Refresh';
   }catch(e){
     btn.textContent='Error — Retry';
-    console.error(e);
     alert('Could not load shows:\n'+e.message);
   }
   btn.disabled=false;
-}
-
-function groupByType(shows){
-  const out={};
-  shows.forEach(r=>{
-    const k=getShowType(r);
-    if(!out[k])out[k]=[];
-    out[k].push(r);
-  });
-  return out;
-}
-
-function getHandles(shows){
-  const found=new Set();
-  shows.forEach(r=>{
-    const src=([r.fields['Producer']||'',r.fields['Produced By']||'',r.fields['Show']||'',r.fields['Venue']||'']).join(' ').toLowerCase();
-    Object.entries(PRODUCER_HANDLES).forEach(([k,h])=>{if(src.includes(k))found.add(h);});
-  });
-  return[...found];
 }
 
 function buildCaption(byType){
@@ -300,56 +313,29 @@ function buildCaption(byType){
   return lines.join('\n');
 }
 
-function renderShowList(byType){
-  const monday=getMondayOfWeek(),sunday=addDays(monday,6);
-  const total=weekShows.length;
-  document.getElementById('show-count').textContent=`${total} show${total!==1?'s':''}`;
-  if(!total){document.getElementById('show-list').innerHTML='<div class="empty-msg">No shows found this week.</div>';return;}
-  let html=`<div class="week-range-lbl">${MONTHS[monday.getMonth()]} ${monday.getDate()} — ${MONTHS[sunday.getMonth()]} ${sunday.getDate()}</div>`;
-  TYPE_ORDER.forEach(key=>{
-    if(!byType[key]||!byType[key].length)return;
-    html+=`<div class="ptype"><div class="ptype-head"><span>${TYPE_LABELS[key]}</span><span>${byType[key].length}</span></div>`;
-    byType[key].forEach(r=>{
-      const f=r.fields,name=f['Show']||'Untitled',venue=f['Venue']||'';
-      const d=f['Date']?parseDate(f['Date']):null;
-      const day=d?DAYS_SHORT[d.getDay()]:'',time=d?fmtTime(d):'';
-      html+=`<div class="pshow"><div class="pshow-name">${name}</div><div class="pshow-meta">${[day,time,venue].filter(Boolean).join(' · ')}</div></div>`;
-    });
-    html+=`</div>`;
-  });
-  document.getElementById('show-list').innerHTML=html;
-}
-
 function renderCaption(byType){
   const cap=buildCaption(byType);
   document.getElementById('caption-text').textContent=cap;
   document.getElementById('caption-meta').textContent=cap.length+' chars';
+  document.getElementById('caption-section').style.display='block';
 }
 
-/* Build the slide as a real DOM element (not innerHTML string) so fonts load properly */
 function buildSlideEl(byType,theme){
   const monday=getMondayOfWeek(),sunday=addDays(monday,6);
   const dateStr=`${MONTHS[monday.getMonth()]} ${monday.getDate()} — ${MONTHS[sunday.getMonth()]} ${sunday.getDate()}`;
-
   const slide=document.createElement('div');
-  slide.className=`sslide ${theme}`;
-  slide.id='sslide-live';
-
+  slide.className=`sslide ${theme}`;slide.id='sslide-live';
   const title=document.createElement('div');title.className='sslide-title';title.innerHTML='This Week<br>in Comedy';
   const date=document.createElement('div');date.className='sslide-date';date.textContent=dateStr;
   const groups=document.createElement('div');groups.className='sslide-groups';
-
   TYPE_ORDER.forEach(key=>{
     if(!byType[key]||!byType[key].length)return;
     const shows=byType[key];
     const group=document.createElement('div');group.className='sslide-group';
-
     const header=document.createElement('div');header.className='sslide-group-header';
     const gname=document.createElement('span');gname.className='sslide-group-name';gname.textContent=TYPE_LABELS[key];
     const gcount=document.createElement('span');gcount.className='sslide-group-count';gcount.textContent=`${shows.length} show${shows.length!==1?'s':''}`;
-    header.appendChild(gname);header.appendChild(gcount);
-    group.appendChild(header);
-
+    header.appendChild(gname);header.appendChild(gcount);group.appendChild(header);
     shows.forEach(r=>{
       const f=r.fields,name=f['Show']||'Untitled',venue=f['Venue']||'';
       const d=f['Date']?parseDate(f['Date']):null;
@@ -362,19 +348,15 @@ function buildSlideEl(byType,theme){
       const nameEl=document.createElement('span');nameEl.className='sslide-name';nameEl.textContent=name;
       left.appendChild(dayEl);left.appendChild(nameEl);
       const venueEl=document.createElement('span');venueEl.className='sslide-venue';venueEl.textContent=venueStr;
-      row.appendChild(left);row.appendChild(venueEl);
-      group.appendChild(row);
+      row.appendChild(left);row.appendChild(venueEl);group.appendChild(row);
     });
     groups.appendChild(group);
   });
-
   const footer=document.createElement('div');footer.className='sslide-footer';
   const logo=document.createElement('span');logo.className='sslide-logo';logo.textContent='Laugh Victoria';
   const handle=document.createElement('span');handle.className='sslide-handle';handle.textContent='@laughvictoria';
   footer.appendChild(logo);footer.appendChild(handle);
-
-  slide.appendChild(title);slide.appendChild(date);
-  slide.appendChild(groups);slide.appendChild(footer);
+  slide.appendChild(title);slide.appendChild(date);slide.appendChild(groups);slide.appendChild(footer);
   return slide;
 }
 
@@ -382,15 +364,15 @@ function applyScale(){
   document.querySelectorAll('.slide-scaler').forEach(outer=>{
     const inner=outer.querySelector('.slide-scaler-inner');
     if(!inner)return;
-    const scale=outer.offsetWidth/1080;
-    inner.style.transform=`scale(${scale})`;
-    outer.style.height=(1350*scale)+'px';
+    const s=outer.offsetWidth/1080;
+    inner.style.transform=`scale(${s})`;
+    outer.style.height=(1350*s)+'px';
   });
 }
 
 function setSlideTheme(theme,el){
   slideTheme=theme;
-  document.querySelectorAll('.tt-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.theme-btn').forEach(b=>b.classList.remove('active'));
   if(el)el.classList.add('active');
   const slide=document.getElementById('sslide-live');
   if(slide){slide.classList.remove('dark','light');slide.classList.add(theme);}
@@ -400,13 +382,11 @@ async function downloadScheduleSlide(){
   const btn=event.currentTarget;
   btn.disabled=true;btn.textContent='Rendering…';
   try{
-    // Build a fresh clone at 1080×1350 off-screen
     const clone=buildSlideEl(currentByType,slideTheme);
     const wrap=document.getElementById('export-target');
     wrap.innerHTML='';wrap.appendChild(clone);
     await document.fonts.ready;
     await new Promise(r=>setTimeout(r,300));
-
     const canvas=await html2canvas(clone,{
       width:1080,height:1350,scale:1,
       useCORS:true,allowTaint:false,
@@ -419,14 +399,12 @@ async function downloadScheduleSlide(){
     link.click();
     wrap.innerHTML='';
   }catch(e){
-    console.error(e);
     alert('Export failed: '+e.message);
   }
   btn.disabled=false;btn.textContent='Download PNG';
 }
 
-async function downloadPoster(url,slug,idx){
-  const btn=event.currentTarget;
+async function downloadPoster(url,slug,idx,btn){
   btn.disabled=true;btn.textContent='…';
   try{
     const res=await fetch(url);
@@ -435,78 +413,88 @@ async function downloadPoster(url,slug,idx){
     a.href=URL.createObjectURL(blob);
     a.download=`slide-${idx+2}-${slug}.jpg`;
     a.click();
-  }catch(e){
-    window.open(url,'_blank');
-  }
-  btn.disabled=false;btn.textContent='Download';
+  }catch(e){window.open(url,'_blank');}
+  btn.disabled=false;btn.textContent='Save';
 }
 
 function renderAll(){
   const byType=groupByType(weekShows);
   currentByType=byType;
-  renderShowList(byType);
-  renderCaption(byType);
 
-  if(!weekShows.length){
-    document.getElementById('slides-area').innerHTML='<div class="empty-msg" style="padding:4rem 2rem;">No shows found this week.</div>';
-    return;
-  }
+  // Hide empty state
+  document.getElementById('empty-state').style.display='none';
+
+  renderCaption(byType);
 
   const withPosters=weekShows.filter(r=>r.fields['Show Graphic']?.[0]?.url);
   const withoutPosters=weekShows.filter(r=>!r.fields['Show Graphic']?.[0]?.url);
 
-  // Build slide 1 scaler
+  // Build slide el
   const slideEl=buildSlideEl(byType,slideTheme);
   const scalerInner=document.createElement('div');scalerInner.className='slide-scaler-inner';scalerInner.appendChild(slideEl);
   const scaler=document.createElement('div');scaler.className='slide-scaler';scaler.appendChild(scalerInner);
 
-  // Poster section
-  let posterHTML='';
-  if(withPosters.length){
-    let items='';
-    withPosters.forEach((r,i)=>{
-      const name=r.fields['Show']||'Untitled';
-      const url=r.fields['Show Graphic'][0].url;
-      const slug=name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-      items+=`<div class="poster-item">
-        <div class="poster-item-label">Slide ${i+2}</div>
-        <img src="${url}" alt="${name}" crossorigin="anonymous">
-        <div class="poster-item-name">${name}</div>
-      </div>`;
-    });
-    posterHTML+=`<div class="poster-grid">${items}</div>`;
+  const root=document.getElementById('slides-root');
+  root.innerHTML='';
+
+  const body=document.getElementById('main-body');
+
+  // ── SLIDE 1: SCHEDULE ──
+  const scheduleSection=document.createElement('div');
+  scheduleSection.style.cssText='max-width:720px;margin:0 auto;padding:0 16px 24px;';
+  const scheduleHead=document.createElement('div');scheduleHead.className='section-head';
+  scheduleHead.innerHTML=`
+    <span class="section-label">Slide 1 — Schedule</span>
+    <div class="section-actions">
+      <button class="btn theme-btn ${slideTheme==='dark'?'active':''}" onclick="setSlideTheme('dark',this)">Dark</button>
+      <button class="btn theme-btn ${slideTheme==='light'?'active':''}" onclick="setSlideTheme('light',this)">Light</button>
+      <button class="btn" id="dl-schedule-btn">Download PNG</button>
+    </div>`;
+  scheduleSection.appendChild(scheduleHead);
+  scheduleSection.appendChild(scaler);
+  root.appendChild(scheduleSection);
+
+  // ── SLIDE 2+: POSTERS ──
+  if(withPosters.length||withoutPosters.length){
+    const posterSection=document.createElement('div');
+    posterSection.style.cssText='max-width:720px;margin:0 auto;padding:0 16px 24px;';
+    const posterHead=document.createElement('div');posterHead.className='section-head';
+    posterHead.innerHTML=`<span class="section-label">Slides 2–${withPosters.length+1} — Show Posters</span><span class="section-meta">${withPosters.length} with poster</span>`;
+    posterSection.appendChild(posterHead);
+
+    if(withPosters.length){
+      const grid=document.createElement('div');grid.className='poster-grid';
+      withPosters.forEach((r,i)=>{
+        const name=r.fields['Show']||'Untitled';
+        const url=r.fields['Show Graphic'][0].url;
+        const slug=name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+        const card=document.createElement('div');card.className='poster-card';
+        const img=document.createElement('img');
+        img.className='poster-card-img';img.src=url;img.alt=name;img.crossOrigin='anonymous';
+        const foot=document.createElement('div');foot.className='poster-card-foot';
+        const num=document.createElement('span');num.className='poster-card-num';num.textContent=`Slide ${i+2}`;
+        const nm=document.createElement('span');nm.className='poster-card-name';nm.textContent=name;nm.title=name;
+        const dlbtn=document.createElement('button');dlbtn.className='btn';dlbtn.textContent='Save';
+        dlbtn.style.cssText='padding:6px 10px;flex-shrink:0;';
+        dlbtn.addEventListener('click',()=>downloadPoster(url,slug,i,dlbtn));
+        foot.appendChild(num);foot.appendChild(nm);foot.appendChild(dlbtn);
+        card.appendChild(img);card.appendChild(foot);
+        grid.appendChild(card);
+      });
+      posterSection.appendChild(grid);
+    }
+
+    if(withoutPosters.length){
+      const nop=document.createElement('div');nop.className='no-poster-section';
+      nop.innerHTML=`<div class="no-poster-head">No poster uploaded (${withoutPosters.length})</div>`+
+        withoutPosters.map(r=>`<div class="no-poster-item">${r.fields['Show']||'Untitled'}</div>`).join('');
+      posterSection.appendChild(nop);
+    }
+
+    root.appendChild(posterSection);
   }
-  if(withoutPosters.length){
-    const items=withoutPosters.map(r=>`<div class="no-poster-item">${r.fields['Show']||'Untitled'}</div>`).join('');
-    posterHTML+=`<div class="no-poster-list"><div class="no-poster-head">No poster uploaded (${withoutPosters.length})</div>${items}</div>`;
-  }
 
-  // Assemble slides area
-  const slidesArea=document.getElementById('slides-area');
-  slidesArea.innerHTML=`
-    <div class="slide-block">
-      <div class="slide-block-head">
-        <span class="slide-block-label">Slide 1 — Schedule</span>
-        <div class="slide-actions">
-          <button class="tt-btn ${slideTheme==='dark'?'active':''}" onclick="setSlideTheme('dark',this)">Dark</button>
-          <button class="tt-btn ${slideTheme==='light'?'active':''}" onclick="setSlideTheme('light',this)">Light</button>
-          <button class="dl-btn" id="dl-schedule-btn">Download PNG</button>
-        </div>
-      </div>
-    </div>
-    ${withPosters.length||withoutPosters.length?`
-    <div class="slide-block">
-      <div class="slide-block-head">
-        <span class="slide-block-label">Slides 2–${withPosters.length+1} — Show Posters</span>
-      </div>
-      ${posterHTML}
-    </div>`:''}
-  `;
-
-  // Insert scaler into slide block (can't innerHTML a DOM node)
-  slidesArea.querySelector('.slide-block').insertBefore(scaler,slidesArea.querySelector('.slide-block-head').nextSibling);
-
-  // Wire up schedule download
+  // Wire schedule download
   document.getElementById('dl-schedule-btn').addEventListener('click',downloadScheduleSlide);
 
   requestAnimationFrame(()=>requestAnimationFrame(applyScale));
