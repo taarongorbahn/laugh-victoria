@@ -157,7 +157,7 @@ nav {
 [data-mode="dark"] .mode-toggle .icon-moon { display: none; }
 .mob-mode-toggle { display: none; }
 .mob-mode-row {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
@@ -1751,6 +1751,9 @@ footer {
       </div>
     </div>
     <div id="upcoming-content"><div class="loading">Loading...</div></div>
+    <div class="home-upcoming-prompt">
+      Wanna look back at 2026? <a onclick="showSection('archive')">Visit the show archive →</a>
+    </div>
   </div>
 
   <!-- SUBMIT -->
