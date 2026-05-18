@@ -160,9 +160,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
+  flex-wrap: nowrap;
 }
-.mob-mode-row span:first-child { white-space: nowrap; }
-.mob-mode-icon { flex-shrink: 0; white-space: nowrap; }
+.mob-mode-row span:first-child { white-space: nowrap; flex: 1; }
+.mob-mode-icon { flex-shrink: 0; white-space: nowrap; line-height: 1; }
 .mob-mode-icon .icon-sun  { display: none; }
 .mob-mode-icon .icon-moon { display: block; }
 [data-mode="dark"] .mob-mode-icon .icon-sun  { display: block; }
@@ -425,6 +427,24 @@ nav {
   transition: text-decoration-color 0.15s;
 }
 .performer-section p a:hover { text-decoration-color: var(--text); }
+
+.home-upcoming-prompt {
+  border-top: 1px dashed var(--border-mid);
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.home-upcoming-prompt a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--border-mid);
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: text-decoration-color 0.15s;
+}
+.home-upcoming-prompt a:hover { text-decoration-color: var(--text); }
 
 .loading {
   font-size: 12px;
@@ -1681,7 +1701,7 @@ footer {
   <a onclick="nav('home')" id="mob-home" class="active">This Week</a>
   <a onclick="nav('upcoming')" id="mob-upcoming">Upcoming Shows</a>
   <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label">
-    <span>Dark mode</span>
+    <span>Turn the lights on</span>
     <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span>
   </a>
   <a class="mobile-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
@@ -1703,6 +1723,9 @@ footer {
       <span class="section-meta" id="week-range"></span>
     </div>
     <div id="home-content"><div class="loading">Loading...</div></div>
+    <div class="home-upcoming-prompt">
+      Looking further ahead? <a onclick="showSection('upcoming')">See all upcoming shows →</a>
+    </div>
   </div>
 
   <!-- UPCOMING -->
@@ -2453,14 +2476,15 @@ function toggleMode(){
   const lbl=document.getElementById('mode-label');
   if(lbl) lbl.textContent=next==='dark'?'Light mode':'Dark mode';
   const mobLbl=document.querySelector('#mob-mode-label span:first-child');
-  if(mobLbl) mobLbl.textContent=next==='dark'?'Light mode':'Dark mode';
+  if(mobLbl) mobLbl.textContent=next==='dark'?'Turn the lights on':'Turn the lights off';
 }
 
 const savedMode=localStorage.getItem('lv-mode');
 if(savedMode){
   document.documentElement.setAttribute('data-mode',savedMode);
   const lbl=document.getElementById('mode-label');
-  if(lbl) lbl.textContent=savedMode==='dark'?'Light mode':'Dark mode';
+  const mobLblInit=document.querySelector('#mob-mode-label span:first-child');
+  if(mobLblInit) mobLblInit.textContent=savedMode==='dark'?'Turn the lights on':'Turn the lights off';
 }
 
 let menuOpen=false;
