@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" fill="#141210"/>
-  <rect x="1" y="1" width="30" height="30" fill="none" stroke="#2e2a24" stroke-width="0.75"
-        stroke-dasharray="3 2"/>
-  <text x="16" y="23" 
-        font-family="'BigShoulders Display', 'Arial Black', sans-serif" 
-        font-weight="900" font-size="20" fill="#f0ece4"
-        text-anchor="middle" letter-spacing="-0.5">LV</text>
-</svg>
