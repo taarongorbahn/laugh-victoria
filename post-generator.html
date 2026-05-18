@@ -53,8 +53,9 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .pshow-name{font-family:var(--font-display);font-size:14px;font-weight:700;text-transform:uppercase;color:var(--text);line-height:1.15;}
 .pshow-meta{font-size:11px;color:var(--text-muted);}
 
-.caption-box{position:relative;background:var(--surface2);border:1px dashed var(--border-mid);padding:16px;padding-right:64px;font-size:12px;line-height:1.8;color:var(--text-muted);white-space:pre-wrap;}
-.copy-btn{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
+.caption-box{position:relative;background:var(--surface2);border:1px dashed var(--border-mid);padding:18px 18px 18px 18px;}
+.caption-text{display:block;font-size:12px;line-height:1.9;color:var(--text-muted);white-space:pre-wrap;font-family:var(--font-mono);padding-right:56px;}
+.copy-btn{position:absolute;top:14px;right:14px;background:transparent;border:1px solid var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
 .copy-btn.copied{border-color:var(--border-dark);color:var(--text);}
 
 .empty-msg{padding:2rem;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);text-align:center;}
@@ -134,17 +135,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .sslide-handle{font-size:13px;letter-spacing:.12em;}
 .sslide.dark  .sslide-handle{color:#48443c;}
 .sslide.light .sslide-handle{color:#cdc8be;}
-
-/* poster grid */
-.poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;}
-.poster-item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
-.poster-item-label{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faint);margin-bottom:5px;}
-.poster-item-row{display:flex;align-items:center;justify-content:space-between;margin-top:6px;gap:6px;}
-.poster-item-name{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-
-.no-poster-list{margin-top:14px;padding:12px 14px;background:var(--surface2);border:1px dashed var(--border-mid);}
-.no-poster-head{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);margin-bottom:8px;}
-.no-poster-item{font-size:11px;color:var(--text-muted);padding:3px 0;font-family:var(--font-mono);}
 </style>
 </head>
 <body>
@@ -168,17 +158,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
       <div class="panel-body" style="padding:0;">
         <div class="caption-box" id="caption-box">
           <button class="copy-btn" id="copy-btn" onclick="copyCaption()">Copy</button>
-          <span id="caption-text">Load shows to generate caption.</span>
+          <span id="caption-text" class="caption-text">Load shows to generate caption.</span>
         </div>
-      </div>
-    </div>
-    <div class="panel">
-      <div class="panel-head">
-        <span class="panel-title">This Week's Shows</span>
-        <span class="panel-meta" id="show-count">—</span>
-      </div>
-      <div class="panel-body" id="show-list">
-        <div class="empty-msg">Hit "Load This Week" to fetch shows</div>
       </div>
     </div>
   </div>
@@ -444,7 +425,6 @@ async function downloadPoster(url,slug,idx){
 function renderAll(){
   const byType=groupByType(weekShows);
   currentByType=byType;
-  renderShowList(byType);
   renderCaption(byType);
 
   if(!weekShows.length){
@@ -471,7 +451,10 @@ function renderAll(){
       items+=`<div class="poster-item">
         <div class="poster-item-label">Slide ${i+2}</div>
         <img src="${url}" alt="${name}" crossorigin="anonymous">
-        <div class="poster-item-name">${name}</div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px;gap:4px;">
+          <div class="poster-item-name">${name}</div>
+          <button class="dl-btn" data-url="${url}" data-slug="${slug}" data-idx="${i}" style="padding:6px 10px;font-size:8px;flex-shrink:0;">↓</button>
+        </div>
       </div>`;
     });
     posterHTML+=`<div class="poster-grid">${items}</div>`;
@@ -508,6 +491,12 @@ function renderAll(){
 
   // Wire up schedule download
   document.getElementById('dl-schedule-btn').addEventListener('click',downloadScheduleSlide);
+  // Wire up poster downloads
+  slidesArea.querySelectorAll('.dl-btn[data-url]').forEach(btn=>{
+    btn.addEventListener('click',function(){
+      downloadPoster(this.dataset.url,this.dataset.slug,parseInt(this.dataset.idx));
+    });
+  });
 
   requestAnimationFrame(()=>requestAnimationFrame(applyScale));
 }
