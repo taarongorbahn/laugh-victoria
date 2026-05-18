@@ -27,20 +27,16 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 
 .tool-header{
   background:var(--surface);border-bottom:1px dashed var(--border-mid);
-  padding:0 2rem;height:54px;display:flex;align-items:center;
+  padding:0 1.25rem;height:54px;display:flex;align-items:center;
   justify-content:space-between;position:sticky;top:0;z-index:100;
 }
 .tool-logo{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text);}
 .tool-logo span{color:var(--text-muted);}
-.header-right{display:flex;align-items:center;gap:14px;}
-.hbtn{background:none;border:none;cursor:pointer;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:6px 0;transition:color .15s;}
-.hbtn:hover{color:var(--text);}
-.hbtn-solid{background:var(--accent);color:var(--accent-inv);border:none;cursor:pointer;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:8px 18px;transition:opacity .15s;}
-.hbtn-solid:hover{opacity:.8;}
+.hbtn-solid{background:var(--accent);color:var(--accent-inv);border:none;cursor:pointer;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:10px 20px;transition:opacity .15s;-webkit-tap-highlight-color:transparent;}
+.hbtn-solid:active{opacity:.7;}
 .hbtn-solid:disabled{opacity:.4;cursor:not-allowed;}
 
-.tool-body{max-width:1380px;margin:0 auto;padding:2rem 2rem 6rem;display:grid;grid-template-columns:360px 1fr;gap:2rem;align-items:start;}
-@media(max-width:860px){.tool-body{grid-template-columns:1fr;}}
+.tool-body{max-width:860px;margin:0 auto;padding:1.25rem 1.25rem 6rem;display:flex;flex-direction:column;gap:1.5rem;}
 
 .panel{background:var(--surface);border:1px dashed var(--border-mid);}
 .panel+.panel{margin-top:1.5rem;}
@@ -58,8 +54,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .pshow-meta{font-size:11px;color:var(--text-muted);}
 
 .caption-box{position:relative;background:var(--surface2);border:1px dashed var(--border-mid);padding:16px;padding-right:64px;font-size:12px;line-height:1.8;color:var(--text-muted);white-space:pre-wrap;}
-.copy-btn{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:4px 10px;cursor:pointer;transition:all .15s;}
-.copy-btn:hover,.copy-btn.copied{border-color:var(--border-dark);color:var(--text);}
+.copy-btn{position:absolute;top:10px;right:10px;background:transparent;border:1px solid var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
+.copy-btn.copied{border-color:var(--border-dark);color:var(--text);}
 
 .empty-msg{padding:2rem;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);text-align:center;}
 
@@ -67,11 +63,21 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 .slide-block-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:12px;flex-wrap:wrap;}
 .slide-block-label{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-faint);}
 .slide-actions{display:flex;gap:6px;align-items:center;flex-wrap:wrap;}
-.tt-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:5px 12px;cursor:pointer;transition:all .15s;}
+.tt-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
 .tt-btn.active{border-color:var(--border-dark);color:var(--text);background:var(--surface2);}
-.dl-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:5px 14px;cursor:pointer;transition:all .15s;}
+.dl-btn{background:none;border:1px dashed var(--border-mid);font-family:var(--font-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);padding:10px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
 .dl-btn:hover{border-color:var(--border-dark);color:var(--text);}
 .dl-btn:disabled{opacity:.4;cursor:not-allowed;}
+
+/* poster grid */
+.poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;}
+.poster-item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
+.poster-item-label{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faint);margin-bottom:5px;}
+.poster-item-name{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);margin-top:5px;}
+
+.no-poster-list{margin-top:14px;padding:12px 14px;background:var(--surface2);border:1px dashed var(--border-mid);}
+.no-poster-head{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);margin-bottom:8px;}
+.no-poster-item{font-size:11px;color:var(--text-muted);padding:3px 0;font-family:var(--font-mono);}
 
 /* ══ SLIDE SCALER ══
    The actual slide is always 1080×1350px internally.
@@ -145,23 +151,15 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 
 <header class="tool-header">
   <div class="tool-logo">Laugh Victoria <span>/ Post Generator</span></div>
-  <div class="header-right">
-    <button class="hbtn" onclick="toggleMode()" id="mode-btn">Light mode</button>
-    <button class="hbtn-solid" onclick="loadData()" id="load-btn">Load This Week</button>
-  </div>
+  <button class="hbtn-solid" onclick="loadData()" id="load-btn">Load This Week</button>
 </header>
 
 <div class="tool-body">
-  <div>
-    <div class="panel">
-      <div class="panel-head">
-        <span class="panel-title">This Week's Shows</span>
-        <span class="panel-meta" id="show-count">—</span>
-      </div>
-      <div class="panel-body" id="show-list">
-        <div class="empty-msg">Hit "Load This Week" to fetch shows</div>
-      </div>
-    </div>
+  <div class="slides-area" id="slides-area">
+    <div class="empty-msg" style="padding:4rem 2rem;">Load shows to generate the carousel</div>
+  </div>
+
+  <div id="bottom-panels">
     <div class="panel">
       <div class="panel-head">
         <span class="panel-title">Caption</span>
@@ -174,10 +172,15 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="slides-area" id="slides-area">
-    <div class="empty-msg" style="padding:4rem 2rem;">Load shows to generate the carousel</div>
+    <div class="panel">
+      <div class="panel-head">
+        <span class="panel-title">This Week's Shows</span>
+        <span class="panel-meta" id="show-count">—</span>
+      </div>
+      <div class="panel-body" id="show-list">
+        <div class="empty-msg">Hit "Load This Week" to fetch shows</div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -233,12 +236,6 @@ function getShowType(r){
   return'variety';
 }
 
-function toggleMode(){
-  const html=document.documentElement;
-  const next=html.getAttribute('data-mode')==='dark'?'light':'dark';
-  html.setAttribute('data-mode',next);
-  document.getElementById('mode-btn').textContent=next==='dark'?'Light mode':'Dark mode';
-}
 
 async function loadData(){
   const btn=document.getElementById('load-btn');
@@ -474,10 +471,7 @@ function renderAll(){
       items+=`<div class="poster-item">
         <div class="poster-item-label">Slide ${i+2}</div>
         <img src="${url}" alt="${name}" crossorigin="anonymous">
-        <div class="poster-item-row">
-          <div class="poster-item-name">${name}</div>
-          <button class="dl-btn" data-url="${url}" data-slug="${slug}" data-idx="${i}">Download</button>
-        </div>
+        <div class="poster-item-name">${name}</div>
       </div>`;
     });
     posterHTML+=`<div class="poster-grid">${items}</div>`;
@@ -512,13 +506,8 @@ function renderAll(){
   // Insert scaler into slide block (can't innerHTML a DOM node)
   slidesArea.querySelector('.slide-block').insertBefore(scaler,slidesArea.querySelector('.slide-block-head').nextSibling);
 
-  // Wire up download buttons
+  // Wire up schedule download
   document.getElementById('dl-schedule-btn').addEventListener('click',downloadScheduleSlide);
-  slidesArea.querySelectorAll('.dl-btn[data-url]').forEach(btn=>{
-    btn.addEventListener('click',function(){
-      downloadPoster(this.dataset.url,this.dataset.slug,parseInt(this.dataset.idx));
-    });
-  });
 
   requestAnimationFrame(()=>requestAnimationFrame(applyScale));
 }
