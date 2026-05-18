@@ -387,7 +387,9 @@ nav {
   color: var(--text-faint);
   transition: color 0.15s, transform 0.15s;
 }
-.resource-card:hover .resource-card-arrow { color: var(--text); transform: translateX(4px); }
+.resource-card-full {
+  grid-column: 1 / -1;
+}
 
 .performer-wrap { max-width: 720px; }
 .performer-intro {
@@ -1658,7 +1660,7 @@ footer {
   <ul class="nav-links" id="nav-center">
     <li><a onclick="showSection('home')" id="nav-home" class="active">This Week</a></li>
     <li><a onclick="showSection('upcoming')" id="nav-upcoming">Upcoming Shows</a></li>
-    <li><a onclick="showSection('archive')" id="nav-archive">Archive</a></li>
+    <li><a onclick="showSection('resources')" id="nav-resources">Resources</a></li>
   </ul>
   <div class="nav-right-slot">
     <a class="nav-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
@@ -1675,7 +1677,7 @@ footer {
 <div class="mobile-drawer" id="drawer">
   <a onclick="nav('home')" id="mob-home" class="active">This Week</a>
   <a onclick="nav('upcoming')" id="mob-upcoming">Upcoming Shows</a>
-  <a onclick="nav('archive')" id="mob-archive">Archive</a>
+  <a onclick="nav('resources')" id="mob-resources">Resources</a>
   <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label">
     <span>Dark mode</span>
     <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span>
@@ -1754,8 +1756,8 @@ footer {
   <!-- ARCHIVE -->
   <div class="section" id="section-archive">
     <div class="section-header">
-      <h2 class="section-title">2026 Archive</h2>
-      <span class="section-meta" id="archive-total"></span>
+      <h2 class="section-title">2026 Show Archive</h2>
+      <button class="back-btn" onclick="showSection('resources')">← Resources</button>
     </div>
     <div class="archive-year-tabs" id="archive-year-tabs"></div>
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
@@ -1783,9 +1785,15 @@ footer {
       <h2 class="section-title">Resources</h2>
     </div>
     <div class="resources-cards">
+      <div class="resource-card resource-card-full" onclick="showSection('archive')">
+        <div class="resource-card-label">Show History</div>
+        <div class="resource-card-title">2026 Show Archive</div>
+        <div class="resource-card-desc">Every comedy show that has happened in Victoria, organized by month.</div>
+        <div class="resource-card-arrow">→</div>
+      </div>
       <div class="resource-card" onclick="showSection('performer')">
         <div class="resource-card-label">For Performers</div>
-        <div class="resource-card-title">Performer Cheatsheet</div>
+        <div class="resource-card-title">Performer Guide</div>
         <div class="resource-card-desc">How to get stage time, plug into the community, and carry yourself like a pro in Victoria's comedy scene.</div>
         <div class="resource-card-arrow">→</div>
       </div>
@@ -1915,44 +1923,49 @@ footer {
     </div>
   </div>
 
-  <!-- PERFORMER CHEATSHEET -->
+  <!-- PERFORMER GUIDE -->
   <div class="section" id="section-performer">
     <div class="section-header">
-      <h2 class="section-title">Performer Cheatsheet</h2>
+      <h2 class="section-title">Performer Guide</h2>
       <button class="back-btn" onclick="showSection('resources')">← Resources</button>
     </div>
     <div class="performer-wrap">
-      <p class="performer-intro">The stage doesn't care about your excuses. If you want a spot, you have to go get it. Victoria's room runners are constantly putting together fresh lineups, but they can't book you if they don't know you exist. Show up, get your name on the list, and put in the work. Because the landscape shifts fast, make it a habit to regularly visit Laugh Victoria to stay up to date with active shows, room changes, and sign-up times. No excuses, just stage time.</p>
 
       <div class="performer-section">
-        <h3 class="performer-heading">Get plugged into the community</h3>
-        <p>If you want to do comedy in Victoria, you should absolutely join the <a href="https://www.facebook.com/groups/155292841195100" target="_blank">Victoria Stand Up Comedy</a> Facebook group (and if you're an improviser, the <a href="https://www.facebook.com/groups/improvinvictoria/" target="_blank">Improv in Victoria</a> Facebook group). They help you keep your finger on the pulse and find out about major news in the scene, from sudden stage openings and writing workshops to major show announcements. If you aren't in the groups, you're flying blind. Get in there and stay plugged in.</p>
+        <h3 class="performer-heading">🎤 Hit up the open mics</h3>
+        <p>The stage doesn't care about your excuses. If you want a spot, you have to go get it. Victoria's show producers are constantly putting together fresh lineups, but they can't book you if they don't know you exist. Show up, get your name on the list, and put in the work. Also don't forget to visit Laugh Victoria to stay up to date with active shows, room changes, and sign-up times.</p>
       </div>
 
       <div class="performer-section">
-        <h3 class="performer-heading">Write, perform, repeat</h3>
-        <p>There are no shortcuts, no secret handshakes, and no magical breaks. This is the only way to get good at comedy. You write the jokes, you test them on stage, you fail, you fix them, and you do it all over again tomorrow. The comedians who make an impact in this town are the ones who grind, embrace the bombs, and keep getting funnier. Write. Perform. Repeat. It's that simple.</p>
+        <h3 class="performer-heading">🤝 Get plugged into the community</h3>
+        <p>If you want to do comedy in Victoria, you should absolutely join the <a href="https://www.facebook.com/groups/155292841195100" target="_blank">Victoria Stand Up Comedy</a> Facebook group (and if you're an improviser the <a href="https://www.facebook.com/groups/improvinvictoria/" target="_blank">Improv in Victoria</a> Facebook group). They help you keep your finger on the pulse and find out about major news in the scene, from sudden stage openings and writing workshops to major show announcements.</p>
       </div>
 
       <div class="performer-section">
-        <h3 class="performer-heading">Support your fellow comedians</h3>
-        <p>Comedy isn't a solo sport, even if it looks like one from the back of the room. If you only show up thirty seconds before your set and vanish the moment you step off stage, you're doing it wrong. Sit in the crowd. Watch the other sets. Laugh when it's funny. The comedians who build this scene up are the ones who actually buy a drink, stay in the seats, and support the room. If you want people in the seats for your sets, start by being in the seats for theirs.</p>
+        <h3 class="performer-heading">✍️ Write, perform, repeat</h3>
+        <p>There are no shortcuts. This is the only way to get good at comedy. You write the jokes, you test them on stage, you fail, you fix them, and you do it all over again tomorrow. The comedians who make an impact in this town are the ones who grind, embrace the bombs, and keep getting funnier. Write. Perform. Repeat. It's that simple.</p>
       </div>
 
       <div class="performer-section">
-        <h3 class="performer-heading">Never talk sh*t about the venue (or the other comics) while on stage</h3>
-        <p>You have a live microphone and a room full of people; don't use them to settle a score or whine about the acoustics. Bringing your local drama or venue grievances onto the stage is a fast track to never being booked again. Nobody paid to watch a public tantrum or your weird political opinions. Keep the energy moving forward, respect the room you're standing in, and leave the toxic attitudes at the door.</p>
+        <h3 class="performer-heading">👏 Support your fellow comedians</h3>
+        <p>If you only show up thirty seconds before your set and vanish the moment you step off stage, you're doing it wrong. Do your best to be in the crowd, watch the other sets, and laugh when it's funny. The comedians who build this scene up are the ones who actually buy a drink, stay in the seats, and support the room.</p>
       </div>
 
       <div class="performer-section">
-        <h3 class="performer-heading">Avoid giving unsolicited advice to other performers</h3>
-        <p>Everyone is figuring out their own voice on their own time. Unless another comic specifically asks you for feedback on a premise or a punchline, keep your notes to yourself. Giving unsolicited advice doesn't make you look like a seasoned pro — it just makes you look arrogant. Focus on fixing your own sets, give encouragement where it's due, and let everyone else run their own race.</p>
+        <h3 class="performer-heading">🤐 Never talk sh*t about the venue (or the other comics) while on stage</h3>
+        <p>Nobody paid to watch a public tantrum or your weird political opinions. Keep the energy moving forward, respect the room you're standing in, and leave the toxic attitudes at the door.</p>
       </div>
 
       <div class="performer-section">
-        <h3 class="performer-heading">Respect the stage, equipment, venue, and staff</h3>
+        <h3 class="performer-heading">🙊 Avoid giving unsolicited advice to other performers</h3>
+        <p>Everyone is figuring out their own voice on their own time. Unless another comic specifically asks you for feedback on a premise or a punchline, keep your notes to yourself. Focus on fixing your own sets, give encouragement where it's due, and let everyone else run their own race.</p>
+      </div>
+
+      <div class="performer-section">
+        <h3 class="performer-heading">🎭 Respect the stage, equipment, venue, and staff</h3>
         <p>Treat the staff with respect, wrap the mic cord properly, and don't abuse the gear. If you disrespect the venue or mistreat the staff, word travels instantly. The staff control the room, the room controls your set, and the producers control the calendar. Be cool, treat the space like it matters, and act like a professional.</p>
       </div>
+
     </div>
   </div>
 
@@ -2168,10 +2181,10 @@ const HEROES = {
   home:      { title: 'This Week<br>in Comedy',    sub: 'Every comedy show happening this week in Victoria.' },
   upcoming:  { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene.' },
   submit:    { title: 'Submit<br>a Show',           sub: 'Get your show in front of Victoria comedy fans. Reviewed within 48 hours.' },
-  archive:   { title: 'Archive',                   sub: 'Every comedy show that has happened in Victoria.' },
-  resources: { title: 'Resources',                 sub: 'Tools and guides for Victoria comics and producers.' },
+  archive:   { title: '2026 Show<br>Archive',        sub: 'Every comedy show that has happened in Victoria.' },
+  resources: { title: 'Resources',                 sub: 'Everything the Victoria comedy scene needs in one place.' },
   producer:  { title: 'Producer<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
-  performer: { title: 'Performer<br>Cheatsheet',   sub: 'How to get stage time and thrive in Victoria\'s comedy scene.' },
+  performer: { title: 'Performer<br>Guide',        sub: 'How to get stage time and thrive in Victoria\'s comedy scene.' },
   privacy:   { title: 'Privacy<br>Policy',         sub: '' },
   about:     { title: 'About',                     sub: '' },
   faq:       { title: 'FAQ',                       sub: '' },
@@ -2480,7 +2493,8 @@ function setArchiveView(view, btn) {
 
 function buildArchive(shows) {
   archiveAllShows=shows;
-  document.getElementById('archive-total').textContent=`${shows.length} show${shows.length!==1?'s':''}`;
+  const archiveTotalEl = document.getElementById('archive-total');
+  if(archiveTotalEl) archiveTotalEl.textContent=`${shows.length} show${shows.length!==1?'s':''}`;
   buildArchiveYearTabs(shows);
   renderArchive();
 }
