@@ -281,6 +281,54 @@ let weekShows=[];
 let slideTheme='dark';
 let currentByType={};
 
+const THEMES={
+  dark:{
+    bg:'#141210',titleColor:'#f0ece4',
+    dateColor:'#8a8278',dateBorder:'1px dashed #2e2a24',
+    groupLine:'1px solid #f0ece4',groupNameColor:'#f0ece4',groupCountColor:'#48443c',
+    rowBorder:'1px dotted #2e2a24',dayColor:'#8a8278',nameColor:'#f0ece4',venueColor:'#8a8278',
+    footerLogo:'#f0ece4',footerHandle:'#48443c',
+  },
+  light:{
+    bg:'#f7f5f0',titleColor:'#1a1814',
+    dateColor:'#888078',dateBorder:'1px dashed #e2ddd4',
+    groupLine:'1px solid #1a1814',groupNameColor:'#1a1814',groupCountColor:'#cdc8be',
+    rowBorder:'1px dotted #e2ddd4',dayColor:'#888078',nameColor:'#1a1814',venueColor:'#888078',
+    footerLogo:'#1a1814',footerHandle:'#cdc8be',
+  },
+  vapourwave:{
+    bg:'#0d0015',titleColor:'#ff2d9b',
+    dateColor:'#00e5ff',dateBorder:'1px solid #2a0040',
+    groupLine:'1px solid #ff2d9b',groupNameColor:'#00e5ff',groupCountColor:'#5a0080',
+    rowBorder:'1px dotted #2a0040',dayColor:'#ff2d9b',nameColor:'#f0e0ff',venueColor:'#00e5ff',
+    footerLogo:'#ff2d9b',footerHandle:'#5a0080',
+    scanlines:true,
+  },
+  terminal:{
+    bg:'#060e06',titleColor:'#00ff41',
+    dateColor:'#00a829',dateBorder:'1px solid #003b00',
+    groupLine:'1px solid #00ff41',groupNameColor:'#008f11',groupCountColor:'#003b00',
+    rowBorder:'1px dotted #002200',dayColor:'#004d12',nameColor:'#00ff41',venueColor:'#008f11',
+    footerLogo:'#00ff41',footerHandle:'#003b00',
+    scanlines:true,vignette:true,
+    groupPrefix:'/* ',groupSuffix:' */',
+  },
+  halloween:{
+    bg:'#0e0a0e',titleColor:'#ff6b00',
+    dateColor:'#8a3800',dateBorder:'1px solid #3d1a00',
+    groupLine:'1px solid #ff6b00',groupNameColor:'#ff6b00',groupCountColor:'#8a3800',
+    rowBorder:'1px dotted #3d1a00',dayColor:'#8a3800',nameColor:'#f5ead8',venueColor:'#8a3800',
+    footerLogo:'#ff6b00',footerHandle:'#8a3800',
+  },
+  christmas:{
+    bg:'#0a1f0a',titleColor:'#e8190e',
+    dateColor:'#2d8c2d',dateBorder:'1px solid #1a4d1a',
+    groupLine:'1px solid #f5f5f5',groupNameColor:'#f5f5f5',groupCountColor:'#2d8c2d',
+    rowBorder:'1px dotted #0d260d',dayColor:'#2d8c2d',nameColor:'#f5f5f5',venueColor:'#2d8c2d',
+    footerLogo:'#f5f5f5',footerHandle:'#2d8c2d',
+  },
+};
+
 function parseDate(s){return new Date(s);}
 function todayMidnight(){const d=new Date();d.setHours(0,0,0,0);return d;}
 function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
@@ -344,82 +392,110 @@ function renderCaption(byType){
 }
 
 function buildSlideEl(byType,theme){
+  const th=THEMES[theme]||THEMES.dark;
   const monday=getMondayOfWeek(),sunday=addDays(monday,6);
   const dateStr=`${MONTHS[monday.getMonth()]} ${monday.getDate()} — ${MONTHS[sunday.getMonth()]} ${sunday.getDate()}`;
 
-  // totalShows drives spacing — fewer shows = bigger/more spacious, more = tighter
   const totalShows=TYPE_ORDER.reduce((n,k)=>n+(byType[k]?.length||0),0);
-  // density: 0 = very few shows (roomy), 1 = many shows (tight)
-  // pivot at 10 shows as the "comfortable" baseline
   const density=Math.max(0,Math.min(1,(totalShows-4)/14));
-
   const padV=      Math.round(90 - density*28);
   const padBottom= Math.round(72 - density*20);
-  const groupGap=  Math.round(44 - density*22);   // 44→22
-  const rowPad=    Math.round(18 - density*10);   // 18→8
+  const groupGap=  Math.round(44 - density*22);
+  const rowPad=    Math.round(18 - density*10);
   const titleSize= Math.round(108- density*16);
-  const nameSize=  Math.round(28 - density*7);    // 28→21
+  const nameSize=  Math.round(28 - density*7);
   const metaSize=  Math.round(13 - density*2);
-  const groupNameSize=Math.round(17-density*2);   // 17→15
-  const datePadB=  Math.round(40 - density*16);   // 40→24
-  const dateMargB= Math.round(40 - density*16);
-  const headerPadB=Math.round(16 - density*6);    // 16→10
-  const headerMargB=Math.round(16 - density*6);
+  const gNameSize= Math.round(17 - density*2);
+  const datePadB=  Math.round(40 - density*16);
+  const hPadB=     Math.round(16 - density*6);
 
   const slide=document.createElement('div');
-  slide.className=`sslide ${theme}`;slide.id='sslide-live';
-  slide.style.cssText=`padding:${padV}px 96px ${padBottom}px;`;
+  slide.id='sslide-live';
+  slide.style.cssText=`width:1080px;height:1350px;background:${th.bg};display:flex;flex-direction:column;padding:${padV}px 96px ${padBottom}px;font-family:'DM Mono',monospace;box-sizing:border-box;position:relative;overflow:hidden;`;
 
-  const title=document.createElement('div');title.className='sslide-title';
+  // Scanlines overlay
+  if(th.scanlines){
+    const scan=document.createElement('div');
+    scan.style.cssText=`position:absolute;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,0.15) 3px,rgba(0,0,0,0.15) 4px);`;
+    slide.appendChild(scan);
+  }
+  // Vignette overlay
+  if(th.vignette){
+    const vig=document.createElement('div');
+    vig.style.cssText=`position:absolute;inset:0;pointer-events:none;z-index:2;background:radial-gradient(ellipse at center,transparent 60%,rgba(0,0,0,0.5) 100%);`;
+    slide.appendChild(vig);
+  }
+
+  const content=document.createElement('div');
+  content.style.cssText=`display:flex;flex-direction:column;flex:1;position:relative;z-index:3;`;
+
+  const title=document.createElement('div');
+  title.style.cssText=`font-family:'Barlow Condensed',sans-serif;font-weight:900;text-transform:uppercase;font-size:${titleSize}px;line-height:.88;letter-spacing:.01em;color:${th.titleColor};margin-bottom:12px;`;
   title.innerHTML='This Week<br>in Comedy';
-  title.style.fontSize=titleSize+'px';
+  content.appendChild(title);
 
-  const date=document.createElement('div');date.className='sslide-date';
+  const date=document.createElement('div');
+  date.style.cssText=`font-size:${metaSize+2}px;letter-spacing:.12em;color:${th.dateColor};padding-bottom:${datePadB}px;margin-bottom:${datePadB}px;border-bottom:${th.dateBorder};`;
   date.textContent=dateStr;
-  date.style.cssText=`padding-bottom:${datePadB}px;margin-bottom:${dateMargB}px;font-size:${metaSize+2}px;`;
+  content.appendChild(date);
 
-  const groups=document.createElement('div');groups.className='sslide-groups';
-  groups.style.gap=groupGap+'px';
+  const groups=document.createElement('div');
+  groups.style.cssText=`flex:1;display:flex;flex-direction:column;gap:${groupGap}px;`;
 
   TYPE_ORDER.forEach(key=>{
     if(!byType[key]||!byType[key].length)return;
     const shows=byType[key];
-    const group=document.createElement('div');group.className='sslide-group';
+    const group=document.createElement('div');
 
-    const header=document.createElement('div');header.className='sslide-group-header';
-    header.style.cssText=`padding-bottom:${headerPadB}px;margin-bottom:${headerMargB}px;`;
-    const gname=document.createElement('span');gname.className='sslide-group-name';gname.textContent=TYPE_LABELS[key];
-    gname.style.fontSize=groupNameSize+'px';
-    const gcount=document.createElement('span');gcount.className='sslide-group-count';gcount.textContent=`${shows.length} show${shows.length!==1?'s':''}`;
-    gcount.style.fontSize=(metaSize-1)+'px';
+    const header=document.createElement('div');
+    header.style.cssText=`display:flex;align-items:baseline;justify-content:space-between;padding-bottom:${hPadB}px;margin-bottom:${hPadB}px;border-bottom:${th.groupLine};`;
+    const gname=document.createElement('span');
+    gname.style.cssText=`font-size:${gNameSize}px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:${th.groupNameColor};`;
+    gname.textContent=(th.groupPrefix||'')+TYPE_LABELS[key]+(th.groupSuffix||'');
+    const gcount=document.createElement('span');
+    gcount.style.cssText=`font-size:${metaSize-1}px;letter-spacing:.14em;text-transform:uppercase;color:${th.groupCountColor};`;
+    gcount.textContent=`${shows.length} show${shows.length!==1?'s':''}`;
     header.appendChild(gname);header.appendChild(gcount);group.appendChild(header);
 
-    shows.forEach(r=>{
+    shows.forEach((r,i)=>{
       const f=r.fields,name=f['Show']||'Untitled',venue=f['Venue']||'';
       const d=f['Date']?parseDate(f['Date']):null;
       const day=d?DAYS_SHORT[d.getDay()]:'';
       const time=d?fmtTime(d):'';
       const venueStr=[time,venue].filter(Boolean).join(' · ');
-      const row=document.createElement('div');row.className='sslide-show';
-      row.style.cssText=`padding:${rowPad}px 0;`;
-      const left=document.createElement('div');left.className='sslide-show-left';
-      const dayEl=document.createElement('span');dayEl.className='sslide-day';dayEl.textContent=day;
-      dayEl.style.fontSize=metaSize+'px';
-      const nameEl=document.createElement('span');nameEl.className='sslide-name';nameEl.textContent=name;
-      nameEl.style.fontSize=nameSize+'px';
+      const row=document.createElement('div');
+      const isLast=i===shows.length-1;
+      row.style.cssText=`display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding:${rowPad}px 0;${isLast?'':'border-bottom:'+th.rowBorder+';'}`;
+      const left=document.createElement('div');
+      left.style.cssText=`display:flex;align-items:baseline;gap:18px;flex:1;min-width:0;`;
+      const dayEl=document.createElement('span');
+      dayEl.style.cssText=`font-size:${metaSize}px;letter-spacing:.16em;text-transform:uppercase;color:${th.dayColor};width:30px;flex-shrink:0;`;
+      dayEl.textContent=day;
+      const nameEl=document.createElement('span');
+      nameEl.style.cssText=`font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:${nameSize}px;line-height:1.1;letter-spacing:.02em;color:${th.nameColor};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;`;
+      nameEl.textContent=name;
       left.appendChild(dayEl);left.appendChild(nameEl);
-      const venueEl=document.createElement('span');venueEl.className='sslide-venue';venueEl.textContent=venueStr;
-      venueEl.style.fontSize=metaSize+'px';
+      const venueEl=document.createElement('span');
+      venueEl.style.cssText=`font-size:${metaSize}px;color:${th.venueColor};flex-shrink:0;text-align:right;white-space:nowrap;max-width:280px;overflow:hidden;text-overflow:ellipsis;`;
+      venueEl.textContent=venueStr;
       row.appendChild(left);row.appendChild(venueEl);group.appendChild(row);
     });
     groups.appendChild(group);
   });
+  content.appendChild(groups);
 
-  const footer=document.createElement('div');footer.className='sslide-footer';
-  const logo=document.createElement('span');logo.className='sslide-logo';logo.textContent='Laugh Victoria';
-  const handle=document.createElement('span');handle.className='sslide-handle';handle.textContent='@laughvictoria';
+  const footer=document.createElement('div');
+  footer.style.cssText=`margin-top:auto;padding-top:28px;display:flex;align-items:center;justify-content:space-between;`;
+  const logo=document.createElement('span');
+  logo.style.cssText=`font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;color:${th.footerLogo};`;
+  logo.textContent='Laugh Victoria';
+  const handle=document.createElement('span');
+  handle.style.cssText=`font-size:13px;letter-spacing:.12em;color:${th.footerHandle};`;
+  handle.textContent='@laughvictoria';
   footer.appendChild(logo);footer.appendChild(handle);
-  slide.appendChild(title);slide.appendChild(date);slide.appendChild(groups);slide.appendChild(footer);
+  content.appendChild(footer);
+
+  slide.appendChild(content);
   return slide;
 }
 
@@ -437,8 +513,12 @@ function setSlideTheme(theme,el){
   slideTheme=theme;
   document.querySelectorAll('.theme-btn').forEach(b=>b.classList.remove('active'));
   if(el)el.classList.add('active');
-  const slide=document.getElementById('sslide-live');
-  if(slide){slide.classList.remove('dark','light');slide.classList.add(theme);}
+  // Re-render slide with new theme
+  const scalerInner=document.querySelector('.slide-scaler-inner');
+  if(scalerInner&&currentByType){
+    scalerInner.innerHTML='';
+    scalerInner.appendChild(buildSlideEl(currentByType,theme));
+  }
 }
 
 async function downloadScheduleSlide(){
@@ -453,7 +533,7 @@ async function downloadScheduleSlide(){
     const canvas=await html2canvas(clone,{
       width:1080,height:1350,scale:1,
       useCORS:true,allowTaint:false,
-      backgroundColor:slideTheme==='dark'?'#141210':'#f7f5f0',
+      backgroundColor:THEMES[slideTheme]?.bg||'#141210',
       logging:false,
     });
     const link=document.createElement('a');
@@ -509,6 +589,10 @@ function renderAll(){
     <div class="section-actions">
       <button class="btn theme-btn ${slideTheme==='dark'?'active':''}" onclick="setSlideTheme('dark',this)">Dark</button>
       <button class="btn theme-btn ${slideTheme==='light'?'active':''}" onclick="setSlideTheme('light',this)">Light</button>
+      <button class="btn theme-btn ${slideTheme==='vapourwave'?'active':''}" onclick="setSlideTheme('vapourwave',this)">🌸</button>
+      <button class="btn theme-btn ${slideTheme==='terminal'?'active':''}" onclick="setSlideTheme('terminal',this)">💻</button>
+      <button class="btn theme-btn ${slideTheme==='halloween'?'active':''}" onclick="setSlideTheme('halloween',this)">🎃</button>
+      <button class="btn theme-btn ${slideTheme==='christmas'?'active':''}" onclick="setSlideTheme('christmas',this)">🎄</button>
       <button class="btn" id="dl-schedule-btn">Download PNG</button>
     </div>`;
   scheduleSection.appendChild(scheduleHead);
