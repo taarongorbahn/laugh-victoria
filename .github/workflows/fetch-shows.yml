@@ -54,13 +54,15 @@ jobs:
               offset = data.offset || '';
             } while (offset);
 
-            // Split into current/upcoming and archived
-            const now = new Date();
-            const cutoff = new Date(now);
-            cutoff.setDate(cutoff.getDate() - 7); // keep last 7 days as 'current'
-
-            const current  = all.filter(r => r.fields['Date'] && new Date(r.fields['Date']) >= cutoff);
-            const archived = all.filter(r => r.fields['Date'] && new Date(r.fields['Date']) <  cutoff);
+            // Split by Status field — matching original Airtable filter logic
+            const current  = all.filter(r => {
+              const status = (r.fields['Status'] || '').toLowerCase();
+              return status === 'active' || status === '';
+            });
+            const archived = all.filter(r => {
+              const status = (r.fields['Status'] || '').toLowerCase();
+              return status === 'archived';
+            });
 
             const output = {
               fetchedAt: new Date().toISOString(),
