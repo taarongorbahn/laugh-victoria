@@ -1,0 +1,85 @@
+name: Fetch Shows
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *'   # midnight and noon UTC
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch shows from Airtable
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: |
+          node -e "
+          const https = require('https');
+          const fs = require('fs');
+
+          const TOKEN = process.env.AIRTABLE_TOKEN;
+          const BASE  = 'app3CJU1iVnaJcQZL';
+
+          function fetchPage(offset) {
+            return new Promise((resolve, reject) => {
+              const params = new URLSearchParams({
+                'sort[0][field]': 'Date',
+                'sort[0][direction]': 'asc',
+              });
+              if (offset) params.set('offset', offset);
+              const url = \`https://api.airtable.com/v0/\${BASE}/Shows?\${params}\`;
+              const options = {
+                headers: { Authorization: 'Bearer ' + TOKEN }
+              };
+              https.get(url, options, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => resolve(JSON.parse(data)));
+              }).on('error', reject);
+            });
+          }
+
+          async function fetchAll() {
+            let all = [], offset = '';
+            do {
+              const data = await fetchPage(offset);
+              if (data.error) throw new Error(JSON.stringify(data.error));
+              all = all.concat(data.records || []);
+              offset = data.offset || '';
+            } while (offset);
+
+            // Split into current/upcoming and archived
+            const now = new Date();
+            const cutoff = new Date(now);
+            cutoff.setDate(cutoff.getDate() - 7); // keep last 7 days as 'current'
+
+            const current  = all.filter(r => r.fields['Date'] && new Date(r.fields['Date']) >= cutoff);
+            const archived = all.filter(r => r.fields['Date'] && new Date(r.fields['Date']) <  cutoff);
+
+            const output = {
+              fetchedAt: new Date().toISOString(),
+              current,
+              archived,
+            };
+
+            fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync('data/shows.json', JSON.stringify(output, null, 2));
+            console.log(\`Wrote \${current.length} current and \${archived.length} archived shows.\`);
+          }
+
+          fetchAll().catch(e => { console.error(e); process.exit(1); });
+          "
+
+      - name: Commit updated shows
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/shows.json
+          git diff --staged --quiet || git commit -m "chore: update shows cache [skip ci]"
+          git push

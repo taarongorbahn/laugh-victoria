@@ -1630,9 +1630,9 @@ footer {
 }
 </style>
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta property="og:image" content="https://laughvictoria.ca/brand.png">
+<link rel="icon" href="/assets/favicon.ico" sizes="any">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="https://laughvictoria.ca/assets/home-og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:title" content="Laugh Victoria">
@@ -1640,7 +1640,7 @@ footer {
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://laughvictoria.ca/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://laughvictoria.ca/home-og.png">
+<meta name="twitter:image" content="https://laughvictoria.ca/assets/home-og.png">
 
 </head>
 <body>
@@ -2080,8 +2080,26 @@ footer {
 </div>
 
 <script>
-const TOKEN = 'patPH9P087VATPBEo.0081c484db27aa1fe6606df2928b5f30f3ea4b123a5d65297e6ee2131dd66e8e';
-const BASE  = 'app3CJU1iVnaJcQZL';
+// Data loaded from cached JSON (updated by GitHub Actions twice daily)
+let _showsCache = null;
+
+async function loadCache() {
+  if (_showsCache) return _showsCache;
+  const res = await fetch('/data/shows.json');
+  if (!res.ok) throw new Error(`Could not load shows cache: ${res.status}`);
+  _showsCache = await res.json();
+  return _showsCache;
+}
+
+async function loadShows() {
+  const cache = await loadCache();
+  return cache.current || [];
+}
+
+async function fetchArchivedShows() {
+  const cache = await loadCache();
+  return cache.archived || [];
+}
 
 const DAYS_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const DAYS_FULL  = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -2249,30 +2267,6 @@ function closeModal(){document.getElementById('show-modal').classList.remove('op
 function openModalById(id){const r=showRecords[id];if(r)openModal(r);}
 function handleModalOverlayClick(e){if(e.target===document.getElementById('show-modal'))closeModal();}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
-
-async function loadShows() {
-  return fetchShows();
-}
-
-async function fetchShows() {
-  const url=`https://api.airtable.com/v0/${BASE}/Shows?filterByFormula=${encodeURIComponent("{Status}='Active'")}&sort[0][field]=Date&sort[0][direction]=asc`;
-  const res=await fetch(url,{headers:{Authorization:`Bearer ${TOKEN}`}});
-  if(!res.ok){const body=await res.json().catch(()=>({}));throw new Error(`${res.status} ${res.statusText}`);}
-  return (await res.json()).records;
-}
-
-async function fetchArchivedShows() {
-  let records=[], offset=null;
-  do {
-    const url=`https://api.airtable.com/v0/${BASE}/Shows?filterByFormula=${encodeURIComponent("{Status}='Archived'")}&sort[0][field]=Date&sort[0][direction]=desc${offset?`&offset=${offset}`:''}`;
-    const res=await fetch(url,{headers:{Authorization:`Bearer ${TOKEN}`}});
-    if(!res.ok){const body=await res.json().catch(()=>({}));throw new Error(`${res.status} ${res.statusText}`);}
-    const data=await res.json();
-    records=records.concat(data.records);
-    offset=data.offset||null;
-  } while(offset);
-  return records;
-}
 
 let upcomingAllShows=[], upcomingActiveType='all', upcomingView='poster';
 
