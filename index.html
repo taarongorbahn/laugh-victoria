@@ -1913,7 +1913,7 @@ footer {
         <div class="resource-card-desc">Full-length stand-up comedy specials filmed in Victoria. Watch free on YouTube.</div>
         <div class="resource-card-arrow">→</div>
       </div>
-      <div class="resource-card" onclick="showSection('producer')">
+      <div class="resource-card" onclick="showSection('cheatsheet')">
         <div class="resource-card-label">For Producers</div>
         <div class="resource-card-title">Show Promo Cheatsheet</div>
         <div class="resource-card-desc">Every place to promote your show in Victoria. Event directories, Facebook groups, poster printing, and more.</div>
@@ -1923,7 +1923,7 @@ footer {
   </div>
 
   <!-- PRODUCER CHEATSHEET -->
-  <div class="section" id="section-producer">
+  <div class="section" id="section-cheatsheet">
     <div class="section-header">
       <h2 class="section-title">Show Promo Cheatsheet</h2>
       <button class="back-btn" onclick="showSection('resources')">← Resources</button>
@@ -2444,7 +2444,7 @@ const HEROES = {
   upcoming:  { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene.' },
   archive:   { title: '2026 Show<br>Archive',        sub: 'Every comedy show that has happened in Victoria.' },
   resources: { title: 'Resources',                 sub: 'Everything the Victoria comedy scene needs in one place.' },
-  producer:  { title: 'Show Promo<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
+  cheatsheet:  { title: 'Show Promo<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
   specials:  { title: 'Victoria Comedy<br>Specials',    sub: 'Full-length stand-up comedy specials filmed in Victoria.' },
   privacy:   { title: 'Privacy<br>Policy',         sub: '' },
   about:     { title: 'About',                     sub: '' },
@@ -2718,7 +2718,7 @@ function initFromHash(){
   const hash=location.hash.replace('#','');
   if(!hash) return;
   if(hash==='submit'){window.location.href='https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form'; return;}
-  if(['upcoming','privacy','about','faq','archive','resources','producer','specials'].includes(hash)){showSection(hash,true);}
+  if(['upcoming','privacy','about','faq','archive','resources','cheatsheet','specials'].includes(hash)){showSection(hash,true);}
 }
 
 let archiveAllShows=[], archiveActiveYear='all', archiveActiveType='all', archiveView='poster';
