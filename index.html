@@ -2528,21 +2528,19 @@ function getShowType(r) {
 function showRowHTML(r) {
   const f=r.fields, name=f['Show']||'Untitled', venue=f['Venue']||'', ticket=f['Ticket Link']||'';
   const d=f['Date']?parseAirtableDate(f['Date']):null, timeStr=d?fmtTime(d):'';
-  const dayStr=d?DAYS_SHORT[d.getDay()]:'';
-  const meta=[timeStr,venue].filter(Boolean).join(' · ');
+  const meta=[venue,timeStr].filter(Boolean).join(' · ');
   const graphic=f['Show Graphic'];
   const posterHTML=graphic&&graphic[0]
     ?`<div class="show-poster-col"><img src="${graphic[0].url}" alt="${name} poster" loading="lazy"></div>`
     :`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
   return `<div class="show-row" data-rec="${r.id}" onclick="openModalById('${r.id}')">
-    <div class="show-day-col">${dayStr}</div>
     ${posterHTML}
     <div class="show-main-col">
       <div class="show-info">
         <div class="show-name">${name}</div>
         <div class="show-meta">${meta}</div>
       </div>
-      ${ticket?`<a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a>`:''}
+      ${ticket?`<div><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
     </div>
   </div>`;
 }
@@ -2610,7 +2608,7 @@ function buildUpcoming(shows) {
     const dateLabel=d?`${MONTHS[d.getMonth()]} ${d.getDate()}`:'';
     const dayLabel=d?DAYS_FULL[d.getDay()]:'';
     const timeStr=d?fmtTime(d):'';
-    const metaText=[timeStr,venue].filter(Boolean).join(' · ');
+    const metaText=[venue,timeStr].filter(Boolean).join(' · ');
     const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
     html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
       <div class="upcoming-date-block">
@@ -2702,7 +2700,7 @@ function renderUpcoming() {
       const dateLabel=d?`${MONTHS[d.getMonth()]} ${d.getDate()}`:'';
       const dayLabel=d?DAYS_FULL[d.getDay()]:'';
       const timeStr=d?fmtTime(d):'';
-      const metaText=[timeStr,venue].filter(Boolean).join(' · ');
+      const metaText=[venue,timeStr].filter(Boolean).join(' · ');
       const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
       html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
         <div class="upcoming-date-block">
@@ -2918,7 +2916,7 @@ function renderArchive() {
         const dayLabel=d?DAYS_FULL[d.getDay()]:'';
         const timeStr=d?fmtTime(d):'';
         const type=getShowType(r);
-        const metaText=[timeStr,venue].filter(Boolean).join(' · ');
+        const metaText=[venue,timeStr].filter(Boolean).join(' · ');
         const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
         html+=`<div class="archive-list-row" data-rec="${r.id}" onclick="openModalById('${r.id}')">
           <div class="archive-list-date-block">
