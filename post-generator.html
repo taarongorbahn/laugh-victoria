@@ -221,8 +221,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-mono);font-si
 <div id="export-target" style="position:fixed;left:-2000px;top:0;pointer-events:none;"></div>
 
 <script>
-const TOKEN='patPH9P087VATPBEo.0081c484db27aa1fe6606df2928b5f30f3ea4b123a5d65297e6ee2131dd66e8e';
-const BASE='app3CJU1iVnaJcQZL';
 const DAYS_SHORT=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const TYPE_ORDER=['open mic','stand-up','improv','variety'];
@@ -359,21 +357,14 @@ async function loadData(){
   btn.disabled=true;btn.textContent='Loading…';
   const monday=getMondayOfWeek(),sunday=addDays(monday,6);
   try{
-    let all=[],offset='';
-    do{
-      const params=new URLSearchParams({'sort[0][field]':'Date','sort[0][direction]':'asc'});
-      if(offset)params.set('offset',offset);
-      const res=await fetch(`https://api.airtable.com/v0/${BASE}/Shows?${params}`,
-        {headers:{Authorization:'Bearer '+TOKEN}});
-      const data=await res.json();
-      if(data.error)throw new Error(data.error.message||JSON.stringify(data.error));
-      (data.records||[]).forEach(r=>{
-        if(!r.fields['Date'])return;
-        const d=parseDate(r.fields['Date']);
-        if(d>=monday&&d<addDays(sunday,1))all.push(r);
-      });
-      offset=data.offset||'';
-    }while(offset);
+    const res=await fetch('/data/shows.json');
+    if(!res.ok)throw new Error(`Cache unavailable: ${res.status}`);
+    const cache=await res.json();
+    const all=(cache.current||[]).filter(r=>{
+      if(!r.fields['Date'])return false;
+      const d=parseDate(r.fields['Date']);
+      return d>=monday&&d<addDays(sunday,1);
+    });
     weekShows=all;
     renderAll();
     btn.textContent='Regenerate';
