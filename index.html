@@ -642,11 +642,8 @@ nav {
    SHOW ROW
 ═══════════════════════════════════ */
 .show-row {
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 16px 20px;
   background: var(--surface);
   border-bottom: var(--row-border);
   cursor: pointer;
@@ -654,6 +651,46 @@ nav {
 }
 .show-row:last-child { border-bottom: none; }
 .show-row:hover { background: var(--surface2); }
+
+.show-day-col {
+  width: 52px;
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  padding-right: 16px;
+  text-align: right;
+}
+.show-poster-col {
+  width: 38px;
+  flex-shrink: 0;
+  aspect-ratio: 4/5;
+  overflow: hidden;
+  background: var(--surface2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.show-poster-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.show-poster-col-ph {
+  font-size: 11px;
+  color: var(--text-faint);
+}
+.show-main-col {
+  flex: 1;
+  min-width: 0;
+  padding: 9px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
 .show-info { min-width: 0; }
 
@@ -2055,6 +2092,27 @@ footer {
         </div>
         <div class="specials-grid-1">
           <div class="special-card">
+            <a href="https://www.youtube.com/playlist?list=PLOVTrzZJhlMMSCVsqZzR4fTd3NOcPhwG3" target="_blank" rel="noopener" class="special-thumb">
+              <img src="/assets/the-crowd-work-show.png" alt="OK Dope: The Crowd Work Show" loading="lazy">
+              <div class="special-play-overlay">
+                <div class="special-play-circle">&#9654;</div>
+              </div>
+            </a>
+            <div class="special-body">
+              <p class="special-body-name">OK Dope</p>
+              <p class="special-body-title">The Crowd Work Show</p>
+              <p class="special-body-date">Watch the Latest Episode</p>
+            </div>
+            <div class="special-footer">
+              <a class="special-watch" href="https://www.youtube.com/playlist?list=PLOVTrzZJhlMMSCVsqZzR4fTd3NOcPhwG3" target="_blank" rel="noopener">&#8594; Watch latest</a>
+              <div class="special-socials">
+                <a class="special-social-link" href="https://www.instagram.com/thecrowdworkshow/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                <a class="special-social-link" href="https://www.tiktok.com/@thecrowdworkshow" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.19 8.19 0 0 0 4.79 1.52V6.75a4.85 4.85 0 0 1-1.02-.06z"/></svg></a>
+                <a class="special-social-link" href="https://www.youtube.com/playlist?list=PLOVTrzZJhlMMSCVsqZzR4fTd3NOcPhwG3" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+              </div>
+            </div>
+          </div>
+          <div class="special-card">
             <a href="https://youtu.be/bfB3368uKP0" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/bfB3368uKP0/maxresdefault.jpg" alt="Elyott Ryan: Rat Boy" loading="lazy">
               <div class="special-play-overlay">
@@ -2470,13 +2528,22 @@ function getShowType(r) {
 function showRowHTML(r) {
   const f=r.fields, name=f['Show']||'Untitled', venue=f['Venue']||'', ticket=f['Ticket Link']||'';
   const d=f['Date']?parseAirtableDate(f['Date']):null, timeStr=d?fmtTime(d):'';
-  const meta=[venue,timeStr].filter(Boolean).join(' · ');
+  const dayStr=d?DAYS_SHORT[d.getDay()]:'';
+  const meta=[timeStr,venue].filter(Boolean).join(' · ');
+  const graphic=f['Show Graphic'];
+  const posterHTML=graphic&&graphic[0]
+    ?`<div class="show-poster-col"><img src="${graphic[0].url}" alt="${name} poster" loading="lazy"></div>`
+    :`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
   return `<div class="show-row" data-rec="${r.id}" onclick="openModalById('${r.id}')">
-    <div class="show-info">
-      <div class="show-name">${name}</div>
-      <div class="show-meta">${meta}</div>
+    <div class="show-day-col">${dayStr}</div>
+    ${posterHTML}
+    <div class="show-main-col">
+      <div class="show-info">
+        <div class="show-name">${name}</div>
+        <div class="show-meta">${meta}</div>
+      </div>
+      ${ticket?`<a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a>`:''}
     </div>
-    ${ticket?`<div><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
   </div>`;
 }
 
@@ -2543,7 +2610,7 @@ function buildUpcoming(shows) {
     const dateLabel=d?`${MONTHS[d.getMonth()]} ${d.getDate()}`:'';
     const dayLabel=d?DAYS_FULL[d.getDay()]:'';
     const timeStr=d?fmtTime(d):'';
-    const metaText=[venue,timeStr].filter(Boolean).join(' · ');
+    const metaText=[timeStr,venue].filter(Boolean).join(' · ');
     const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
     html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
       <div class="upcoming-date-block">
@@ -2552,7 +2619,7 @@ function buildUpcoming(shows) {
       </div>
       <div class="upcoming-info">
         <div class="upcoming-name">${name}</div>
-        <div class="upcoming-meta"><span>${metaText}</span>${tagPill}</div>
+        <div class="upcoming-meta"><span>${metaText}</span></div>
       </div>
       ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
     </div>`;
@@ -2635,7 +2702,7 @@ function renderUpcoming() {
       const dateLabel=d?`${MONTHS[d.getMonth()]} ${d.getDate()}`:'';
       const dayLabel=d?DAYS_FULL[d.getDay()]:'';
       const timeStr=d?fmtTime(d):'';
-      const metaText=[venue,timeStr].filter(Boolean).join(' · ');
+      const metaText=[timeStr,venue].filter(Boolean).join(' · ');
       const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
       html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
         <div class="upcoming-date-block">
@@ -2644,7 +2711,7 @@ function renderUpcoming() {
         </div>
         <div class="upcoming-info">
           <div class="upcoming-name">${name}</div>
-          <div class="upcoming-meta"><span>${metaText}</span>${tagPill}</div>
+          <div class="upcoming-meta"><span>${metaText}</span></div>
         </div>
         ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
       </div>`;
@@ -2851,7 +2918,7 @@ function renderArchive() {
         const dayLabel=d?DAYS_FULL[d.getDay()]:'';
         const timeStr=d?fmtTime(d):'';
         const type=getShowType(r);
-        const metaText=[venue,timeStr].filter(Boolean).join(' · ');
+        const metaText=[timeStr,venue].filter(Boolean).join(' · ');
         const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
         html+=`<div class="archive-list-row" data-rec="${r.id}" onclick="openModalById('${r.id}')">
           <div class="archive-list-date-block">
@@ -2860,7 +2927,7 @@ function renderArchive() {
           </div>
           <div class="archive-list-info">
             <div class="archive-list-name">${name}</div>
-            <div class="archive-list-meta"><span>${metaText}</span>${tagPill}</div>
+            <div class="archive-list-meta"><span>${metaText}</span></div>
           </div>
         </div>`;
       });
