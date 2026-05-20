@@ -398,7 +398,6 @@ nav {
    COMEDY SPECIALS
 ═══════════════════════════════════ */
 .specials-wrap { max-width: 900px; }
-
 .specials-section { margin-bottom: 3rem; }
 .specials-section-header {
   display: flex;
@@ -422,86 +421,89 @@ nav {
   text-transform: uppercase;
   color: var(--text-faint);
 }
-
-.specials-grid {
+.specials-grid-1 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
 }
-
+.specials-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
 .special-card {
   display: flex;
   flex-direction: column;
-  text-decoration: none;
-  color: inherit;
   border: 1px dashed var(--border-mid);
   transition: border-color 0.15s;
+  overflow: hidden;
 }
 .special-card:hover { border-color: var(--border-dark); }
-
 .special-thumb {
   width: 100%;
   aspect-ratio: 16/9;
-  background: var(--surface2);
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .special-thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.2s;
 }
-.special-play {
+.special-card:hover .special-thumb img { transform: scale(1.03); }
+.special-overlay {
   position: absolute;
   inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 55%);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0,0,0,0.3);
-  opacity: 0;
-  transition: opacity 0.15s;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
 }
-.special-card:hover .special-play { opacity: 1; }
-.special-play-icon {
-  width: 48px; height: 48px;
-  background: var(--text);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-}
-.special-play-icon svg { width: 20px; height: 20px; fill: var(--accent-inv); margin-left: 3px; }
-
-.special-info { padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; }
-
-.special-name {
+.special-overlay-name {
   font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.7);
+  margin: 0 0 3px;
 }
-.special-title {
+.special-overlay-title {
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  line-height: 1.05;
   letter-spacing: 0.02em;
-  color: var(--text);
-  line-height: 1.1;
 }
-.special-socials {
+.special-footer {
   display: flex;
-  gap: 10px;
   align-items: center;
-  padding-top: 0.25rem;
+  justify-content: space-between;
+  padding: 10px 14px;
   border-top: 1px dashed var(--border-mid);
 }
+.special-watch {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  cursor: pointer;
+}
+.special-watch:hover { color: var(--text); }
+.special-socials { display: flex; gap: 8px; }
 .special-social-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px; height: 32px;
+  width: 30px; height: 30px;
   border: 1px dashed var(--border-mid);
   color: var(--text-muted);
   text-decoration: none;
@@ -1746,9 +1748,9 @@ footer {
 }
 </style>
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta property="og:image" content="https://laughvictoria.ca/brand.png">
+<link rel="icon" href="/assets/favicon.ico" sizes="any">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="https://laughvictoria.ca/assets/home-og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:title" content="Laugh Victoria">
@@ -1756,7 +1758,7 @@ footer {
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://laughvictoria.ca/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://laughvictoria.ca/home-og.png">
+<meta name="twitter:image" content="https://laughvictoria.ca/assets/home-og.png">
 
 </head>
 <body>
@@ -1873,19 +1875,19 @@ footer {
       <div class="resource-card resource-card-full" onclick="showSection('archive')">
         <div class="resource-card-label">Show History</div>
         <div class="resource-card-title">2026 Show Archive</div>
-        <div class="resource-card-desc">Every comedy show that has happened in Victoria, organized by month.</div>
+        <div class="resource-card-desc">Every comedy show that has happened in Victoria this year, organized by month.</div>
+        <div class="resource-card-arrow">→</div>
+      </div>
+      <div class="resource-card" onclick="showSection('specials')">
+        <div class="resource-card-label">Watch</div>
+        <div class="resource-card-title">Victoria Comedy Specials</div>
+        <div class="resource-card-desc">Full-length stand-up specials from Victoria comedians. Watch free on YouTube.</div>
         <div class="resource-card-arrow">→</div>
       </div>
       <div class="resource-card" onclick="showSection('producer')">
         <div class="resource-card-label">For Producers</div>
         <div class="resource-card-title">Producer Cheatsheet</div>
-        <div class="resource-card-desc">Every place to promote your comedy show in Victoria — directories, Facebook groups, poster printing, and more.</div>
-        <div class="resource-card-arrow">→</div>
-      </div>
-      <div class="resource-card" onclick="showSection('specials')">
-        <div class="resource-card-label">Watch</div>
-        <div class="resource-card-title">Comedy Specials</div>
-        <div class="resource-card-desc">Full-length stand-up comedy specials filmed in Victoria, BC.</div>
+        <div class="resource-card-desc">Every place to promote your show in Victoria. Event directories, Facebook groups, poster printing, and more.</div>
         <div class="resource-card-arrow">→</div>
       </div>
     </div>
@@ -2007,7 +2009,7 @@ footer {
   <!-- COMEDY SPECIALS -->
   <div class="section" id="section-specials">
     <div class="section-header">
-      <h2 class="section-title">Comedy Specials</h2>
+      <h2 class="section-title">Victoria Comedy Specials</h2>
       <button class="back-btn" onclick="showSection('resources')">← Resources</button>
     </div>
     <div class="specials-wrap">
@@ -2017,51 +2019,55 @@ footer {
           <span class="specials-section-title">Victoria Comedians</span>
           <span class="specials-section-sub">Based in Victoria, BC</span>
         </div>
-        <div class="specials-grid">
-
-          <a class="special-card" href="https://youtu.be/5hFd5fkNWQ4" target="_blank" rel="noopener">
-            <div class="special-thumb">
+        <div class="specials-grid-1">
+          <div class="special-card">
+            <a href="https://youtu.be/5hFd5fkNWQ4" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/5hFd5fkNWQ4/maxresdefault.jpg" alt="Dan Duvall: Cheat Day" loading="lazy">
-              <div class="special-play"><div class="special-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></div></div>
-            </div>
-            <div class="special-info">
-              <div class="special-name">Dan Duvall</div>
-              <div class="special-title">Cheat Day</div>
+              <div class="special-overlay">
+                <p class="special-overlay-name">Dan Duvall</p>
+                <p class="special-overlay-title">Cheat Day</p>
+              </div>
+            </a>
+            <div class="special-footer">
+              <a class="special-watch" href="https://youtu.be/5hFd5fkNWQ4" target="_blank" rel="noopener">Watch special</a>
               <div class="special-socials">
                 <a class="special-social-link" href="https://www.instagram.com/danduvallcomedy/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
                 <a class="special-social-link" href="https://www.youtube.com/@DanDuvallComedy" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
               </div>
             </div>
-          </a>
-          <a class="special-card" href="https://youtu.be/xDT7PB2xbk0" target="_blank" rel="noopener">
-            <div class="special-thumb">
+          </div>
+          <div class="special-card">
+            <a href="https://youtu.be/xDT7PB2xbk0" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/xDT7PB2xbk0/maxresdefault.jpg" alt="Dylan Williams: Evil Dylan Williams" loading="lazy">
-              <div class="special-play"><div class="special-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></div></div>
-            </div>
-            <div class="special-info">
-              <div class="special-name">Dylan Williams</div>
-              <div class="special-title">Evil Dylan Williams</div>
+              <div class="special-overlay">
+                <p class="special-overlay-name">Dylan Williams</p>
+                <p class="special-overlay-title">Evil Dylan Williams</p>
+              </div>
+            </a>
+            <div class="special-footer">
+              <a class="special-watch" href="https://youtu.be/xDT7PB2xbk0" target="_blank" rel="noopener">Watch special</a>
               <div class="special-socials">
                 <a class="special-social-link" href="https://www.instagram.com/dylanpatrickwilliams/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
                 <a class="special-social-link" href="https://www.youtube.com/@DylanPatrickWilliams" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
               </div>
             </div>
-          </a>
-          <a class="special-card" href="https://youtu.be/bfB3368uKP0" target="_blank" rel="noopener">
-            <div class="special-thumb">
+          </div>
+          <div class="special-card">
+            <a href="https://youtu.be/bfB3368uKP0" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/bfB3368uKP0/maxresdefault.jpg" alt="Elyott Ryan: Rat Boy" loading="lazy">
-              <div class="special-play"><div class="special-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></div></div>
-            </div>
-            <div class="special-info">
-              <div class="special-name">Elyott Ryan</div>
-              <div class="special-title">Rat Boy</div>
+              <div class="special-overlay">
+                <p class="special-overlay-name">Elyott Ryan</p>
+                <p class="special-overlay-title">Rat Boy</p>
+              </div>
+            </a>
+            <div class="special-footer">
+              <a class="special-watch" href="https://youtu.be/bfB3368uKP0" target="_blank" rel="noopener">Watch special</a>
               <div class="special-socials">
                 <a class="special-social-link" href="https://www.instagram.com/elyottryan/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
                 <a class="special-social-link" href="https://www.youtube.com/@ElyottRyan" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
               </div>
             </div>
-          </a>
-
+          </div>
         </div>
       </div>
 
@@ -2070,65 +2076,71 @@ footer {
           <span class="specials-section-title">Filmed in Victoria</span>
           <span class="specials-section-sub">Now based elsewhere in Canada</span>
         </div>
-        <div class="specials-grid">
-
-          <a class="special-card" href="https://youtu.be/lzRlvKX2CCY" target="_blank" rel="noopener">
-            <div class="special-thumb">
+        <div class="specials-grid-2">
+          <div class="special-card">
+            <a href="https://youtu.be/lzRlvKX2CCY" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/lzRlvKX2CCY/maxresdefault.jpg" alt="Myles Anderson: Myles Per Hour" loading="lazy">
-              <div class="special-play"><div class="special-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></div></div>
-            </div>
-            <div class="special-info">
-              <div class="special-name">Myles Anderson · Vancouver, BC</div>
-              <div class="special-title">Myles Per Hour</div>
+              <div class="special-overlay">
+                <p class="special-overlay-name">Myles Anderson · Vancouver, BC</p>
+                <p class="special-overlay-title">Myles Per Hour</p>
+              </div>
+            </a>
+            <div class="special-footer">
+              <a class="special-watch" href="https://youtu.be/lzRlvKX2CCY" target="_blank" rel="noopener">Watch special</a>
               <div class="special-socials">
                 <a class="special-social-link" href="https://www.instagram.com/mylesbanderson/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
                 <a class="special-social-link" href="https://www.youtube.com/@TheBachelorsOfMusic" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
               </div>
             </div>
-          </a>
-          <a class="special-card" href="https://youtu.be/6FcYRsRINZw" target="_blank" rel="noopener">
-            <div class="special-thumb">
+          </div>
+          <div class="special-card">
+            <a href="https://youtu.be/6FcYRsRINZw" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/6FcYRsRINZw/maxresdefault.jpg" alt="Alistair Ogden: Boyfriend Material" loading="lazy">
-              <div class="special-play"><div class="special-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></div></div>
-            </div>
-            <div class="special-info">
-              <div class="special-name">Alistair Ogden · Toronto, ON</div>
-              <div class="special-title">Boyfriend Material</div>
+              <div class="special-overlay">
+                <p class="special-overlay-name">Alistair Ogden · Toronto, ON</p>
+                <p class="special-overlay-title">Boyfriend Material</p>
+              </div>
+            </a>
+            <div class="special-footer">
+              <a class="special-watch" href="https://youtu.be/6FcYRsRINZw" target="_blank" rel="noopener">Watch special</a>
               <div class="special-socials">
                 <a class="special-social-link" href="https://www.instagram.com/alistairogden/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
                 <a class="special-social-link" href="https://www.youtube.com/@AlistairOgden" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
               </div>
             </div>
-          </a>
-          <a class="special-card" href="https://youtu.be/0uqsYV8SDCU" target="_blank" rel="noopener">
-            <div class="special-thumb">
+          </div>
+          <div class="special-card">
+            <a href="https://youtu.be/0uqsYV8SDCU" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/0uqsYV8SDCU/maxresdefault.jpg" alt="Evan Mumford: Burns Everything" loading="lazy">
-              <div class="special-play"><div class="special-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></div></div>
-            </div>
-            <div class="special-info">
-              <div class="special-name">Evan Mumford · Truro, NS</div>
-              <div class="special-title">Burns Everything</div>
+              <div class="special-overlay">
+                <p class="special-overlay-name">Evan Mumford · Truro, NS</p>
+                <p class="special-overlay-title">Burns Everything</p>
+              </div>
+            </a>
+            <div class="special-footer">
+              <a class="special-watch" href="https://youtu.be/0uqsYV8SDCU" target="_blank" rel="noopener">Watch special</a>
               <div class="special-socials">
                 <a class="special-social-link" href="https://www.instagram.com/evanmumfordd/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
                 <a class="special-social-link" href="https://www.youtube.com/@evanmumford" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
               </div>
             </div>
-          </a>
-          <a class="special-card" href="https://youtu.be/2qSUGQ2k5Lc" target="_blank" rel="noopener">
-            <div class="special-thumb">
+          </div>
+          <div class="special-card">
+            <a href="https://youtu.be/2qSUGQ2k5Lc" target="_blank" rel="noopener" class="special-thumb">
               <img src="https://img.youtube.com/vi/2qSUGQ2k5Lc/maxresdefault.jpg" alt="Emily Woods: Deep in the Woods" loading="lazy">
-              <div class="special-play"><div class="special-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></div></div>
-            </div>
-            <div class="special-info">
-              <div class="special-name">Emily Woods · Vancouver, BC</div>
-              <div class="special-title">Deep in the Woods</div>
+              <div class="special-overlay">
+                <p class="special-overlay-name">Emily Woods · Vancouver, BC</p>
+                <p class="special-overlay-title">Deep in the Woods</p>
+              </div>
+            </a>
+            <div class="special-footer">
+              <a class="special-watch" href="https://youtu.be/2qSUGQ2k5Lc" target="_blank" rel="noopener">Watch special</a>
               <div class="special-socials">
                 <a class="special-social-link" href="https://www.instagram.com/emilyrosewoodz/" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
                 <a class="special-social-link" href="https://www.youtube.com/@emilyrosewoodz" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
               </div>
             </div>
-          </a>
-
+          </div>
         </div>
       </div>
 
@@ -2367,7 +2379,7 @@ const HEROES = {
   archive:   { title: '2026 Show<br>Archive',        sub: 'Every comedy show that has happened in Victoria.' },
   resources: { title: 'Resources',                 sub: 'Everything the Victoria comedy scene needs in one place.' },
   producer:  { title: 'Producer<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
-  specials:  { title: 'Comedy<br>Specials',         sub: 'Full-length stand-up comedy specials filmed in Victoria, BC.' },
+  specials:  { title: 'Victoria Comedy<br>Specials',    sub: 'Full-length stand-up specials from Victoria comedians.' },
   privacy:   { title: 'Privacy<br>Policy',         sub: '' },
   about:     { title: 'About',                     sub: '' },
   faq:       { title: 'FAQ',                       sub: '' },
@@ -2521,6 +2533,8 @@ function closeModal(){document.getElementById('show-modal').classList.remove('op
 function openModalById(id){const r=showRecords[id];if(r)openModal(r);}
 function handleModalOverlayClick(e){if(e.target===document.getElementById('show-modal'))closeModal();}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+
 
 let upcomingAllShows=[], upcomingActiveType='all', upcomingView='poster';
 
