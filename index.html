@@ -99,11 +99,30 @@
   white-space: nowrap;
 }
 .fest-ext-link:hover { border-color: var(--border-dark); color: var(--text); }
-.fest-meta {
+.fest-fields {
   padding: 0 18px 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 24px;
+}
+.fest-field-full { grid-column: 1 / -1; }
+.fest-field { display: flex; flex-direction: column; gap: 2px; }
+.fest-field-label {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+}
+.fest-field-value {
   font-size: 13px;
-  color: var(--text-muted);
-  line-height: 1.6;
+  color: var(--text);
+  font-family: var(--font-mono);
+  line-height: 1.4;
+}
+@media (max-width: 500px) {
+  .fest-fields { grid-template-columns: 1fr; }
+  .fest-field-full { grid-column: 1; }
 }
 .fest-submit {
   border-top: 1px dashed var(--border);
@@ -2535,16 +2554,28 @@ footer {
             <a class="fest-ext-link" href="https://www.instagram.com/funnyfest_calgary" target="_blank">Instagram</a>
           </div>
         </div>
-        <div class="fest-meta">Closes Feb 28 &nbsp;·&nbsp; 5-10 min, unedited preferred &nbsp;·&nbsp; Structured and original. Zero hack material.</div>
+        <div class="fest-fields">
+          <div class="fest-field">
+            <span class="fest-field-label">Submission Window</span>
+            <span class="fest-field-value">Closes Feb 28</span>
+          </div>
+          <div class="fest-field">
+            <span class="fest-field-label">Tape</span>
+            <span class="fest-field-value">5-10 min, unedited preferred</span>
+          </div>
+          <div class="fest-field fest-field-full">
+            <span class="fest-field-label">Style</span>
+            <span class="fest-field-value">Structured and original. Zero hack material.</span>
+          </div>
+        </div>
         <div class="fest-submit">
           <div class="fest-submit-info">
             <span class="fest-submit-label">Submit your tape</span>
             <span class="fest-submit-val">funnyfest.com/performer-application</span>
           </div>
-          <a class="fest-submit-btn" href="https://funnyfest.com/performer-application/" target="_blank">Submit &#8594;</a>
+          <a class="fest-submit-btn" href="https://funnyfest.com/performer-application/">Submit &#8594;</a>
         </div>
       </div>
-
       <div class="fest-card">
         <div class="fest-card-top">
           <div>
@@ -2556,16 +2587,28 @@ footer {
             <a class="fest-ext-link" href="https://www.instagram.com/grindstonetheatre" target="_blank">Instagram</a>
           </div>
         </div>
-        <div class="fest-meta">Jan-Mar &nbsp;·&nbsp; 5-10 min &nbsp;·&nbsp; Indie and alt. Sketch, raw, and non-traditional stand-up welcome.</div>
+        <div class="fest-fields">
+          <div class="fest-field">
+            <span class="fest-field-label">Submission Window</span>
+            <span class="fest-field-value">January - March</span>
+          </div>
+          <div class="fest-field">
+            <span class="fest-field-label">Tape</span>
+            <span class="fest-field-value">5-10 min</span>
+          </div>
+          <div class="fest-field fest-field-full">
+            <span class="fest-field-label">Style</span>
+            <span class="fest-field-value">Indie and alt. Sketch, raw, and non-traditional stand-up welcome.</span>
+          </div>
+        </div>
         <div class="fest-submit">
           <div class="fest-submit-info">
             <span class="fest-submit-label">Submit your tape</span>
             <span class="fest-submit-val">grindstonecomedyfest.com</span>
           </div>
-          <a class="fest-submit-btn" href="https://www.grindstonecomedyfest.com" target="_blank">Submit &#8594;</a>
+          <a class="fest-submit-btn" href="https://www.grindstonecomedyfest.com">Submit &#8594;</a>
         </div>
       </div>
-
       <div class="fest-card">
         <div class="fest-card-top">
           <div>
@@ -2577,7 +2620,20 @@ footer {
             <a class="fest-ext-link" href="https://www.instagram.com/wpgcomedyfest" target="_blank">Instagram</a>
           </div>
         </div>
-        <div class="fest-meta">Sept 15-Oct 15 &nbsp;·&nbsp; 8-10 min, unlisted YouTube only &nbsp;·&nbsp; CBC TV. High-concept storytelling, clean and TV safe.</div>
+        <div class="fest-fields">
+          <div class="fest-field">
+            <span class="fest-field-label">Submission Window</span>
+            <span class="fest-field-value">Sept 15 - Oct 15</span>
+          </div>
+          <div class="fest-field">
+            <span class="fest-field-label">Tape</span>
+            <span class="fest-field-value">8-10 min, unlisted YouTube only</span>
+          </div>
+          <div class="fest-field fest-field-full">
+            <span class="fest-field-label">Style</span>
+            <span class="fest-field-value">CBC TV. High-concept storytelling, clean and TV safe.</span>
+          </div>
+        </div>
         <div class="fest-submit">
           <div class="fest-submit-info">
             <span class="fest-submit-label">Submit your tape</span>
@@ -2586,7 +2642,6 @@ footer {
           <a class="fest-submit-btn" href="mailto:submissions@winnipegcomedyfestival.com">Submit &#8594;</a>
         </div>
       </div>
-
       <div class="fest-card">
         <div class="fest-card-top">
           <div>
@@ -2598,7 +2653,20 @@ footer {
             <a class="fest-ext-link" href="https://www.instagram.com/icebreakerscomedy" target="_blank">Instagram</a>
           </div>
         </div>
-        <div class="fest-meta">Aug-Oct &nbsp;·&nbsp; 8 min &nbsp;·&nbsp; CBC Radio broadcast. Polished clean sets, with adult late-night options.</div>
+        <div class="fest-fields">
+          <div class="fest-field">
+            <span class="fest-field-label">Submission Window</span>
+            <span class="fest-field-value">August - October</span>
+          </div>
+          <div class="fest-field">
+            <span class="fest-field-label">Tape</span>
+            <span class="fest-field-value">8 min</span>
+          </div>
+          <div class="fest-field fest-field-full">
+            <span class="fest-field-label">Style</span>
+            <span class="fest-field-value">CBC Radio broadcast. Polished clean sets, with adult late-night options.</span>
+          </div>
+        </div>
         <div class="fest-submit">
           <div class="fest-submit-info">
             <span class="fest-submit-label">Submit your tape</span>
@@ -2607,7 +2675,6 @@ footer {
           <a class="fest-submit-btn" href="mailto:info@icebreakerscomedy.com">Submit &#8594;</a>
         </div>
       </div>
-
       <div class="fest-card">
         <div class="fest-card-top">
           <div>
@@ -2619,16 +2686,28 @@ footer {
             <a class="fest-ext-link" href="https://www.instagram.com/hubcapcomedy" target="_blank">Instagram</a>
           </div>
         </div>
-        <div class="fest-meta">Mar 1-Aug 31 &nbsp;·&nbsp; 7-10 min &nbsp;·&nbsp; Club-heavy touring loop. Must have a 30-min headline set ready.</div>
+        <div class="fest-fields">
+          <div class="fest-field">
+            <span class="fest-field-label">Submission Window</span>
+            <span class="fest-field-value">Mar 1 - Aug 31</span>
+          </div>
+          <div class="fest-field">
+            <span class="fest-field-label">Tape</span>
+            <span class="fest-field-value">7-10 min</span>
+          </div>
+          <div class="fest-field fest-field-full">
+            <span class="fest-field-label">Style</span>
+            <span class="fest-field-value">Club-heavy touring loop. Must have a 30-min headline set ready.</span>
+          </div>
+        </div>
         <div class="fest-submit">
           <div class="fest-submit-info">
             <span class="fest-submit-label">Submit your tape</span>
             <span class="fest-submit-val">hubcapcomedyfestival.ca</span>
           </div>
-          <a class="fest-submit-btn" href="https://hubcapcomedyfestival.ca/" target="_blank">Submit &#8594;</a>
+          <a class="fest-submit-btn" href="https://hubcapcomedyfestival.ca/">Submit &#8594;</a>
         </div>
       </div>
-
       <div class="fest-card">
         <div class="fest-card-top">
           <div>
@@ -2640,13 +2719,26 @@ footer {
             <a class="fest-ext-link" href="https://www.instagram.com/halifaxcomedyfest" target="_blank">Instagram</a>
           </div>
         </div>
-        <div class="fest-meta">Opens May, closes early fall &nbsp;·&nbsp; 8-10 min &nbsp;·&nbsp; CBC TV Gala. Squeaky clean, pristine audio, no crowd work.</div>
+        <div class="fest-fields">
+          <div class="fest-field">
+            <span class="fest-field-label">Submission Window</span>
+            <span class="fest-field-value">Opens May, closes early fall</span>
+          </div>
+          <div class="fest-field">
+            <span class="fest-field-label">Tape</span>
+            <span class="fest-field-value">8-10 min</span>
+          </div>
+          <div class="fest-field fest-field-full">
+            <span class="fest-field-label">Style</span>
+            <span class="fest-field-value">CBC TV Gala. Squeaky clean, pristine audio, no crowd work.</span>
+          </div>
+        </div>
         <div class="fest-submit">
           <div class="fest-submit-info">
             <span class="fest-submit-label">Submit your tape</span>
             <span class="fest-submit-val">halifaxcomedyfest.ca/apply.html</span>
           </div>
-          <a class="fest-submit-btn" href="https://www.halifaxcomedyfest.ca/apply.html" target="_blank">Submit &#8594;</a>
+          <a class="fest-submit-btn" href="https://www.halifaxcomedyfest.ca/apply.html">Submit &#8594;</a>
         </div>
       </div>
 
