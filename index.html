@@ -1233,17 +1233,16 @@ footer {
 .archive-list-row {
   display: flex;
   align-items: center;
-  align-items: center;
-  gap: 20px;
-  padding: 18px 0;
+  background: var(--surface);
   border-bottom: var(--row-border);
   cursor: pointer;
-  transition: opacity 0.1s;
+  transition: background 0.1s;
+  padding-left: 12px;
 }
 .archive-list-row:first-child { border-top: none; }
-.archive-list-row:hover { opacity: 0.6; }
+.archive-list-row:hover { background: var(--surface2); }
 
-.archive-list-date-block { flex-shrink: 0; width: 90px; padding: 0 12px; }
+.archive-list-date-block { flex-shrink: 0; width: 90px; padding: 9px 12px; }
 
 .archive-list-date {
   font-family: var(--font-display);
