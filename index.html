@@ -230,6 +230,52 @@ nav {
 .nav-links a:hover { color: var(--text); }
 .nav-links a.active { color: var(--text); border-bottom-color: var(--text); }
 
+.nav-dropdown-wrap {
+  position: relative;
+}
+.nav-dropdown-trigger {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav-dropdown-chevron {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--text-faint);
+}
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-top: 2px solid var(--border-dark);
+  min-width: 200px;
+  z-index: 300;
+  flex-direction: column;
+}
+.nav-dropdown-wrap:hover .nav-dropdown { display: flex; }
+.nav-dropdown-item {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px dashed var(--border);
+  transition: color 0.15s, background 0.15s;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+}
+.nav-dropdown-item:last-child { border-bottom: none; }
+.nav-dropdown-item:hover { color: var(--text); background: var(--surface2); }
+
 .nav-right-slot {
   display: flex;
   align-items: center;
@@ -2034,6 +2080,15 @@ footer {
   <ul class="nav-links" id="nav-center">
     <li><a onclick="showSection('home')" id="nav-home" class="active">This Week</a></li>
     <li><a onclick="showSection('upcoming')" id="nav-upcoming">Upcoming Shows</a></li>
+    <li class="nav-dropdown-wrap">
+      <a class="nav-dropdown-trigger" id="nav-resources">More Stuff <span class="nav-dropdown-chevron">+</span></a>
+      <div class="nav-dropdown">
+        <a onclick="showSection('archive')" class="nav-dropdown-item">Show Archive</a>
+        <a onclick="showSection('specials')" class="nav-dropdown-item">Comedy Specials</a>
+        <a onclick="showSection('cheatsheet')" class="nav-dropdown-item">Promo Cheatsheet</a>
+        <a onclick="showSection('festivals')" class="nav-dropdown-item">Festival Submissions</a>
+      </div>
+    </li>
   </ul>
   <div class="nav-right-slot">
     <a class="nav-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
