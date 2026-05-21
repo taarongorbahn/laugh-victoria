@@ -51,8 +51,103 @@
 }
 
 /* ═══════════════════════════════════
-   RESET & BASE
+   FESTIVALS
 ═══════════════════════════════════ */
+.festivals-wrap { max-width: 900px; }
+.fest-card {
+  margin-bottom: 14px;
+  transition: border-color 0.15s;
+}
+.fest-card:hover { border-color: var(--border-dark); }
+.fest-card-top {
+  padding: 16px 18px 14px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.fest-name {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  line-height: 1.1;
+}
+.fest-location {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+.fest-ext-links { display: flex; gap: 8px; flex-shrink: 0; padding-top: 4px; }
+.fest-ext-link {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid var(--border-mid);
+  padding: 5px 14px;
+  color: var(--text-muted);
+  background: transparent;
+  font-family: var(--font-mono);
+  text-decoration: none;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.fest-ext-link:hover { border-color: var(--border-dark); color: var(--text); }
+.fest-meta {
+  padding: 0 18px 14px;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.fest-submit {
+  border-top: 1px dashed var(--border);
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.fest-submit-info { display: flex; flex-direction: column; gap: 2px; }
+.fest-submit-label {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+}
+.fest-submit-val {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+.fest-submit-btn {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: var(--accent-inv);
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-block;
+  transition: opacity 0.15s;
+}
+.fest-submit-btn:hover { opacity: 0.8; }
+@media (max-width: 600px) {
+  .fest-card-top { flex-direction: column; }
+  .fest-ext-links { padding-top: 0; }
+}
+
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
@@ -1264,7 +1359,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 6px;
-  min-width: 240px;
+  min-width: 200px;
   flex-shrink: 0;
 }
 
@@ -1322,9 +1417,20 @@ footer {
 [data-mode="dark"] .cheatsheet-badge-scope { border-color: rgba(133,183,235,0.5); color: #85B7EB; }
 
 @media (max-width: 640px) {
-  .cheatsheet-row { flex-wrap: wrap; gap: 6px; }
-  .cheatsheet-item { min-width: 100%; font-size: 16px; }
-  .cheatsheet-note { min-width: 100%; font-size: 11px; }
+  .cheatsheet-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "title badge" "note note";
+    gap: 5px 10px;
+    padding: 12px 0;
+    align-items: center;
+  }
+  .cheatsheet-title-group { grid-area: title; min-width: 0; }
+  .cheatsheet-note { grid-area: note; font-size: 11px; }
+  .cheatsheet-badge { grid-area: badge; align-self: center; }
+  .cheatsheet-item { font-size: 15px; }
+  .cheatsheet-ext { display: none; }
 }
 
 /* ═══════════════════════════════════
@@ -1958,6 +2064,12 @@ footer {
         <div class="resource-card-desc">Every place to promote your show in Victoria. Event directories, Facebook groups, poster printing, and more.</div>
         <div class="resource-card-arrow">→</div>
       </div>
+      <div class="resource-card" onclick="showSection('festivals')">
+        <div class="resource-card-label">For Comics</div>
+        <div class="resource-card-title">Canadian Comedy Festivals</div>
+        <div class="resource-card-desc">Every major Canadian comedy festival sorted by distance from Victoria — submission windows, tape requirements, and direct links.</div>
+        <div class="resource-card-arrow">→</div>
+      </div>
     </div>
   </div>
 
@@ -2403,6 +2515,143 @@ footer {
     </div>
   </div>
 
+  <!-- CANADIAN COMEDY FESTIVALS -->
+  <div class="section" id="section-festivals">
+    <div class="section-header">
+      <h2 class="section-title">Canadian Comedy Festivals</h2>
+      <button class="back-btn" onclick="showSection('resources')">&#8592; Resources</button>
+    </div>
+    <div class="festivals-wrap">
+
+      <div class="fest-card">
+        <div class="fest-card-top">
+          <div>
+            <div class="fest-name">FunnyFest Comedy Festival</div>
+            <div class="fest-location">Calgary, AB</div>
+          </div>
+          <div class="fest-ext-links">
+            <a class="fest-ext-link" href="https://funnyfest.com" target="_blank">Website</a>
+            <a class="fest-ext-link" href="https://www.instagram.com/funnyfest_calgary" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="fest-meta">Closes Feb 28 &nbsp;·&nbsp; 5-10 min, unedited preferred &nbsp;·&nbsp; Structured and original. Zero hack material.</div>
+        <div class="fest-submit">
+          <div class="fest-submit-info">
+            <span class="fest-submit-label">Submit your tape</span>
+            <span class="fest-submit-val">funnyfest.com/performer-application</span>
+          </div>
+          <a class="fest-submit-btn" href="https://funnyfest.com/performer-application/" target="_blank">Submit &#8594;</a>
+        </div>
+      </div>
+
+      <div class="fest-card">
+        <div class="fest-card-top">
+          <div>
+            <div class="fest-name">Grindstone Comedy Festival</div>
+            <div class="fest-location">Edmonton, AB</div>
+          </div>
+          <div class="fest-ext-links">
+            <a class="fest-ext-link" href="https://www.grindstonecomedyfest.com" target="_blank">Website</a>
+            <a class="fest-ext-link" href="https://www.instagram.com/grindstonetheatre" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="fest-meta">Jan-Mar &nbsp;·&nbsp; 5-10 min &nbsp;·&nbsp; Indie and alt. Sketch, raw, and non-traditional stand-up welcome.</div>
+        <div class="fest-submit">
+          <div class="fest-submit-info">
+            <span class="fest-submit-label">Submit your tape</span>
+            <span class="fest-submit-val">grindstonecomedyfest.com</span>
+          </div>
+          <a class="fest-submit-btn" href="https://www.grindstonecomedyfest.com" target="_blank">Submit &#8594;</a>
+        </div>
+      </div>
+
+      <div class="fest-card">
+        <div class="fest-card-top">
+          <div>
+            <div class="fest-name">Winnipeg Comedy Festival</div>
+            <div class="fest-location">Winnipeg, MB</div>
+          </div>
+          <div class="fest-ext-links">
+            <a class="fest-ext-link" href="https://www.winnipegcomedyfestival.com" target="_blank">Website</a>
+            <a class="fest-ext-link" href="https://www.instagram.com/wpgcomedyfest" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="fest-meta">Sept 15-Oct 15 &nbsp;·&nbsp; 8-10 min, unlisted YouTube only &nbsp;·&nbsp; CBC TV. High-concept storytelling, clean and TV safe.</div>
+        <div class="fest-submit">
+          <div class="fest-submit-info">
+            <span class="fest-submit-label">Submit your tape</span>
+            <span class="fest-submit-val">submissions@winnipegcomedyfestival.com</span>
+          </div>
+          <a class="fest-submit-btn" href="mailto:submissions@winnipegcomedyfestival.com">Submit &#8594;</a>
+        </div>
+      </div>
+
+      <div class="fest-card">
+        <div class="fest-card-top">
+          <div>
+            <div class="fest-name">Icebreakers Comedy Festival</div>
+            <div class="fest-location">Niagara-on-the-Lake, ON</div>
+          </div>
+          <div class="fest-ext-links">
+            <a class="fest-ext-link" href="https://www.icebreakerscomedy.com" target="_blank">Website</a>
+            <a class="fest-ext-link" href="https://www.instagram.com/icebreakerscomedy" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="fest-meta">Aug-Oct &nbsp;·&nbsp; 8 min &nbsp;·&nbsp; CBC Radio broadcast. Polished clean sets, with adult late-night options.</div>
+        <div class="fest-submit">
+          <div class="fest-submit-info">
+            <span class="fest-submit-label">Submit your tape</span>
+            <span class="fest-submit-val">info@icebreakerscomedy.com</span>
+          </div>
+          <a class="fest-submit-btn" href="mailto:info@icebreakerscomedy.com">Submit &#8594;</a>
+        </div>
+      </div>
+
+      <div class="fest-card">
+        <div class="fest-card-top">
+          <div>
+            <div class="fest-name">Hubcap Comedy Festival</div>
+            <div class="fest-location">Moncton, NB</div>
+          </div>
+          <div class="fest-ext-links">
+            <a class="fest-ext-link" href="https://hubcapcomedyfestival.ca" target="_blank">Website</a>
+            <a class="fest-ext-link" href="https://www.instagram.com/hubcapcomedy" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="fest-meta">Mar 1-Aug 31 &nbsp;·&nbsp; 7-10 min &nbsp;·&nbsp; Club-heavy touring loop. Must have a 30-min headline set ready.</div>
+        <div class="fest-submit">
+          <div class="fest-submit-info">
+            <span class="fest-submit-label">Submit your tape</span>
+            <span class="fest-submit-val">hubcapcomedyfestival.ca</span>
+          </div>
+          <a class="fest-submit-btn" href="https://hubcapcomedyfestival.ca/" target="_blank">Submit &#8594;</a>
+        </div>
+      </div>
+
+      <div class="fest-card">
+        <div class="fest-card-top">
+          <div>
+            <div class="fest-name">Halifax Comedy Festival</div>
+            <div class="fest-location">Halifax, NS</div>
+          </div>
+          <div class="fest-ext-links">
+            <a class="fest-ext-link" href="https://www.halifaxcomedyfest.ca" target="_blank">Website</a>
+            <a class="fest-ext-link" href="https://www.instagram.com/halifaxcomedyfest" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="fest-meta">Opens May, closes early fall &nbsp;·&nbsp; 8-10 min &nbsp;·&nbsp; CBC TV Gala. Squeaky clean, pristine audio, no crowd work.</div>
+        <div class="fest-submit">
+          <div class="fest-submit-info">
+            <span class="fest-submit-label">Submit your tape</span>
+            <span class="fest-submit-val">halifaxcomedyfest.ca/apply.html</span>
+          </div>
+          <a class="fest-submit-btn" href="https://www.halifaxcomedyfest.ca/apply.html" target="_blank">Submit &#8594;</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 <footer>
@@ -2509,6 +2758,7 @@ const HEROES = {
   privacy:   { title: 'Privacy<br>Policy',         sub: '' },
   about:     { title: 'About',                     sub: '' },
   faq:       { title: 'FAQ',                       sub: '' },
+  festivals: { title: 'Canadian Comedy<br>Festivals', sub: 'Festivals sorted by distance from Victoria — where to submit your tape.' },
 };
 
 function parseAirtableDate(str) { return new Date(str); }
@@ -2681,7 +2931,7 @@ window.addEventListener('popstate',function(e){
   }
   const state=e.state;
   const section=state&&state.section?state.section:location.hash.replace('#','')||'home';
-  if(['home','upcoming','archive','resources','cheatsheet','specials','about','faq','privacy'].includes(section)){
+  if(['home','upcoming','archive','resources','cheatsheet','specials','festivals','about','faq','privacy'].includes(section)){
     showSection(section,true);
   }
 });
@@ -2818,7 +3068,7 @@ function initFromHash(){
     return;
   }
   if(hash==='submit'){window.location.href='https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form'; return;}
-  if(['upcoming','privacy','about','faq','archive','resources','cheatsheet','specials'].includes(hash)){
+  if(['upcoming','privacy','about','faq','archive','resources','cheatsheet','specials','festivals'].includes(hash)){
     history.replaceState({section:hash},'','#'+hash);
     showSection(hash,true);
   }
