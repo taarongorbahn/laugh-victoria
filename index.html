@@ -1978,6 +1978,8 @@ footer {
 
   .show-row { padding: 14px 14px; gap: 10px; }
   .show-row .ticket { display: none; }
+  .show-row .ticket { pointer-events: none; }
+  .show-main-col > div:has(.ticket) { display: none; }
   .show-name { font-size: 16px; }
   .show-meta { font-size: 11px; }
 
@@ -1989,7 +1991,7 @@ footer {
     gap: 16px;
     padding: 16px 0;
   }
-  .upcoming-row .upcoming-ticket { display: none; }
+  .upcoming-row .upcoming-ticket { display: none; pointer-events: none; }
   .upcoming-date { font-size: 22px; }
   .upcoming-day { font-size: 9px; }
   .upcoming-name { font-size: 16px; }
