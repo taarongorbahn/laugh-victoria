@@ -955,7 +955,7 @@ nav {
 
 .upcoming-row {
   display: grid;
-  grid-template-columns: 90px 1fr auto;
+  grid-template-columns: 44px 90px 1fr auto;
   align-items: center;
   gap: 20px;
   padding: 18px 0;
@@ -1232,7 +1232,7 @@ footer {
 
 .archive-list-row {
   display: grid;
-  grid-template-columns: 90px 1fr auto;
+  grid-template-columns: 44px 90px 1fr auto;
   align-items: center;
   gap: 20px;
   padding: 18px 0;
@@ -1294,7 +1294,7 @@ footer {
 .archive-month-block-list { margin-bottom: 2.5rem; }
 
 @media (max-width: 640px) {
-  .archive-list-row { grid-template-columns: 72px 1fr; gap: 14px; }
+  .archive-list-row { grid-template-columns: 36px 72px 1fr; gap: 10px; }
   .archive-list-date { font-size: 22px; }
   .archive-list-name { font-size: 16px; }
 }
@@ -3056,7 +3056,10 @@ function buildUpcoming(shows) {
     const timeStr=d?fmtTime(d):'';
     const metaText=[venue,timeStr].filter(Boolean).join(' · ');
     const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
+    const graphic1=r.fields['Show Graphic'];
+    const posterHTML1=graphic1&&graphic1[0]?`<div class="show-poster-col"><img src="${graphic1[0].url}" alt="${name} poster" loading="lazy" onerror="this.style.display='none'"></div>`:`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
     html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
+      ${posterHTML1}
       <div class="upcoming-date-block">
         <div class="upcoming-date">${dateLabel}</div>
         <div class="upcoming-day">${dayLabel}</div>
@@ -3167,7 +3170,10 @@ function renderUpcoming() {
       const timeStr=d?fmtTime(d):'';
       const metaText=[venue,timeStr].filter(Boolean).join(' · ');
       const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
+      const graphic2=r.fields['Show Graphic'];
+      const posterHTML2=graphic2&&graphic2[0]?`<div class="show-poster-col"><img src="${graphic2[0].url}" alt="${name} poster" loading="lazy" onerror="this.style.display='none'"></div>`:`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
       html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
+        ${posterHTML2}
         <div class="upcoming-date-block">
           <div class="upcoming-date">${dateLabel}</div>
           <div class="upcoming-day">${dayLabel}</div>
@@ -3430,7 +3436,10 @@ function renderArchive() {
         const type=getShowType(r);
         const metaText=[venue,timeStr].filter(Boolean).join(' · ');
         const tagPill=type.display?`<span class="type-pill">${type.display}</span>`:'';
+        const graphicA=r.fields['Show Graphic'];
+        const posterHTMLA=graphicA&&graphicA[0]?`<div class="show-poster-col"><img src="${graphicA[0].url}" alt="${name} poster" loading="lazy" onerror="this.style.display='none'"></div>`:`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
         html+=`<div class="archive-list-row" data-rec="${r.id}" onclick="openModalById('${r.id}')">
+          ${posterHTMLA}
           <div class="archive-list-date-block">
             <div class="archive-list-date">${dateLabel}</div>
             <div class="archive-list-day">${dayLabel}</div>
