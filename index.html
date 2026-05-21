@@ -786,18 +786,17 @@ nav {
 
 .day-row {
   display: grid;
-  grid-template-columns: 52px 1fr;
+  grid-template-columns: 44px 1fr;
   border-bottom: var(--row-border);
 }
 .day-row:last-child { border-bottom: none; }
 
 .day-label {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 500;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--accent-inv);
 }
 
 .shows-col { display: flex; flex-direction: column; }
@@ -817,10 +816,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
+  width: 44px;
   flex-shrink: 0;
   align-self: stretch;
-  padding: 0 6px;
 }
 .day-col-today {
   background: var(--accent);
@@ -1809,7 +1807,7 @@ footer {
   .show-main-col > div:has(.ticket) { display: none; }
   .show-name { font-size: 16px; }
   .show-meta { font-size: 11px; }
-  .day-label { font-size: 9px; }
+
 
   .upcoming-row {
     gap: 16px;
