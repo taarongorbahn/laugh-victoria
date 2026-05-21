@@ -271,14 +271,22 @@ nav {
 [data-mode="dark"] .mode-toggle .icon-sun  { display: block; }
 [data-mode="dark"] .mode-toggle .icon-moon { display: none; }
 .mob-mode-toggle { display: none; }
+.mob-spacer { flex: 1; }
 .mob-mode-row {
   display: flex !important;
   align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
-  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  font-size: 11px !important;
+  letter-spacing: 0.14em;
+  color: var(--text-faint) !important;
+  border-top: 1px dashed var(--border) !important;
+  border-bottom: none !important;
+  padding: 1rem 0 1.5rem !important;
+  white-space: nowrap;
 }
-.mob-mode-icon { flex-shrink: 0; white-space: nowrap; line-height: 1; }
+.mob-mode-icon { flex-shrink: 0; white-space: nowrap; line-height: 1; font-size: 13px; }
 .mob-mode-icon .icon-sun  { display: none; }
 .mob-mode-icon .icon-moon { display: block; }
 [data-mode="dark"] .mob-mode-icon .icon-sun  { display: block; }
@@ -315,6 +323,7 @@ nav {
   z-index: 199;
   flex-direction: column;
   padding: 2rem;
+  overflow-y: auto;
 }
 .mobile-drawer.open { display: flex; }
 .mobile-drawer a {
@@ -1611,7 +1620,7 @@ footer {
 .about-accordion-item.open .about-accordion-body { display: block; }
 .about-accordion-text {
   font-family: var(--font-mono);
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-muted);
   line-height: 1.85;
   letter-spacing: 0.02em;
@@ -1942,7 +1951,7 @@ footer {
   .footer-logo { font-size: clamp(36px, 12vw, 56px); }
 
   .about-intro { grid-template-columns: 1fr; gap: 2rem; }
-  .about-intro-text p { font-size: 15px; }
+
   .about-mv { grid-template-columns: 1fr; gap: 1.5rem; }
   .about-mv-block:last-child { border-left: none; padding-left: 0; border-top: 1px dashed var(--border-mid); padding-top: 1.5rem; }
   .values-grid { grid-template-columns: 1fr; }
@@ -2048,8 +2057,9 @@ footer {
     <a onclick="nav('cheatsheet')" class="mob-sub-item">Promo Cheatsheet</a>
     <a onclick="nav('festivals')" class="mob-sub-item">Festival Submissions</a>
   </div>
-  <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label"><span id="mob-mode-text">Turn the lights on</span> <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span></a>
   <a class="mobile-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
+  <div class="mob-spacer"></div>
+  <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label"><span id="mob-mode-text">Turn the lights on</span> <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span></a>
 </div>
 
 <div class="hero">
@@ -2804,7 +2814,7 @@ footer {
         <a href="#" onclick="showSection('resources');return false;">More Stuff</a>
         <a href="#" onclick="showSection('about');return false;">About</a>
         <a href="#contact" onclick="openAboutAnchor('contact');return false;">Contact</a>
-        <a href="#" onclick="showSection('privacy');return false;">Privacy</a>
+        <a href="#" onclick="showSection('privacy');return false;">Privacy Policy</a>
       </div>
       <div class="footer-social">
         <a href="https://www.instagram.com/laughvictoria/" target="_blank" aria-label="Instagram">
