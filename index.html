@@ -3450,7 +3450,7 @@ function renderArchive() {
             <div class="archive-list-name">${name}</div>
             <div class="archive-list-meta"><span>${metaText}</span></div>
           </div>
-          ${ticket?`<div><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info / Tickets</a></div>`:''}
+          ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info / Tickets</a></div>`:''}
         </div>`;
       });
       html+=`</div></div>`;
