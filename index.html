@@ -2660,12 +2660,31 @@ function openModal(r) {
 
   document.getElementById('show-modal').classList.add('open');
   document.body.style.overflow='hidden';
+  history.pushState({modal:true},'',location.href);
 }
 
-function closeModal(){document.getElementById('show-modal').classList.remove('open');document.body.style.overflow='';}
+function closeModal(fromPopstate){
+  document.getElementById('show-modal').classList.remove('open');
+  document.body.style.overflow='';
+  if(!fromPopstate) history.back();
+}
 function openModalById(id){const r=showRecords[id];if(r)openModal(r);}
 function handleModalOverlayClick(e){if(e.target===document.getElementById('show-modal'))closeModal();}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+window.addEventListener('popstate',function(e){
+  const modalOpen=document.getElementById('show-modal').classList.contains('open');
+  if(modalOpen){
+    document.getElementById('show-modal').classList.remove('open');
+    document.body.style.overflow='';
+    return;
+  }
+  const state=e.state;
+  const section=state&&state.section?state.section:location.hash.replace('#','')||'home';
+  if(['home','upcoming','archive','resources','cheatsheet','specials','about','faq','privacy'].includes(section)){
+    showSection(section,true);
+  }
+});
 
 
 
@@ -2738,7 +2757,9 @@ function filterUpcoming(type,btn){
   renderUpcoming();
 }
 
-function showSection(id,skipHash){
+let _currentSection='home';
+
+function showSection(id,skipHash,replaceOnly){
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
   document.querySelectorAll('.mobile-drawer a:not(.mobile-submit):not(.mob-mode-row)').forEach(a=>a.classList.remove('active'));
@@ -2748,7 +2769,16 @@ function showSection(id,skipHash){
   const h=HEROES[id];
   document.getElementById('hero-title').innerHTML=h.title;
   document.getElementById('hero-sub').textContent=h.sub;
-  if(!skipHash){const sh=id==='home'?'':id;history.replaceState(null,'',sh?'#'+sh:location.pathname);}
+  if(!skipHash){
+    const sh=id==='home'?'':id;
+    const url=sh?'#'+sh:location.pathname;
+    if(replaceOnly||id===_currentSection){
+      history.replaceState({section:id},'',url);
+    } else {
+      history.pushState({section:id},'',url);
+    }
+  }
+  _currentSection=id;
   window.scrollTo({top:0,behavior:'smooth'});
 }
 
@@ -2783,9 +2813,15 @@ function toggleMenu(){
 
 function initFromHash(){
   const hash=location.hash.replace('#','');
-  if(!hash) return;
+  if(!hash){
+    history.replaceState({section:'home'},'',location.pathname);
+    return;
+  }
   if(hash==='submit'){window.location.href='https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form'; return;}
-  if(['upcoming','privacy','about','faq','archive','resources','cheatsheet','specials'].includes(hash)){showSection(hash,true);}
+  if(['upcoming','privacy','about','faq','archive','resources','cheatsheet','specials'].includes(hash)){
+    history.replaceState({section:hash},'','#'+hash);
+    showSection(hash,true);
+  }
 }
 
 let archiveAllShows=[], archiveActiveYear='all', archiveActiveType='all', archiveView='poster';
