@@ -2986,7 +2986,7 @@ function showRowHTML(r) {
         <div class="show-name">${name}</div>
         <div class="show-meta">${meta}</div>
       </div>
-      ${ticket?`<div><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
+      ${ticket?`<div><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info / Tickets</a></div>`:''}
     </div>
   </div>`;
 }
@@ -3059,16 +3059,16 @@ function buildUpcoming(shows) {
     const graphic1=r.fields['Show Graphic'];
     const posterHTML1=graphic1&&graphic1[0]?`<div class="show-poster-col"><img src="${graphic1[0].url}" alt="${name} poster" loading="lazy" onerror="this.style.display='none'"></div>`:`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
     html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
-      ${posterHTML1}
       <div class="upcoming-date-block">
         <div class="upcoming-date">${dateLabel}</div>
         <div class="upcoming-day">${dayLabel}</div>
       </div>
+      ${posterHTML1}
       <div class="upcoming-info">
         <div class="upcoming-name">${name}</div>
         <div class="upcoming-meta"><span>${metaText}</span></div>
       </div>
-      ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
+      ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info / Tickets</a></div>`:''}
     </div>`;
   });
   html+='</div>';
@@ -3102,7 +3102,7 @@ function openModal(r) {
   }
 
   document.getElementById('modal-ticket-wrap').innerHTML=ticket
-    ?`<a class="modal-tix" href="${ticket}" target="_blank">Get Tickets →</a>`
+    ?`<a class="modal-tix" href="${ticket}" target="_blank">Info / Tickets →</a>`
     :`<span class="modal-no-tix">No tickets — walk-in</span>`;
 
   document.getElementById('show-modal').classList.add('open');
@@ -3173,16 +3173,16 @@ function renderUpcoming() {
       const graphic2=r.fields['Show Graphic'];
       const posterHTML2=graphic2&&graphic2[0]?`<div class="show-poster-col"><img src="${graphic2[0].url}" alt="${name} poster" loading="lazy" onerror="this.style.display='none'"></div>`:`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
       html+=`<div class="upcoming-row" data-type="${type.key}" data-rec="${r.id}" onclick="openModalById('${r.id}')">
-        ${posterHTML2}
         <div class="upcoming-date-block">
           <div class="upcoming-date">${dateLabel}</div>
           <div class="upcoming-day">${dayLabel}</div>
         </div>
+        ${posterHTML2}
         <div class="upcoming-info">
           <div class="upcoming-name">${name}</div>
           <div class="upcoming-meta"><span>${metaText}</span></div>
         </div>
-        ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Tickets</a></div>`:''}
+        ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info / Tickets</a></div>`:''}
       </div>`;
     });
     html+='</div>';
@@ -3439,15 +3439,16 @@ function renderArchive() {
         const graphicA=r.fields['Show Graphic'];
         const posterHTMLA=graphicA&&graphicA[0]?`<div class="show-poster-col"><img src="${graphicA[0].url}" alt="${name} poster" loading="lazy" onerror="this.style.display='none'"></div>`:`<div class="show-poster-col"><span class="show-poster-col-ph">—</span></div>`;
         html+=`<div class="archive-list-row" data-rec="${r.id}" onclick="openModalById('${r.id}')">
-          ${posterHTMLA}
           <div class="archive-list-date-block">
             <div class="archive-list-date">${dateLabel}</div>
             <div class="archive-list-day">${dayLabel}</div>
           </div>
+          ${posterHTMLA}
           <div class="archive-list-info">
             <div class="archive-list-name">${name}</div>
             <div class="archive-list-meta"><span>${metaText}</span></div>
           </div>
+          ${ticket?`<div><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info / Tickets</a></div>`:''}
         </div>`;
       });
       html+=`</div></div>`;
