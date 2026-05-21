@@ -809,21 +809,18 @@ nav {
 .day-col {
   background: var(--accent);
   color: var(--accent-inv);
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg);
   font-family: var(--font-mono);
   font-size: 9px;
   font-weight: 500;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
+  width: 38px;
   flex-shrink: 0;
   align-self: stretch;
-  padding: 8px 0;
+  padding: 0 6px;
 }
 .day-col-today {
   background: var(--accent);
@@ -1812,7 +1809,7 @@ footer {
   .show-main-col > div:has(.ticket) { display: none; }
   .show-name { font-size: 16px; }
   .show-meta { font-size: 11px; }
-  .day-label { writing-mode: horizontal-tb; transform: none; font-size: 9px; }
+  .day-label { font-size: 9px; }
 
   .upcoming-row {
     gap: 16px;
