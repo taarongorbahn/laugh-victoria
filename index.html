@@ -274,11 +274,10 @@ nav {
 .mob-mode-row {
   display: flex !important;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 8px;
   flex-wrap: nowrap;
 }
-.mob-mode-row span:first-child { white-space: nowrap; flex: 1; }
 .mob-mode-icon { flex-shrink: 0; white-space: nowrap; line-height: 1; }
 .mob-mode-icon .icon-sun  { display: none; }
 .mob-mode-icon .icon-moon { display: block; }
@@ -332,7 +331,21 @@ nav {
 }
 .mobile-drawer a:hover,
 .mobile-drawer a.active { color: var(--text); }
+.mob-expandable { display: flex; align-items: center; justify-content: space-between; }
+.mob-chevron { font-size: 16px; color: var(--text-faint); transition: transform 0.2s; line-height: 1; }
+.mob-chevron.open { transform: rotate(45deg); }
+.mob-sub { display: flex; flex-direction: column; }
+.mob-sub-item {
+  font-size: 12px !important;
+  letter-spacing: 0.12em !important;
+  color: var(--text-faint) !important;
+  padding: 0.6rem 0 0.6rem 1rem !important;
+  border-bottom: 1px dashed var(--border) !important;
+}
+.mob-sub-item:last-child { border-bottom: none !important; }
+.mob-sub-item:hover { color: var(--text) !important; }
 .mobile-submit {
+  border-bottom: none !important;
   margin-top: 2rem;
   font-size: 11px;
   letter-spacing: 0.14em;
@@ -1459,9 +1472,9 @@ footer {
 .about-wrap { max-width: 1100px; }
 
 .about-intro {
-  margin-bottom: 4rem;
-  padding-bottom: 4rem;
-  border-bottom: 1px dashed var(--border-mid);
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--border-dark);
 }
 
 .about-intro-text p {
@@ -1471,16 +1484,15 @@ footer {
   line-height: 1.85;
   letter-spacing: 0.02em;
   margin-bottom: 1.25rem;
-  max-width: 72ch;
 }
 .about-intro-text p:last-child { margin-bottom: 0; }
 
 .about-mv {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin-top: 3rem;
-  padding-top: 3rem;
+  gap: 0;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
   border-top: 1px dashed var(--border-mid);
 }
 
@@ -1561,6 +1573,57 @@ footer {
   line-height: 1.8;
   letter-spacing: 0.02em;
 }
+
+.about-accordion-item {
+  border-bottom: 1px solid var(--border-dark);
+}
+.about-accordion-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: opacity 0.15s;
+}
+.about-accordion-trigger:hover { opacity: 0.6; }
+.about-accordion-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.about-accordion-icon {
+  font-size: 20px;
+  color: var(--text-muted);
+  line-height: 1;
+  font-weight: 300;
+  transition: transform 0.2s;
+  font-family: var(--font-mono);
+}
+.about-accordion-item.open .about-accordion-icon { transform: rotate(45deg); }
+.about-accordion-body { display: none; padding-bottom: 2.5rem; }
+.about-accordion-item.open .about-accordion-body { display: block; }
+.about-accordion-text {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+}
+.about-accordion-text + .about-accordion-text { margin-top: 1.25rem; }
+.about-accordion-text a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-mid);
+  transition: border-color 0.15s;
+}
+.about-accordion-text a:hover { border-color: var(--border-dark); }
 
 /* ═══════════════════════════════════
    FAQ
@@ -1978,10 +2041,14 @@ footer {
 <div class="mobile-drawer" id="drawer">
   <a onclick="nav('home')" id="mob-home" class="active">This Week</a>
   <a onclick="nav('upcoming')" id="mob-upcoming">Upcoming Shows</a>
-  <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label">
-    <span>Turn the lights on</span>
-    <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span>
-  </a>
+  <a onclick="toggleMobResources()" id="mob-resources" class="mob-expandable">More Stuff <span id="mob-resources-chevron" class="mob-chevron">+</span></a>
+  <div id="mob-resources-sub" class="mob-sub" style="display:none;">
+    <a onclick="nav('archive')" class="mob-sub-item">Show Archive</a>
+    <a onclick="nav('specials')" class="mob-sub-item">Comedy Specials</a>
+    <a onclick="nav('cheatsheet')" class="mob-sub-item">Promo Cheatsheet</a>
+    <a onclick="nav('festivals')" class="mob-sub-item">Festival Submissions</a>
+  </div>
+  <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label"><span id="mob-mode-text">Turn the lights on</span> <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span></a>
   <a class="mobile-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
 </div>
 
@@ -2038,7 +2105,7 @@ footer {
   <div class="section" id="section-archive">
     <div class="section-header">
       <h2 class="section-title">2026 Show Archive</h2>
-      <button class="back-btn" onclick="showSection('resources')">← Resources</button>
+      <button class="back-btn" onclick="showSection('resources')">← More Stuff</button>
     </div>
     <div class="archive-year-tabs" id="archive-year-tabs"></div>
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
@@ -2063,7 +2130,7 @@ footer {
   <!-- RESOURCES LANDING -->
   <div class="section" id="section-resources">
     <div class="section-header">
-      <h2 class="section-title">Resources</h2>
+      <h2 class="section-title">More Stuff</h2>
     </div>
     <div class="resources-cards">
       <div class="resource-card resource-card-full" onclick="showSection('archive')">
@@ -2097,7 +2164,7 @@ footer {
   <div class="section" id="section-cheatsheet">
     <div class="section-header">
       <h2 class="section-title">Show Promo Cheatsheet</h2>
-      <button class="back-btn" onclick="showSection('resources')">← Resources</button>
+      <button class="back-btn" onclick="showSection('resources')">← More Stuff</button>
     </div>
     <div class="cheatsheet-wrap">
 
@@ -2215,7 +2282,7 @@ footer {
   <div class="section" id="section-specials">
     <div class="section-header">
       <h2 class="section-title">Victoria Comedy Specials</h2>
-      <button class="back-btn" onclick="showSection('resources')">← Resources</button>
+      <button class="back-btn" onclick="showSection('resources')">← More Stuff</button>
     </div>
     <div class="specials-wrap">
 
@@ -2408,13 +2475,13 @@ footer {
   <!-- ABOUT -->
   <div class="section" id="section-about">
     <div class="section-header">
-      <h2 class="section-title">About</h2>
+      <h2 class="section-title">About Us</h2>
     </div>
     <div class="about-wrap">
-      <div class="about-intro">
+
+      <div id="about" class="about-intro">
         <div class="about-intro-text">
-          <p>Laugh Victoria is the central home for comedy in Victoria, British Columbia. Every stand-up show, open mic, and improv night happening in the city, listed in one place, updated every week.</p>
-          <p>Victoria's comedy scene has grown faster than most people realize. Since COVID the scene didn't slow down, it leveled up. Independent producers stepped up, new shows launched, and the city developed the kind of weekly comedy infrastructure that most cities twice its size don't have.</p>
+          <p>Laugh Victoria is a place for all things comedy in Victoria BC Canada. We're here to grow the local comedy scene, create original content, support producers, develop comedians, and promote Victoria as the best city in Canada for comedy.</p>
           <p>Laugh Victoria exists because that scene deserves a front door. A place where fans can find tonight's show, aspiring comics can find their first stage, established locals can stay connected, and anyone visiting from out of town can see immediately that something real is happening here.</p>
         </div>
         <div class="about-mv">
@@ -2428,58 +2495,38 @@ footer {
           </div>
         </div>
       </div>
-      <div class="about-values-label">Values</div>
-      <div class="values-grid">
-        <div class="value-card">
-          <span class="value-emoji">🎭</span>
-          <div class="value-title">By the scene, for the scene.</div>
-          <div class="value-body">Victoria belongs to the comics who get on stage, the producers who run the rooms, and the fans who keep showing up. We're just here to make sure everyone can find it.</div>
-        </div>
-        <div class="value-card">
-          <span class="value-emoji">🌊</span>
-          <div class="value-title">A rising tide lifts all ships.</div>
-          <div class="value-body">A packed room at one show is good for every show. A comic who blows up is good for every comic. There's no competition here, only a shared interest in building something worth being part of.</div>
-        </div>
-        <div class="value-card">
-          <span class="value-emoji">🚪</span>
-          <div class="value-title">No gatekeeping.</div>
-          <div class="value-body">If you're doing comedy in Victoria, you belong here. Open mic, headliner, first time on stage, tenth year on the road. Every level, every venue, every kind of funny. Even improv.</div>
-        </div>
-        <div class="value-card">
-          <span class="value-emoji">📍</span>
-          <div class="value-title">If people can't find it, it doesn't exist.</div>
-          <div class="value-body">The best show in the city means nothing if nobody knows it's happening. Every show deserves an audience and we're here to make sure nothing gets lost and Victoria's comedy shows get found.</div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- FAQ -->
-  <div class="section" id="section-faq">
-    <div class="section-header">
-      <h2 class="section-title">Frequently Asked Questions</h2>
-    </div>
-    <div class="faq-wrap">
-      <div class="faq-item">
-        <div class="faq-q">What is Laugh Victoria?</div>
-        <div class="faq-a">Laugh Victoria is a place for all things comedy in Victoria BC Canada. We're here to grow the local comedy scene, create original content, support producers, develop comedians, and promote Victoria as Canada's best comedy city.</div>
+      <div class="about-accordion-item" id="contact">
+        <button class="about-accordion-trigger" onclick="toggleAbout('contact')">
+          <span class="about-accordion-label">Contact Us</span>
+          <span class="about-accordion-icon">+</span>
+        </button>
+        <div class="about-accordion-body">
+          <p class="about-accordion-text">Email us at <a href="mailto:hello@laughvictoria.ca">hello@laughvictoria.ca</a> or send us a DM on <a href="https://www.instagram.com/laughvictoria/" target="_blank">Instagram</a> for the fastest response!</p>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">Who is behind Laugh Victoria?</div>
-        <div class="faq-a">It's a secret...</div>
+
+      <div class="about-accordion-item" id="code-of-conduct">
+        <button class="about-accordion-trigger" onclick="toggleAbout('code-of-conduct')">
+          <span class="about-accordion-label">Code of Conduct</span>
+          <span class="about-accordion-icon">+</span>
+        </button>
+        <div class="about-accordion-body">
+          <p class="about-accordion-text">We are committed to ensuring all participants - artists, audience members, staff, and volunteers - experience events and attend venues free from harassment, hostility, abuse, homophobia, transphobia, racism, sexism, bullying, discrimination, humiliation, disruption, and disrespectful behaviour, including inappropriate physical contact, offensive verbal interaction, and unwelcome sexual attention. We will remove any patrons, performers, or community members who violate these terms.</p>
+          <p class="about-accordion-text">Put your best self forward, verbally and physically, online and in-person. Be kind, and considerate. Be nice. Comedy is supposed to be fun.</p>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">How can I support Laugh Victoria?</div>
-        <div class="faq-a">Like, follow, subscribe, share, and stay tuned!</div>
+
+      <div class="about-accordion-item" id="land-acknowledgement">
+        <button class="about-accordion-trigger" onclick="toggleAbout('land-acknowledgement')">
+          <span class="about-accordion-label">Land Acknowledgement</span>
+          <span class="about-accordion-icon">+</span>
+        </button>
+        <div class="about-accordion-body">
+          <p class="about-accordion-text">We acknowledge that the Victoria comedy scene exists on the traditional and unceded territory of the lək̓ʷəŋən peoples, known today as the Songhees and Xwsepsum (Esquimalt) Nations, who have been stewards of this land since time immemorial. We are grateful to create, perform, and gather here, and we are committed to honouring that relationship with respect and intention.</p>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">What are your plans for Laugh Victoria?</div>
-        <div class="faq-a">The scene is growing and we're going to be there every step of the way!</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">How do I get in touch?</div>
-        <div class="faq-a">Send us a DM on <a href="https://instagram.com/laughvictoria" target="_blank">Instagram</a>!</div>
-      </div>
+
     </div>
   </div>
 
@@ -2539,7 +2586,7 @@ footer {
   <div class="section" id="section-festivals">
     <div class="section-header">
       <h2 class="section-title">Canadian Comedy Festivals</h2>
-      <button class="back-btn" onclick="showSection('resources')">&#8592; Resources</button>
+      <button class="back-btn" onclick="showSection('resources')">&#8592; More Stuff</button>
     </div>
     <div class="festivals-wrap">
 
@@ -2754,10 +2801,10 @@ footer {
     <div class="footer-rule"></div>
     <div class="footer-bottom">
       <div class="footer-links">
+        <a href="#" onclick="showSection('resources');return false;">More Stuff</a>
         <a href="#" onclick="showSection('about');return false;">About</a>
-        <a href="#" onclick="showSection('faq');return false;">FAQ</a>
+        <a href="#contact" onclick="openAboutAnchor('contact');return false;">Contact</a>
         <a href="#" onclick="showSection('privacy');return false;">Privacy</a>
-        <a href="#" onclick="showSection('resources');return false;">Resources</a>
       </div>
       <div class="footer-social">
         <a href="https://www.instagram.com/laughvictoria/" target="_blank" aria-label="Instagram">
@@ -2845,12 +2892,11 @@ const HEROES = {
   home:      { title: 'This Week<br>in Comedy',    sub: 'Every comedy show happening this week in Victoria.' },
   upcoming:  { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene.' },
   archive:   { title: '2026 Show<br>Archive',        sub: 'Every comedy show that has happened in Victoria.' },
-  resources: { title: 'Resources',                 sub: 'Everything the Victoria comedy scene needs in one place.' },
+  resources: { title: 'More Stuff',                sub: 'Everything the Victoria comedy scene needs in one place.' },
   cheatsheet:  { title: 'Show Promo<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
   specials:  { title: 'Victoria Comedy<br>Specials',    sub: 'Full-length stand-up comedy specials filmed in Victoria.' },
   privacy:   { title: 'Privacy<br>Policy',         sub: '' },
-  about:     { title: 'About',                     sub: '' },
-  faq:       { title: 'FAQ',                       sub: '' },
+  about:     { title: 'Info',                      sub: '' },
   festivals: { title: 'Canadian Comedy<br>Festivals', sub: 'Festivals sorted by distance from Victoria — where to submit your tape.' },
 };
 
@@ -3024,7 +3070,7 @@ window.addEventListener('popstate',function(e){
   }
   const state=e.state;
   const section=state&&state.section?state.section:location.hash.replace('#','')||'home';
-  if(['home','upcoming','archive','resources','cheatsheet','specials','festivals','about','faq','privacy'].includes(section)){
+  if(['home','upcoming','archive','resources','cheatsheet','specials','festivals','about','privacy'].includes(section)){
     showSection(section,true);
   }
 });
@@ -3127,6 +3173,32 @@ function showSection(id,skipHash,replaceOnly){
 
 function nav(id){showSection(id);toggleMenu();}
 
+function toggleAbout(id) {
+  const el = document.getElementById(id);
+  el.classList.toggle('open');
+}
+
+function openAboutAnchor(hash) {
+  const validAnchors = ['contact','code-of-conduct','land-acknowledgement'];
+  if (validAnchors.includes(hash)) {
+    showSection('about', true);
+    const el = document.getElementById(hash);
+    if (el) {
+      el.classList.add('open');
+      setTimeout(function(){ el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
+    }
+  }
+}
+
+function toggleMobResources(){
+  const sub = document.getElementById('mob-resources-sub');
+  const chevron = document.getElementById('mob-resources-chevron');
+  const open = sub.style.display === 'none';
+  sub.style.display = open ? 'flex' : 'none';
+  sub.style.flexDirection = 'column';
+  chevron.classList.toggle('open', open);
+}
+
 function toggleMode(){
   const html=document.documentElement;
   const next=html.getAttribute('data-mode')==='dark'?'light':'dark';
@@ -3161,9 +3233,13 @@ function initFromHash(){
     return;
   }
   if(hash==='submit'){window.location.href='https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form'; return;}
-  if(['upcoming','privacy','about','faq','archive','resources','cheatsheet','specials','festivals'].includes(hash)){
+  if(['upcoming','privacy','about','archive','resources','cheatsheet','specials','festivals'].includes(hash)){
     history.replaceState({section:hash},'','#'+hash);
     showSection(hash,true);
+  }
+  if(['contact','code-of-conduct','land-acknowledgement'].includes(hash)){
+    history.replaceState({section:'about'},'','#'+hash);
+    openAboutAnchor(hash);
   }
 }
 
