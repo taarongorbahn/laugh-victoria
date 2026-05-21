@@ -808,29 +808,6 @@ nav {
    SHOW ROW
 ═══════════════════════════════════ */
 
-.day-col {
-  background: var(--accent);
-  color: var(--accent-inv);
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg);
-  font-family: var(--font-mono);
-  font-size: 9px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  flex-shrink: 0;
-  align-self: stretch;
-  padding: 8px 0;
-}
-.day-col-today {
-  background: var(--accent);
-  opacity: 1;
-}
 .show-row {
   display: flex;
   align-items: center;
@@ -953,6 +930,7 @@ nav {
   transition: opacity 0.1s;
 }
 .upcoming-row:first-child { border-top: 1px dashed var(--border-mid); }
+.archive-list .upcoming-row:first-child { border-top: none; }
 .upcoming-row:hover { opacity: 0.6; }
 
 .upcoming-date-block { flex-shrink: 0; width: 90px; padding: 0 12px; }
