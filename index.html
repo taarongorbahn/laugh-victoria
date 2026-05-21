@@ -214,6 +214,7 @@ nav {
   gap: 2rem;
   list-style: none;
   justify-content: center;
+  align-items: center;
 }
 .nav-links a {
   font-size: 11px;
@@ -232,6 +233,9 @@ nav {
 
 .nav-dropdown-wrap {
   position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
 .nav-dropdown-trigger {
   cursor: pointer;
@@ -239,6 +243,9 @@ nav {
   display: flex;
   align-items: center;
   gap: 5px;
+  line-height: 1;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
 }
 .nav-dropdown-chevron {
   font-size: 14px;
@@ -273,7 +280,7 @@ nav {
   display: block;
   white-space: nowrap;
 }
-.nav-dropdown-item:last-child { border-bottom: none; }
+.nav-dropdown-item:last-child { border-bottom: none; padding-bottom: 14px; }
 .nav-dropdown-item:hover { color: var(--text); background: var(--surface2); }
 
 .nav-right-slot {
@@ -2078,8 +2085,8 @@ footer {
 <nav>
   <span class="logo" onclick="showSection('home')">Laugh Victoria</span>
   <ul class="nav-links" id="nav-center">
-    <li><a onclick="showSection('home')" id="nav-home" class="active">This Week</a></li>
-    <li><a onclick="showSection('upcoming')" id="nav-upcoming">Upcoming Shows</a></li>
+    <li style="display:flex;align-items:center;"><a onclick="showSection('home')" id="nav-home" class="active">This Week</a></li>
+    <li style="display:flex;align-items:center;"><a onclick="showSection('upcoming')" id="nav-upcoming">Upcoming Shows</a></li>
     <li class="nav-dropdown-wrap">
       <a class="nav-dropdown-trigger" id="nav-resources">More Stuff <span class="nav-dropdown-chevron">+</span></a>
       <div class="nav-dropdown">
