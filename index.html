@@ -3057,6 +3057,12 @@ function showSection(id,skipHash,replaceOnly){
     }
   }
   _currentSection=id;
+  window.dataLayer=window.dataLayer||[];
+  window.dataLayer.push({
+    event:'virtual_pageview',
+    page_path:'/'+(id==='home'?'':id),
+    page_title:id
+  });
   window.scrollTo({top:0,behavior:'smooth'});
 }
 
