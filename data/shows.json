@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-26T02:49:52.888Z",
+  "fetchedAt": "2026-05-26T03:20:09.244Z",
   "current": [
     {
       "id": "recsx5N8rqcho32OW",
@@ -41,6 +41,49 @@
         "Date": "2026-05-26T02:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recZidQrIkdbDz1s9",
+      "createdTime": "2026-05-16T11:44:46.000Z",
+      "fields": {
+        "Show": "The Clam Bake",
+        "Venue": "The Mint",
+        "Producer": "Lucia Riberio",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attyheaSEbuH6A3be",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/8lU4G5zLHs6RB3dwD-XKuA/fpcRoNK1tVn3jOvs2HEax_4h51BIrDDYc10vwTI-lPtvnvb9LzpuBfJswu91i-ynV-q2SeCjajaxxWLAhMEYyQYEXjmnvbpbeI_zYSZEJW6O9DSiACGsDwzU1OA9gTU6Txk5s29uLzFJJ9uE6jfXCMnQQoO3optCs-xt5ktFYF0/40l-jvg5SDkWPPaOsZlChI22MoyQ93zdGPCJZ9fbhG4",
+            "filename": "The Clam Bake.webp",
+            "size": 83376,
+            "type": "image/webp",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/3rIu0E2su_qSR7h2H_p4EQ/nKNArc8GL3ACHyWm5MMctIigXyHFSFwDJRE8HXoZ75V1FO8YSDFs6sITb0H0Di5QxjUfovFgff6lMZ2JPl_rLIc5iMw6bs93Gzg73S7qQrLEPS9W1hLoMx_gYB9OULiQBfZ6N-YVM7xzj6Pa6jIZow/29qfQEPKBHXMyBLUbRGMFjvr3MpFa8lGMhmvkCxapvY",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/cWVYsZWChac-9E5NY3kFdA/hEvI39g3-qLPfrLbNIW3MkjAdFDzxXgEDU8H70JRYXlEYlfETkegjY29gNeNOWDddEluXq9C2YfS3PL2jqIcqEAuM2a7Z1tHktvff-8NfcVt2hrrglikSAIrANG96xsPPdYnXCBd41MY4CY9Es9Kbw/N92I76SG9TSgmC-VNGhfuRI_RpfInWwGTilEkd1xX2A",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/uRH040RL62qajCi2543mGQ/7g8GUTFw_20KFhNovgwm86mHAJ34KHezTyG0V9G7vVjAhrNxzz1bFed_xatd8SHOJTnd-MDSo667sb8wG4edK7HId4Gt-5YSG_6PTh4YmDLnDAx-8EKtdh8vUJEFiVM7UGIzlrxWya4XlzWx1uk_hg/t6QFsA63qV0kq4fPhO_zVEMK9q5XQ4vCON-gSD2h2BY",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/the-clam-bake/5A2NF0",
+        "Date": "2026-05-27T01:30:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -127,6 +170,49 @@
         "Date": "2026-05-27T03:30:00.000Z",
         "Type": [
           "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recODtjFb0rCPcujK",
+      "createdTime": "2026-05-16T11:45:47.000Z",
+      "fields": {
+        "Show": "Sloppy Seconds After",
+        "Venue": "The Mint",
+        "Producer": "Lucia Riberio",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attI0MtwixI5Wr38X",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/9BJBnOwjZGy37DqPGcMK1g/BaopVucGiTVGtqxx0bWbTe2xhTn9ie8mAN03K4V4mIS0v3W0ZQZgLglNmhw0i6fMIvSd4sd5QaFBa3mquU0pgGIrScjTxXcrunYEUyG5C6VbEcYcbwzMTwNz2Uap17tKv6Gyc-5pBVB-febB8bk0JH392gCGKnWsaIb3_IPw27s/WAGHfuG9Jcm2N4VTLq0aMFmV-RpE4Anj658Y97QVfCo",
+            "filename": "Sloppy Seconds After.webp",
+            "size": 52626,
+            "type": "image/webp",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/UmHzSjiWELif6h-t0I45qg/mt47pQVZQrXh6lJUCyZYk9IDgOAorvme_2EEgA0LoFhkKRT4Ci3_oPl__Eounzux9cipxDo3eGdKaOjTkZHVn8VqSoJsx37WY8eML9Vr56WdFTw3Gu73oXhLt837Zt0FjbBCEYUWUfsb8Zl7jwExhg/DrJwS9ZvT0oUJcnyKf7lc_l1e0XgEIwpt6jajUSo4jM",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/SMYaclBI_bGmHkIRjk4fmA/53ET8vsV0zDYTbXrQSCfBvGYsUIZM3ZHCxdgiFq-yJzvHRlROAZIldsXuHsrBdaj46c1NryDTA7jyH0lcLWQeLbzdT4b3pnvNlCgkYXCLYWSat7sY2KvfWmQC1ZG5yNNlOCOmKbjfYZzYVFIgVDu8Q/-5lXR5-D4I4hwWR2PPfhLJURLqen3gSqjGxysx_suCE",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/LYPS2viJGSOMp_HG1vjg-A/x5u1Qo2WQUQRgiy7RCkUP7UFNkUbt3AwM6n0YUM7MtMDdq8cAmyh3T6rlxgreyJL6b6aUO6lTRPdZQow5CcceooRtn1Vrc3mDumirlFAs8i_VkxRJoeoa1J2pR30VAlOWRGCAZI7FrWwz-FcSwGEzw/yItbucWsnA8anBE0zKqe3iSWbeFTABsAyJ7YTNhGsqs",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/sloppy-seconds-after/DPVQ7T",
+        "Date": "2026-05-27T05:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -346,49 +432,6 @@
       }
     },
     {
-      "id": "recZidQrIkdbDz1s9",
-      "createdTime": "2026-05-16T11:44:46.000Z",
-      "fields": {
-        "Show": "The Clam Bake",
-        "Venue": "The Mint",
-        "Producer": "Lucia Riberio",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attyheaSEbuH6A3be",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/8lU4G5zLHs6RB3dwD-XKuA/fpcRoNK1tVn3jOvs2HEax_4h51BIrDDYc10vwTI-lPtvnvb9LzpuBfJswu91i-ynV-q2SeCjajaxxWLAhMEYyQYEXjmnvbpbeI_zYSZEJW6O9DSiACGsDwzU1OA9gTU6Txk5s29uLzFJJ9uE6jfXCMnQQoO3optCs-xt5ktFYF0/40l-jvg5SDkWPPaOsZlChI22MoyQ93zdGPCJZ9fbhG4",
-            "filename": "The Clam Bake.webp",
-            "size": 83376,
-            "type": "image/webp",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/3rIu0E2su_qSR7h2H_p4EQ/nKNArc8GL3ACHyWm5MMctIigXyHFSFwDJRE8HXoZ75V1FO8YSDFs6sITb0H0Di5QxjUfovFgff6lMZ2JPl_rLIc5iMw6bs93Gzg73S7qQrLEPS9W1hLoMx_gYB9OULiQBfZ6N-YVM7xzj6Pa6jIZow/29qfQEPKBHXMyBLUbRGMFjvr3MpFa8lGMhmvkCxapvY",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/cWVYsZWChac-9E5NY3kFdA/hEvI39g3-qLPfrLbNIW3MkjAdFDzxXgEDU8H70JRYXlEYlfETkegjY29gNeNOWDddEluXq9C2YfS3PL2jqIcqEAuM2a7Z1tHktvff-8NfcVt2hrrglikSAIrANG96xsPPdYnXCBd41MY4CY9Es9Kbw/N92I76SG9TSgmC-VNGhfuRI_RpfInWwGTilEkd1xX2A",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/uRH040RL62qajCi2543mGQ/7g8GUTFw_20KFhNovgwm86mHAJ34KHezTyG0V9G7vVjAhrNxzz1bFed_xatd8SHOJTnd-MDSo667sb8wG4edK7HId4Gt-5YSG_6PTh4YmDLnDAx-8EKtdh8vUJEFiVM7UGIzlrxWya4XlzWx1uk_hg/t6QFsA63qV0kq4fPhO_zVEMK9q5XQ4vCON-gSD2h2BY",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/the-clam-bake/5A2NF0",
-        "Date": "2026-05-30T01:30:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
       "id": "rec40HGSpi89wqFQf",
       "createdTime": "2026-05-12T02:10:42.000Z",
       "fields": {
@@ -428,49 +471,6 @@
         "Date": "2026-05-30T03:30:00.000Z",
         "Type": [
           "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recODtjFb0rCPcujK",
-      "createdTime": "2026-05-16T11:45:47.000Z",
-      "fields": {
-        "Show": "Sloppy Seconds After",
-        "Venue": "The Mint",
-        "Producer": "Lucia Riberio",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attI0MtwixI5Wr38X",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/9BJBnOwjZGy37DqPGcMK1g/BaopVucGiTVGtqxx0bWbTe2xhTn9ie8mAN03K4V4mIS0v3W0ZQZgLglNmhw0i6fMIvSd4sd5QaFBa3mquU0pgGIrScjTxXcrunYEUyG5C6VbEcYcbwzMTwNz2Uap17tKv6Gyc-5pBVB-febB8bk0JH392gCGKnWsaIb3_IPw27s/WAGHfuG9Jcm2N4VTLq0aMFmV-RpE4Anj658Y97QVfCo",
-            "filename": "Sloppy Seconds After.webp",
-            "size": 52626,
-            "type": "image/webp",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/UmHzSjiWELif6h-t0I45qg/mt47pQVZQrXh6lJUCyZYk9IDgOAorvme_2EEgA0LoFhkKRT4Ci3_oPl__Eounzux9cipxDo3eGdKaOjTkZHVn8VqSoJsx37WY8eML9Vr56WdFTw3Gu73oXhLt837Zt0FjbBCEYUWUfsb8Zl7jwExhg/DrJwS9ZvT0oUJcnyKf7lc_l1e0XgEIwpt6jajUSo4jM",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/SMYaclBI_bGmHkIRjk4fmA/53ET8vsV0zDYTbXrQSCfBvGYsUIZM3ZHCxdgiFq-yJzvHRlROAZIldsXuHsrBdaj46c1NryDTA7jyH0lcLWQeLbzdT4b3pnvNlCgkYXCLYWSat7sY2KvfWmQC1ZG5yNNlOCOmKbjfYZzYVFIgVDu8Q/-5lXR5-D4I4hwWR2PPfhLJURLqen3gSqjGxysx_suCE",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1779775200000/LYPS2viJGSOMp_HG1vjg-A/x5u1Qo2WQUQRgiy7RCkUP7UFNkUbt3AwM6n0YUM7MtMDdq8cAmyh3T6rlxgreyJL6b6aUO6lTRPdZQow5CcceooRtn1Vrc3mDumirlFAs8i_VkxRJoeoa1J2pR30VAlOWRGCAZI7FrWwz-FcSwGEzw/yItbucWsnA8anBE0zKqe3iSWbeFTABsAyJ7YTNhGsqs",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/sloppy-seconds-after/DPVQ7T",
-        "Date": "2026-05-30T05:00:00.000Z",
-        "Type": [
-          "Stand-up"
         ]
       }
     },
