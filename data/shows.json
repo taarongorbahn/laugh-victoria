@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T20:14:52.214Z",
+  "fetchedAt": "2026-06-01T21:57:59.515Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -88,6 +88,49 @@
       }
     },
     {
+      "id": "recYU8ZOWU6xZfubu",
+      "createdTime": "2026-06-01T21:44:49.000Z",
+      "fields": {
+        "Show": "Comedy Night Kick-Off",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attOsFwSZupzTAzil",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/gTtzPs-_I8DIzTbLuCNKBw/-TZc3VhrZgZONUUjrA60riCO8t53XHjLli-xMaaRbpupPYeW-rmOTJgv0o6VQKKxmS1y8-YNp9o2VDDQJYqM9Kc8XAcYOZ6hSEekb5I4mVVSp6DZTKKaffnujXoBduHtUmir0BVIIb7-0093K90uWBxt595v4ixR_-s0ce2tsmg/1eSdvdpaRVY5isCcWVc-laTPcTJsGa5dzkcrbr4oAc0",
+            "filename": "Comedy Night - June 3.png",
+            "size": 1125289,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/x-i4QB-uEe8ICA8AumaV4g/eAB3F2n_5Nzlyd92E-4JBnLmUhr8lmzyNm1RHzRDWuQ75c8dBu5cmwHGbne3MRcktHzFGuH0UNVzIE0GxltiijA6sLhJPV6OSE5_K2hEz6zxq_2JlgMnBtGc6c7wbifoXbR2UR7LEZ8zwRUpdGju6Q/1W_6fbgaE2bUDzZPt8rHojBtF2LSMUblg159Lm6IGLA",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/Pt5pfw56fFIurcDnID4WHw/sIKkS_T2fdpMcaCZqfmlACZ97xDqU0_GRL2b-wlC0eoVxC1AOvsyx4P67Zaf7U_EFPRoIYkE9kcfZPlzn7TKTsTgbpDQxflRYRw-OMWGHgOtxDl8gPM1Re4JHeiYks0fpvX1f47UUxlzOD4IdL2GoA/SpmHAKb8THMgqmxLyDNwp6xaS7pHL12VvCJPvKtXU7g",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/G7JCRvntW6zvDYQEaMiy0w/DAjjcD3ELeJi5re0dacQPjILKxYh07Ucz8KGxDEEHTp7NhNmsAW-HyGBUw9dJYDjnks6CEFcAPNcg63gEw08tFO0qg6SPZNhY50KH9smzgxgmbTGn7EbkVVTlwDZv4C92X4SOTOR1mScfV_50DZ1sQ/9Pv2FhE4ZIXbYi5whQYddtB66FwdS55ds0c6D60-ez8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-06-04T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "reccsqWUvZIsJJXQz",
       "createdTime": "2026-05-11T16:28:14.000Z",
       "fields": {
@@ -131,6 +174,135 @@
       }
     },
     {
+      "id": "recIEsB5oVkhQwxR4",
+      "createdTime": "2026-06-01T21:38:32.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attiMCRuib2Az4kms",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/mIE-TexxEkg57hRSoyUUTw/-I5wiuzZvR1-0-AtAdLIe0wmFmnzdM0qWqgL3aN-UYVgGTgvupYnvR-mp58fSwqrSFX1-j5BmERKNJnJpPfGgdoRFJh_BTa1WTA94c_i2RjFKu4uqIoHAbcfWF4ujz9cQDgkKLJ8JEbVcJ-S7Kpb3nD3J0c6g7qaaqQeHoyVm9E/oQX75QAM5p4JBNihR7JsRPuCPcLiUfipQXFFiAi0YMw",
+            "filename": "harold night.png",
+            "size": 629484,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/pf0CDRdb0OOJyr1Dj2vcwQ/KhZZcD8AazWPlWdzY4hehz_4lllz3T7xUDgu9bppOamVTZrMeXlRBQ5UnhjAEVbEUyKOn_zI4kdLtTi4Wej7raFf42-qzCUmanIdSzkcbEsxMB5sI8B2Q7o2Oz9e6Rtv5cQ1v_9UbyfWbQbNWqri3w/KlTsEzK6GDjmtN5vFxXaIKakCerHqIuC1fnOETvFUuI",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/_IC5KDk-L9JCQ6Ul9lgTJA/MwNLBV5c-sq4Co1XX6rrZIqYIp3prFsxmgKPkzIPMJl4P5cMbnTNerP0NBDgbAAP9VlmeYYXqrIRN4fMjq3zdHdHUoibDQHhhkI2tmY0k-AJnrHNN-_AbGM08zoiKG0WnBJdtgx6mrqbgYsB4eDc7A/GP1wQyKBcVhIcdj_Qg-hlaJnmIu3DajXfOLeYs8bZIw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/OOkuVUfsLFJ0Oh0reMFQ8A/eiKq9nY2CYvdBBeCVrGuE0MAD4yUUPyerjBNMkNVEUC6NbS4dQmG3w0_6ROOBtw-eSY_uY2OAAEO3sJbQAtzeZ3wzby-p7lVWcBqgZf1QzraNwsvYKs80B1hwkONa8wp1guweWLfRUcrSu1j0B3CfQ/_7F0nf09y9_XWg8fknZhLxzdLA1yjLaFGkT00AMyuNk",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-jun4",
+        "Date": "2026-06-05T03:00:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recKCriDiuJb5OSED",
+      "createdTime": "2026-06-01T20:22:55.000Z",
+      "fields": {
+        "Show": "OK DOPE Presents: Entertainment Village ft Dan Duvall",
+        "Venue": "The Mint",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attLdeHbs2upjRIzs",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/rHqvuckD78FNLA3wRdhvHA/rC8kbIl4Z-O32QjV_dWUKk1FE5ZkOZr7BIdl4Pk0khmr2I9IrWDw24EyieQdcY2gqoI-_rduxnG0msNxRaKDs_i9TWHPxsmIaYkO7NnXBqEJQvXZfpQgkvnvNn4UNOg44KdSr7KGvhi2VItyFhW0nczL7ypTZou5OLkkZkDRK74/PLP-Z0iQ3nAhCfJlE0VKbvkY1cBeZ-IvoM3fEbmWTdU",
+            "filename": "EV June 5.png",
+            "size": 1151159,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/Cq_uzWJoHRgBCQ3Eps347g/uUUv3WC8fPLGObKLp_sVS_MFCjb57KvXEPF4UlJ1QUAZ_hwggbdpBELy1Y8okPHHMCvI8txahI8CvamGM9ekrU7ZJlICFUes2un8oEX0o1Nmus-Xsk4GxYamic6I8BYeYC4rdv373tUJzrZjIWZIlQ/f4W-yvAzXFtF32rhH1WQLdDmc3Yc7DZhsTY96jTokLQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/2fuGZebYL-5-SKCqG_ZmQQ/VgkXCS9bpea_6NX4EIo_5icS5bH1incu1n1ymIStOYmPZVTgOGl3qVeKo0v7qLI04-0a9w1prRNmmW3AXkDiQa1EEsdkbvkQjZXkc5IrGBUm4VK12WVEr024sgoPzSQ5lhAFhGrOgaJyAfezx8mFTA/7RXJ0Cv7SwHwQgkjk8vztEZEgqMSdyldegFLsJvM-gI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/I4jjmw9HVZoTwdxvGHzchQ/vHsGTgiFvxf818bajU70lCmcAJSO_dKskpWUVC7HMfa90VjmJlSxv2t-Jz4BrANvb6cDWa6zUku7ywO5dWzD1vLMqfYgy4TPNownxHLTzRaOJh_zYidA9KZKYOfkrXMBqQzzHRPwzAXQ81NWKp-G2A/92cYQ4V7633aQz_1N09Gx0M8KjNdJGYI-eVEGKFBERA",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/improv-comedy-live-at-the-mint-1",
+        "Date": "2026-06-06T03:00:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recrHiWSu5sQYJ2mS",
+      "createdTime": "2026-06-01T21:39:23.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Theatresports",
+        "Venue": "Theatre SKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attGWdQnVwo3WmlcY",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/AMkD365Gv7XtA9_0lWoEiA/T7R6S7Qukk1ESMQVIW4oLljmnYZoll3pggquwyDaUVTpqbN2o42HpjS09BliBBo9t93m24Kr8WpENA0s1VdINw0WC6QQQ72fog00eOFsQjjgyq7msVyY_Wj-AbPYMzvyFnqr1QOZgjWEeYKEWWZpocnXtKzDJ0x_KowQ8J1OVcU/tyXvHkOstWEki3V5bvNr7pNX6GRXEUPwH76NWltaq9A",
+            "filename": "Theatresports.png",
+            "size": 487304,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/vvtTD60wDZ6WAL4tH2WpKQ/2uFJ3Od9H4npqd0-LAbNeLTwtdZsqsiwfR1uX5FCPQeS9VY4_rlaqRiTyyj0PEPdHiaMonmM7duwFSq32Ggxy07tgPgcZ8AlKyiG9ZmaV51w5pVSsc1_yJNCGO-z4Rl-75m7O74AUdWgt0iLSkxBjg/KE9tTYP1Ayx3-nSwNvftqLtEg7hR--OeB1PqRrxwi7c",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/v0aA7nR5lPRvvixxaXh29Q/rPNJk5lWI9FN7vzrylVrDED5IOzWqokJcHq3LpLE1vMRBNyvZQUWS21XoZhM5Pz_55SiS4nFD_ef3rD62VqFQDF3720n-tIWBHNLDqX6cd1N3NvYERSvHzI5uFsCJYRYfYRW8ykjpcrFira8XJ4Ljg/IhFjJ01OGhvCbNleyWOK0fX4ZEzyr0rrg8duB-6sbrI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/UC1TjnEXPu_SpLxnVUqSgw/tRC7o7S4CN8-aT1-RbuETOCNHys-vzLDcb-EZDImxMFXQ3XYlM8h0wINdts2KFDzZiRWsmEr2xgRaZaXa2hGDXK-3HVNb1HJxvryeKiRgOxthHNla4-bvgu40Vx88-r2JykwqnYOgHevoq1oXHFMEA/I1JopOCk9dLNtgWlir0nxPAr05VHA6OsNX_cyZUkQN0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/theatresports-jun5",
+        "Date": "2026-06-06T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
       "id": "recyd8rbAldVJRVsb",
       "createdTime": "2026-05-11T20:23:04.000Z",
       "fields": {
@@ -170,6 +342,92 @@
         "Date": "2026-06-07T03:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "receIj9HumbxBo97F",
+      "createdTime": "2026-06-01T20:23:56.000Z",
+      "fields": {
+        "Show": "OK DOPE Presents: Girls Night",
+        "Venue": "The Mint",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attSVumDVuoFqQWP1",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/C-cXfKR6MBOElBRCnOhvmw/q1Za2ZvKw5bhydrd9MX4T9RE_M0tEagASDA954WanMM6GP5df0QmRhHwoAM5lHAp-J28hVFZbL9qk63puKAPJCLTSSy7xsheAnRercHhLlWOfvLwPJl-vOUpJ0NVkkGwk_OsW5-Ax-Lp8T7RjstePIHCBT2unYhhHimviuVV0DU/edYxU5Tgz4wslZ5f0txe1tentBMrl3Mx6wxmHELDYpk",
+            "filename": "EV June 6.png",
+            "size": 1491563,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/iPU_9Nx6RYPQElAM2WEm5A/aNwwA6Pi09tUL_sVbFei2mNoccARQTZsP4Y8liKLkx7-z9s6VKykzeby9FKRn1mXs8xI5QxMgxG9k7ASIFi35qOR8EX_-HX0yJ7fvCq5Bp0jBEDHs-HiwmN50EdwhSJYTFa8h4gZz2DVme5IXx23ww/kBwhwOrG6nELGE45vT-eeQk4RMFp51t9WY2YrMEA05E",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/pL1o-ODM5nGvuCL85V-sAg/DlWhPcCJi8OUvTi7dYTatHDf8_pGwhnSGX95kPxYU-rA2nn1UGF_-23Z77FItLAYqFe53GTLoBRpOLSOgbKwMDoLkGyTmaDk9S2gypto9QCyWGWWXcXVI3SwkMlUI1EfNS6tNz6ZuOtfpghSnzLV8w/c0p8V5FaYuFInGHkQylXBaP43SxHUv0sxUyQQGEd6cE",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/F06CoSBxq7WUh5UelgiXkA/TtizQkp4nOO-K5pG-GH77AoFmQxcRJXU4Wlbe7_merRU3M-8gLOznUFdS3ysT3llx5ufrnVW5aUsLoylK1M5UcETYERnPFRvAOhaT_VXpWlViYJ58m5NOslzFsOjlxlfoD8M6tH8onqIck3HLMbooQ/kdr8JaIBJRq0huvnDcQit_J3h_mov9683SjX2P5EUVg",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/girls-night-2",
+        "Date": "2026-06-07T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recYzdXSI9JAnaP25",
+      "createdTime": "2026-06-01T21:40:45.000Z",
+      "fields": {
+        "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att4u6YelUCTKIDS5",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/MO656S4E7y2KAMxPSD_TGg/7HvKT9HoH0ZgNSdITpywRhoNvt3-sD12jxzh5EDrr6S4sT6iWMoRpX5HqPPdudgyezbDJC25Z_OUExEwLpJ5UPJssqpyDkSu4FtkSyXk6HZ91IBRzGD-08lrKwwuD_vQiij3N3j5-1r_WT0c_O2gkrqTrfm8RcxNQyok25jQNeE/ioiIibo3Tn5ya134PGSOa2qArseutVg3aA8NtatRxE8",
+            "filename": "Garden City - June 6.png",
+            "size": 542273,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/9v4L7q7fJG3WEKKRZkBcmw/AF98NcmBWKUUpvgfiiDp9_N_ygFqVUs_JzDzYFq0U3mWD5IMPEoHQV2glvCN3eTZ68LXf4j_YX3l8ix-eMGdI4h2wXDmCm07GCUnYcSS5fUk-Umb7tgsMopxoQbwto52LK-KkIqwaM7xveyC5QlqIg/xK73qJm4GDkCHipPoHVtWUraXJwobF6cYDK2p0RI7vI",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/-_HZfaSvkRL15I_6UDYklA/MBy3SwK7P3C_P5Yb3tpIzYExYkRgawi5ck8CC2uSfHN0UtZPSFiqrNp3YVM5TQDsUXhM-elciB2kSi1dcfoV1gSySVf-dwvVIj0uG6vWy1qstr_OGzfs2TrCPMMbKJjiqaVDC1mququvF6LnMpQ41A/0JoKotoHChOInOjMmxhRiXWSZMcauyBC3Kb68rBunLg",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/0xyOJMGrYSBZphlLsxHu_Q/mLgzXCcGXqYWNmmpAb6XRzz5bIxPnZxYpYyR8x_8AtRd6uCPs2hdLzK1ghF6jFMcXXTvfkRsmxWJInoyH3EyYuusHoYTgZsPAoqfpYe8Z2ud0ehKYbG70LYDKXdJhpadZqlYyGlT2gGLS9SFxo23Tg/8amaCNrW90-L8jkwIPxybik8ogWnN4-Vq7gMIFqN7Fo",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/garden-city-improv-with-dan-bakkedahl-and-kevin-matviw-jun6",
+        "Date": "2026-06-07T03:30:00.000Z",
+        "Type": [
+          "Improv"
         ]
       }
     },
@@ -260,6 +518,135 @@
       }
     },
     {
+      "id": "reczBp8diARVAzaFr",
+      "createdTime": "2026-06-01T21:48:01.000Z",
+      "fields": {
+        "Show": "Comedy Interrogation",
+        "Venue": "The Mint",
+        "Producer": "Lucia Riberio",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIa5UXdDHH4kThk",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/fgowX_zPkRPAsIvzcUr1Cg/kc8N5Q5F9lWnw1xtA7IFtHcPI1OTcJOlavy8qkVQvzyUsS_Jz69twWEtgov-oU77561XQ55HikMHnrtzRHXkkZ-4JNgQx0g7zSiP6Mt3A2CmnE4S56umy3nwNpLitHTxxOPynTHawVHbCkiFfIzBSN7gj36Svsc9LlcpaZEpLR0/oYSiJiPc4HHo-vrl2BWmHSWPA4zd3nvO4YJALM9umHo",
+            "filename": "Comedy Interrogation.png",
+            "size": 1007342,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/HVX3ywyEe5W_0hX6gF1qvg/oX6alLYqGHCi4P-iwoNOasQYTmZloQQ-Jnc24LeUM5GU26rZd2cb6XkbHGPE7wIW-fzU14Wr6i-bcWGBaU9kpNMtodLuygkk2_G8PWdIfZHMOmTECYp6qcJI8EhM7bz8Fa6mdgy-L-G3BrB3WHillQ/rBBBJkJ6O5nuyLWQJWulm8b8fUijIHW772jh0oou9ys",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/p-J5iOXeMjZ5vDKrbYV6ig/VivvnK0miQYbwmdmCAuiJA1QYiOCVncObYOMWqEGVfq7o6m399P6spkDeByz27pe_SAaO2umlOZU6TrH7niwQbEZBgS0z5ZklNBqDkt18rZ2URprBDacAVXLPYOOW8dP-y3gAu3qlTwijZNhxazKDQ/94A2eejxEpVaBerRkgytKzzoxovfTm8FQdoV0XqWk3w",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/09AliVYnhWTyVwHMrOUpwg/lCrAVFT0f3ZVFDOHzw-L3Ee3_6K_XD6U19OAnXui7cxcZdZAJutfAWaJ75MzaXk-Um0_FIpAD_sN1rVFmDXxzqoNfqj6DDWhZMNh2hZaofyLZIeto5VavUhPMLZ8Ofpujp1y1hH7fjCjJ_2x7X_RmQ/3aI_qkEKQNfG0L0m2Dofcfah8WrFlntE6jnphn2Cn6c",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/comedy-interrogation/8F9WIU",
+        "Date": "2026-06-11T01:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recEtdlH9aFke2PIR",
+      "createdTime": "2026-06-01T20:24:51.000Z",
+      "fields": {
+        "Show": "Langford Laughs ft Julya Van Der Sloot",
+        "Venue": "Ryes and Shine",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attD5KIVrpm9YsFOi",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/hUMqOuxMHWkWpFG-wP_SYQ/KipS9ANcr7K5GPYKQYCUeJzmYhqToYweNVKFM6NrPxi94uviM2IxZv62KA1thEP9GVYBpTvICyx4y-VOEqQsgvaufROI442I40Zp27Hy2xFUEui0qBNlRyov5igMVuGGJ6J-A0QzZXSqqU1PIgIn_Bp_2UQ3U-rj94ncEVzIDHo/wiLff6nrCOhX6KRqtTfoUEyzy3VtSmirja4IfGZxQks",
+            "filename": "Langford Laughs - June 11.png",
+            "size": 660735,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/ETepCTW16R_jIjYT7WWi4Q/lYFBtr_j5UA36kL5CRusXWnEkkPbeosJg0vTPLYCtzKN1ntnSMPrFjiXpGvBWLGKwigbcC32c2VTcOcP_b9ZphiDg1tEwFsDpWoCVfIq6ML1Apf2ScFfVe3lCs0qO7vimxyezYoTDEzCjXI1qJY8fQ/NOuGOpZjnGTHNriPyavhPmZxYQkK8lWEIpyJfW-fmdg",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/z_TG_KK9hcvaTXuEO8KMcQ/X1PIikE6AvujAmyMjnJXFv7RXBYCZ3nJgQqK0DbyVuvYEQtOBx3WttRUEc6yg_6hCEgoK4yYkyWbNg-RoUSZmQRcw-3Yddpjz7Gl5vplzpsAPTKtPSmc__C2TgkuATkPxOwbWT0Xd1dJByz4eAh9OA/ZI38qXjssUMXvFv13EEvwE-KNVAClWZvxejfoEa8FL4",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/mLTb6WvzMISldmGmnQp1Tg/c9DePXPSsXf3V26xm4criNIKm0-Ais8SS1VeDv-9rKgqK_RxfR1rS4XCTqwkWoY0nKaQG352wiB97-DbuSA2xsyQXNEinK8vKjq_vHZoqMpgHmSO6yIBLBB9Mj1mOh19fMZh7SxXqjD69PiegJZ07g/Xx-wXlEwLccm71FUlCexF0UoIAUp-zWrD6Jqpq5Z4bo",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/langford-laughs-june-11th/",
+        "Date": "2026-06-12T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recwXJiUBJS0vDJxb",
+      "createdTime": "2026-06-01T21:42:40.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv Karaoke",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attgGwqejnYvDMRcy",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/6e75q0fO6jMKx8_sJbAVnQ/W2rPYa4FEoYaKsA0GbPBlFwi7PlbhTmdOqIG8knLf4cru10NFEDT7euz2we7FooBsTRFxA8tkZt2XTF4pCCHQ0YtBnUerASDsA3gdnI7728fRBmjqAGtUwsXABsb0OJA2HPGe8phWP4qB_RHkwigHqr8yPbt1BcPnsfYnSLapCI/R66mw3Mf_rbwow3k4CN-WTQLlOtbHB9u0VAcM7y7RAs",
+            "filename": "improv karaoke.png",
+            "size": 762916,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/hADO4wnO65NbFqJsXHeDUQ/0JmlQkgFS-uGX48vmzuVNnRH_sefVRwHdmV6akz7zcEf7jFx7IUubFV1HmyUzI9SGyB2UBVAn11UMXNJ6H1-V-MAm5-D2-hVXg9Hrp6YCh4S0oXx5M6X0TAz3gwkEwgJTjysoaiakzu4MsgGU7oEJQ/7emo94n17HQLnaDQl6jHrLvMtnica6Svo_t9wblVw-0",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/eNSx3xgmnIS00__z6TYS9Q/93ywR1HOw_6OJAG5eVe8ZvSPGMLFwXgUJKdoI1svF-oc_JADJQlpVLYJEM54x1YiMCXNp-3JYqtEHpzVHlxF7UeU40T_8joua_EGhK8HpjzW7Pf6hE8U2vMCsUNLj5WRDZq10hRSM4JEHt-fWmzKHw/1ozhq4vqWdeC4vGqC4-upSqMuofgADF0Bfo38S2Bc0A",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/bG6_nIGNBQAaQIy7u2nb-g/sQcjQ59H-ZpKqsJrRHPwxscudzsz8h25BP7bOe1gxpLTJZOq2-MevUtgw2VtXcQuXxnZtnDYQS91Uj_pB2fMm-3vvL4-_HhJvXT1YEPAqUjEaa0BxrB_miqcFfutTstH_SIuIoBE-Ig8lcF52Jq9Qw/sKGmIrzX3l5tdFwffFMg8adD9iMdv5dyeaBrpC4aydA",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-karaoke-jun5",
+        "Date": "2026-06-13T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
       "id": "rec1HIkzeGQNsOHQX",
       "createdTime": "2026-05-21T02:15:29.000Z",
       "fields": {
@@ -342,6 +729,49 @@
         "Date": "2026-06-14T03:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recGtiFN3PY5OEERh",
+      "createdTime": "2026-06-01T21:43:06.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Dungeons Yes & Dragons",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attJzJ2jCeaZyCBpx",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/2NfA5SaZ4RX8_Bx1NtioDA/tRVfQ4WShu2UbSX0i7MGnrqfpxwg_Sud71FG5yQsUUQqpFT-UsGzVILRIm_dbmBSkkVOrPXwnAjm3d7-1nixQwY0n_MXUUVYrHjxMLeKvilUa5UITBYgRhvyipLBc645PenfxM2Tv7E4qCHJ61yKVkWnbLbDrP4cPg0zuKDoQqw/jhnOxkMNCPLWm-zJpEPhgMDDrnXJ2TIzTRGdFrzEY88",
+            "filename": "dungeons yes and dragons.png",
+            "size": 474133,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/UntbG5lSgDj6rIlxy1hv9w/-Rn-f54B1yQ42tv0I7tz4WXb8bDTeFw-zdiSNdF8tL8wkBj60qkQOfggv96mrbq4c_Ho7nKFColfqyeUIlI8gfrLLEcVq1P1P888FHDiOh10o0vrj-5b4ZNkyN6amBTk2LFpm-60nLNS9hkOxWY_7Q/uyf0hpGx0smM4oLlUGpHFGbs7gE-iDQIAYxzhcSMFfw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/tlRSlm4I3D6P-AF06BlCWQ/nEIfE_uvifx9lkWHuXPvijcCCsTZfJG23bUwSJZq0o7mdEDuciNx-vLq7hmE1Q0trH5jv5PEXUIdJguHIGS0LxdWV5iNUeKgZlrJNw4NaSq-g4UA-N870dev9AVrrpgTuUNrys7A1rv5fpTkX-Wt9A/qfC0llzWIpNDRqcb0i2B9htu0Hw8BKUqtgTYFlFP128",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/JAUfJQD8l8yNmpMVd7tATg/yvYo9pPZSYBxdjtYSbJwXwiGkRs4NrchV1YQZ1tm7EZoKBQ5KhVsXDv3Ti-JoMaLp_DCig_aiw2RiMmpIedoj1t-2syn_SFiIkC0D45vpIvD4BjKY1nh8iC--8ZQI4qt1A3bccra0ZRaly5nwk2cKQ/6grtqMBbaHuaVA1OFJ6CWGpflf7I8PZvi9bOkoASWVk",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/dungeons-yes-and-dragons-jun13",
+        "Date": "2026-06-14T03:30:00.000Z",
+        "Type": [
+          "Improv"
         ]
       }
     },
@@ -561,6 +991,49 @@
       }
     },
     {
+      "id": "reci0IMroRwAzeFGX",
+      "createdTime": "2026-06-01T21:43:33.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv Against Humanity",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attqBh3oCApRakRca",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/58Uk9OvC662dDYY1f0uQOA/r6b-b7zKJSWEw2tId-zGbBDTtgrWZUNuhDwE_jr5JwPXXJ8TeFXKXIj_JxH03_fnZUc963JcwCI0NVFahRzVbHdSHUoLkAOE1GD2QwImLP-9ZCAfhp6wdfstRoZGM0Mu2ioaZrhyZ4HXuoDfcMa1NIPTZVViY0SZFZ2_KlLFteA/vsdPgYV7-Kbz160ZZLdh955z0yA1_14Z1fhf3myo_g4",
+            "filename": "improv against humanity.png",
+            "size": 147151,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/bo8ERMbfYKVWyXYsKbbTvQ/FQzMTfcBxn9BPw5QzxxGz5OJv0xGwCrPCK0jVSdwGk743mBRg-4CW_RNyo27l38PjF9GIDn5P_gE6FRHZsCLdbmV20q3tD3h3vLFxzPcJ7aLsgxgQVxew_0s20KPuxpS8k8Lkb2PW1HxtLuxfe_fPg/95FyyVsBbwmUXv5WhaZIdd5UslDuthFor0RiutaeLpw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/_umyz1ZpcCfr2T2neXJSYA/K-SbkeRmglHzVjfxUoIx3L6Pcz9elWbPER65nll-_9yM_mjYGC62LTAkedt0AstbPF2amFxXPiCKRz429_oUkJblsPKsc4FegaRqqFqGiuKNNm3v-iNmNrJc3mzrT1x71fa4lepgpgMiyDUTVreWng/BfqllTgn7ubA_ik3Sk8y5rSx0Oo8CWxEurqfsBV8amo",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/sc5LFjboyaLXGx95hhDYoA/1DY0U1C4gS2s3qdAuh0W8t6cl0zYWJ2rCy5w8-r1oxXpPECfvVZE4n6U5AdtuGrwoe_s69mKXNp9qMTgv-0pjuSZYBXSkMrfKfagVxnrNHU17kp7Ne4IJszsM6xwq5bYHglgfsHeL7sbnOLAq417-w/TLTU_pjO_diROXWaHVOpoSuzL0nxaUL0OQ327TdDX5E",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-against-humanity-jun20",
+        "Date": "2026-06-21T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
       "id": "receskfcwrrNad6b6",
       "createdTime": "2026-05-12T03:50:29.000Z",
       "fields": {
@@ -600,6 +1073,49 @@
         "Date": "2026-06-23T02:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "rec2OJZ5I2J9ibIwb",
+      "createdTime": "2026-06-01T21:49:07.000Z",
+      "fields": {
+        "Show": "Buzzer Show",
+        "Venue": "The Mint",
+        "Producer": "Lucia Riberio",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attQN63kfXyQjKiWE",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/EpQmk5KZr2obue_spqYPbQ/dXpl6wQJp-Mi8smVnfOEpGtLiUDJcHiTXgbYSkwjEP2tJzPmmodfmOAJHMzudTXWGLhqoG8TxtY_Dq2tfUOtFFCs8WhNdkK-IEVlBAvsTvLYoErfWNoKGJVE0X-0y86DZYddOo9P6xxYUY_YB7Ah2x0lV80hrqltVfoZ7cMHHcY/pSjlQpnfkXadZkh9vN-Occ_5J2u5ZZalfapSi4zf7es",
+            "filename": "Buzzer Show.png",
+            "size": 553367,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/O99ZD-Nl5vzp2_4DhNKEkQ/S9Aw-sU7GeOYMMHL5JUT4IF5LicyHM8BsHL8HhhEnegl7fmS52D_hgUTaevBG6WIA3l2mlLkeMwLAGZDFz8UbBIPlDWteA5CMbab7lsQGyZiYH33cc2woYeeDZFykjo-bS9QqAu6xI-ZchOZK7GKqQ/qa2OHIACLlZTniRFVF3NtP98yvxeV8vwLiYRsp3n1sk",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/UhJCWz9m0nSKBgze6qoPNg/sJItAhQzWGA6w0e_kdIY6U5kW4x8HVrLkdci8t_JAZcXqS8NUmwwX7gCG5bqd8z8M-eg3MoHj2MVfbhuqMQrsKr13_VPEWsHjFuBd4Tk_b65vt-508fAQYkIAsd7-_N_mhv7EmPYgeknaRjD9seogg/UcPdf-szLbTzG8EFYCA4SQ4D1iFS56R5FlNIcbcWuwY",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/M1sZ6bwmZAUpOSwwMXhMwQ/CMoUJ4RT1TpnAlIYwAsxxEhIRaIrBWLbFXutKp4q4VrbHW5j4I8idC6K07mTtuC4jKGn1aDEUoCLoRr4MEw93EWkL5BH2hfAUtSk440t2A8WDMfpr9JvcGwa1P5h2n5HJoZGucjOrkEvTk9X7-g-rA/8d5x6xOAbAatvzCsokIoKGsZRMznDBSW26XtRAY4HUg",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/buzzer-show/86RTLN",
+        "Date": "2026-06-25T01:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -942,6 +1458,49 @@
         ],
         "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-sam-burns",
         "Date": "2026-07-19T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "reclyL0cRSEtVjhLT",
+      "createdTime": "2026-06-01T21:49:17.000Z",
+      "fields": {
+        "Show": "Judge My Jokes",
+        "Venue": "The Mint",
+        "Producer": "Lucia Riberio",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attX9BUQNh1jNYfow",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/d9legFZFPhS-TdtVjHdsAA/DqkbZd9-W9RKEfczSYUdJREHr_ttNvTeqNLihxpzsQ8EUPwfXrC5WOJdzgzvJYF15jY3iXfHv6NhZFDuKabKF7BeZuuT7hhnZUHB1jrdvJGzOP7por9a-xff82j53UfWOZGArqub9uG_lNWg2soLzzn9g0HkTnLo16Zr4FF7nUc/McZ8gPknckmsC8i1-1u0t66fWwdjCE0OQFlvkxt532c",
+            "filename": "Judge My Jokes.png",
+            "size": 582698,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/vJWLNBVayqc1s8Hskh-2kA/p6i8Vyxq4JjUPAyIVOACYLKw18CQGDPt--ODEYZlcKtmToWHidTBDoueaBGbGh-GEGAK9BrLOpPHpRJnCwt4czwLU1pQLlH7qsMxuG-G1uaUeLdAQREFlmHenXFpg3g66YVUBQ4-gMf13EeVeGfYLA/USdn_PQUW_5l3iuto4-Glq1M5kYVGDRmwSoKYR--8HY",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/NjH3DuWpterXoGa5uY8wlQ/Kj61otwEdwMoQIeBTdxeopKRvTu9-OAEb5fuTtvBIfSYpY0aWvEFguLsbg_vXlfQk5UCmQO4avjTWn0WRKHYpwSHNYPPS2izX8RAR-nYHRFt_iSqDiqb6N96DvQVXsuP_Bf9xge9OP9KRIKBEHr1vA/u1BP4DqqvLoLCHV1_haAfciSCHzAIpEt01j_UbDtrVk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780358400000/ljGvk_x-Yn6fMpe-agDKeg/DIX9OBsO_xkyptYh_-nK0jmwPs7j76oPbH4kcPhF03G2zX03Wl4e5EwZod_Zf9NSaCv3aCOUxKzn8LogKhRHwTMKQOKkRuX_K8MC68eI1mYlVbqq65Fs8bKzsLFNXzaviLvri4ogUcoZxc6l8znI-w/1QbcPZwKNlYOCIMiCjAUvrYw3nhzfk_10ohbI9w7iN0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/judge-my-jokes/9PN8ZS",
+        "Date": "2026-07-21T01:00:00.000Z",
         "Type": [
           "Stand-up"
         ]
@@ -8210,7 +8769,7 @@
             }
           }
         ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-apr30",
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-jun4",
         "Date": "2026-05-01T03:00:00.000Z",
         "Type": [
           "Improv"
