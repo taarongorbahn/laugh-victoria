@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T23:25:15.769Z",
+  "fetchedAt": "2026-06-01T23:28:24.118Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -1170,6 +1170,34 @@
         "Venue": "Fernwood Inn",
         "Producer": "Fernwood Comedy",
         "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attEEuu4rbiYGjqKi",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/x5TGlcrHmAKDerzhe-Dcog/7_xNvXDlWnWxw2utlXPDKAmWTY_cYogHG1PtuzWgGRllQtOE5xgpptK9mwUXfFvlXAP1Ugiy75U3ip6cCQCSrp1_CXq_m7281FB4lIHBx8ZurXwE11EeQtZYLI7RslXQztRy862kF0etW2zudARovCXQ5U6Ha4yrXBCijyxMVY0/Y8XfIwXNZXgKBzCvAbslsNW61dui3wcZRmOtXps8wPk",
+            "filename": "Fernwood Comedy - June 24.jpg",
+            "size": 160525,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/x7UGc6a6WBOJHPThR2vNQw/7Ov1NWLaOU2TjOJH0mLh9ZiPoc6TKAowonkgLy2gaMctjINRESqofijEiSEtjdao0BGPrj6sLQFE9n3222yq6-Jxx-rNZIGryZa_TeTnli5OhyDA4TjlmVWaKgYjk7RtzHK3nd0hBF_-Kam8n70d6A/BuL3QE1pezz-wTQRx-yH0WzJ08Qqas7ZG13VULkn6hM",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/3dyLKEgK-92ddgg1TieIJg/91H0f-6kPvL-Y-oCjW1O0qVXFRoaFpOfwDOamyqpFSz13Ynan0qg6eP4C0aBNafDSIj5CgyubMEtdcEMLgLvGCdp5zwzS8mZUnqTa4NAgwPwzDORYQfm78AL1lcRuAp_7J8Zaq_oYw3XCDK_o5GYPg/UMHpJ9aoQ_bePjzJfv54GAYKVpPu0k8s6Rts-2qbbWw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/lDe_c_r0OgQk4hEBm6tAFA/XkzBjHw_F3-t0beWUAy5bG6Ne6GL45WIWm1jaavD1AACS80OaHNwFThQh8QSpY_hpGMkqiNUNIeunNe2yqJSJl9XyeNSQUx1NKSC15eS-Wzm79KxEedKduYW6QYTivmTMoKUDCf34zNfcqKNyt3pXQ/_-7RRIBI21VELxSKm0lTVVhTALLVzdmgC_y0CGcWCGQ",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
         "Ticket Link": "https://www.facebook.com/events/1747897813288741",
         "Date": "2026-06-25T03:00:00.000Z",
         "Type": [
