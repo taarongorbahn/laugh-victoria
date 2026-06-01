@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T23:40:19.097Z",
+  "fetchedAt": "2026-06-01T23:49:19.961Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -523,7 +523,7 @@
       "fields": {
         "Show": "Comedy Interrogation",
         "Venue": "The Mint",
-        "Producer": "Lucia Riberio",
+        "Producer": "Lucia Riberio Comedy and Keith Sonic Productions",
         "Status": "Active",
         "Show Graphic": [
           {
@@ -598,6 +598,92 @@
         ],
         "Ticket Link": "https://www.jumpcomedy.com/e/langford-laughs-june-11th/",
         "Date": "2026-06-12T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "reciixokbYphLfgmE",
+      "createdTime": "2026-06-01T23:33:04.000Z",
+      "fields": {
+        "Show": "Sauvage Comedy Night",
+        "Venue": "Ile Sauvage Brewing",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attPXzFilnGy4p1H9",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/H6zICqbj0kVzlTwGKXv26Q/Al74E486VnBD0lDc5GYOoW5yyBfkObHSmxKRNEpHgLrrkfY_5E7X2HH9GaNyl10JjItnd8HlQH7Tq3zrv6VrxwZttN8yJl4EQudCJOHr6elKFtnFuFi6tOlYIFzv0u5eoPhT229H_E8kU95RXv0dmZzWHu9C5wIwBxL2hUzPKX0/bWM86UfwOPkhenkdr-6OYUKTACWZt3bgWdPlOFZ_YNU",
+            "filename": "Sauvage Comedy - June 11.png",
+            "size": 1365876,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/E650ZPIz4QO2M07kS0c6Mw/iKChQ8dT7PNRPb8iJMo57LxIgISU6uKBt6zMj5xOvhigtOb_MiSfCd8R4pYy7NFZ6i0EigbwC-bWwW-3bwI2EqOFIozpRMzj3zh9kpq97z0LeY1YJzsBrfkwhrQ2k2seb5IRZA9z54xQ9WCO-lKYWw/evHjdC-zF_94xKRW2csb6OWoeoUaAf_N_hPz0qX8G4w",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/PDs5F9Uu-w00tIkU0Oh_LA/34LA6JUhBwead7jfU1iEM9ZB0K7wdAwKpK-nLxZRz36nRn1pegkGTR7YJ8fMQD_Uwb20zN_EqK_oHhc1AiF9M3mulp2_k7TUsR2hZFwYiCGezTmPUArp0ZBAvEtB5nVvNUf0eHY87yJ3vBdTjmZ9xQ/L09zdifCmYId9z_VD6vZpSRKw4XZDOblCn7KS_8ws5I",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/cbi-IeEyNp-z50OIdILfUA/XlnSLtghqcLbfHdPsFleknWrW7bbQcgbPt6OoRjxgv1zT1-yZv8uXWarDyepziuawAa0oK6so7eSzVSRFksBqRAVkyqvvWPSHWFoEXYZkhR0DGksDpSeFYY2P6a7fqmMZcIhQ6P3gx7VQOOIFbG1SA/etBupzyPEqK7wTZbllfpxxJT3s6YxzUD-ln_cfaexq4",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/sauvage-comedy-night-1897",
+        "Date": "2026-06-12T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recilGfNi5dFphfAk",
+      "createdTime": "2026-06-01T23:33:33.000Z",
+      "fields": {
+        "Show": "Comedy Night at Junction Cidery",
+        "Venue": "Junction Cidery",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attHUXJ9gHzWyUjsv",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/xEMLZ-lfmb8-uKNGUXBVow/Htg-wns6H2eroanC2sVAZGOdN3_FXWEDSBRPSUtn6dZnokZIC8jXY6RXtj2U0wZI7Eoe-hIN2wC1TA1ofn9Z_WMCIE4AhKTxlGB2eJZpjj8L-iKfzIkPfpcKhQAVXNl1RbeQxZQopWZBbzEJAweixZadzUpFhZYMIj2zHJA-H4A/Cn7QUDNGfLw-xUNHPef8-QC9lXddMRPTrO3XG9HNNO4",
+            "filename": "Junction Cidery - June 12.png",
+            "size": 1567550,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/AmRi4OGHop6ICyARkgvzbA/zFi_2jPxyKbb_dEUgago4Hmtz08yI832hmIC2drGlljlj_zearS7coelToHFBdjn1iRE9kUoA4RjdgE7nYoE8bQYbGzGGt98QWOkBg7nLG8B3aCTb-4qz4ViOXDBettAxsvxaOZuhSW1qwV_lRVCVg/KYtMhEHQYehLFfu_Jnv85Wvnk-NEImjbMlXpdFYqj-k",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/BH7nba70HCVJc779TsFfRA/4Dj2JoW7VxHyuv5aM_uxtdNenB2jgG8Sy5b4QHpEgOoKrc2yEN30VgMEUSAGHXpordHKKu7-pVPlwlyLULyqRKKi4tN6ObIdSMEDaz1QvUBMURtJXJy7WCoTXlz6RVLtnOSVID7aifEccHipauaUpw/zksRzjzHf5hJ9cIOjc7h-CPSUvnlOonIJtuOI7AZC6M",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/L8beBVM1mTzf_hRWvkr4qg/N-WsramNrSteUtCxs_Yb6xvD8skakucpMG6qcR1NDy05jyS12DXcK25RdeeqwqQCnxnZ2GOT2qkc9rx6KMnTw0tJRawznVKIsWPQBm7HCJTViwKcz82ZEaL2noRHVCcLtBFmsf_ZhYWnCC8MASIz0g/HF3ZHnyHwCobKv-xCMraVEnT08pBxd69zQLg5P6hT9g",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-june-12th",
+        "Date": "2026-06-13T03:00:00.000Z",
         "Type": [
           "Stand-up"
         ]
@@ -862,6 +948,49 @@
       }
     },
     {
+      "id": "recolS3B5s03nUkDL",
+      "createdTime": "2026-06-01T23:34:57.000Z",
+      "fields": {
+        "Show": "Brass Monkey Comedy Night",
+        "Venue": "Brass Monkey Taproom",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attZNYWFETmyZ4ziX",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/-roL-xPjegnEnU2jLLQSew/7G9T68yZbeV3hUtgzxuE_3lRs5CcfgUUZaRaq2-01IX4DTgCAk4V8N0wASMdABmkoSitQT6CJ0ecI8QJU1PrppG_mocjLSpfhSLO1n21Zv4wcpcWsOpDG0G93PHsmlqbKwkeFo7P1_igXlk_chdoKGjcHtvnaXWjJ1b9EpV7hDc/BEnHP4kifMprB3U6h76JskNbrk3bLvwSIoFe6udpH6U",
+            "filename": "Brass Monkey - June 17.png",
+            "size": 1876972,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/aM7-cES0hYXtGeq2OPn40g/kXSFg2Elmzhi2gIq5M8Yoa001amh3GMHPvmTa2u2Qd3s1Es6nFzpPq4K6cw6djIjJE-d32zsB2TQSpPuO0H0g7Py1InKMURlK32i957HbKNoenawMLAP6Pzga2jc8nGvy55Uoz0OY8UfMy1tf_9VfA/Va7D9dMwvW-q3uSGcf-b9QII8luk1lKo6MJjrrTVq_k",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/x2mfa7xmnox-4UeNyK2ftQ/mFdBr_9jfc7Sg2RQxIGz_4vFrro2PxyJDXigMRgQh5kxa7zxwbM7749lnYqdrrmACtNYF2HlyeiJgdD2j8Muiz9KZKohI8pS_CSQB1rt-kzxPraUE7xfbGnEjcXPb0Rc-ppeTD5FLW1PjVD4zp_FVg/Q_tHb5xePntmDpthHayYMA5twJdoqOsliUx3b9eqQGs",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780365600000/3SlFhHd8rMBAtPIq8zDXrA/Jp85NobsjNcLgOKov4owSE8877hDtcedhO3LEbkORDyXDxRRKbsT--zlYmcwrrxmfikeaW41uGFrsz1WuILv2E_XpVNSAxjUbzGXteXYM9NIdBj6Cjy9Gyinwu1lmSIpjGTIQGpPFYyxphzHNDmqhQ/Ea5Pf6QLQQoT3ZDh638rYopZ4HCLfXsJ_-Ld4xZYHGw",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/brass-monkey-comedy-night-june-17th",
+        "Date": "2026-06-18T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
       "id": "recr8wyQCuhF22LPc",
       "createdTime": "2026-05-11T20:26:36.000Z",
       "fields": {
@@ -1082,7 +1211,7 @@
       "fields": {
         "Show": "Buzzer Show",
         "Venue": "The Mint",
-        "Producer": "Lucia Riberio",
+        "Producer": "Lucia Riberio Comedy and Keith Sonic Productions",
         "Status": "Active",
         "Show Graphic": [
           {
