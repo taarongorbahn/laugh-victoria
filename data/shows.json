@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T22:19:25.043Z",
+  "fetchedAt": "2026-06-01T23:25:15.769Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -1156,6 +1156,21 @@
           }
         ],
         "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-mikey-dubs-special-filming",
+        "Date": "2026-06-25T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "rec59LaIK8EJmycW7",
+      "createdTime": "2026-06-01T23:19:41.000Z",
+      "fields": {
+        "Show": "Fernwood Comedy Night",
+        "Venue": "Fernwood Inn",
+        "Producer": "Fernwood Comedy",
+        "Status": "Active",
+        "Ticket Link": "https://www.facebook.com/events/1747897813288741",
         "Date": "2026-06-25T03:00:00.000Z",
         "Type": [
           "Stand-up"
