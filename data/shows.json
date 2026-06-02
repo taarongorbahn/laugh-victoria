@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-02T05:39:29.586Z",
+  "fetchedAt": "2026-06-02T05:44:58.203Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -1078,8 +1078,9 @@
       "id": "recU1oQtzjhS1yuDX",
       "createdTime": "2026-06-02T00:59:20.000Z",
       "fields": {
-        "Show": "Kansei Yasuda - \"Respect\" Comedy Tour",
+        "Show": "Kansei Yasuda: \"Respect\"",
         "Venue": "The Mint",
+        "Producer": "The Mint",
         "Status": "Active",
         "Show Graphic": [
           {
@@ -1500,6 +1501,49 @@
         "Date": "2026-06-25T03:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recnnDIKwxi2LwSNZ",
+      "createdTime": "2026-06-02T05:40:50.000Z",
+      "fields": {
+        "Show": "Feral Cats and Friends",
+        "Venue": "Paul Phillips Hall",
+        "Producer": "Feral Cats",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att2Yeb7JJiGam2RI",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/fH8bSOBxEd0QLhS_MxT8mA/okhjvQZWMTmX3g68cVWb_k7yG1ZlcfdfU-equZxbSfhXEOesjnNE2-PdjY1HQmDdt7rQdvzPowXfP7QTpzAjEsGTIp80XA6JQgi5V4AGoef6-iK8e27YQTV1u-2gJVnlvhXZYVZzxTAlFKjSvuLG4CM0fI4BOEiQfDiMC-LEj0Y/3JCziQoVb1JN_ceirdHnr2cW-ihaLJ7aUIRVhIBT-ZM",
+            "filename": "Feral Cats and Friends.png",
+            "size": 1595828,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/IbDcuolrhGNVc92y3PRmQg/1_9C6vskgvR3AvUZGoMU1ycriXczG8vYXprZe9sNcr2AoGjTVG3PGU2vz1yS8oOD7v6nSWGYTB-WzSnKaV2r7DNYawTRyQmV7X3bEWAqDAA9U159oK1CPWEcQUV_fO7Gr1Ze_wJMYHLdrxkWHiybJA/3jQEQwjlUn4YD0YWqGjlS7bq-o567GVhH5dqzHn_Fgk",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/eV_frxdvX8w8ReiggGJT5Q/W3fNT4BcpKwhS1j8MWvZIkuq1Oxwselsm84JyZ10xyKnSsfE9eaTZjOhTXVRBt8GqNDQf_KOU_kfQOSNyv0H2STO60dxtGoEwQud9FKLMMkLlOFjcS05ndX82K8wAKzgQ-NkRZd6mgS2HIbnUbgZGw/yI8nD56XO3id0H2aRKVPgXF5y5Szp2PKHV9OT1S3fuU",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/hDhqdEmNSrKd9wJbOF-qsQ/zeILHSRBV04F2sUBo5elMASGMWSirPUMXpBny1F-0YUd7IRPM-YzfFjiTYACC7JIqMoCu_wuN_NoFc4DahwA-jQ1ywShCDdI5uFFftO2XEdFUYKNIOVo2XVpP1tT9I0j1DN00CDFQszi6QzoRfu1uA/iero4krsizRuxvDnRYX_V2Hc_OUGPbYUrQFachSPpFE",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "http://tix.jumpcomedy.com/e/feral-cats-and-friends-6168",
+        "Date": "2026-06-26T02:30:00.000Z",
+        "Type": [
+          "Improv"
         ]
       }
     },
