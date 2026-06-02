@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-02T05:20:35.899Z",
+  "fetchedAt": "2026-06-02T05:24:25.980Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -123,7 +123,6 @@
             }
           }
         ],
-        "Ticket Link": "#",
         "Date": "2026-06-04T01:00:00.000Z",
         "Type": [
           "Open Mic"
@@ -134,39 +133,38 @@
       "id": "recJ4pCW7RQRi4Xwf",
       "createdTime": "2026-06-02T05:17:58.000Z",
       "fields": {
-        "Show": "Pinhalla Open Mic",
+        "Show": "Pinhalla Open Mic Night",
         "Venue": "Pinhalla",
         "Producer": "Pinhalla",
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attBySiCEU7otThaR",
-            "width": 828,
-            "height": 1035,
-            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/dt8GpLbkw6USqAXP1oG2Jw/q1bb_GIrBS-VgZBOH0FfUHV9Ze-1L59h8h7TtFZsEMEe19GDGYumAf5pi1vtJtgqq-XX0-rnb1KfrLWRcypbZRdFzOhGzxRuMycRR7CY-yNMVvg3Uu--G1A69CkawEpaK-4VMjAlUTfZBppSSmOtvjaeCe7ceEvAwsZ5qhetHi4/aQYBLpFCwNzvCzNqeI4WB7vW01OeFLJbdpm9GWgjZfc",
-            "filename": "pinhalla open mic.jpg",
-            "size": 152400,
-            "type": "image/jpeg",
+            "id": "attTe1UAav2PjHqZB",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/x4-QNUoZwSx8qpdDF3FeqA/mdn8GxFh9SJZQhWgW_r1gSuaOXRX61WRb1KeAHAqiRM8d6xkIHVa1WutUP0z6KIYTK9hwAvoonLWjMgGe3Je1S2gK09NYsnnEY1t-Wn2FE4fbyWs4xGsyoLDmILxY8GW3C1VSOB02bpeeHkxU0IoAlVfs1bM5wxrosByn1inlK0/_JOOeA8Wt5pN-y-t0E354tCqS07FTjTA12vOEsmzn9U",
+            "filename": "pinhalla open mic night.png",
+            "size": 871165,
+            "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/2NsROmZGuWAf81cW1ZUK5g/vY0MR5r0HTTdhOa3LpFAphRC3iy0CtA9u90shkxByrHlxNb9ySAszRy0X8rbh0TsXj9eI05H6kF-Zq9NeAlkgpBnFXAmmV6yVDJg_o1cYvE13QQH2QV3u05QYF-QXSKwgytz8D_meE9O19QA4fe67Q/e_remcaiG1Y3EuYj1fEYQgu4dP5yApDygU-GnSdPDt8",
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/GPoZldrZ3fOGy64BrFImYg/iiIpgh4UDNQYpnU876EkPUVYEECtdzIW21kpKFBHKC6Rlgn4AVaUDCgwEgcE2U7k_B-hSvJGSrfDROeKtTGZJwJk-H-WnsgwjGGfF8SJcaaGCyFYCCr-xNRel6t7nymaZMSUpv9BkdHykBCEtZD9fA/fE3x9p7dHiGPVzNzLgB9e5GUvwA5J62rPzNYri5mCCg",
                 "width": 29,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/Us5Vx6vQLu0ShI9yHUt6EQ/IJBJBGos2MIk06aNXP_47SrjpTmUnPKebxzEX77mUocfmbEoOwLRX0XQqd29YFde9h63mVMmPJuaLnxat13Kvxc9w-ZYBYp2CstHBXf0e5T-yqkRMZbNhmn7KwogJ7P09YkBDwWeLHU513gxx8gtbw/scOgRJ7GYc9dtRGXp9WDF4gu6-a1H3Ba-2e7reKiFhE",
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/bT-M7OWLRAr8te57SpGNUw/dGYrXfXytdGGALpg38o-FnuZt0noQw5tTbI39Q5t6rZZ0-alwPI3XE9BDIu2GBdpjIkVR2TaRyjCVeIFXFERB8egb9j8TcWyH4DlAJrMx_0PxnX2G-nbmUCQfEf1KAALkBmgaelDy9waIUhzTTW1Vg/fxGz4JPURlcXSDMUYRF5gLKmytiTiHdQOV78w_PBAzM",
                 "width": 512,
                 "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/AcbDTHkGIjSgvjYDp4TwlA/A0s2kBz2gLZx8gixFDhLOjCUrIWGRcTPdfaBpzgtXtmXRGW-afwkMNxy3k8-UxrLYvhuhLINpNF5bmPBgQXm5tvL7L83ZEPR3RkaUJyRU_iBI2ckrm1wzSHKkwglK0xv68L9wzF5QuNLFBxaDGjG8A/15LWhcjjsgji4ffN7QTT8vVhFzO0wQP-JkqOsg0rbsc",
-                "width": 828,
-                "height": 1035
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/JFQdyVqrkkdjFSIAiiVc5g/8RIANyYzf1H4T0MH8gnQ8kSzU6UtAuVVaqL5jkP95v3a_sXXPfVnNaai0Bjet-7jaNbFHNgYNgWlkw2oHLVN3au1LaOjL625hJVfpNp9grJPcQ51eF8hH4EnUp_dlFzDF79XH9Gh5IzOe_RcbcEKPA/FNzAdsFyJpINHN4644lrsfgUGI-jmUICDKNfAYpdApg",
+                "width": 1080,
+                "height": 1350
               }
             }
           }
         ],
-        "Ticket Link": "#",
         "Date": "2026-06-04T01:00:00.000Z",
         "Type": [
           "Open Mic"
