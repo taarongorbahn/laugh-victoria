@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-02T01:09:47.413Z",
+  "fetchedAt": "2026-06-02T01:19:39.423Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -1040,6 +1040,34 @@
         "Show": "Kansei Yasuda - \"Respect\" Comedy Tour",
         "Venue": "The Mint",
         "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att3vDhNXQjCX98E7",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/3K-o_aMY2buiqvFLODtLnQ/u-yI-3HUs__dFL-6dFF0Xfyda_7-Mnj5JBiWRttjEbId0-y5XgsKWjsWIMZoC9tybxYcnjvjjzKF3HVT1pLZsL8h9UOECuNiV50VYft4bsGPDmiV5tnuuakvW2---rkPMXJ3yQELY-EDadnOuOkLsvbdtI7JxxVP4hC5TnUqzEI/fnlrqEnOYtxnRi0kbt2V6PFXwHWugKNAgKtH2l-jUl8",
+            "filename": "Kansei Yasuda - June 19.png",
+            "size": 1641886,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/OssJ2mP45y7VfdKSCpemRg/lCZb4--SzzSyTwlbSYKucQxPMUN287sCxuaIXnUNbljw-9SRUo4qC7JXt3FrfP8OOeKBKeLSuHCka3EchSrBi8ZK0HuQHDiB_aYgCj5WfeENb41uGiF96RxONrJj_4pzw9d5s89HIqTpNyB2cWJRbg/LFa_V8qVROdUmAfCJg7-8ibsuky3kGkgJrTZF1MvTyo",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/Eqgfl_JkPTWyrwSGaqQaVQ/Me4H9fAsWDklSWf_Sx9TzdPBziSdhNmIdK59NcUjQuwmHd7L0tppTwjtu5vVHkdyK6I-TCAfmSsh8_qStFHai3Jzw0hRsOII5miyFN1C5b-exrEbMZqk-_sjJjY7gTzm2vdhjAt6_K0H2jv6t5ozsw/2pMsfjtYc9U00-0xYfZJG0d46P17baRvPYikzJyNJH0",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/77YH4Fen9_X2a3-2W5BpAA/_-pkksetTRkj7yZMPwJF3vJcSK6rHgsJWPnVXNJv9us1E06YpNfNU_g9DyZkRBTeuPQpoQFtMqR05vb_kDO2vU-hQD88xg4Kx5wim9zhQd-TcD2bL7KEPo4qThclRMc6Y7xrcpz-n1IKMmRrXXd9Jg/J7xKRHy9K1YN49qFqGP3RnZWBhM1w8G2oBdCjkJHiFM",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
         "Ticket Link": "https://admitone.com/events/victoria/community/comedy/kill-tony-kansei-yasuda-respect-stand-up-comedy-tour/I38RP2",
         "Date": "2026-06-20T03:00:00.000Z",
         "Type": [
@@ -1872,6 +1900,34 @@
         "Venue": "Fernwood Inn",
         "Producer": "Fernwood Comedy",
         "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attHBJx5INDZAIYQc",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/NmwqzH1pss2hNu0-jJclIg/pmnPgowQm2_nat_EPeb5ewY4-ruvAlqP4MBkLNS-HnnbKqxSD2Pa63NSiKvpHdfQIWJP3yz9SrMibiRvWS6-tOD_Cbf7kalfqDlmQiKGkfQA3Qqe4cIoR2CCPeal5btIXjAErGLBZV2klERs-80BMw4i74GuapCf2gtBNSBYLX4/56jP_OJHS6UJpD-4jIY32rHrKTibNiiEC4TFD1X3U_E",
+            "filename": "Fernwood Comedy Night.png",
+            "size": 970888,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/aQCdxby1-KnPthwvOgWYFQ/7W1MOSdhDwkosVu_xXxs43y8O0Df57wJqBi47dmtmKL07GdiGbuHPQg9qmkyYU0h_-TXqepTcD8D0PJIXnJIuFKQ7T0Uz24SR7Ui9joMWuQkYrqrlsQ7Qa-mqgEuiZyjszHsZXa3UdBfK12_VWGhxw/R9GiyIgsMfeoZAUxAVeJEZWO7kpKfhOuOCXrW986T-A",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/RqeNTqgzctXi6AsKZywRyg/fYFdtx2ufGmTB_QqOvQ1GuniLfyweIicAYDCexwCazN4YJKi6Q9LuUnLDw8bomNbanFXLoyQgZMs9EMy2eHLwBSCT5bA2zwWz6vtx4tkm_UG-xwPj7hFPzNJcwmIqn2QmU0wQTMLxgJE7I1VDV2CMg/iaKrObvSFpepmLtmQp_5GSTjOj-TUu5yN4SWUY04Las",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780372800000/1fcinTbhMSac44tliN3reQ/g6MjAFs4guv0ZT2Rb00fb2l7VdTh95GD6D2SmjxZchXMDEMukLGcOrP7aKZQO8F6sDxmNHCAmoTiowivLA4pAU_L32kJOTHFSZagiIaYtqHLYsUUSRgXVweiFju2O0oUE9aSlwd7wXOFN24sPqUz4A/uPeQnEEK9MbyJb62OQcXBOTxq55JF17Z8NjYgm6BC_0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
         "Ticket Link": "https://www.facebook.com/events/1432299428915958/",
         "Date": "2026-07-30T03:00:00.000Z",
         "Type": [
