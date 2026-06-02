@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-02T05:24:25.980Z",
+  "fetchedAt": "2026-06-02T05:39:29.586Z",
   "current": [
     {
       "id": "recBUFU7L5InogrLT",
@@ -1242,6 +1242,49 @@
         "Date": "2026-06-21T03:30:00.000Z",
         "Type": [
           "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recZiozYYPO6qs1sq",
+      "createdTime": "2026-06-02T05:30:11.000Z",
+      "fields": {
+        "Show": "Pretty Good Comedy ft Dan Duvall",
+        "Venue": "Fernwood Inn",
+        "Producer": "Pretty Good Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attVhkpk7gEd6AW36",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/PTzpqQqN5jFr8cwNSAjF0Q/tb60hXdTr9rar-kZJ7_2Ok3JYznI2el3iYmgJLyVVMIXYaRqKxzNu5cGi8lC1lmYQT7bhoeUNrzcvEUvlpU5eHGOE6sd3FxcUp5u2kvGTzlEqO4ZnXNR6duNckLT9Iv3Flm3O_T8sIi2Y7vrup3QESC-YsTZB6H-8m5OzI-EPEA/goL9GAtPD5jOedUr0jGDtReGopPZHbiL_PQJJ3k8Ezw",
+            "filename": "Pretty Good Comedy.png",
+            "size": 1269970,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/WXdqGxRoq8iUFnUFq98kgA/s5hfL2pMvTjbW8Bl14yfaRw13WcIl63ZgojUYLSWFxSruIqP4N1bjKswjARKRyKWUeSKGMDTeNSqbb1iOcaNi_PIInILzynfrekqStM_m2NPSWA_v8zeZiNAUgOenrjOi1eJw59tqOraaMCSNgeV_A/ogTj2lR7nVxdNs2nuTYfqBbAE-v5s2SZetBtydMDGrk",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/GexyeXBCt8Cshm9VyA0bOw/TA-XkgQR-r7fbRUqHV5z7xMTv-sxqvp0pRpKQwSbvxdfNPb_6K5qTjoUsrmfJq6tcRWxMN5GUapMZT5cGoDgA1Hq-ABOMTIKqGtvMAw1qabn_06_PaDMxu2qIZ-7JtmIY7vkZkR-jFlcrEIqKapdmw/QDBRLjaPoOWlx6RHOe8xX42tK5A8LeTM4EGD-N3-kjU",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/DbMdBYcjHkYMPdP8YcBQpg/d9tI0KU2BgkNLb3TSu_4QKVevHAbtKw9x6yO1hGQZGveB5QiYNtgDOEEunoyrAMZhyZn2dDhu4zrfSBcFCmE52CNoHqPZ5-wHMre32s-o78lP8FZ7Nn-w99M4tNlTx6WG7y11hpJG43ojImxlgdcoA/Fnq8nLWYTw4qRl3duOyOnHvLwn_20rUCwn3MORKIQ5E",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://tix.jumpcomedy.com/e/dan-duvall-and-friends-at-the-fernwood-inn",
+        "Date": "2026-06-22T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -2536,10 +2579,10 @@
       }
     },
     {
-      "id": "rec4EkBDR29xEeQPu",
-      "createdTime": "2026-05-16T05:20:16.000Z",
+      "id": "recxXdHp9kjdm5FWI",
+      "createdTime": "2026-06-02T05:37:04.000Z",
       "fields": {
-        "Show": "Outback Presents: Maria Bamford (TWO SHOWS)",
+        "Show": "Outback Presents: Maria Bamford (TWO SHOWS) copy",
         "Venue": "McPherson Playhouse",
         "Producer": "Outback",
         "Status": "Active",
@@ -2616,6 +2659,49 @@
         ],
         "Ticket Link": "https://sofmc.com/event/john-mulaney/",
         "Date": "2026-11-13T04:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "rec4EkBDR29xEeQPu",
+      "createdTime": "2026-05-16T05:20:16.000Z",
+      "fields": {
+        "Show": "Outback Presents: Kyla Cobbler",
+        "Venue": "McPherson Playhouse",
+        "Producer": "Outback",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att0foy2GhRksgGk4",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/bZTBEwVl7G9bgP-Walrg2Q/LMQNBQHlvldlLRVIFyzL7_N1sz76NUysxUEkHjSVWHXvl87SOScRie58UttzBQJJ9vfNbCjEfYYedzH0Oy3nIfhStTKIAYY2uINgKNdCmRnZKgYUg5dHRr8_0QZq7-Z943eDCjPdN8VI9hGILQUxuO-BoViq2lmrQ6A17UqSdQ8/2Qvgdz_5ibPOBQo48mf9XfJdCtvhvT3cyn9xnUs358o",
+            "filename": "Kyla Cobbler.png",
+            "size": 831053,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/cEwKZi_7mKvUSXBp-Cx_nQ/smlQl_Z-N7MgEMVcm00HP6xA5qw_58LTYstlT4uzgFqvwYbdaIVyp6R4GJ8wf1N49WsvFkUTkCrBGufgYyCzTRh1KRG2r8oEbdpRe7tC8hf8n8FvbyQmejVknz6R0-twAwj5yuWkKSEVMgGf8ldevw/CAiHfqbKMQ0pLutvDJVPRRfmsPQGI4d4gSEbxU0Triw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/eGcK_ZVC6HQRVS4YVAHWUA/F28-AKI4x6AXXfAeVBDOoEcDIcrvL-9cMfzXAkfmVUtlYCmtXJp74S5rgjNBGc2KLN_INX6C3pFIWb7GRS_VnLIRXMBXT0b81N7X_LeebqGJRJ7ThWzPDCmoiWqMRvXQ_PTXk3y_GH9e9yIc5ZEmwA/E5OjiBvmGRVd9mgEk4Zzy00hQJc8lo1dayyoN7i5VNc",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/53/53/1780387200000/DBmlqUKsDaX9EfW9clZM3g/F39w3umrB6hjKGFTu0nrvyk71vRZmdDEB-npM6op4ELsEpDGZMmNSpsTdd_yYulWTyeiYcag8RgzOZLRxvtm0Aw2403kC4muw14MrTZM0YeMwUYnZPILKbqafIEHrlib5RpzgHpjnnusX_D6LNMqYw/W27Pz83F7FLQXj-Z_KsR2osRrA8u83vNEf2cqC5MsuQ",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.rmts.bc.ca/production-detail-pages/2026-mcpherson-playhouse/kyla-cobbler/",
+        "Date": "2026-11-19T03:00:00.000Z",
         "Type": [
           "Stand-up"
         ]
