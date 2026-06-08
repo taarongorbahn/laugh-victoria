@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-08T22:54:33.348Z",
+  "fetchedAt": "2026-06-08T23:07:03.509Z",
   "current": [
     {
       "id": "recsXbIhYYVE4B3UT",
@@ -253,6 +253,49 @@
           }
         ],
         "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-june-12th",
+        "Date": "2026-06-13T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recZkrWOU6DRvs2se",
+      "createdTime": "2026-06-08T23:05:36.000Z",
+      "fields": {
+        "Show": "OK DOPE: Stand Up at the Mint Ft James Boyle",
+        "Venue": "The Mint",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attPS4XAv3g23Rl40",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/9b7FbGmr3prdqxhVwBf1fA/hX8bG1l2QYPeiHlIk9gibixsslQYTZ4eXTNLECs2RgbO2kKjayXDge_v5Pz3KZfsTIkr1WeAHtwb8QZCXRUPxxjAN8RasbdAdPeK_qyT6LOrAuK8vwikuGCxtI6bvpyy-Dbvm1lYIb0jr1Aa0jzT00HF58p9zRTZaYn2gw80cC4/VeQUzLFt3o5NGziM-8k2MXUG6xoYrZq4ZJy-63txZ1w",
+            "filename": "OK Dope June 12.png",
+            "size": 1478578,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/40NuBr7iu5H4YoYL1wEiMg/eFoH8UAbvs1l0BGARDXCIHzT3M8BQWYIKGlcp_6gjssp73L6wb3YBWxTFm6bHStZbvJN95jjnRV9Pj0VXvsy8YIJuix1WrNQ2J7S9YgWmpnyVse4HI7XJfbbpi06I6F4Wkou4_5t6mS2MxBGweFDsA/mC5PxuwKgLMW1CrCFjQBOjiNMD8GFcEn-PGvOx2PxIc",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/8-8LYwz8cSJn1_OPe3jE5g/qjF_K1ZjIPwq3CK-RhRuz8Oi1NxVcjQtOWpKnr9vhrmnxLw-R4IY6XcekyJW2PiW2HL2Gvt6lkOlvbBXAS0Z71xctGEXcDPF14nlCNSkDBZYfTL0KcEfqgfauXXKEUqTUN0otFt39ROStNz3HSOUXg/RURee80F3WfgwtIMEd8LiHPglkh6hCjZMNI26FVqjbI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1780970400000/EmuyRIaLoXMzLnkTFAbtWw/sZQvhq06-VVzb9anwv1wvv1YDFyW4F1q5xW--_o9uROmuDkB1maJgiB4cRvBnptLSjdXWWXSTbrsmBq_PZoDJxGhRLufZGyf2cuqMryy0np4fQ9QpjIQLvbtiYxzrCtS1qjLdTOAJw2JjcjWN6MaOQ/xWvknQCoJXyxJ1cjpqxpdfcvpbU1OSwKcY3SL7vwT7A",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/stand-up-comedy-live-at-the-mint",
         "Date": "2026-06-13T03:00:00.000Z",
         "Type": [
           "Stand-up"
