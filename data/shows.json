@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T01:25:06.142Z",
+  "fetchedAt": "2026-06-23T01:34:01.436Z",
   "current": [
     {
       "id": "receskfcwrrNad6b6",
@@ -815,6 +815,49 @@
         "Date": "2026-07-08T02:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recKIck4HC2PPwTgZ",
+      "createdTime": "2026-06-23T01:27:09.000Z",
+      "fields": {
+        "Show": "Sauvage Comedy Night",
+        "Venue": "Ile Sauvage Brewing",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attAIMCBqdWvgmEq5",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782187200000/VbcLELF7sMzSvqWuyvxarw/4otqM_xoVFbDD424nqOn6anFfQLbOiKOikml2m5DYpo6EEy42dnNAUw1iKU4mbcNa-Eny3aj403TgmOqIZGui8U6GLpI5T_K0b2fN2VMlhBhRyOhjmB6D-ZKOfzZ8_XHnWoiP-X9t8D3o4QNKngLL8yAXtsdVHDu_qPTwlMaNvk/SiQJiN2-ijaJdfLLaVBA1jzdZTVFlSOMWWWjADTBNso",
+            "filename": "Sauvage Comedy July 9.png",
+            "size": 1446141,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782187200000/bQSfdKnUmrFtGnkG0WRNSw/NAwhUhdLtft3Ifnl2iLMzN1fqWTK49_zXWLRWATTx5ac5hhcqdJ5iud-QvlAosQqFbCQjDF_YYrTJrEhKI2XczPMek3FCTk8XBI4DTKQwusCOfdx4NPuGtmp6d8AJN0FuDVsbjlX4MJ8ZXhWG7jSOQ/g1eulMGFu2-NKpxllljtcZtAxH6XO8JRKUWa9zhp6CY",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782187200000/7dTogNyPkSnHqWqb24o_8w/6bC5m4g2auJHnCOHRWle6-Zo14InMiWnsmrSczL054dacYkmLhDijwJo_JZUeL-Zg1dwRlaCOGBuX1HfgXpVDXqhXzVRHAX-yFa0V7hALbdLoITOalDwndAaF5wXilnLbuvNokuc_x3v6vxOgoZWxA/R3LAFR5wGfQAF3aVwUYbQF2fsk3XfX5OZg9WSeAX_sQ",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782187200000/OehcClDSN30drbpsTfTsFw/DBJAzyJK4IKXlzkxqRTMAoJEC7PeEewBgGMGnfDOZEup7h2H3vlRqRQBEiDu028EQYSsAUs97CQJHghpdbdYwQz9_jxBTX4o2L1soGoNFvcoh211qiG8pchfqQAdI49e-b7TF7ElDb2cFsvE0O61QA/KcbEsSXncWfhe-fl5EhmfXMcabhUzVXi7aXQWFr78R0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/sauvage-comedy-night-july-9th",
+        "Date": "2026-07-10T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
