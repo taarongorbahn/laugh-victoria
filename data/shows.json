@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T04:29:52.947Z",
+  "fetchedAt": "2026-07-21T04:36:22.506Z",
   "current": [
     {
       "id": "reckz5ZC0Ihftsof0",
@@ -97,28 +97,28 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attu5z30Mr62xOHkg",
-            "width": 1848,
-            "height": 2832,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/Mnku4x-gWwbZDk0zq_xGMg/1DwmoXGOrkjCRTIv4kwl6YGei7xZmenNa9aflsE636V0vsD2N74cchCwur9bqRJc0yLtsQB2_MoIfr3Mx9K2veOUoqsl4AAHLeDlMYFwxUAKn6wmxA_rKj16qxBN5oAH8AsaU0kgLmiQuqk1GyYL5l-coGmKsOJ_KW6GJY8_4JM/MN4wNEaxK7tiyqoL533KN0Qnk0Iw1SmOqVzrsFqA3m8",
-            "filename": "Archer's Open Mic.jpg",
-            "size": 466920,
-            "type": "image/jpeg",
+            "id": "attMtImTUAq4x5k04",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/0f4K9BOAyqdWkltGDPVe-g/qUKHHplvs90kPqzvGjdO14hO4KfTV42hNmyzbIvJhLcvWNUNIjSiR43x48y9LH-5ae1lOs0ObWbk1nZw2JDPVLLsaAauh7ulHsAYi3CjCwFhfslGRGjgYZkESgb-mS_LNLc2e5w4JCiPIzAIwvTJVQs3f8Y20N8ct2RFGrn-HP8/0HEZkulyfh8RQ2TVXL02fBVxam5wDbQr69eDL0nf7ME",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/a76hSAdr6DLr0rND5R5v-w/vAmL1HNOBTMgPZG4xpisbGOeg4afonJ170V9gu-noVMGNwhRX1p18QdVQ7be0hcDu25dXYMpsIhCTdDbU3UvcxjLPCtwy-RIIDYXhBAn-IastXSc1NVXYY1xqcd6P7SXsx8nzJCXsRT-ZEtVGDCTrg/yQZWpF6lHXWxUxZFxkdDxcXD-IMA-cpPjIsDG_a5vow",
-                "width": 23,
-                "height": 35
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/dhLfay27FiVsPvKBNeXU6A/4IT3iOGD2rTGYHyezC1c8jBt8WlPg4BgSI3Ob8lz2CWhSqYJQTPZt89oZJit_i6w9URDaRXkSpxHhE_LNJ4BtD_TNPbHcPwVFjUHxKoRRBwFy-zGVAGuzrEEROsLQXgKjdsCz6Q6RuOQcHUE7v23MQ/McP80qKakqPrsAec0tpZN-P9ukRO5n2bteJATa8XA8M",
+                "width": 29,
+                "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/0O1SG7AmCyuz7pElTHsQIw/2RiGpndIIZ6ktaH3FcNxxXX_oMvgIlis-FjVg0xyciKtLOV1J4yoPp9vlDvUtLoHBlOVKP_zjO58eY77pX-AQ0uQ4oHKvyroakLQXImD2sTFVED6WssDfapKHVrEzVYg6jHh6wrHTTfBrW6PNRJErQ/Dudd3kafD6p9bteF3lr5-MwNtPdPpez2wmAlaWUr8kI",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/K97ITt8SgNEHqm0HorrW6Q/Z09_lX49DF_6L9IRl8RPcOV2j56wPx7HTfpX-TljJacg59FGNRvEDdFQ807z4pgVJkQfLm4vcsXPdJLVsgxIS9S1B9En_vqY0HCgZItxszFWL3RXbXgBeVJc-ZAFqljH41GjWsJzw6jALZ5lbcZCtw/bnIMGo36ZUAbLbwHwUIoSZqbYDh6xzwvZ-96d3VJla8",
                 "width": 512,
-                "height": 785
+                "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/CxxyaRhObU1RPZzTl3Z8gg/zAlP86vB4cqvWPlRTKUZ6KbPV_9lP27RlooiJbIDpBI62nEyb9Mlrb1GPvtNQxyD-ZoYXrVa_-9ti4rXeWDHhMy6XbJQeWI_iTvyAbP9ePaXyf-BGQdPmGpttuCkF-FRqNUZwEdxMImn9Wr0NHhxTQ/rfoTLtFLbDRCzYRzfhfjL1-VFyFxzgkapxOBpIDHTe4",
-                "width": 1848,
-                "height": 2832
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/Quj6TZZvNnZ0iZ8D94w_LA/3HV76w5RClPscCzlys86Onu3JLGFJwA47xtfGOIIMOEbXjaNi_fpx28ZcjHUlJdd7HmdSs22DEaLOLkihd4iCW994fPd8BD72ahZ5u5GhTngXsm80H2DdqjaDI06w4g0YqM5wiLN4b4PZ_1kruPkew/fk5kxquYPn6etVD_busLsCJwTFZm0T8MhcAA4A6BnB4",
+                "width": 1080,
+                "height": 1350
               }
             }
           }
@@ -484,28 +484,28 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attu5z30Mr62xOHkg",
-            "width": 1848,
-            "height": 2832,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/Mnku4x-gWwbZDk0zq_xGMg/1DwmoXGOrkjCRTIv4kwl6YGei7xZmenNa9aflsE636V0vsD2N74cchCwur9bqRJc0yLtsQB2_MoIfr3Mx9K2veOUoqsl4AAHLeDlMYFwxUAKn6wmxA_rKj16qxBN5oAH8AsaU0kgLmiQuqk1GyYL5l-coGmKsOJ_KW6GJY8_4JM/MN4wNEaxK7tiyqoL533KN0Qnk0Iw1SmOqVzrsFqA3m8",
-            "filename": "Archer's Open Mic.jpg",
-            "size": 466920,
-            "type": "image/jpeg",
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/MznLoWA8DE4NllHlCjHwBQ/Thxs5Zu1xGzOGTClpDMnu7KZ5fOoljMzn7zVnXAC0JyCSbHQkKvQOlabZFVb9bI6Ys0xTvNLZGrdLfuT5i8cNlUBbx3P2FcRMwVzZ17k4-3GYZSSLzmIEwsLQDBhfginezg_mKn8YogW8X6jyNC7wWYGx39neQvGfguvrho7Mew/m5Cq0uJHBKqRwe7dDFW__bnZ6IJv5CREpO3nhsJH3jc",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/a76hSAdr6DLr0rND5R5v-w/vAmL1HNOBTMgPZG4xpisbGOeg4afonJ170V9gu-noVMGNwhRX1p18QdVQ7be0hcDu25dXYMpsIhCTdDbU3UvcxjLPCtwy-RIIDYXhBAn-IastXSc1NVXYY1xqcd6P7SXsx8nzJCXsRT-ZEtVGDCTrg/yQZWpF6lHXWxUxZFxkdDxcXD-IMA-cpPjIsDG_a5vow",
-                "width": 23,
-                "height": 35
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/dyxmSfmlaCk0N3WvVnPSJA/b2dAIfAEGKLdTOg5S6ofQ0l3KPOASevbWjaEFjrURBKyBhA6_RUuwhaZkiW7D1FC1Ab04UQHqOpxkoBRjUp1Vl8pAraS55XJrT1HlqbBrc1za9TTcKDssK37uLkVR8ayGCxUDi8ShW0fbMCTCfrGRg/2kF2-UY6kxs-UaQc5URmGjYNyKOJ72tisPoUwu9GITE",
+                "width": 29,
+                "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/0O1SG7AmCyuz7pElTHsQIw/2RiGpndIIZ6ktaH3FcNxxXX_oMvgIlis-FjVg0xyciKtLOV1J4yoPp9vlDvUtLoHBlOVKP_zjO58eY77pX-AQ0uQ4oHKvyroakLQXImD2sTFVED6WssDfapKHVrEzVYg6jHh6wrHTTfBrW6PNRJErQ/Dudd3kafD6p9bteF3lr5-MwNtPdPpez2wmAlaWUr8kI",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/FqBthErbAnYR3um61TOCGg/0wkUEM3ZQDFz18rnLhM_IzrSk841m_juEcMx6TLaOgAAbTbYwy8fCEL-w5bknlc2pbRW9YcLTsj_fz0Xotvyi17gf8gjm6QQ2DuN9q68lYEdLzfikA_iADINtucP_hKO9GN1j52XeuUwlJ22lEcCag/vBzNIx7yYmLyNKnsbjZBkzF4opMOqM8sqC4_I6aOqB8",
                 "width": 512,
-                "height": 785
+                "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/CxxyaRhObU1RPZzTl3Z8gg/zAlP86vB4cqvWPlRTKUZ6KbPV_9lP27RlooiJbIDpBI62nEyb9Mlrb1GPvtNQxyD-ZoYXrVa_-9ti4rXeWDHhMy6XbJQeWI_iTvyAbP9ePaXyf-BGQdPmGpttuCkF-FRqNUZwEdxMImn9Wr0NHhxTQ/rfoTLtFLbDRCzYRzfhfjL1-VFyFxzgkapxOBpIDHTe4",
-                "width": 1848,
-                "height": 2832
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/h4E3SheIUjkIk4aphYKtiw/O2Kwdc2qKOYsUo_wFjlxqB9tY2usLRoLu6JVHtUaRJVqCBvRg5U4NKn-9XQDPEY9eR2-6MeLcJ55IFLV6z7F3ABladJ_icevOrSlv-7dwEPP1p3_qChqmWO54KS6riBOvMh29WuEpPTqSkycMDTmOA/-GGjKoWuNsRJKq8x1EdkjiKdH_Kn5jucS6yy9p9sSXY",
+                "width": 1080,
+                "height": 1350
               }
             }
           }
@@ -13345,28 +13345,28 @@
         "Status": "Archived",
         "Show Graphic": [
           {
-            "id": "attu5z30Mr62xOHkg",
-            "width": 1848,
-            "height": 2832,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/Mnku4x-gWwbZDk0zq_xGMg/1DwmoXGOrkjCRTIv4kwl6YGei7xZmenNa9aflsE636V0vsD2N74cchCwur9bqRJc0yLtsQB2_MoIfr3Mx9K2veOUoqsl4AAHLeDlMYFwxUAKn6wmxA_rKj16qxBN5oAH8AsaU0kgLmiQuqk1GyYL5l-coGmKsOJ_KW6GJY8_4JM/MN4wNEaxK7tiyqoL533KN0Qnk0Iw1SmOqVzrsFqA3m8",
-            "filename": "Archer's Open Mic.jpg",
-            "size": 466920,
-            "type": "image/jpeg",
+            "id": "attEfCUCBU5JJpPrS",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/kUTfgesSlzya06Lr1dEMmg/1hVQhxc6Guj5w7-U3e6sy7-voNgfTaTOud4_V7A1enI44B_naitjfzE4T56KC8-ZoMRBXqj3I2qn4hPmTLcHK3jAqbFijLqt6InwETISfKv6N1hi_Hl_yKhAEfNU1D_rVq1NEoSvRXRYCW5u-ODtNIlBcVAG-pMU4AW8biUjlfA/qZge4d5ykXNhYoP68lqZNPwwtUqfph-Dn45HyfcaGxc",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/a76hSAdr6DLr0rND5R5v-w/vAmL1HNOBTMgPZG4xpisbGOeg4afonJ170V9gu-noVMGNwhRX1p18QdVQ7be0hcDu25dXYMpsIhCTdDbU3UvcxjLPCtwy-RIIDYXhBAn-IastXSc1NVXYY1xqcd6P7SXsx8nzJCXsRT-ZEtVGDCTrg/yQZWpF6lHXWxUxZFxkdDxcXD-IMA-cpPjIsDG_a5vow",
-                "width": 23,
-                "height": 35
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/u-Nmso2_f2-W9TPx09xmmA/N-VGvHJWOPv7IN_amU5CtdGVzyawqrChLSUNxrM89V9ZzIfMdAmYdFlEahaYEF5A3jGMMyw6SDPd8RtK1Zx0qsju8eYCMuFqr0jdpvdHtwujKA-Ynw3EuyRnZGbm8QaVzP-QjeHxQ1FS8QLHtBd7ig/w-AxqqecTYXhyjATsNAMxSZF3ZYivSaXPsy2c_Qruuo",
+                "width": 29,
+                "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/0O1SG7AmCyuz7pElTHsQIw/2RiGpndIIZ6ktaH3FcNxxXX_oMvgIlis-FjVg0xyciKtLOV1J4yoPp9vlDvUtLoHBlOVKP_zjO58eY77pX-AQ0uQ4oHKvyroakLQXImD2sTFVED6WssDfapKHVrEzVYg6jHh6wrHTTfBrW6PNRJErQ/Dudd3kafD6p9bteF3lr5-MwNtPdPpez2wmAlaWUr8kI",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/HZq9JMNx8Ms41tVngTSJBw/vLmXE759zqHgpMAJTIUjsowLpmpsKdDtV48nC5pz0rDtXMFmxz5VxdOudKiiuiW12DRx9yEU3t7dSS5U4LshfxPqdIRoJh67iYczkRMiPHttfQXEqQ9qwzVC_rpI1JGjUa1pheN0qbgy1ZV7hrhXng/QGy9D9GMGs2ttbx1gGHGpzkZLp4uNlZ_zpemAL-Dd0c",
                 "width": 512,
-                "height": 785
+                "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/CxxyaRhObU1RPZzTl3Z8gg/zAlP86vB4cqvWPlRTKUZ6KbPV_9lP27RlooiJbIDpBI62nEyb9Mlrb1GPvtNQxyD-ZoYXrVa_-9ti4rXeWDHhMy6XbJQeWI_iTvyAbP9ePaXyf-BGQdPmGpttuCkF-FRqNUZwEdxMImn9Wr0NHhxTQ/rfoTLtFLbDRCzYRzfhfjL1-VFyFxzgkapxOBpIDHTe4",
-                "width": 1848,
-                "height": 2832
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/1iz2HRrMMWNVYo4G70EI5A/sV2E2CUjG9hJfTQzRab999vnI17WBBUnK1bz1b99VLIyPkxzuGiLT1uFQVL7AG-7n0NG0Uarjhj_ahavyyPG7VnFvi69u4CbvoDMoLja6jVxzLPka8l9JEf7YHjNvWRvmw1Qqmfn4SICQ6_F-XmrQA/q2DQBwXhgbkQjkrUsLRDFRllmpXZDAXhGSh2h_SbZ84",
+                "width": 1080,
+                "height": 1350
               }
             }
           }
@@ -13818,28 +13818,28 @@
         "Status": "Archived",
         "Show Graphic": [
           {
-            "id": "attu5z30Mr62xOHkg",
-            "width": 1848,
-            "height": 2832,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/Mnku4x-gWwbZDk0zq_xGMg/1DwmoXGOrkjCRTIv4kwl6YGei7xZmenNa9aflsE636V0vsD2N74cchCwur9bqRJc0yLtsQB2_MoIfr3Mx9K2veOUoqsl4AAHLeDlMYFwxUAKn6wmxA_rKj16qxBN5oAH8AsaU0kgLmiQuqk1GyYL5l-coGmKsOJ_KW6GJY8_4JM/MN4wNEaxK7tiyqoL533KN0Qnk0Iw1SmOqVzrsFqA3m8",
-            "filename": "Archer's Open Mic.jpg",
-            "size": 466920,
-            "type": "image/jpeg",
+            "id": "attDuHa0cNXTb7Gn5",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/eVrPV7DKtQD7N8PtXc_Z2A/uJ8KvaHkn6AHqGnRQY-02hU5XZveBTkQaNGq3WROmoRpH9mCRjEAQbKoCgTG6753uGLyXhiNf4an3Qlvk5qzwggHWE_-UkoWoZ8wniqztX0PBKB1gtscvAnGfQY6lYWJJUWWvTtXwBGVp2P9oNFHxnyAjhBRk1TDLmQNaTwrW4s/4YkDaE-mm6xUk0zgEqQRGB7P_9-Kv1ylvuFX2xbCn74",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/a76hSAdr6DLr0rND5R5v-w/vAmL1HNOBTMgPZG4xpisbGOeg4afonJ170V9gu-noVMGNwhRX1p18QdVQ7be0hcDu25dXYMpsIhCTdDbU3UvcxjLPCtwy-RIIDYXhBAn-IastXSc1NVXYY1xqcd6P7SXsx8nzJCXsRT-ZEtVGDCTrg/yQZWpF6lHXWxUxZFxkdDxcXD-IMA-cpPjIsDG_a5vow",
-                "width": 23,
-                "height": 35
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/9rBfMlKyP0oMUFf6z_lZKg/ya3MtIWngSf1F1gMoeS9J9z7__BbSB9hkCg6ufG3c45oDg5hkC-bcsvXjxu64u7aaQ2plDx6sqhXVG2btqORjfwcn71wVt-UIKBta2p4038-5hf0HEwojuvMDxt-XtWoXgFg9y8tR-1qOdJ7N2qbzg/OIOsFwTYSVj0UgLAT6VXR-f_dD97B90IxTxDWCQewIA",
+                "width": 29,
+                "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/0O1SG7AmCyuz7pElTHsQIw/2RiGpndIIZ6ktaH3FcNxxXX_oMvgIlis-FjVg0xyciKtLOV1J4yoPp9vlDvUtLoHBlOVKP_zjO58eY77pX-AQ0uQ4oHKvyroakLQXImD2sTFVED6WssDfapKHVrEzVYg6jHh6wrHTTfBrW6PNRJErQ/Dudd3kafD6p9bteF3lr5-MwNtPdPpez2wmAlaWUr8kI",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/sycbiN1YW9Iz5cOWv66mUw/H_-lr3tnj4UIUUNHtRpPELsy-SeUrbfzUuB-sV5YN8Q0Dq0Ol-AJGMtTK8FnWAaI5r5zu3oJsCaEzmSxviju-kr2GQrm_xsY4Iiw-12bKzcXfJtLPT473qwh67UbI66EZoYP8FWnzhRGMZj8POrE5Q/R8_Q8yFW4_lbe4k2qV0aznA_0VeI4mH3DRTJxTwQek8",
                 "width": 512,
-                "height": 785
+                "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/CxxyaRhObU1RPZzTl3Z8gg/zAlP86vB4cqvWPlRTKUZ6KbPV_9lP27RlooiJbIDpBI62nEyb9Mlrb1GPvtNQxyD-ZoYXrVa_-9ti4rXeWDHhMy6XbJQeWI_iTvyAbP9ePaXyf-BGQdPmGpttuCkF-FRqNUZwEdxMImn9Wr0NHhxTQ/rfoTLtFLbDRCzYRzfhfjL1-VFyFxzgkapxOBpIDHTe4",
-                "width": 1848,
-                "height": 2832
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1784620800000/HJMLUADIP6b6eZMcWJcPyg/CHNZdnQWmJKm_fkt--x1TOLZqS2A4-MbjLNUQ4dooI45U9CyK7uBilObIFNHoBtBmUCfYUzDsTJ2T8qjek7ohotPiKQaXATzr4IdbLUKlMmru7_k9J4BsNBfhJmM3x0oDVh-qzqrz4LN2VIyeS3QjA/9aBYoWEMR9nksUgWfFvOwQuprAlKmnjPCn8KquU0ws8",
+                "width": 1080,
+                "height": 1350
               }
             }
           }
