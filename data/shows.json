@@ -1,350 +1,6 @@
 {
-  "fetchedAt": "2026-07-28T02:09:02.908Z",
+  "fetchedAt": "2026-07-28T03:29:54.421Z",
   "current": [
-    {
-      "id": "reckz5ZC0Ihftsof0",
-      "createdTime": "2026-06-02T06:05:45.000Z",
-      "fields": {
-        "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
-        "Producer": "Shop Talk Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attgpWiWmXZNLgmqf",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/oles0J-UZut6bAS63GqZoQ/yeWLfhDNoEbJNnrkB2_dKC6dmgQt8dzOOIW5Gu0fe57JyAx2M3aG7iw2Q7X-xA50-w35--vh3u8f4aGnVdj5LsJnjebOLe23Ut8vNWa-fQXQwkpRFqpFHKZ4hUDVP1gV2ErkiEzSPum47gEaerub0JXWJOD84YuJBKXdD45m6fs/smg4MmfqlrQmMnOOeh8jH3B_M8CsExEP_j5F2OrH09g",
-            "filename": "Shoptalk July 20.jpg",
-            "size": 446354,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/SC_KIEutJrm_0NhD17ws8Q/7lJqGbRlGXZI-byJv8VBjScR7Vd41U4vrYPjcECPDHj9SePGZ6ampBJrT1cR_eacAbfWY3hckKtuMaxnT852dGKyZkZwb3lL1cOGaQjRibNrgBZzcdQzltivRToj8bbKYPJKeMw01Owv4VRYJJV1ww/-LOvZvdXOPUEd3tZlOW6RbNLTalBZuGJrcT5ogx98A4",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/U7w7ddrDuLipD-7RUogteg/VDPQv5DKQBWRx0OTYmxaLhB2I2NVgRh8LvpL4qugYb7jRw_2uPlnUj2oD0pG2aTSvhoDWY3ovtC-e3Coq0iIAbzSSHk-llc5cujz20hV83fnLBVUicXmE00a5X17R5ogAt5xPH1vrUY3JnRjzD5MUw/1IYT08MPnXrDDli6ImDdiIB6rB2V1_GiclziR3aqklI",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/iQx6FRPxgVFhu_3hVVyH3w/XngNLmtsgv1BHOSbXcCgwwgxBP7SQw8DAgrXaC3HY5drIjcJSlkgon29JQddlEbSe5TsYKQ0XGQxJPukXRRBej2WChOdCUt14gTEd33nkEleEZixCGs2xoMGqx080085f8xUF7bel7ZEWabnwBBvPg/1XMZc6aAcPUYXZlHeqqQ_lZ5ZhFGzCKvZzLu2cXEPoE",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/shop-talk-comedy-open-mic/EIG6SS",
-        "Date": "2026-07-21T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "reczqrhYzdDV1pCxx",
-      "createdTime": "2026-06-02T06:07:52.000Z",
-      "fields": {
-        "Show": "Phoenix Comedy Open Mic",
-        "Venue": "Phoenix Bar",
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attOyBsdYg8l5ccQC",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/1KsAemrefBT6IDrPqL--Vg/zC8DSyBP9MUjAcq_a5y6OIjj887eRbu2GyMzkRFZLDun6gT4sBxm9CRszkIl39Tgod0lu3Nt91idglhQ-D16IkvuBiLCk2yIcTVHm3iLBCOhFYGOiY7g1LTGD3FGdcLNPHku6BnIQsVP-li_plB5tVALddN-_ZAC2spq-E0WBR4/TzMiETOCOIZhs9Wbd474pwRW0uZZHxR6brjpPwKxe1o",
-            "filename": "Phoenix Open Mic - July 14.png",
-            "size": 1416194,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/hZJCizxUSepwLA2l9dVckw/HN7bz8sSGEljyFqiecJk6_VfIshwoKBvGZEXyphUZrenveoF80ufHnpl5mrL8Q139BdU6kJfc1QEaVSwUi4N1Oz3ap1lMzBxo_MSGK9HP-q0sqzhCI2zb69hNncWt5L1lQ6IrovSGtuY8dcQbsyTDQ/BZbAxMn035Odmwg6lOsK8RF4YuLGaTJT0jHTHo0S_KM",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/kUecwAeRdXJxJ0xopyrwzw/k6A2ASRlKKmtMLIRH77JS73V8S2jvMqjfy-lTaic3i5DysDJF-kVwtkQhCElUd-4Eh3jSZFnIVvpvPqwqA5fnnLzmE2NPP3ileX_gwRe5zkaZw-0RJSUg_-whv1GAM6D30UReWwE8wIX-l8475Umdw/XR68z_gZX8w9bsC8ycoQ9_YyJjw9mSdGACzMEYNVKpw",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/VEv5oXBtZ_aPYKx4HNm3CQ/OiLHAdftgn9nn2_1wKTfrSbUE59PQDY5hruODb88LWootqAqZ3oM6CWmeQFyQBtcu244rWCvxttDDV8Xm10w31iduN85dHPIdEsZk_MLH2SryAe9Vc1Ix_top_hlhGcdrlCVnI7ZXdXL8ECNEuR_KQ/1BNgE30FQaLzAYukuJR_J7TIDrMHFH1JhCt0yB-xwNQ",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-07-22T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "rec9Oun64liiSwDpq",
-      "createdTime": "2026-07-21T04:21:45.000Z",
-      "fields": {
-        "Show": "Archer's Open Mic",
-        "Venue": "Archer's Community Hub",
-        "Producer": "Jayzwayz Productions",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attMtImTUAq4x5k04",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/KZJzr9MG4IWFead2gLreDQ/zbjKzFLhFLRGfpByfCOXEZBTudkrL44TX2xwrQhl-g3pq8nX5E3ddG4ZU9KcI7eiW4G2golguWujozSF6AkCmHp_Zudd-KWFUAoe9O_lgOimS6yfNFCfeHOmgW3B5SduJ_d6S_xCqpJmjCHY5ehTH3lDWjqgghWKCO5SUGudqow/t2bLCLEbK2UWi8fYz1DA3JseNwUS-lLVJcQJCIUa1RI",
-            "filename": "Archer's Open Mic.png",
-            "size": 1357351,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/3iF1zhnfD_x4sDoLFdxfpw/PW3ujks0fVRTK-Zb34Cdbs9KaDOTY9PR6f17c54tDJVit5lSNoITNlFGsSPIg3msUuxyp-VZmzewQ9R2Gkv2Mijb2x9H88vP4SgcOrBS2ZjMF-I1Uh7mZgL4CvmxnonyEzsuKN8cwj9Vfw4NcZ3zPQ/cXJjGfA4_LHtLgruzOtKUVHQug_1BicMbfNTdnBLHnQ",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/tFcjjiF3O99DohuySIydPw/Evc1EhYVIITZd02veCo3XSxEdf1MvXB5O91ejfVDZ2uU7dVHlx1YPukDRyhjJoSfWVWZ8JV70TC3Yuf6nUq8XzMWH1gobTxVXSfPT8mwYwS15tHaF8I-SNr-Xjre1WQB0x3APXlHeSOYvbN7NUcung/xqxvNqzzhDNsPP-AJ9o4EV2Cnqsg0yzNqVxiXunVR8s",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bnbapk3T6PpSSSWJZ8cGHQ/XBz-LK9oqufFlBZxHRGRvm1j4LI_PNqu8XdaWKXsG_3bbswnQvLmiKeioeuVCUvqoa-bjPhBQwxA-xFAzx2LOGge9eEaY_ipMU-WnwAIozhEW1ov9jYEuS26y3XAt-x-LoeCWrnKECbi43qe0W7oGQ/zvob5iujCy_jj3aHiOAZey9KtmEhTb0hqnp9zIKd6cc",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "#",
-        "Date": "2026-07-23T01:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "reclyL0cRSEtVjhLT",
-      "createdTime": "2026-06-01T21:49:17.000Z",
-      "fields": {
-        "Show": "Judge My Jokes",
-        "Venue": "The Mint",
-        "Producer": "Lucia Riberio",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attQzbYywXyGlI7gD",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/THj-DaRu41KHnSs8NMhOPw/ci-fsKq2uPxTw2J7_owL8Fn6h7uZ-eAMXJOL706Ujk9ltVK1aVkh6bRDM-LP81fQweHfG8ecUPCQVa0iOd--ouafCM9Mn4k7eysZ2J6OZk5INpNHtBOu-_jxizhYALVbdYxl77v3U6QLTM93i_0QSPgbg08XMn2HHAh1Yz5uLhs/MmvhnKQj5W7XvesILptCFXXSZFRUDpmcu5hoqHNIZHY",
-            "filename": "Judge My Jokes July 23.jpg",
-            "size": 118118,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/NYY15DOIkuSOe5ti-bmErA/HPyuXTI2km8VepE2f4JUcZ-YyKHPEMzCnPE9kgfCyrasYHDFPFTrwG2-uTcWsRMwtjy7LhNUcEuaNm2zDn0t4P1zvPDq1kmhnGBVmNhrJXE-2MdayZUlrVeaSmb7_VQveZLjOLBW6W7xwHYRO5qmRA/N2yEH948j1JHGjDjxbLQdxMO4sdkUfcjjfPSC4OIRqk",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/PeXetrgoErJCtkg5o6oPpw/nLoMZNUncdEnYOOQFt0BsdIkj-9psQkqfsIaAYAjjF4gQGCFrShj_zWhn7O-dMcETD0wimrXctcJNM4gdeE-ad7H_OtWk5ZWeW3kYbhGzi3OTn0sErL_x-4HdSMeqTiYh0Ya-axS-AaoYAI4Ps-hCw/DoPVDUcPuuyDuWSVteTZsZad2T0DsnKymyXVhd_eP2U",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/C59rdek2Hep4aHxwcCi_KA/-zkjQFg2vXpA0l9mI2ySvrZrSKhELedRoi0B8tUNPL_Tvc-8yCGrPYHU2nK-YM_Ha7y_nlZsfdlNxBldBSRaNmFsXIyLw7zPj7On4p6JPWTSCMYi9pAkOCjRVxN6xR-x3-F6Dt_Orv9AYO2OSNJNew/mTPEMjLs97tmVxrqFEXJnoQl8vlcYd7BZituSDfiXzk",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/judge-my-jokes/9PN8ZS",
-        "Date": "2026-07-24T01:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recTJfpLrEZVFRmSb",
-      "createdTime": "2026-07-07T00:52:52.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Harold Night",
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attiMCRuib2Az4kms",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/_Je3ph6z9IobFY9Wnmj1hA/SJKTGoTymw4ehpQfX9ixkhoQP7Qh4ZUtPfHVtR3O1Mvl_hnvFSxeaXpwdUwvKXv9OSGnX0PdFJqIdO89niKcm-mIepFaZnA9gYRgBEBGuSTdw8ISxGZqmVOnoEaDxbQhgYmbb5QoefydKoSN0nPGI1cKtv4hRMINSaGBQn3JwSM/P3qXBKDLpn48qiIeYs1bHG4xlOPp3GHtGaT5uuFP2Jo",
-            "filename": "harold night.png",
-            "size": 629484,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/phbjOVsg7WYYL5u1nOC-VA/F3AItfW5Azq3AlagwT_FB7H1UWyx9g7oZEDfA8wWp8pMMvlPpXf7OdVmcEBElF-ASduUdN4Hfg1qFxp7weZOfapMTaonYDwOmuhofcE1MZqVX2GgAxNQleGwBQd9XU9PNZUoOsg2sJzWBJAlFvI1eg/meZzqXVqt2uO-OcPsuFg1zlRQJQcYHtc56zwMLsnGas",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bPXudTfww454We_B842-PQ/Gidqk-Ya9BjNXry5ZL4oWBJRYqCC3Au0PmfnIlOxaFiIKX-0zsz2BBWridYQuIwEvRZ56UanpqeoDegybNVOe2fH2htFeG1eN9FHz3hl30yhtLWRcq0vjFrdykz3ZD2KtaP5OBJyanyeKQalYPxuvQ/fMeVxP_--oSFP_uey6MeeQO9IAujoBbwbZ6MAjgGdao",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/QF_lYHhq2WJD-NG042_v3w/UN6cFBRS3-8nkhrMXnzUHaP0jDZJL0Ju6n2pplxafzILirQ7ADMHE3n0jEtdPWfg6vfnxr3fNC7HfLG7rJbBPsXhHPruIyFd6tqTiSJ3_PKgWB_lpZxzbAP9i2ylDDv6UmmvMbZIAPeNHgwPHjOv-A/e22TG18Te2jOFE5CosXaAvcJN756vWpqy40dFP_W6rg",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-jul23",
-        "Date": "2026-07-24T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recQjkfDYIhP2UbeO",
-      "createdTime": "2026-07-07T01:05:56.000Z",
-      "fields": {
-        "Show": "Comedy Night at Junction Cidery",
-        "Venue": "Junction Cidery",
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attnDsV4OyN098epV",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/pW3GhyYJGmKh5bHKPUYl7w/maUVt6Eqdq2vVzDLjKwPyQHX1BqSaGwbSSzlbFGsXPSE36c4tgeDL2tdXOjVHTSkFneyIJtsJSPE7LEA7DxDf9r0QyazrjAXZO1shOaqAQ2tJbD_G2CSPrCanHffdGvmtAu0aLra7j9UZ-vqcYOzrF22Sqyl3PDXa_YhyNlpk_lPtEt5D92JCjOwNapDn4Ov/PfvBNcxCs0Hk1B8I72PDmZVwla2vHPRz3U22PQM5c_U",
-            "filename": "Harbour Comedy at Junction Cidery July 24.png",
-            "size": 1596233,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/e5FOCvwsdWlDKdPzeWgbIw/7uTm-HLxQKCb-VSzfQn1xtdhwWIs32ENsHvQyXSDlhCAGj68Q8PPKW0_PX0D0mGsd5LdswZBcLhilEgsMwfg5G-Gft2nZgA0ba9MDc8euIcn9hQ2AnB9A_wrjJsICDguSXP1BgWIqRy9vw1wLJU8_Q/-xFKYyUZ3E0KZsJGdeEers7BZMl3HuCPceYMf_0IOgI",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/_DlffBHjc-HTSWEpZjUiDQ/tBJuMhhGNancpO5emEQ-siPVvLN_2cJc87DHLAFCmNxgjOYeLereK3C_DKECgSLlFcuh5t_wfwYY2ZECLMW7NJsaI85usDDa17SEyUnDruEphCMCTzdmUsJW8_u2_Nz9x71oX8hPrAwc5w40fVoYNQ/iw9TdTdbvFmU2p2cdBlwOZUZ2RDGqNvt3xvhCuJttxE",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/XCazNIgjCwNvLE2WEuhZsg/-UXWv9GGlc3EqtXWPDA5bHCJHOXm6dcz0AzXwb7VwxDhCH9dCrUdbuxCoWbBTS-q-mWzIwTKpu5I8o71tTSSKTi_2x90MfLEfJW0Awf7dhZaLY9cpFplG_pDQuIG4H81OeMMWZhA_njzklx7eYKFbw/HjBx64vG4XQH5zMNiTd9k8FGdno8EdDWKgCgcH7IDx0",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-july-24th",
-        "Date": "2026-07-25T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recszzDedmhIOByQU",
-      "createdTime": "2026-07-07T00:56:09.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Improv The Musical",
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att5wx710xenhXBAk",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/2HINb-QdgC8DlP8EqWRhlA/ej4p2KBKkZyvzs5C5JO-j6GAP1Fmct0mHxYckC1Ns-cNlAao0dirYG6dd5EGCWB9ywBp-3XTBvkhhfD33tVu6V9m9lUNSt0wlZhY3IHwHtSxoTL1NFDuNo6-1-5hUsFCdmVG9OvewcqJ6Vf_0jy8zY7cqNID3ZEBI6MrfpnR3AyJ8_kAnVeDMyTB-h1ojX_v/IOSvpCGLxzHUnN5vUkGjJNIHX0LIRK9lNg4XEYTk18o",
-            "filename": "GCI Presents Improv The Musical.png",
-            "size": 592162,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/8r5MipXA7CHWCLQu22sU3g/Bv6upkhB0AepeuAmCQWQOIWRisafxqddfG01Ro5Zqxcqqne7EnECUKBNVU2mimdDjeFGvCmM57avAwGLaQIqQTSNYfg2CZgd6U70pBVXh-28WQWAkP6_OvR-zObjlPPyJfVcUtHg4jlVDl3QiDNZow/LyIEwKjbpF0m-kL6FAcsEm6Z6POc7qkdDEasY81PB-Y",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/quLyXBNtwGvs-IEAlH8euA/D0PkbZSPw0licg0qDcs9Dt3uzi-w0LuhdZQ5brgCqdGIUEOA2g0lRgRMxx-ucYLEk8v9MBBe67y8EV4FqoTboYg1myfX3jfkv7qV-uNSfvG1AxakUNF3eHH3ctrXDVYOMSNTxyP3HmARVGX_PIFCBQ/_boWo_RPZ86kqLRnaVtwv4d4kp0H01szu2r1BxuzN7I",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/DsNDmOtO0WwCMEzztSWnvw/3fJ1SrcIMJO-SumZTJptIUJRB3P-Oo9-DLOp8gbJSSTFu7ZGWzX5xyo632zZJmPYSnTGHal0fkkr45vpYn1_T-owPyKGIQ-WKHjRTXDjhQOs1Cagl81LfgcmAz7hUSZn21NgyWRgzAsmxf_vQPa9zA/Vg3G4IRNTG-53LQJZH2cDykaUJav9cfkIrULhGtTJC8",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/improv-the-musical-jul14",
-        "Date": "2026-07-25T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recFrK3NKm7IRmE3b",
-      "createdTime": "2026-05-11T20:31:32.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: Rebecca Reeds",
-        "Venue": "Hecklers",
-        "Producer": "Hecklers",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attNVrLr9DkJAx2Kx",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/cUVjeS3Je4e5EiInFmuEXQ/7I3BpHLxd4tdR5JBR00Nlk171otPnS3B-u3cZSMbp52L69b8DZBqm7va5IyMgJJQQu9MOFP_Tk79iIFSb9vH4Yz1i8DKWygT4CVTf4PZkjeVtLNFrql4RfJPlu2DMZHnt1NOnWGuS-0a-9rnR_o2fzsOKlF8WGNllXMJQ-reVW8/xzBbdqij8-QXjpOvPlwiwB9pM5OsJwttlLp9N89Fye8",
-            "filename": "july 25 - rebecca reeds.png",
-            "size": 711575,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/_aT4IZQlKarkEX-iT432eA/ySa8S9E8IgYa69NLHEGb3vlsd4XwcelEImoEGlCUjeF4NlHdg4ubrymFVh5D4p81qlFmzfxNRYEZRO_166DDwRtUVvt0Kk4MSGlkaXoTOT7ofALOka6eGzCgKpdc8rMJ16S8xwS1C87YohW7vLeRMg/RsxrOwzYm6DcmuZARzbaVJf1ZvIo-I3YqAmHCUdj0_8",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/NId3MP961f4TAnwWo2WZMQ/8Ai04ipmmK-ig-xmSMk7hOAdehW4R3UAEYpqmzyV8CaUgSSmTjJw0KS-ZmwT_pd5BfI7lBGLJVw8O6I5iXrIDA3cEr9Ba8p9Li_pRjFZtQ9pgaO7rklZqyDQJGDkl9C03nLQQEK9BOOFBOOLaNNTbw/wwW5Ik4ja3Xh-zF8yPzj8HpyshfpVP60fin-0cY_ew4",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/5eSc1FYd31QCSNv_yXT2Hw/KkBDdctqvaulpehMR3REPNnQnzOxzgMSuGSp0WZ1YsLzWylowReQ5RZ36ObNoiCZTmlVNdBA9Ov1rtwFNusbV1YnuqXH87iAiNF57v8s9pAVBbBYzv7w21MBF-wvnj0nEmulAh-1BMPF6nGagGwZig/3G0GeA2n-Z8xxOxEjz8MmHYGXq0i5Oo9jfeIrrWbR2w",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-rebecca-reeds",
-        "Date": "2026-07-26T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
     {
       "id": "recl4s01XAX4HfEZR",
       "createdTime": "2026-06-02T06:05:57.000Z",
@@ -355,26 +11,26 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attBdvLXwRHn5z35w",
+            "id": "attd9hdY9M4rhsmAe",
             "width": 1080,
             "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bolxiX3pRhnbjbYK1b8Skw/n798A0e0d96CsT3DI7A4cQgPg-MbXBzggqj_TM2dxSYmNgYi0dTZ0KJrHoBJhqFoLU3e5yPmUDPFPgGr3U6NxuRRRc4tAyB2NfSIVr2MUG_lKtCqP0ecp1Wd683MBTs-31yT_gEIkeU0JFdtghEyWaX4zRfa7ahQAuEPA09TGqo/WeDWJ6GZNQgdmnYeRCXiA43p8xq68oDkTFxzStsF1WQ",
-            "filename": "ShopTalk Comedy Open Mic.png",
-            "size": 1863674,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/Jslufi-KsQjdnXr4NQI1bg/n1l9JhSiOQf1XzhuFa9AogUr5LZDR1d-3x-VkK1iw8ghtxI2w9wFRLFxgoOfH3Ht1nznLhRDH8C7SSZ5-O2qgBWW8-tBFGYqSOaoS0iITqybZb0OD-9dZaAgLSxBhXUURwLsm554SwR8UW-r2CdL9HweTdEsFP6kAE891vt21d0/vhdHiC4XQZYV0rQ8mkLBHckXM_VldsxhBfgu3y25eYs",
+            "filename": "Shoptalk July 27.png",
+            "size": 1531943,
             "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/mqJm1oBVw7fKwIM0Uf5H2Q/gaydqLydeM3Ocfk9-tVvqpCgiwgBTOUwxhzZbTYkWaar_0qsIoRb1Q7jF-8kMICSFi-Co2pvv52xaWJlS-kY_ig63TfNuv18U1wGbB1rzZIMElmVwEiJx0-AsAJwqcOhslhb1y8ez3X5XUZB1O4OzQ/qN1APh-PLC4vQtV-JP8m2ama491xyTI8nn8OrnjUhTQ",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/jsA52Ll5BiIKoVgCRHX60Q/1JSk2kjtcTmpT8gWlQjrJfXahDr6FcwlQ7rcdpS8AC_91v8SPaR3niI77NuXJXSdsAA7pZLJg-S-QI0WNxXHKxk_py-puH8_TGrxTiqMlf5-CnetTo31vekwP4YjGoh4RpUpGS79ZUdjWl-hs54lEA/u37p7MBRbRvDYZoDGCXE1msPoERuyktzSgy0F2VYWls",
                 "width": 29,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/eKuhw9ykj6wRQsFsHJV_tA/I8OUdsPoCM97kiuj-IxEia9JyZXUuvWEXxhqsKn2ukxUa7UIScvf3zB-qgFBxgi-38JOi_2s44SVwMVghKGlXSsTgPTfiEvb3BmkSJ1W24OZcfUVFlIPSI4qXWu8x1ury6wGS2ERxtfl0MYctsy-Kg/5LCuUSB8wanwZWVhN4MmW9b6-ZaCFsuVWA-ISPoZj60",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/czFZ77fjIEheSXXUdGPdzA/YdS-RmOJy1Ske51U6OSYJVLW9fwdcjEAiGzxA9jaofwgncC-QThJPZ5mp3Ofmf7zBjA7YCtKal4Ljv-gcyq9_EYAD01xtr180PYyFa52eie0if0m1ysdiUekqaS4HjV2Xdbz2Sjgvvu4iWPCply2YQ/881urHhLtfE-UYqAZy4yaVGi-2g1QroZaJjpXm8bBSA",
                 "width": 512,
                 "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/vr3CXBPKKkqN5rWsYOX7aA/3N6He1Gq6_CyeNwJ0SHjb7bXk8yKO-qWbX3XV_DtvHDtheiPq4RIaHP1599tbaV--uHHDyYGkOlu0LYBk8e7MarS4hcVa4jQGKi5dk38CKB7Ax6qt5I4_rtGdEBh3_2iJglD2ovMEeDhnMWC2ecBvw/U_8fz0Xwm7Ux4vqZtHK9wzOBDa3DT7pavX7t7p7w88w",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/5cfBAOBmxi9Bx75ULJbvLQ/IQwQJSdyWI9K3rSVsl8au8MjrFvsNfl85NjnN5JSKlNj38o0Lp7v1-ZwcAYAz4R0AIb3rHw2k3FV6C2tDKr7dZY-rq-iCrc1EvKwmYVfI4Be3VFk_SfqdWOBCXNOsnI2H7b9HHWw7YByu3Fscz87tQ/byqDiLJUmLlm1URKjfUi4gSjUYXN8N-HJtzkOZ9j_r0",
                 "width": 1080,
                 "height": 1350
               }
@@ -398,26 +54,26 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attIGUJJh5HM0qukb",
+            "id": "attbUXpnJ57X0B4CV",
             "width": 1080,
             "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/k85i0pt3zlG_eSvOVhZZeQ/Tn7QVSooCI3IM2g3VMLmPmZtOTWZ061ULZmGINTuJX5l_69-e_jahBU7oeKea7Wxqr_EnfoUit6W-SawSrbqAK_U76OBvlI7ee9ztNsBmSqt2gSwLX73v1RuXW1fcELBRGsooyehVIjJZPfHDGkNiL-ICiPwFs-wLk60O564dFw/0ZftowplUvA9CwRQyTRfiaVgU3wvxOz89DpPLjqAjDk",
-            "filename": "Phoenix Open Mic.png",
-            "size": 1012288,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/WEqc_SU2Hf9JVfKWMCaLbA/VXN6uozF3eHb0TD-oAgqhL7LF18GsI45ZOEgXrJegiUq9U0QUb6F58XEozVRcnWsI3evlLHUM6wVWE3-InJvcgH6Y5dt0dwXTsDfo5wNqE0B5JYq0hh-FihOr9yJiHFTLUx6TXa3GAmdeiMU0aR_TK6U_YPo4iIvkt7Nhyjyopg/WYO1pz0DW61EfT-ilN_tjBio4RN47O5DubL5KooBQn4",
+            "filename": "Phoenix Open Mic july 28.png",
+            "size": 1680316,
             "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/qqTVtbgNRhDhNf87SRJTWA/rJ4vmwPtEUgNxI1iFoncAYmrYMRGbWPvZ5WXKGaQ4D1wLz0AD9V_qRXuA9WHHmN19TnifwYA-fAh7Zj-7tp9AskfeLJJmQY2B7IbYAxhMvleajkSY0vK2bC4U6VDHZvbs9a3-iUV4TNjT6gXzR3pXw/BDQP667igTopm8D6m9hQPX9rmirpA--Y7Lq-a_B_NI8",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/QOUS6RJ8030FsFm1nT7SKQ/8qwkGgJOei3DXzh2nXjVFEG3UCnVhMKS_VTDOWZkbmZ6Us-LDDfCOJI2AWRpvVrdbWyR9b33LfqU7TZfBn60qyIObhc3K1sl-toGdUQWJvORLiJBNqXdnm6XUYuwXSimgBUoewWZtBXxk4aK3Qre_w/L10jfp7UiUrH_97OLGOVHLZ6AKBtBbZt8YP3cKf1Afk",
                 "width": 29,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/iD9KfeGPSoPTOQ8f8KHfgQ/tSzbjI5YdJH1e44vxzh0MYmYmW8pN3qko8QBq6z2jg_JzsFZFooIqe9BrGGFEydHgC9nOxUI2gchg2GRbTqmvDh3ifvfwHq7EsaeYj8_RdifhqpXdAsguq2z-kXm1tBqHNCjKjLS0v02UdBVzaKpOA/-8cseP7mJsE7-m77h3f1WD-xTKfS2hNU-AEdW0-heQQ",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/6LMFn6QXaiAask9dpAB0Dw/8Fu4ZeKSQWiCyMWykYRm-26DgoUzDwoHWuCaPxB7q3s_IJMTEPwBYf9mZMMenk4xdWyun7M69XhqJLDvPTUXjzgNkLBI7ZMfWxpeZW9ckPpJeDYzNHUP-MhoUbFdfVCyr7zGHNQ-MH_mJNMu3XSTvg/4yYxmSsCrytqWZho6Dulh2AvaTIOBP0pxh9j3Dbq3_c",
                 "width": 512,
                 "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/p1VctJVMRtLCplti69S68A/2mMo8V6udDZ5sD0kt1F2pW3b-wHpCLI3BrjUGUA9tLkvLX1Isw-n0OpPe9Il0NI4g_bWelEzg4xqYWX6JSQ3eRUGI1xUG0C3xbGKuJEUyxmYIMnfcgWMqq7xyit9bbX28PdHQHHedxby7IY7kbrHng/HdYmzq18ncc6kIhi29hCmfXa0ZuOxyQo7j9cM7qMNo0",
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/5BhcFtuZFwlGrGmWV36fug/ZhSBx_bMeIoqRd8okJtS43_Gt5cCTHnhrIG22ThmrDdd3EWDtgVyj0ORFMocBHM1xDZOkZVRhtRWVEx8w5XrFwrrdEh2py6_YG2AMpTCUauYvG2IFiygsOrEPFstzMrVIVSButmeHYZopIXVJS-opw/71MkHvFNRGDPpxZhy3V3wcSSJVXQx77NZe1wE8a4prA",
                 "width": 1080,
                 "height": 1350
               }
@@ -862,6 +518,49 @@
       }
     },
     {
+      "id": "recJXm7vDKm6plspC",
+      "createdTime": "2026-07-28T03:18:29.000Z",
+      "fields": {
+        "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw ",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att0it16Z4hSAb9RI",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/MO_xGVkR9r_la5Drzi5EsA/-2D9O2TZtba9nhUO2FXqG1-yOC8XNkzHRlGW3JES6LlEe1YZ1SupwzhWXG6EfF72YwPEnfzSuRhK9BAH09NQO9WodKVuSitJN8QNQMz9CsW8OrdQvh78uRkny2TecgGbDbLnVFmUIFrp2dc6dS6pw0xuzUD6Wp2DI4VVeCkDUtitWRFCyBcH4bpDfrOwBXWB/HVtXSHveXGgnNZJ_p_EgYHer7gJ0RreJN6ayP7cgrP0",
+            "filename": "Garden City Improv August 1.png",
+            "size": 563391,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/8g7DZ-u9YRjHOgt1yX1zUw/pD-y6CjOpk_ZBPm8ZzDXixN4ev0OVOOagyN2IcmqEzxyD3bQEXs15Gq6YsDYSSjS-NYFXRzHDwK1yCGIJimKvNLEW-M5NqjM02rcfP9qDhIfh3dtlZLfJtA--nlvTD_CJQvF97aIc-cHJz1QLV5d5A/QXmoXMkmdwC8PYFHOOSQLNRz1gr3ogP-6FLRHB8M3A0",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/p5FBrlvo-5-aHxJ0fTymXw/WOPNmFupuwi0gm6Y6I8nPTQ6zd19_1rhSYde-xzmbpnePf7in3NoEtlAJ5Hy4ot5H-YpcEKN8tsLA69_RK6ErfWrnXqBZuSrlcbrio_v6J7zy5DDv8R3cgFDjIcIUhYJTbGZH6CMpLjXQJfSNmdjYQ/3MUC0Pg6O4TD3JTKVf2xIdDJQqH95XXi0NfN9oGAlyA",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/__PDM3b_gOnJtuhmmpgjHA/a6r6YpEFKWCNKvHXRMWm9oG_gvMg5dXxCf0bcXJa_UimggvjbiJvwl8Gk-78FC3ODtVjVI_NGGdmlvqm7QjNwNpAs9oBsrGAAwQgoE-Y9wl3HMStCNI_t_eu7flaj1f7QZLE-YW0iIB3sh_fVOSObA/3I7N5eeBf6m9T-4YGOSYjQv1XpRfx01UjsGJM3tgzIM",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/garden-city-improv-with-dan-bakkedahl-and-kevin-matviw-aug1",
+        "Date": "2026-08-02T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
       "id": "recq70uojrycdujfr",
       "createdTime": "2026-07-21T10:40:07.000Z",
       "fields": {
@@ -899,6 +598,92 @@
         ],
         "Ticket Link": "https://www.facebook.com/share/r/1EZMi6xmkt/",
         "Date": "2026-08-03T02:30:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recckYBDmQGU7xg8O",
+      "createdTime": "2026-07-28T03:13:51.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint",
+        "Producer": "Shop Talk Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attBdvLXwRHn5z35w",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bolxiX3pRhnbjbYK1b8Skw/n798A0e0d96CsT3DI7A4cQgPg-MbXBzggqj_TM2dxSYmNgYi0dTZ0KJrHoBJhqFoLU3e5yPmUDPFPgGr3U6NxuRRRc4tAyB2NfSIVr2MUG_lKtCqP0ecp1Wd683MBTs-31yT_gEIkeU0JFdtghEyWaX4zRfa7ahQAuEPA09TGqo/WeDWJ6GZNQgdmnYeRCXiA43p8xq68oDkTFxzStsF1WQ",
+            "filename": "ShopTalk Comedy Open Mic.png",
+            "size": 1863674,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/mqJm1oBVw7fKwIM0Uf5H2Q/gaydqLydeM3Ocfk9-tVvqpCgiwgBTOUwxhzZbTYkWaar_0qsIoRb1Q7jF-8kMICSFi-Co2pvv52xaWJlS-kY_ig63TfNuv18U1wGbB1rzZIMElmVwEiJx0-AsAJwqcOhslhb1y8ez3X5XUZB1O4OzQ/qN1APh-PLC4vQtV-JP8m2ama491xyTI8nn8OrnjUhTQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/eKuhw9ykj6wRQsFsHJV_tA/I8OUdsPoCM97kiuj-IxEia9JyZXUuvWEXxhqsKn2ukxUa7UIScvf3zB-qgFBxgi-38JOi_2s44SVwMVghKGlXSsTgPTfiEvb3BmkSJ1W24OZcfUVFlIPSI4qXWu8x1ury6wGS2ERxtfl0MYctsy-Kg/5LCuUSB8wanwZWVhN4MmW9b6-ZaCFsuVWA-ISPoZj60",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/vr3CXBPKKkqN5rWsYOX7aA/3N6He1Gq6_CyeNwJ0SHjb7bXk8yKO-qWbX3XV_DtvHDtheiPq4RIaHP1599tbaV--uHHDyYGkOlu0LYBk8e7MarS4hcVa4jQGKi5dk38CKB7Ax6qt5I4_rtGdEBh3_2iJglD2ovMEeDhnMWC2ecBvw/U_8fz0Xwm7Ux4vqZtHK9wzOBDa3DT7pavX7t7p7w88w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/shop-talk-comedy-open-mic/EIG6SS",
+        "Date": "2026-08-04T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recBENL3rrVtxhBUX",
+      "createdTime": "2026-07-28T03:12:22.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/k85i0pt3zlG_eSvOVhZZeQ/Tn7QVSooCI3IM2g3VMLmPmZtOTWZ061ULZmGINTuJX5l_69-e_jahBU7oeKea7Wxqr_EnfoUit6W-SawSrbqAK_U76OBvlI7ee9ztNsBmSqt2gSwLX73v1RuXW1fcELBRGsooyehVIjJZPfHDGkNiL-ICiPwFs-wLk60O564dFw/0ZftowplUvA9CwRQyTRfiaVgU3wvxOz89DpPLjqAjDk",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/qqTVtbgNRhDhNf87SRJTWA/rJ4vmwPtEUgNxI1iFoncAYmrYMRGbWPvZ5WXKGaQ4D1wLz0AD9V_qRXuA9WHHmN19TnifwYA-fAh7Zj-7tp9AskfeLJJmQY2B7IbYAxhMvleajkSY0vK2bC4U6VDHZvbs9a3-iUV4TNjT6gXzR3pXw/BDQP667igTopm8D6m9hQPX9rmirpA--Y7Lq-a_B_NI8",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/iD9KfeGPSoPTOQ8f8KHfgQ/tSzbjI5YdJH1e44vxzh0MYmYmW8pN3qko8QBq6z2jg_JzsFZFooIqe9BrGGFEydHgC9nOxUI2gchg2GRbTqmvDh3ifvfwHq7EsaeYj8_RdifhqpXdAsguq2z-kXm1tBqHNCjKjLS0v02UdBVzaKpOA/-8cseP7mJsE7-m77h3f1WD-xTKfS2hNU-AEdW0-heQQ",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/p1VctJVMRtLCplti69S68A/2mMo8V6udDZ5sD0kt1F2pW3b-wHpCLI3BrjUGUA9tLkvLX1Isw-n0OpPe9Il0NI4g_bWelEzg4xqYWX6JSQ3eRUGI1xUG0C3xbGKuJEUyxmYIMnfcgWMqq7xyit9bbX28PdHQHHedxby7IY7kbrHng/HdYmzq18ncc6kIhi29hCmfXa0ZuOxyQo7j9cM7qMNo0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-08-05T02:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
@@ -991,6 +776,49 @@
       }
     },
     {
+      "id": "rec23nIdypvzte7oU",
+      "createdTime": "2026-07-28T03:15:55.000Z",
+      "fields": {
+        "Show": "Comedy Night at Junction Cidery",
+        "Venue": "Junction Cidery",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attbhNIJ0AOWg18a9",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/ItKP0CSjgj_F6GxPslcvRg/h1uU08TNPMt_5qykQBAiWbjbYS5cV69sdwDIK8NHbZfk8ifcZTAfQMwvdZRPzkR28UWZvhNg_ZzCyrU3kS9CPV1aSEyYpueVEZoE1s1MHr8XxaXYd-4TqIOOGiuewkfstPnvzkJXVwpzOG6X_pkngw6IwWg711sq-8kAeqUD_XGdofjuJrbBNI4aLzc6swPS/WXUnBBJkePh4iOIQWL8lUSX0pyjxyTSSaqJLoMmVRcg",
+            "filename": "Comedy Night at Junction Cidery August 7.png",
+            "size": 1593164,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/NyJTT9XQ86ZTM6OKgzH4Yg/jQiaDxZmAPcPOy0bJcOro0395USzyvOI58bZYd2xCHkrwQprSU4NVDF_YufzRpvlQXf4OUnj6VdswfcwG2Vs3dIE81qiwfwloLzKZVGQ-SfLlsccZuyYHNF5EgCLZ-7F6g1cvz-tkD4k53J6qJdxFg/Wh9Clenlr7JsBkZaEdAWGTk6Bs0sRuVtU8vT1CXw8ac",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/21clWw0E5PH5KzUNLVKn1Q/tJHJGGmzv98lgzjBxzpZLTRBTpNupk8kEHGU4htm5HK6E5d4DuV0Wo1-4rNjCGaT8BIWBd7hb9RbYymHPYKxRd8BiYrubCY1T9vKki3dFVIPsB4V1mgOOaLjEe-S0Y0D_JT_iX0L1-qjqfQxAkpGiA/ysGExUpBNV-Zy0XK0h6eR_azcI-zJ6CiDPGxzk2bAeE",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/GUCU5YCRmYODixwh1m3nyg/jfVu1vq75ArGI4CTl2YUi6u6wN3GowlmKraEwKlpHOznGZj4nSFh11Mtc7EGlp55UaQ5ZIed5d5imH1hZHd-g1qz3xakobQT0dCMAGGVLxbzVuLuJjzFyUGw1ZqWaf7_q8ziLabH8mDPBJUHYrcqCg/dph6Qj9IHxypzby0GIG4cdUpez1Y61kA7WUTuyL83lY",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-july-24th",
+        "Date": "2026-08-08T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
       "id": "recIc7pxsc2Dl8pw7",
       "createdTime": "2026-05-11T20:32:45.000Z",
       "fields": {
@@ -1030,6 +858,92 @@
         "Date": "2026-08-09T03:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recuY0GzSyTdyqZd3",
+      "createdTime": "2026-07-28T03:13:53.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint",
+        "Producer": "Shop Talk Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attBdvLXwRHn5z35w",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bolxiX3pRhnbjbYK1b8Skw/n798A0e0d96CsT3DI7A4cQgPg-MbXBzggqj_TM2dxSYmNgYi0dTZ0KJrHoBJhqFoLU3e5yPmUDPFPgGr3U6NxuRRRc4tAyB2NfSIVr2MUG_lKtCqP0ecp1Wd683MBTs-31yT_gEIkeU0JFdtghEyWaX4zRfa7ahQAuEPA09TGqo/WeDWJ6GZNQgdmnYeRCXiA43p8xq68oDkTFxzStsF1WQ",
+            "filename": "ShopTalk Comedy Open Mic.png",
+            "size": 1863674,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/mqJm1oBVw7fKwIM0Uf5H2Q/gaydqLydeM3Ocfk9-tVvqpCgiwgBTOUwxhzZbTYkWaar_0qsIoRb1Q7jF-8kMICSFi-Co2pvv52xaWJlS-kY_ig63TfNuv18U1wGbB1rzZIMElmVwEiJx0-AsAJwqcOhslhb1y8ez3X5XUZB1O4OzQ/qN1APh-PLC4vQtV-JP8m2ama491xyTI8nn8OrnjUhTQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/eKuhw9ykj6wRQsFsHJV_tA/I8OUdsPoCM97kiuj-IxEia9JyZXUuvWEXxhqsKn2ukxUa7UIScvf3zB-qgFBxgi-38JOi_2s44SVwMVghKGlXSsTgPTfiEvb3BmkSJ1W24OZcfUVFlIPSI4qXWu8x1ury6wGS2ERxtfl0MYctsy-Kg/5LCuUSB8wanwZWVhN4MmW9b6-ZaCFsuVWA-ISPoZj60",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/vr3CXBPKKkqN5rWsYOX7aA/3N6He1Gq6_CyeNwJ0SHjb7bXk8yKO-qWbX3XV_DtvHDtheiPq4RIaHP1599tbaV--uHHDyYGkOlu0LYBk8e7MarS4hcVa4jQGKi5dk38CKB7Ax6qt5I4_rtGdEBh3_2iJglD2ovMEeDhnMWC2ecBvw/U_8fz0Xwm7Ux4vqZtHK9wzOBDa3DT7pavX7t7p7w88w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/shop-talk-comedy-open-mic/EIG6SS",
+        "Date": "2026-08-11T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recGAAAETrfNW9SyR",
+      "createdTime": "2026-07-28T03:12:25.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/k85i0pt3zlG_eSvOVhZZeQ/Tn7QVSooCI3IM2g3VMLmPmZtOTWZ061ULZmGINTuJX5l_69-e_jahBU7oeKea7Wxqr_EnfoUit6W-SawSrbqAK_U76OBvlI7ee9ztNsBmSqt2gSwLX73v1RuXW1fcELBRGsooyehVIjJZPfHDGkNiL-ICiPwFs-wLk60O564dFw/0ZftowplUvA9CwRQyTRfiaVgU3wvxOz89DpPLjqAjDk",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/qqTVtbgNRhDhNf87SRJTWA/rJ4vmwPtEUgNxI1iFoncAYmrYMRGbWPvZ5WXKGaQ4D1wLz0AD9V_qRXuA9WHHmN19TnifwYA-fAh7Zj-7tp9AskfeLJJmQY2B7IbYAxhMvleajkSY0vK2bC4U6VDHZvbs9a3-iUV4TNjT6gXzR3pXw/BDQP667igTopm8D6m9hQPX9rmirpA--Y7Lq-a_B_NI8",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/iD9KfeGPSoPTOQ8f8KHfgQ/tSzbjI5YdJH1e44vxzh0MYmYmW8pN3qko8QBq6z2jg_JzsFZFooIqe9BrGGFEydHgC9nOxUI2gchg2GRbTqmvDh3ifvfwHq7EsaeYj8_RdifhqpXdAsguq2z-kXm1tBqHNCjKjLS0v02UdBVzaKpOA/-8cseP7mJsE7-m77h3f1WD-xTKfS2hNU-AEdW0-heQQ",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/p1VctJVMRtLCplti69S68A/2mMo8V6udDZ5sD0kt1F2pW3b-wHpCLI3BrjUGUA9tLkvLX1Isw-n0OpPe9Il0NI4g_bWelEzg4xqYWX6JSQ3eRUGI1xUG0C3xbGKuJEUyxmYIMnfcgWMqq7xyit9bbX28PdHQHHedxby7IY7kbrHng/HdYmzq18ncc6kIhi29hCmfXa0ZuOxyQo7j9cM7qMNo0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-08-12T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
         ]
       }
     },
@@ -1120,6 +1034,92 @@
       }
     },
     {
+      "id": "recg9knjldMp6oa8V",
+      "createdTime": "2026-07-28T03:13:54.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint",
+        "Producer": "Shop Talk Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attBdvLXwRHn5z35w",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bolxiX3pRhnbjbYK1b8Skw/n798A0e0d96CsT3DI7A4cQgPg-MbXBzggqj_TM2dxSYmNgYi0dTZ0KJrHoBJhqFoLU3e5yPmUDPFPgGr3U6NxuRRRc4tAyB2NfSIVr2MUG_lKtCqP0ecp1Wd683MBTs-31yT_gEIkeU0JFdtghEyWaX4zRfa7ahQAuEPA09TGqo/WeDWJ6GZNQgdmnYeRCXiA43p8xq68oDkTFxzStsF1WQ",
+            "filename": "ShopTalk Comedy Open Mic.png",
+            "size": 1863674,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/mqJm1oBVw7fKwIM0Uf5H2Q/gaydqLydeM3Ocfk9-tVvqpCgiwgBTOUwxhzZbTYkWaar_0qsIoRb1Q7jF-8kMICSFi-Co2pvv52xaWJlS-kY_ig63TfNuv18U1wGbB1rzZIMElmVwEiJx0-AsAJwqcOhslhb1y8ez3X5XUZB1O4OzQ/qN1APh-PLC4vQtV-JP8m2ama491xyTI8nn8OrnjUhTQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/eKuhw9ykj6wRQsFsHJV_tA/I8OUdsPoCM97kiuj-IxEia9JyZXUuvWEXxhqsKn2ukxUa7UIScvf3zB-qgFBxgi-38JOi_2s44SVwMVghKGlXSsTgPTfiEvb3BmkSJ1W24OZcfUVFlIPSI4qXWu8x1ury6wGS2ERxtfl0MYctsy-Kg/5LCuUSB8wanwZWVhN4MmW9b6-ZaCFsuVWA-ISPoZj60",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/vr3CXBPKKkqN5rWsYOX7aA/3N6He1Gq6_CyeNwJ0SHjb7bXk8yKO-qWbX3XV_DtvHDtheiPq4RIaHP1599tbaV--uHHDyYGkOlu0LYBk8e7MarS4hcVa4jQGKi5dk38CKB7Ax6qt5I4_rtGdEBh3_2iJglD2ovMEeDhnMWC2ecBvw/U_8fz0Xwm7Ux4vqZtHK9wzOBDa3DT7pavX7t7p7w88w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/shop-talk-comedy-open-mic/EIG6SS",
+        "Date": "2026-08-18T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recNJBhuZ7WoawV35",
+      "createdTime": "2026-07-28T03:12:27.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/k85i0pt3zlG_eSvOVhZZeQ/Tn7QVSooCI3IM2g3VMLmPmZtOTWZ061ULZmGINTuJX5l_69-e_jahBU7oeKea7Wxqr_EnfoUit6W-SawSrbqAK_U76OBvlI7ee9ztNsBmSqt2gSwLX73v1RuXW1fcELBRGsooyehVIjJZPfHDGkNiL-ICiPwFs-wLk60O564dFw/0ZftowplUvA9CwRQyTRfiaVgU3wvxOz89DpPLjqAjDk",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/qqTVtbgNRhDhNf87SRJTWA/rJ4vmwPtEUgNxI1iFoncAYmrYMRGbWPvZ5WXKGaQ4D1wLz0AD9V_qRXuA9WHHmN19TnifwYA-fAh7Zj-7tp9AskfeLJJmQY2B7IbYAxhMvleajkSY0vK2bC4U6VDHZvbs9a3-iUV4TNjT6gXzR3pXw/BDQP667igTopm8D6m9hQPX9rmirpA--Y7Lq-a_B_NI8",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/iD9KfeGPSoPTOQ8f8KHfgQ/tSzbjI5YdJH1e44vxzh0MYmYmW8pN3qko8QBq6z2jg_JzsFZFooIqe9BrGGFEydHgC9nOxUI2gchg2GRbTqmvDh3ifvfwHq7EsaeYj8_RdifhqpXdAsguq2z-kXm1tBqHNCjKjLS0v02UdBVzaKpOA/-8cseP7mJsE7-m77h3f1WD-xTKfS2hNU-AEdW0-heQQ",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/p1VctJVMRtLCplti69S68A/2mMo8V6udDZ5sD0kt1F2pW3b-wHpCLI3BrjUGUA9tLkvLX1Isw-n0OpPe9Il0NI4g_bWelEzg4xqYWX6JSQ3eRUGI1xUG0C3xbGKuJEUyxmYIMnfcgWMqq7xyit9bbX28PdHQHHedxby7IY7kbrHng/HdYmzq18ncc6kIhi29hCmfXa0ZuOxyQo7j9cM7qMNo0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-08-19T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "recwDO2VBK7ZSC6Xh",
       "createdTime": "2026-05-11T20:33:19.000Z",
       "fields": {
@@ -1163,6 +1163,135 @@
       }
     },
     {
+      "id": "recaYIltKx0yNRYma",
+      "createdTime": "2026-07-28T03:20:54.000Z",
+      "fields": {
+        "Show": "Garden City Improv with Dan Bakkedahl, Becky Johnson, and Kevin Matviw",
+        "Venue": "Encore Victoria",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attOtn6evW89ruq7Y",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/E1XabbN9-IrwTIIgYPrx-Q/rO_pMaHbJlEWA1QZIXYkZi-2s51OxTspOFeDn11HWmJiX5n1D70S2_yKLPiWSyUFDw4A6K2xn9tbaz7-8oxietatEM8xs9PT0u2C6WoQYSUWSu4LDApUkHYEzrNhUu1L8v67gAbZGIxZCLeRLg2hhgB_Oeqi3AmBa2fkha5kriYblyAtANkZEhGIpCiiqgOz/LGl-J3UyhHEBKQa1nxvuyGOm6TlNI6jhEcYJqEXhAbM",
+            "filename": "Garden City Improv August 22.png",
+            "size": 650661,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/NI52OTDW2PNC7u97M0lcig/236L6FtvrHUjqbHKw1QW3ICznNM2TmTdhxJlNDZAxrQS7F48eQlZEInKiD_O2o1Sy_9iQLn1uIEsB5qam2sZInzvSTY35cG-wovnEm6439MOaGk2_a75vlKgZDba9jqPwdL5eZsvmHay3Mb-V7OqpA/HNVgVc-5rfmEdiUf9sAUOoygPni4IXKfSrsmy5gS3K4",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/I6VGKSwxOkSe_Chb1UztHg/SN-hSo9TRv90U3IRbTh2O-JOQ8LAtQibKTeXAGmqpWrjEYX6E0Do9IGPU7ztsrytUAAldt4h6-sXdFXtQ7Ge4azE5YnfSVzHC65BLrpqoIFORtNsxD7NdAz9itfoXuyhoYd1lMdFZx0F8ZuNrfo2Iw/42Ic8VvSZ4YxrtJpT4cSm99QSCifSkyby74RiaK-VHI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/y6Uk78CPhWBpW9KmXQkbJQ/msiM1whUlcU8B14ZORmmG3PcCUy53oJa7oURjpcrnUrozXFLz5OCULyE9XQSmtNSrHjuL78HO_JoWkl1Q0Kz984huZ0wgJF11CxKNrsPFLhwX8o3GL_FMkrLf2HHeyivb_e7pKYaK46dk3n44X9X9A/5Iwgx3JsTOUyWWpxolVMU3ueuGvDEEgquuyzjMp7jZg",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/garden-city-improv-with-dan-bakkedahl-becky-johnson-and-kevin-matviw/SMBQ8Z",
+        "Date": "2026-08-23T03:00:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recY33GHyPFG8F9HS",
+      "createdTime": "2026-07-28T03:13:56.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint",
+        "Producer": "Shop Talk Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attBdvLXwRHn5z35w",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bolxiX3pRhnbjbYK1b8Skw/n798A0e0d96CsT3DI7A4cQgPg-MbXBzggqj_TM2dxSYmNgYi0dTZ0KJrHoBJhqFoLU3e5yPmUDPFPgGr3U6NxuRRRc4tAyB2NfSIVr2MUG_lKtCqP0ecp1Wd683MBTs-31yT_gEIkeU0JFdtghEyWaX4zRfa7ahQAuEPA09TGqo/WeDWJ6GZNQgdmnYeRCXiA43p8xq68oDkTFxzStsF1WQ",
+            "filename": "ShopTalk Comedy Open Mic.png",
+            "size": 1863674,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/mqJm1oBVw7fKwIM0Uf5H2Q/gaydqLydeM3Ocfk9-tVvqpCgiwgBTOUwxhzZbTYkWaar_0qsIoRb1Q7jF-8kMICSFi-Co2pvv52xaWJlS-kY_ig63TfNuv18U1wGbB1rzZIMElmVwEiJx0-AsAJwqcOhslhb1y8ez3X5XUZB1O4OzQ/qN1APh-PLC4vQtV-JP8m2ama491xyTI8nn8OrnjUhTQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/eKuhw9ykj6wRQsFsHJV_tA/I8OUdsPoCM97kiuj-IxEia9JyZXUuvWEXxhqsKn2ukxUa7UIScvf3zB-qgFBxgi-38JOi_2s44SVwMVghKGlXSsTgPTfiEvb3BmkSJ1W24OZcfUVFlIPSI4qXWu8x1ury6wGS2ERxtfl0MYctsy-Kg/5LCuUSB8wanwZWVhN4MmW9b6-ZaCFsuVWA-ISPoZj60",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/vr3CXBPKKkqN5rWsYOX7aA/3N6He1Gq6_CyeNwJ0SHjb7bXk8yKO-qWbX3XV_DtvHDtheiPq4RIaHP1599tbaV--uHHDyYGkOlu0LYBk8e7MarS4hcVa4jQGKi5dk38CKB7Ax6qt5I4_rtGdEBh3_2iJglD2ovMEeDhnMWC2ecBvw/U_8fz0Xwm7Ux4vqZtHK9wzOBDa3DT7pavX7t7p7w88w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/shop-talk-comedy-open-mic/EIG6SS",
+        "Date": "2026-08-25T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recdbJY6yRUlHGn7T",
+      "createdTime": "2026-07-28T03:13:24.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/k85i0pt3zlG_eSvOVhZZeQ/Tn7QVSooCI3IM2g3VMLmPmZtOTWZ061ULZmGINTuJX5l_69-e_jahBU7oeKea7Wxqr_EnfoUit6W-SawSrbqAK_U76OBvlI7ee9ztNsBmSqt2gSwLX73v1RuXW1fcELBRGsooyehVIjJZPfHDGkNiL-ICiPwFs-wLk60O564dFw/0ZftowplUvA9CwRQyTRfiaVgU3wvxOz89DpPLjqAjDk",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/qqTVtbgNRhDhNf87SRJTWA/rJ4vmwPtEUgNxI1iFoncAYmrYMRGbWPvZ5WXKGaQ4D1wLz0AD9V_qRXuA9WHHmN19TnifwYA-fAh7Zj-7tp9AskfeLJJmQY2B7IbYAxhMvleajkSY0vK2bC4U6VDHZvbs9a3-iUV4TNjT6gXzR3pXw/BDQP667igTopm8D6m9hQPX9rmirpA--Y7Lq-a_B_NI8",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/iD9KfeGPSoPTOQ8f8KHfgQ/tSzbjI5YdJH1e44vxzh0MYmYmW8pN3qko8QBq6z2jg_JzsFZFooIqe9BrGGFEydHgC9nOxUI2gchg2GRbTqmvDh3ifvfwHq7EsaeYj8_RdifhqpXdAsguq2z-kXm1tBqHNCjKjLS0v02UdBVzaKpOA/-8cseP7mJsE7-m77h3f1WD-xTKfS2hNU-AEdW0-heQQ",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/p1VctJVMRtLCplti69S68A/2mMo8V6udDZ5sD0kt1F2pW3b-wHpCLI3BrjUGUA9tLkvLX1Isw-n0OpPe9Il0NI4g_bWelEzg4xqYWX6JSQ3eRUGI1xUG0C3xbGKuJEUyxmYIMnfcgWMqq7xyit9bbX28PdHQHHedxby7IY7kbrHng/HdYmzq18ncc6kIhi29hCmfXa0ZuOxyQo7j9cM7qMNo0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-08-26T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "rectq8pZZQ43hH0qt",
       "createdTime": "2026-05-11T20:33:32.000Z",
       "fields": {
@@ -1202,6 +1331,49 @@
         "Date": "2026-08-30T03:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "reczc155SPC77oo5F",
+      "createdTime": "2026-07-28T03:14:47.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint",
+        "Producer": "Shop Talk Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attBdvLXwRHn5z35w",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bolxiX3pRhnbjbYK1b8Skw/n798A0e0d96CsT3DI7A4cQgPg-MbXBzggqj_TM2dxSYmNgYi0dTZ0KJrHoBJhqFoLU3e5yPmUDPFPgGr3U6NxuRRRc4tAyB2NfSIVr2MUG_lKtCqP0ecp1Wd683MBTs-31yT_gEIkeU0JFdtghEyWaX4zRfa7ahQAuEPA09TGqo/WeDWJ6GZNQgdmnYeRCXiA43p8xq68oDkTFxzStsF1WQ",
+            "filename": "ShopTalk Comedy Open Mic.png",
+            "size": 1863674,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/mqJm1oBVw7fKwIM0Uf5H2Q/gaydqLydeM3Ocfk9-tVvqpCgiwgBTOUwxhzZbTYkWaar_0qsIoRb1Q7jF-8kMICSFi-Co2pvv52xaWJlS-kY_ig63TfNuv18U1wGbB1rzZIMElmVwEiJx0-AsAJwqcOhslhb1y8ez3X5XUZB1O4OzQ/qN1APh-PLC4vQtV-JP8m2ama491xyTI8nn8OrnjUhTQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/eKuhw9ykj6wRQsFsHJV_tA/I8OUdsPoCM97kiuj-IxEia9JyZXUuvWEXxhqsKn2ukxUa7UIScvf3zB-qgFBxgi-38JOi_2s44SVwMVghKGlXSsTgPTfiEvb3BmkSJ1W24OZcfUVFlIPSI4qXWu8x1ury6wGS2ERxtfl0MYctsy-Kg/5LCuUSB8wanwZWVhN4MmW9b6-ZaCFsuVWA-ISPoZj60",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/vr3CXBPKKkqN5rWsYOX7aA/3N6He1Gq6_CyeNwJ0SHjb7bXk8yKO-qWbX3XV_DtvHDtheiPq4RIaHP1599tbaV--uHHDyYGkOlu0LYBk8e7MarS4hcVa4jQGKi5dk38CKB7Ax6qt5I4_rtGdEBh3_2iJglD2ovMEeDhnMWC2ecBvw/U_8fz0Xwm7Ux4vqZtHK9wzOBDa3DT7pavX7t7p7w88w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/shop-talk-comedy-open-mic/EIG6SS",
+        "Date": "2026-09-01T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
         ]
       }
     },
@@ -1766,6 +1938,13 @@
     }
   ],
   "archived": [
+    {
+      "id": "rec5mvrkz1STinqd7",
+      "createdTime": "2026-07-28T03:16:35.000Z",
+      "fields": {
+        "Status": "Archived"
+      }
+    },
     {
       "id": "recCc8s8xWgZkfR7J",
       "createdTime": "2026-05-12T00:42:52.000Z",
@@ -14106,6 +14285,350 @@
         "Date": "2026-07-19T03:30:00.000Z",
         "Type": [
           "Improv"
+        ]
+      }
+    },
+    {
+      "id": "reckz5ZC0Ihftsof0",
+      "createdTime": "2026-06-02T06:05:45.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint",
+        "Producer": "Shop Talk Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attgpWiWmXZNLgmqf",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/oles0J-UZut6bAS63GqZoQ/yeWLfhDNoEbJNnrkB2_dKC6dmgQt8dzOOIW5Gu0fe57JyAx2M3aG7iw2Q7X-xA50-w35--vh3u8f4aGnVdj5LsJnjebOLe23Ut8vNWa-fQXQwkpRFqpFHKZ4hUDVP1gV2ErkiEzSPum47gEaerub0JXWJOD84YuJBKXdD45m6fs/smg4MmfqlrQmMnOOeh8jH3B_M8CsExEP_j5F2OrH09g",
+            "filename": "Shoptalk July 20.jpg",
+            "size": 446354,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/SC_KIEutJrm_0NhD17ws8Q/7lJqGbRlGXZI-byJv8VBjScR7Vd41U4vrYPjcECPDHj9SePGZ6ampBJrT1cR_eacAbfWY3hckKtuMaxnT852dGKyZkZwb3lL1cOGaQjRibNrgBZzcdQzltivRToj8bbKYPJKeMw01Owv4VRYJJV1ww/-LOvZvdXOPUEd3tZlOW6RbNLTalBZuGJrcT5ogx98A4",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/U7w7ddrDuLipD-7RUogteg/VDPQv5DKQBWRx0OTYmxaLhB2I2NVgRh8LvpL4qugYb7jRw_2uPlnUj2oD0pG2aTSvhoDWY3ovtC-e3Coq0iIAbzSSHk-llc5cujz20hV83fnLBVUicXmE00a5X17R5ogAt5xPH1vrUY3JnRjzD5MUw/1IYT08MPnXrDDli6ImDdiIB6rB2V1_GiclziR3aqklI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/iQx6FRPxgVFhu_3hVVyH3w/XngNLmtsgv1BHOSbXcCgwwgxBP7SQw8DAgrXaC3HY5drIjcJSlkgon29JQddlEbSe5TsYKQ0XGQxJPukXRRBej2WChOdCUt14gTEd33nkEleEZixCGs2xoMGqx080085f8xUF7bel7ZEWabnwBBvPg/1XMZc6aAcPUYXZlHeqqQ_lZ5ZhFGzCKvZzLu2cXEPoE",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/shop-talk-comedy-open-mic/EIG6SS",
+        "Date": "2026-07-21T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "reczqrhYzdDV1pCxx",
+      "createdTime": "2026-06-02T06:07:52.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attOyBsdYg8l5ccQC",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/1KsAemrefBT6IDrPqL--Vg/zC8DSyBP9MUjAcq_a5y6OIjj887eRbu2GyMzkRFZLDun6gT4sBxm9CRszkIl39Tgod0lu3Nt91idglhQ-D16IkvuBiLCk2yIcTVHm3iLBCOhFYGOiY7g1LTGD3FGdcLNPHku6BnIQsVP-li_plB5tVALddN-_ZAC2spq-E0WBR4/TzMiETOCOIZhs9Wbd474pwRW0uZZHxR6brjpPwKxe1o",
+            "filename": "Phoenix Open Mic - July 14.png",
+            "size": 1416194,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/hZJCizxUSepwLA2l9dVckw/HN7bz8sSGEljyFqiecJk6_VfIshwoKBvGZEXyphUZrenveoF80ufHnpl5mrL8Q139BdU6kJfc1QEaVSwUi4N1Oz3ap1lMzBxo_MSGK9HP-q0sqzhCI2zb69hNncWt5L1lQ6IrovSGtuY8dcQbsyTDQ/BZbAxMn035Odmwg6lOsK8RF4YuLGaTJT0jHTHo0S_KM",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/kUecwAeRdXJxJ0xopyrwzw/k6A2ASRlKKmtMLIRH77JS73V8S2jvMqjfy-lTaic3i5DysDJF-kVwtkQhCElUd-4Eh3jSZFnIVvpvPqwqA5fnnLzmE2NPP3ileX_gwRe5zkaZw-0RJSUg_-whv1GAM6D30UReWwE8wIX-l8475Umdw/XR68z_gZX8w9bsC8ycoQ9_YyJjw9mSdGACzMEYNVKpw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/VEv5oXBtZ_aPYKx4HNm3CQ/OiLHAdftgn9nn2_1wKTfrSbUE59PQDY5hruODb88LWootqAqZ3oM6CWmeQFyQBtcu244rWCvxttDDV8Xm10w31iduN85dHPIdEsZk_MLH2SryAe9Vc1Ix_top_hlhGcdrlCVnI7ZXdXL8ECNEuR_KQ/1BNgE30FQaLzAYukuJR_J7TIDrMHFH1JhCt0yB-xwNQ",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-07-22T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "rec9Oun64liiSwDpq",
+      "createdTime": "2026-07-21T04:21:45.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attMtImTUAq4x5k04",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/KZJzr9MG4IWFead2gLreDQ/zbjKzFLhFLRGfpByfCOXEZBTudkrL44TX2xwrQhl-g3pq8nX5E3ddG4ZU9KcI7eiW4G2golguWujozSF6AkCmHp_Zudd-KWFUAoe9O_lgOimS6yfNFCfeHOmgW3B5SduJ_d6S_xCqpJmjCHY5ehTH3lDWjqgghWKCO5SUGudqow/t2bLCLEbK2UWi8fYz1DA3JseNwUS-lLVJcQJCIUa1RI",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/3iF1zhnfD_x4sDoLFdxfpw/PW3ujks0fVRTK-Zb34Cdbs9KaDOTY9PR6f17c54tDJVit5lSNoITNlFGsSPIg3msUuxyp-VZmzewQ9R2Gkv2Mijb2x9H88vP4SgcOrBS2ZjMF-I1Uh7mZgL4CvmxnonyEzsuKN8cwj9Vfw4NcZ3zPQ/cXJjGfA4_LHtLgruzOtKUVHQug_1BicMbfNTdnBLHnQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/tFcjjiF3O99DohuySIydPw/Evc1EhYVIITZd02veCo3XSxEdf1MvXB5O91ejfVDZ2uU7dVHlx1YPukDRyhjJoSfWVWZ8JV70TC3Yuf6nUq8XzMWH1gobTxVXSfPT8mwYwS15tHaF8I-SNr-Xjre1WQB0x3APXlHeSOYvbN7NUcung/xqxvNqzzhDNsPP-AJ9o4EV2Cnqsg0yzNqVxiXunVR8s",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bnbapk3T6PpSSSWJZ8cGHQ/XBz-LK9oqufFlBZxHRGRvm1j4LI_PNqu8XdaWKXsG_3bbswnQvLmiKeioeuVCUvqoa-bjPhBQwxA-xFAzx2LOGge9eEaY_ipMU-WnwAIozhEW1ov9jYEuS26y3XAt-x-LoeCWrnKECbi43qe0W7oGQ/zvob5iujCy_jj3aHiOAZey9KtmEhTb0hqnp9zIKd6cc",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-07-23T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "reclyL0cRSEtVjhLT",
+      "createdTime": "2026-06-01T21:49:17.000Z",
+      "fields": {
+        "Show": "Judge My Jokes",
+        "Venue": "The Mint",
+        "Producer": "Lucia Riberio",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attQzbYywXyGlI7gD",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/THj-DaRu41KHnSs8NMhOPw/ci-fsKq2uPxTw2J7_owL8Fn6h7uZ-eAMXJOL706Ujk9ltVK1aVkh6bRDM-LP81fQweHfG8ecUPCQVa0iOd--ouafCM9Mn4k7eysZ2J6OZk5INpNHtBOu-_jxizhYALVbdYxl77v3U6QLTM93i_0QSPgbg08XMn2HHAh1Yz5uLhs/MmvhnKQj5W7XvesILptCFXXSZFRUDpmcu5hoqHNIZHY",
+            "filename": "Judge My Jokes July 23.jpg",
+            "size": 118118,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/NYY15DOIkuSOe5ti-bmErA/HPyuXTI2km8VepE2f4JUcZ-YyKHPEMzCnPE9kgfCyrasYHDFPFTrwG2-uTcWsRMwtjy7LhNUcEuaNm2zDn0t4P1zvPDq1kmhnGBVmNhrJXE-2MdayZUlrVeaSmb7_VQveZLjOLBW6W7xwHYRO5qmRA/N2yEH948j1JHGjDjxbLQdxMO4sdkUfcjjfPSC4OIRqk",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/PeXetrgoErJCtkg5o6oPpw/nLoMZNUncdEnYOOQFt0BsdIkj-9psQkqfsIaAYAjjF4gQGCFrShj_zWhn7O-dMcETD0wimrXctcJNM4gdeE-ad7H_OtWk5ZWeW3kYbhGzi3OTn0sErL_x-4HdSMeqTiYh0Ya-axS-AaoYAI4Ps-hCw/DoPVDUcPuuyDuWSVteTZsZad2T0DsnKymyXVhd_eP2U",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/C59rdek2Hep4aHxwcCi_KA/-zkjQFg2vXpA0l9mI2ySvrZrSKhELedRoi0B8tUNPL_Tvc-8yCGrPYHU2nK-YM_Ha7y_nlZsfdlNxBldBSRaNmFsXIyLw7zPj7On4p6JPWTSCMYi9pAkOCjRVxN6xR-x3-F6Dt_Orv9AYO2OSNJNew/mTPEMjLs97tmVxrqFEXJnoQl8vlcYd7BZituSDfiXzk",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/judge-my-jokes/9PN8ZS",
+        "Date": "2026-07-24T01:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recTJfpLrEZVFRmSb",
+      "createdTime": "2026-07-07T00:52:52.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attiMCRuib2Az4kms",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/_Je3ph6z9IobFY9Wnmj1hA/SJKTGoTymw4ehpQfX9ixkhoQP7Qh4ZUtPfHVtR3O1Mvl_hnvFSxeaXpwdUwvKXv9OSGnX0PdFJqIdO89niKcm-mIepFaZnA9gYRgBEBGuSTdw8ISxGZqmVOnoEaDxbQhgYmbb5QoefydKoSN0nPGI1cKtv4hRMINSaGBQn3JwSM/P3qXBKDLpn48qiIeYs1bHG4xlOPp3GHtGaT5uuFP2Jo",
+            "filename": "harold night.png",
+            "size": 629484,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/phbjOVsg7WYYL5u1nOC-VA/F3AItfW5Azq3AlagwT_FB7H1UWyx9g7oZEDfA8wWp8pMMvlPpXf7OdVmcEBElF-ASduUdN4Hfg1qFxp7weZOfapMTaonYDwOmuhofcE1MZqVX2GgAxNQleGwBQd9XU9PNZUoOsg2sJzWBJAlFvI1eg/meZzqXVqt2uO-OcPsuFg1zlRQJQcYHtc56zwMLsnGas",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/bPXudTfww454We_B842-PQ/Gidqk-Ya9BjNXry5ZL4oWBJRYqCC3Au0PmfnIlOxaFiIKX-0zsz2BBWridYQuIwEvRZ56UanpqeoDegybNVOe2fH2htFeG1eN9FHz3hl30yhtLWRcq0vjFrdykz3ZD2KtaP5OBJyanyeKQalYPxuvQ/fMeVxP_--oSFP_uey6MeeQO9IAujoBbwbZ6MAjgGdao",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/QF_lYHhq2WJD-NG042_v3w/UN6cFBRS3-8nkhrMXnzUHaP0jDZJL0Ju6n2pplxafzILirQ7ADMHE3n0jEtdPWfg6vfnxr3fNC7HfLG7rJbBPsXhHPruIyFd6tqTiSJ3_PKgWB_lpZxzbAP9i2ylDDv6UmmvMbZIAPeNHgwPHjOv-A/e22TG18Te2jOFE5CosXaAvcJN756vWpqy40dFP_W6rg",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-jul23",
+        "Date": "2026-07-24T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recQjkfDYIhP2UbeO",
+      "createdTime": "2026-07-07T01:05:56.000Z",
+      "fields": {
+        "Show": "Comedy Night at Junction Cidery",
+        "Venue": "Junction Cidery",
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attnDsV4OyN098epV",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/pW3GhyYJGmKh5bHKPUYl7w/maUVt6Eqdq2vVzDLjKwPyQHX1BqSaGwbSSzlbFGsXPSE36c4tgeDL2tdXOjVHTSkFneyIJtsJSPE7LEA7DxDf9r0QyazrjAXZO1shOaqAQ2tJbD_G2CSPrCanHffdGvmtAu0aLra7j9UZ-vqcYOzrF22Sqyl3PDXa_YhyNlpk_lPtEt5D92JCjOwNapDn4Ov/PfvBNcxCs0Hk1B8I72PDmZVwla2vHPRz3U22PQM5c_U",
+            "filename": "Harbour Comedy at Junction Cidery July 24.png",
+            "size": 1596233,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/e5FOCvwsdWlDKdPzeWgbIw/7uTm-HLxQKCb-VSzfQn1xtdhwWIs32ENsHvQyXSDlhCAGj68Q8PPKW0_PX0D0mGsd5LdswZBcLhilEgsMwfg5G-Gft2nZgA0ba9MDc8euIcn9hQ2AnB9A_wrjJsICDguSXP1BgWIqRy9vw1wLJU8_Q/-xFKYyUZ3E0KZsJGdeEers7BZMl3HuCPceYMf_0IOgI",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/_DlffBHjc-HTSWEpZjUiDQ/tBJuMhhGNancpO5emEQ-siPVvLN_2cJc87DHLAFCmNxgjOYeLereK3C_DKECgSLlFcuh5t_wfwYY2ZECLMW7NJsaI85usDDa17SEyUnDruEphCMCTzdmUsJW8_u2_Nz9x71oX8hPrAwc5w40fVoYNQ/iw9TdTdbvFmU2p2cdBlwOZUZ2RDGqNvt3xvhCuJttxE",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/XCazNIgjCwNvLE2WEuhZsg/-UXWv9GGlc3EqtXWPDA5bHCJHOXm6dcz0AzXwb7VwxDhCH9dCrUdbuxCoWbBTS-q-mWzIwTKpu5I8o71tTSSKTi_2x90MfLEfJW0Awf7dhZaLY9cpFplG_pDQuIG4H81OeMMWZhA_njzklx7eYKFbw/HjBx64vG4XQH5zMNiTd9k8FGdno8EdDWKgCgcH7IDx0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-july-24th",
+        "Date": "2026-07-25T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recszzDedmhIOByQU",
+      "createdTime": "2026-07-07T00:56:09.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv The Musical",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att5wx710xenhXBAk",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/2HINb-QdgC8DlP8EqWRhlA/ej4p2KBKkZyvzs5C5JO-j6GAP1Fmct0mHxYckC1Ns-cNlAao0dirYG6dd5EGCWB9ywBp-3XTBvkhhfD33tVu6V9m9lUNSt0wlZhY3IHwHtSxoTL1NFDuNo6-1-5hUsFCdmVG9OvewcqJ6Vf_0jy8zY7cqNID3ZEBI6MrfpnR3AyJ8_kAnVeDMyTB-h1ojX_v/IOSvpCGLxzHUnN5vUkGjJNIHX0LIRK9lNg4XEYTk18o",
+            "filename": "GCI Presents Improv The Musical.png",
+            "size": 592162,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/8r5MipXA7CHWCLQu22sU3g/Bv6upkhB0AepeuAmCQWQOIWRisafxqddfG01Ro5Zqxcqqne7EnECUKBNVU2mimdDjeFGvCmM57avAwGLaQIqQTSNYfg2CZgd6U70pBVXh-28WQWAkP6_OvR-zObjlPPyJfVcUtHg4jlVDl3QiDNZow/LyIEwKjbpF0m-kL6FAcsEm6Z6POc7qkdDEasY81PB-Y",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/quLyXBNtwGvs-IEAlH8euA/D0PkbZSPw0licg0qDcs9Dt3uzi-w0LuhdZQ5brgCqdGIUEOA2g0lRgRMxx-ucYLEk8v9MBBe67y8EV4FqoTboYg1myfX3jfkv7qV-uNSfvG1AxakUNF3eHH3ctrXDVYOMSNTxyP3HmARVGX_PIFCBQ/_boWo_RPZ86kqLRnaVtwv4d4kp0H01szu2r1BxuzN7I",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/DsNDmOtO0WwCMEzztSWnvw/3fJ1SrcIMJO-SumZTJptIUJRB3P-Oo9-DLOp8gbJSSTFu7ZGWzX5xyo632zZJmPYSnTGHal0fkkr45vpYn1_T-owPyKGIQ-WKHjRTXDjhQOs1Cagl81LfgcmAz7hUSZn21NgyWRgzAsmxf_vQPa9zA/Vg3G4IRNTG-53LQJZH2cDykaUJav9cfkIrULhGtTJC8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-the-musical-jul14",
+        "Date": "2026-07-25T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recFrK3NKm7IRmE3b",
+      "createdTime": "2026-05-11T20:31:32.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Rebecca Reeds",
+        "Venue": "Hecklers",
+        "Producer": "Hecklers",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attNVrLr9DkJAx2Kx",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/cUVjeS3Je4e5EiInFmuEXQ/7I3BpHLxd4tdR5JBR00Nlk171otPnS3B-u3cZSMbp52L69b8DZBqm7va5IyMgJJQQu9MOFP_Tk79iIFSb9vH4Yz1i8DKWygT4CVTf4PZkjeVtLNFrql4RfJPlu2DMZHnt1NOnWGuS-0a-9rnR_o2fzsOKlF8WGNllXMJQ-reVW8/xzBbdqij8-QXjpOvPlwiwB9pM5OsJwttlLp9N89Fye8",
+            "filename": "july 25 - rebecca reeds.png",
+            "size": 711575,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/_aT4IZQlKarkEX-iT432eA/ySa8S9E8IgYa69NLHEGb3vlsd4XwcelEImoEGlCUjeF4NlHdg4ubrymFVh5D4p81qlFmzfxNRYEZRO_166DDwRtUVvt0Kk4MSGlkaXoTOT7ofALOka6eGzCgKpdc8rMJ16S8xwS1C87YohW7vLeRMg/RsxrOwzYm6DcmuZARzbaVJf1ZvIo-I3YqAmHCUdj0_8",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/NId3MP961f4TAnwWo2WZMQ/8Ai04ipmmK-ig-xmSMk7hOAdehW4R3UAEYpqmzyV8CaUgSSmTjJw0KS-ZmwT_pd5BfI7lBGLJVw8O6I5iXrIDA3cEr9Ba8p9Li_pRjFZtQ9pgaO7rklZqyDQJGDkl9C03nLQQEK9BOOFBOOLaNNTbw/wwW5Ik4ja3Xh-zF8yPzj8HpyshfpVP60fin-0cY_ew4",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/55/55/1785218400000/5eSc1FYd31QCSNv_yXT2Hw/KkBDdctqvaulpehMR3REPNnQnzOxzgMSuGSp0WZ1YsLzWylowReQ5RZ36ObNoiCZTmlVNdBA9Ov1rtwFNusbV1YnuqXH87iAiNF57v8s9pAVBbBYzv7w21MBF-wvnj0nEmulAh-1BMPF6nGagGwZig/3G0GeA2n-Z8xxOxEjz8MmHYGXq0i5Oo9jfeIrrWbR2w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-rebecca-reeds",
+        "Date": "2026-07-26T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     }
