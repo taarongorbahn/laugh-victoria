@@ -2,8 +2,8 @@ name: Fetch Shows
 
 on:
   schedule:
-    - cron: '0 0-7,16-23 * * *'   # hourly, 9am–midnight Pacific (UTC-7 / PDT)
-  workflow_dispatch:        # allow manual trigger
+    - cron: '0 * * * *'   # every hour UTC — the Pacific-time gate below decides whether to actually fetch
+  workflow_dispatch:        # allow manual trigger — always runs regardless of time window
 
 jobs:
   fetch:
@@ -12,10 +12,23 @@ jobs:
       contents: write
 
     steps:
+      - name: Check Pacific time window
+        id: gate
+        run: |
+          HOUR=$(TZ="America/Vancouver" date +%H)
+          echo "Local Victoria hour: $HOUR"
+          if [ "$HOUR" -ge 9 ] || [ "$HOUR" -eq 0 ]; then
+            echo "in_window=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "in_window=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout repo
+        if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v4
 
       - name: Fetch shows from Airtable
+        if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
         env:
           AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
         run: |
@@ -79,6 +92,7 @@ jobs:
           "
 
       - name: Commit updated shows
+        if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
