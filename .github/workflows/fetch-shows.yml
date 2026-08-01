@@ -2,7 +2,7 @@ name: Fetch Shows
 
 on:
   schedule:
-    - cron: '0 */2 * * *'    # every 2 hours
+    - cron: '0 0-7,16-23 * * *'   # hourly, 9am–midnight Pacific (UTC-7 / PDT)
   workflow_dispatch:        # allow manual trigger
 
 jobs:
