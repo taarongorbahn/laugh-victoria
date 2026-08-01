@@ -1234,56 +1234,75 @@ footer {
 .submit-wrap { max-width: 1100px; }
 
 .submit-cta {
-  padding: 0;
+  border: 1px solid var(--border-dark);
+  background: var(--surface);
+  padding: 3.5rem 2rem;
+  text-align: center;
   margin-bottom: 4rem;
+  position: relative;
   overflow: hidden;
 }
-.submit-embed {
-  width: 100%;
-  line-height: 0;
+.submit-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 27px, var(--border) 27px, var(--border) 28px),
+    repeating-linear-gradient(90deg, transparent, transparent 27px, var(--border) 27px, var(--border) 28px);
+  opacity: 0.4;
+  pointer-events: none;
 }
-.airtable-embed {
-  display: block;
-  width: 100%;
-  border: none;
+.submit-cta-copy {
+  position: relative;
+  font-size: 15px;
+  color: var(--text-muted);
+  margin-bottom: 1.75rem;
 }
-.submit-cta-fallback {
-  display: block;
-  text-align: center;
-  padding: 1rem 1rem 1.25rem;
+.submit-cta-btn {
+  position: relative;
   font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.08em;
+  font-size: 11px;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text-faint);
+  background: var(--accent);
+  color: var(--accent-inv);
+  border: none;
+  padding: 14px 38px;
+  cursor: pointer;
   text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.15s;
 }
-.submit-cta-fallback:hover { color: var(--text-muted); }
-
-@media (max-width: 640px) {
-  .submit-cta { margin-bottom: 3rem; }
-  .airtable-embed { height: 1350px; }
-}
+.submit-cta-btn:hover { opacity: 0.8; }
 
 .submit-bonus {
-  border-top: 1px dashed var(--border);
-  padding-top: 2.5rem;
-  margin-bottom: 2rem;
+  border-top: 1px solid var(--border-dark);
+  padding-top: 2.75rem;
+  margin-bottom: 2.5rem;
   scroll-margin-top: 90px;
 }
-.submit-bonus-label {
+.submit-bonus-eyebrow {
   display: block;
   font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.18em;
+  font-size: 11px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--text-faint);
-  margin-bottom: 0.6rem;
+  color: var(--accent);
+  margin-bottom: 0.85rem;
 }
-.submit-bonus-copy {
-  font-size: 13px;
-  color: var(--text-muted);
-  margin-top: 0.5rem;
+.submit-bonus-title {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 5vw, 46px);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 1.05;
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .submit-cta { padding: 2.5rem 1.25rem; margin-bottom: 3rem; }
+  .submit-bonus { padding-top: 2rem; margin-bottom: 2rem; }
 }
 
 /* ═══════════════════════════════════
@@ -1941,15 +1960,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="submit-wrap">
 
       <div class="submit-cta">
-        <div class="submit-embed">
-          <iframe class="airtable-embed" src="https://airtable.com/embed/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" frameborder="0" width="100%" height="1200" style="background: transparent;"></iframe>
-        </div>
-        <a class="submit-cta-fallback" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Trouble loading the form? Open it in a new tab →</a>
+        <p class="submit-cta-copy">Fill out our quick form and we'll take it from there.</p>
+        <a class="submit-cta-btn" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show →</a>
       </div>
 
       <div class="submit-bonus" id="cheatsheet">
-        <span class="submit-bonus-label">Promotion Cheatsheet</span>
-        <p class="submit-bonus-copy">More Places To Promote your Show</p>
+        <span class="submit-bonus-eyebrow">Promotion Cheatsheet</span>
+        <h2 class="submit-bonus-title">More Places To Promote Your Show</h2>
       </div>
 
     <div class="cheatsheet-wrap">
