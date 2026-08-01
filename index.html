@@ -1229,6 +1229,64 @@ footer {
 }
 
 /* ═══════════════════════════════════
+   SUBMIT
+═══════════════════════════════════ */
+.submit-wrap { max-width: 1100px; }
+
+.submit-cta {
+  border: 1px solid var(--border-dark);
+  padding: 1.75rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.submit-embed {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.airtable-embed {
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+.submit-cta-fallback {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  text-decoration: none;
+}
+.submit-cta-fallback:hover { color: var(--text-muted); }
+
+@media (max-width: 640px) {
+  .submit-cta { padding: 1.25rem 1rem; margin-bottom: 3rem; }
+  .airtable-embed { height: 1350px; }
+}
+
+.submit-bonus {
+  border-top: 1px dashed var(--border);
+  padding-top: 2.5rem;
+  margin-bottom: 2rem;
+  scroll-margin-top: 90px;
+}
+.submit-bonus-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 0.6rem;
+}
+.submit-bonus-copy {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+/* ═══════════════════════════════════
    CHEATSHEET
 ═══════════════════════════════════ */
 .cheatsheet-wrap { max-width: 1100px; }
@@ -1800,10 +1858,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li style="display:flex;align-items:center;"><a onclick="showSection('home')" id="nav-home" class="active">This Week</a></li>
     <li style="display:flex;align-items:center;"><a onclick="showSection('upcoming')" id="nav-upcoming">Upcoming Shows</a></li>
     <li style="display:flex;align-items:center;"><a onclick="showSection('archive')" id="nav-archive">Show Archive</a></li>
-    <li style="display:flex;align-items:center;"><a onclick="showSection('specials')" id="nav-specials">Comedy Specials</a></li>
   </ul>
   <div class="nav-right-slot">
-    <a class="nav-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
+    <a class="nav-submit" onclick="showSection('submit')">Submit a Show</a>
     <button class="mode-toggle" onclick="toggleMode()" aria-label="Toggle dark mode">
       <span class="icon-moon">🌑</span>
       <span class="icon-sun">☀️</span>
@@ -1818,8 +1875,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a onclick="nav('home')" id="mob-home" class="active">This Week</a>
   <a onclick="nav('upcoming')" id="mob-upcoming">Upcoming Shows</a>
   <a onclick="nav('archive')" id="mob-archive">Show Archive</a>
-  <a onclick="nav('specials')" id="mob-specials">Comedy Specials</a>
-  <a class="mobile-submit" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Submit a Show</a>
+  <a class="mobile-submit" onclick="nav('submit')">Submit a Show</a>
   <div class="mob-spacer"></div>
   <a onclick="toggleMode()" class="mob-mode-row" id="mob-mode-label"><span id="mob-mode-text">Turn the lights on</span> <span class="mob-mode-icon"><span class="icon-moon">🌑</span><span class="icon-sun">☀️</span></span></a>
 </div>
@@ -1880,8 +1936,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="archive-content"><div class="loading">Loading...</div></div>
   </div>
 
-  <!-- PRODUCER CHEATSHEET -->
-  <div class="section" id="section-cheatsheet">
+  <!-- SUBMIT -->
+  <div class="section" id="section-submit">
+    <div class="submit-wrap">
+
+      <div class="submit-cta">
+        <div class="submit-embed">
+          <iframe class="airtable-embed" src="https://airtable.com/embed/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" frameborder="0" width="100%" height="1200" style="background: transparent;"></iframe>
+        </div>
+        <a class="submit-cta-fallback" href="https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form" target="_blank">Trouble loading the form? Open it in a new tab →</a>
+      </div>
+
+      <div class="submit-bonus" id="cheatsheet">
+        <span class="submit-bonus-label">Promotion Cheatsheet</span>
+        <p class="submit-bonus-copy">More Places To Promote your Show</p>
+      </div>
+
     <div class="cheatsheet-wrap">
 
       <div class="cheatsheet-section">
@@ -1898,12 +1968,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="cheatsheet-section">
         <div class="cheatsheet-head">
           <span class="cheatsheet-name">Event Directories</span>
-          <span class="cheatsheet-count">11 options</span>
+          <span class="cheatsheet-count">10 options</span>
         </div>
-        <a class="cheatsheet-row" href="https://laughvictoria.ca/submit" target="_blank">
-          <span class="cheatsheet-title-group"><span class="cheatsheet-item">Laugh Victoria</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
-          <span class="cheatsheet-note">Obviously...</span>
-        </a>
         <a class="cheatsheet-row" href="https://www.lamppostsocial.com/add-an-event" target="_blank">
           <span class="cheatsheet-title-group"><span class="cheatsheet-item">LampPost</span><span class="cheatsheet-ext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></span>
           <span class="cheatsheet-note">Must create an account</span>
@@ -1973,6 +2039,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
       </div>
 
+    </div>
     </div>
   </div>
 
@@ -2286,7 +2353,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="footer-rule"></div>
     <div class="footer-bottom">
       <div class="footer-links">
-        <a href="#" onclick="showSection('cheatsheet');return false;">Promotion Cheatsheet</a>
+        <a href="#" onclick="showSection('specials');return false;">Comedy Specials</a>
         <a href="#" onclick="showSection('about');return false;">About</a>
         <a href="#contact" onclick="openAboutAnchor('contact');return false;">Contact</a>
         <a href="#" onclick="showSection('privacy');return false;">Privacy</a>
@@ -2377,7 +2444,7 @@ const HEROES = {
   home:      { title: 'This Week<br>in Comedy',    sub: 'Every comedy show happening this week in Victoria.' },
   upcoming:  { title: 'Upcoming<br>Comedy Shows',  sub: 'Everything coming up in the Victoria comedy scene, starting today.' },
   archive:   { title: 'Comedy Show<br>Archive',        sub: 'Every comedy show we\'ve tracked in Victoria since 2026.' },
-  cheatsheet:  { title: 'Promotion<br>Cheatsheet',    sub: 'Where to promote comedy shows in Victoria.' },
+  submit:    { title: 'Submit<br>a Show',          sub: 'Get your show in front of Victoria comedy fans.' },
   specials:  { title: 'Victoria Comedy<br>Specials',    sub: 'Full-length stand-up comedy specials filmed in Victoria.' },
   privacy:   { title: 'Privacy<br>Policy',         sub: '' },
   about:     { title: 'Info',                      sub: '' },
@@ -2436,7 +2503,7 @@ function buildWeek(shows) {
 
   let html='<div>';
   html+=weekGroupHTML('Open Mics', openMics, monday);
-  html+=weekGroupHTML('Everything Else', otherShows, monday);
+  html+=weekGroupHTML('Comedy Shows', otherShows, monday);
   html+='</div>';
   return html;
 }
@@ -2566,7 +2633,7 @@ window.addEventListener('popstate',function(e){
   }
   const state=e.state;
   const section=state&&state.section?state.section:location.hash.replace('#','')||'home';
-  if(['home','upcoming','archive','cheatsheet','specials','about','privacy'].includes(section)){
+  if(['home','upcoming','archive','submit','specials','about','privacy'].includes(section)){
     showSection(section,true);
   }
 });
@@ -2688,6 +2755,18 @@ function openAboutAnchor(hash) {
   }
 }
 
+function openSubmitAnchor(hash) {
+  const validAnchors = ['cheatsheet'];
+  if (validAnchors.includes(hash)) {
+    history.replaceState({section:'submit'},'','#'+hash);
+    showSection('submit', true);
+    const el = document.getElementById(hash);
+    if (el) {
+      setTimeout(function(){ el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
+    }
+  }
+}
+
 function toggleMode(){
   const html=document.documentElement;
   const next=html.getAttribute('data-mode')==='dark'?'light':'dark';
@@ -2721,8 +2800,8 @@ function initFromHash(){
     history.replaceState({section:'home'},'',location.pathname);
     return;
   }
-  if(hash==='submit'){window.location.href='https://airtable.com/app3CJU1iVnaJcQZL/pagytuUVT1K2hmHqL/form'; return;}
-  if(['upcoming','privacy','about','archive','cheatsheet','specials'].includes(hash)){
+  if(hash==='cheatsheet'){openSubmitAnchor('cheatsheet'); return;}
+  if(['upcoming','privacy','about','archive','specials','submit'].includes(hash)){
     history.replaceState({section:hash},'','#'+hash);
     showSection(hash,true);
   }
@@ -2824,7 +2903,7 @@ function renderArchive() {
             <div class="upcoming-name">${name}</div>
             <div class="upcoming-meta"><span>${metaText}</span></div>
           </div>
-          ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info / Tickets</a></div>`:''}
+          ${ticket?`<div class="upcoming-ticket"><a class="ticket" href="${ticket}" target="_blank" onclick="event.stopPropagation()">Info</a></div>`:''}
         </div>`;
       });
       html+=`</div></div>`;
