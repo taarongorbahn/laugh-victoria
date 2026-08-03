@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-03T22:50:07.072Z",
+  "fetchedAt": "2026-08-03T22:57:13.611Z",
   "current": [
     {
       "id": "recckYBDmQGU7xg8O",
@@ -385,6 +385,49 @@
         "Date": "2026-08-09T03:30:00.000Z",
         "Type": [
           "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recUvAzH84mNjSRzG",
+      "createdTime": "2026-08-03T22:55:41.000Z",
+      "fields": {
+        "Show": "OK DOPE: Student Stand Up Showcase",
+        "Venue": "OK, DOPE HQ",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attXsA7rqHiyytdxG",
+            "width": 800,
+            "height": 1000,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1785808800000/hFz13OPPzLgO0u3px4NF1w/3mq8UJjXmJF5WmdZDSWdMudyq10zPoW2ml39AUiSKAb0LSLPkrCuB_cqiuD4ZGpxMKuDK8ePkLd06ELgC-ekK1mjUl0KSC9KJ0hv7kffd0aECW2Y2OHXElIA9imzSOKh0oNguvva61S_D6e9PYOEIdvDFwQXU6l5YHl7FyvzZC4/2iD-cuXwpzzNRap0Rr02TKeNy2A8R60m4hcqxTZZPTE",
+            "filename": "Student Showcase Aug 9.png",
+            "size": 762665,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1785808800000/dGyBlsaQ92sBdJod7jfNnA/JhDYHSuKO8rzt3qkjqcv2xTCePLLo8uyBFg2Dug2vmEscOEZZ8W-46ir-EsOvPk6vj9uuz9zks05aBJbTspB99Bh8_jxCbm_l3XT0ZUKeJSzd_VIK_5B0UIrDiNA6QunfT1425CEDp2U3iP_NCZntg/2okdKX-MUrdzvg18a-3uomOhNBYW2MHKlGn5e-9YnSw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1785808800000/2GFByCzDuqLKEPf4wkqxvQ/kaSloPESuk3qjrT0xecmmELNabcL6YYzG9CPS8qpPdqzl0-NjImqxHmN4wXnSyRQH10miGSY-iX1vhVpn-hksoFHIEH5FC04ZdZwyPCENFQGtk7EbuyJ4vh4_H5bm3zxDGPH18oCGCLmqVtZ-GxsuA/YoaaVN53yl3atpZaMU3-pfyeeSEh4igIUnv11hghz-Q",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1785808800000/XKZGZTMNoDUv6YXwR_FDFg/5tupmPqogDXGPmum_2pZM-3D_ktKA2sSAIOuBrQaoDJI8OYfKbBgUk6nFs0hQKADU8khMRThWi-XduF0Xiwjet11gfoh8Wb-XAN9jLsOG2rg9FQJLHtRm1mnS_biaHRzCsK_ySICi45V3zjVuH7kww/SO_V6XuUuoblgghpldN7Kq7YseWHvVvF_5-NA7MxHDo",
+                "width": 800,
+                "height": 1000
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-student-stand-up-showcase",
+        "Date": "2026-08-10T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
