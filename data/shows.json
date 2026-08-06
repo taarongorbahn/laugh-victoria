@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T04:52:03.349Z",
+  "fetchedAt": "2026-08-06T05:08:52.444Z",
   "current": [
     {
       "id": "recckYBDmQGU7xg8O",
@@ -1342,6 +1342,34 @@
         "Venue": "Hecklers",
         "Producer": "Hecklers",
         "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attDu1QAdVJqXDOCs",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/THZrqaJDNokugx4wATH8GA/VSGUhtSIoz74YSV51Agt5CiaBMcDuof5JbP8jtN4epKZcVAJEVx7TLWM0xi3fwZxGCx0YyaoRkhWcmwc4MBxWpG3i9Gc9POUaEAfr6R1uJLwRjfqzzTQfswqYBXYdI3J6HHIC4qLid4G7bkdprZf1sNVPPySwXrOWC4xU0s1zEt3G9eiHYqEKTY5Iu5V3IsP/mmAJ5iurs2AP7B-qsV2ACrNWX6Z1ySpPHOuoKr_UecU",
+            "filename": "Hecklers Comedy Fundraiser Sept 3.png",
+            "size": 901325,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/4YdljWpmk31NvUL5NdfAnw/ZhUh2qgLXvvFnDkY7ZpaJwM0Ri0M-GV9m11k6F2QEU1DfYYj-G-PQ1-tugBouSPWhFBnsqgLxGHQJ5anSyp-6LrHjkfCG1ijv2RGJR8QAm1CRx2O3p49JUo0ELn8lwxK35irPRTRByrEJe1U36aeDw/VZik2ggx8Qz3vtG1nBx9chnBCxVO0Q-ly_Qg2KO3olo",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/6QNinFe_Slh9Ad6Pk2cejQ/2Gg8JEXsYr9URGVLEg7zuf8f9Mlm3-wjWVZIclz3iN51aqRgOkPdxwJDmqCg-SXlS_TppYMX15_54gvaEfw3d1KHOq0P7fnAtfR0GL_MD-i7T32yh1Qm-ZW_g8ON5bEshbH2bUmbIXE3BEZlodSPQQ/YVTpeb8QtJkZ9PDHeGIJu_WaesxuYnKUvFkCaV7o_Y0",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/b7TNgMGLt4RyBsYHOUhokw/XXW6l9yxrfjs-HSy-7mDTKTsEG9kv98ppQhz3QAMHxjOR2mokMutOH-8FPD430hdicoa_aqNoQcqHNQNs5aQHVAANyAppC1iUONrjOknPDO8RuGfX_ifJwbGCjw2Ut3O28Co28b1mguEH3qGrquUNA/gfGvlqYQXk7nADmCSMuhFosv0zs5QL8_GHqKYXCYHw4",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
         "Ticket Link": "https://www.jumpcomedy.com/e/childrens-breakfast-club-fundraiser-with-howie-miller",
         "Date": "2026-09-04T03:00:00.000Z",
         "Type": [
@@ -1436,42 +1464,42 @@
       }
     },
     {
-      "id": "recjAMXKghCDeuiB9",
-      "createdTime": "2026-05-11T20:34:06.000Z",
+      "id": "rec4yo8J1AX0kf6MO",
+      "createdTime": "2026-08-06T04:52:45.000Z",
       "fields": {
-        "Show": "Hecklers Presents: Sean McDonnell",
+        "Show": "Hecklers Presents: Steph Neale",
         "Venue": "Hecklers",
         "Producer": "Hecklers",
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attpZZwekHvqoN7SU",
+            "id": "attBpAXX6XPwJkDZ2",
             "width": 1080,
             "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/brhu9r212jzU1py67ScMoQ/45AABpxEO__kZ708_4GfYZ3KMLCyb3p_I9yaaGkFmykEBGDKaC0JjM7PP_OZ-4KrIqlnF76f2RgfKWlwGkAJfEjEGUUkGNMqh0WPD_e2R8NukVmmn5zg8kyIZHuAhZWCqMC4O9x2n5KdcxirsSKBlP5Q5y984zfSMJERcIGTVoc/wNSqLeuU1_cIqDSO_1oFWTJVc4-Kr514rivDcCEs2-U",
-            "filename": "Sean McDonnell.png",
-            "size": 653883,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/u06_keDvMDEzz2qHpDCgeg/mam6aXXfa4sjbuR44LAk_kB4Xx0LmXFfKSnbmdEgCCvjOviixoe-XDNUFWgDnkQRL3wVvS1-UTkEvjKhP6i18HQDiJG8f6KYn3NL7KlILXfYWIqjeJjjJ-Eb9b3BQ6Z0EdYVDxncRg6kbIYuYgtyKhg4_7agF2Q0RghGaev50Vc/LnrPoHnC9-b3jCuJW0FygOwWd_UJGYs5TcBjuu6Z0n8",
+            "filename": "Steph Neale.png",
+            "size": 988883,
             "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/_2zWDRo5VeThGnochikhqA/Z_mGGvRewWATPt_FfMcTxhmbAgMLIb7aAwoCRzSmxWUvxMDtn9XwXg16K6gM_acehniJ4isIIU0gR29dDRfKUg9ikrLBma_ocnNDD2gnAz-yOXoG87OSpzLP62LjuNOkOTZrJLMFSzMlop6JfOiNRg/Tga8yBC94BzHzMFe_0HhyvZ4AbVHAdPY9phhOb6eKvo",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/52pYlN-NTC5qhS4We-1Nyg/CozM0s_G3dOysgsl7t934cNArN5KH6wI4RZUqzrX96ecN_CuJ6S46YOnKy2YMx4scr41ul-P1gqMDkv6qgv33U9cC9IICQInsni2R4ZI835tiTvhvHDYDZIfGmwCpW9BBdfe7LmkNBaGKWQWH0Y4aQ/_3kKP-7shtx54nlmlVPy3oDUo9Wz-QDHgsiFpZlGt9k",
                 "width": 29,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/5iGiHlHXpvVa33nHjBG-gw/ianPJ-O06JhPQnC0Rf4QNY80bH5fo0U-5HCw1h8yAnkYydqOETUIPRbRyitm7mmGZrfOnzBKZKSLkLMR3S5bGVLaZHKRuoQ746HwMH3h0q3c3TAGUZMshvV5Kn0a51izzsT2Hi9V5z9hBhPthTaMFg/4o7_DexB6El0R-FXhG2rMuHB795iiRs_P_wYC47rGlU",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/VPszQsj-gGg5wbz9z9R2RQ/579hGxfnuvVAQDPlGRagFdIrItXDfjYN_yvufb9KKxRlNYrgFlreLMqepHGG-oKAiP-okgJk3CQ7hJsVSyWn8W3SaARSTOMlcp4pk-T42YbttakFpcrcUPuQlPvdzUdCfWbHwrfcr0-7lk0mGwTcsQ/3uG9wqqyBgdqXxgWEC4kjZG1xgcZfRaugEnyjnpYxeY",
                 "width": 512,
                 "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/zIdmKRSrns1a7Ww2B1IKpA/rgcq0YlhNlMpxLUFkqN7dOvz6yExQuMYC_M4gZb21B5IMSQaI8sBb7oPbUcHF-kZh6F31MSmRkfMdYyDzq0rCZj88KhhbhjTP6t5qQfHlh2zVCoFf5rc0raRRkavV1oE8Mkr9_w3AG-RKSGwXUpp3A/ZRURxdNb8RMeduJpWgKWYiwOC8RI0JgFgmkHsV5x2FE",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/19blkmuJZp__cNGPLI9-dw/6rCpM7N3re14MSkI5UOszltndsUMmtbZJUbRTIqaclpVOa_E-SCBS__pf0UgXHzc8EywDVNaEGCDnHjsEBf4NuYiXuI8uj_WAUe9YUIIoZN6H0XB1LY7Qw8wMB5e7zwZly2F1zo6Azssp9zwr56Nfg/dcTPFxhXA_IpBnVxH9E_iVR8e_OIq6yiiBC8Z1hSCwU",
                 "width": 1080,
                 "height": 1350
               }
             }
           }
         ],
-        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-sean-mcdonnell",
+        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-steph-neale",
         "Date": "2026-09-13T03:00:00.000Z",
         "Type": [
           "Stand-up"
@@ -1559,6 +1587,49 @@
         ],
         "Ticket Link": "https://sofmc.com/event/jimmy-carr/",
         "Date": "2026-09-17T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recjAMXKghCDeuiB9",
+      "createdTime": "2026-05-11T20:34:06.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Sean McDonnell",
+        "Venue": "Hecklers",
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attpZZwekHvqoN7SU",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/brhu9r212jzU1py67ScMoQ/45AABpxEO__kZ708_4GfYZ3KMLCyb3p_I9yaaGkFmykEBGDKaC0JjM7PP_OZ-4KrIqlnF76f2RgfKWlwGkAJfEjEGUUkGNMqh0WPD_e2R8NukVmmn5zg8kyIZHuAhZWCqMC4O9x2n5KdcxirsSKBlP5Q5y984zfSMJERcIGTVoc/wNSqLeuU1_cIqDSO_1oFWTJVc4-Kr514rivDcCEs2-U",
+            "filename": "Sean McDonnell.png",
+            "size": 653883,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/_2zWDRo5VeThGnochikhqA/Z_mGGvRewWATPt_FfMcTxhmbAgMLIb7aAwoCRzSmxWUvxMDtn9XwXg16K6gM_acehniJ4isIIU0gR29dDRfKUg9ikrLBma_ocnNDD2gnAz-yOXoG87OSpzLP62LjuNOkOTZrJLMFSzMlop6JfOiNRg/Tga8yBC94BzHzMFe_0HhyvZ4AbVHAdPY9phhOb6eKvo",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/5iGiHlHXpvVa33nHjBG-gw/ianPJ-O06JhPQnC0Rf4QNY80bH5fo0U-5HCw1h8yAnkYydqOETUIPRbRyitm7mmGZrfOnzBKZKSLkLMR3S5bGVLaZHKRuoQ746HwMH3h0q3c3TAGUZMshvV5Kn0a51izzsT2Hi9V5z9hBhPthTaMFg/4o7_DexB6El0R-FXhG2rMuHB795iiRs_P_wYC47rGlU",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/zIdmKRSrns1a7Ww2B1IKpA/rgcq0YlhNlMpxLUFkqN7dOvz6yExQuMYC_M4gZb21B5IMSQaI8sBb7oPbUcHF-kZh6F31MSmRkfMdYyDzq0rCZj88KhhbhjTP6t5qQfHlh2zVCoFf5rc0raRRkavV1oE8Mkr9_w3AG-RKSGwXUpp3A/ZRURxdNb8RMeduJpWgKWYiwOC8RI0JgFgmkHsV5x2FE",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-sean-mcdonnell",
+        "Date": "2026-09-20T03:00:00.000Z",
         "Type": [
           "Stand-up"
         ]
@@ -1694,6 +1765,49 @@
       }
     },
     {
+      "id": "recoFqqeTA8P57ZlW",
+      "createdTime": "2026-08-06T05:00:59.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Kelly Taylor [TWO SHOWS]",
+        "Venue": "Hecklers",
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIOxgwsbOHcLGx0",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/hLfnYbeZB3eBTfDkf_3krg/cAML4W9RZ_2uYAz6eBoj4skeycz4UhAqT0L_KApuc0C1xP28pe2POi6iBGwKfdf6-B0YUuRUFn6q61wuRG9ZDRZlK6iZ-b3SXQq6HEVoYZuO2KYPXDleTA92pfrNfmVUd5EQiDRpb5J2AzXunsPxwMoLNknhROngNLQDqB_9GvA/u8E1VV39KLwas67jyS2hLpGroRfhzni3jgZHo6I-5_c",
+            "filename": "Kelly Taylor.png",
+            "size": 974023,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/RSTwM4T_HJlZOvgsIidf5g/I6YB1Dg1KzFNzXY-Hi1Qs70HQQJj9kUSts69yv0wIMx-T_lHLEUXOdGORo58_WEDypvVlqN2p0Ee1O8XJJzrUBeUXyv0Q89lMHlrMOP4kFQgU13f1SYohKjJObUzLWyBN4BDyLB_xemqZ4iKtyTlrg/JrDCgrTp22EO9ARGHiRzFmUMj6RNlfFJA8Ky68oyefw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/mJNHqFgp9wLpnDURjczXUw/hFBOrPmJhGrktg7WPLggmDmTY0Cz2R78DUsa_Z2VDyZwzvX0pAVSmLtXD4ZUPHWU0SxXAyCGUi3kSlW0KjV8kS6fIzQGG1D_rVsvDrHz7sIrBgO0oj7MytRsEwH7fXjW_4MBgpPYCOwDkjmgxUAkAQ/lwwesgMHUwFUAx9WTlikmVDRa6JPMq-NixqdIA4lmNk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/gQVXAMioamOwXtcYdTajvw/t730_yueljJmQvWVW_1d_tvMrDWUaUhFlJZE7gVgON_YXyZCw2mG5Zl6g0ITBxtmiwninrEUmaKWBm6p95JDUc4NWBMMvG46henFvOhijp38dMirPwR0YV27PK6cz43kndPK5RHIWwqQ6t9nuMpPrQ/Tyo1g96ucflr5Mcf8V-21AsvKr-MSagj2COIOoFwtHc",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-kelly-taylor",
+        "Date": "2026-09-27T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
       "id": "recvXkOpAMGjgMVD9",
       "createdTime": "2026-08-06T04:32:23.000Z",
       "fields": {
@@ -1733,6 +1847,49 @@
         "Date": "2026-09-29T02:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "rec9NowbOxpOiPzm4",
+      "createdTime": "2026-08-06T04:59:43.000Z",
+      "fields": {
+        "Show": "Luke Kidgell: Live at Hecklers [TWO SHOWS] SOLD OUT!",
+        "Venue": "Hecklers",
+        "Producer": "KEG Touring",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attjH6XWUKdHLxy6j",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/BXwYwInpmc3KPBrR4PHmhA/NSQ2ZXtQi1bjpC2XoQQHYa_KAXFKa7CgyAPXYFU88M-m9o7yuBkAN9fSqY-_JGK-34-ovLOOFQfda3PL7baXuvlYWLPk7DmJuNMMK_Fqtj_c8_oVJlzBlSf5cgs1GjKzjzEbDP6I6B1dvpq67oCK-p7xUa-lKBTj56ROvHGNd7Q/ZHTKM6SWxM3TTRqK5DJonhHBokjOGevwrJ3HqI53iKM",
+            "filename": "Luke Kidgell.png",
+            "size": 1424081,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/DETd40b9TtR6xvFohkagNQ/dWxie2iT04Al7-2YzX4BFDMjFwBNs9gSv8AHSf8VxrUBgneUgBRGFD3zEh8CYSX3iuNGhNtB-LfiefhG-cVXMMcy0vBd4It8TRoKXrjQ2pMiQCufBXQFvJlRTj0oac4wx3BjPYnP9iM78zCHyjtdug/GllfCu2sxEgN1MgZAxTo6QdPWMbb0n6PR1K0s3x4C_c",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/Xzsrm5Se5VU796u7wOnBsg/bJJL7K4B4jUTDZzyFuS__oqv8iUbltKIt0R-8dmm_CYvdk2AfsytrIvM6qT4csAmzxpB-IsZjVtg7ezkfl-BW-rWvtldlleQANL6QqPOw3s9N4OLHipRHVGOr-P95sowAd5HON3qR7ucowm0RzF-aQ/3wHqHg21cH9hZkEIqjZrUln3ZxV2NkPQ0oOnRhqtKq8",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lWTyLaOLjGEpW348KSRTRA/cuKIe80B5oCTsHHCFqEXfcAglVSsDPLbYebgpzil_RcL_4yBOpwQkboFMPJ2J5jxKrgNzgLt8uvdtu45Rlyr9wbBcHi8IJwOBwbANDBYxU9iKoI30nLSNlYLHOVZXI6Vn0ln9xpmunI3bsBcgPe2Uw/05jDLIYegB4kC27RAotSGY_U2azdmui6_QrTwejQmXI",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-10-02T05:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -2593,6 +2750,92 @@
         "Date": "2026-12-01T03:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "rec6JWUgwQ3TSCgT7",
+      "createdTime": "2026-08-06T04:57:37.000Z",
+      "fields": {
+        "Show": "Alistair Ogden: Live at Hecklers",
+        "Venue": "Hecklers",
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attoI1O4sKKqlXvMW",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/NxhuxnbctrsnK_F76oSpUg/SmlQiTQPPUWASL-Ft1VHJ7GvdNUicMF46zGIiAxRAMEQeF3XgIifUaJ_wiVxJL4ZZGR2ap2E7OnOeDC0Gxgau-Xmib5i1u6c9I0Pqpo_6qagbiF4hjvlORANS_VVc8M7Lq7Ra_1gjYJmOrivvXIA0Xina5qFd_bsfBnM_ScdW2CMgDe1j3y2wgWptuSsyayz/ZUBzUX3wnLwV32dH8ybVuZmkC39yAXZmlQYvhlJdOUA",
+            "filename": "Alistair Ogden live at hecklers.png",
+            "size": 1014165,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/oGdPpQXZ9-ujqG53IJ2cgQ/lmBLszsXXl3HzKwpJpvXI9F5kfRjiiS88zQusdoCAAipYGR8Gq1IWYduQ0Ih2BoQgqzWpe1prvElfpAZKma0l7G_aECTb-1uKX8pOzkK7YBaqENbW2yJA9dIpe7qnXSEpiSs0GNcpZ8CFH0JDunpAg/9cp2CRufQt69cxbkwhhdxENNQV0tSHU8fK0x2QaklhQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/4KdKicS4RnxCylmCc0L79w/7pQtj3CLKr7TY6X3h6D26SdUr2xfO4rdS_E0yfLiElXSA4G3jJBSM7KbSpEzK2qmOljvxWScWPUFMkxmyd5vUDyL73krqjSbYCVjnlIO0SKRIpTbCCb08OFM9euHWwZTUX6VsoQ2nhCREKGld03d1w/OvtInGV7sxk_r3nf3BmdDZTmMP3tJxsnt7YSbiILQAE",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/PDKS0GEdgOMCQApsKWGWZQ/UNmg0eRKARfS6WVT5CXnIvMe6iQBDYXjSTzv4jJYNohiVKkq1NwHe_oyNRpEjzf_YhkKw3Dlp1O7WMQrxRcImd45y7SS10qTmGHqvcN_7Dizh5xLCPdjkFIwuB22a7LVwaheBNZyRvnAhM0BvyTQ4A/exqqC3xUvXP5Fi3_fvoDqy9GuC-awqxHtrRBt4vfWgI",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-alistair-ogden-2026",
+        "Date": "2026-12-04T04:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recs6TB4uqyjuUdic",
+      "createdTime": "2026-08-06T05:05:05.000Z",
+      "fields": {
+        "Show": "Hassan Phills: Genuinely Legendary Comedy Tour [TWO SHOWS]",
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attz3igYpAl7vl3zp",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/ijbcMZu7zv9jXTadhGNWHw/cA8gqxnjrzyQW7LYVSpkuPNXQfDMqy8skgkZro3JlkDryeqUeJO7S8XAXNSpqnpjIEc0oeLumbh4676CFD5jzQg6a_Jbjqlwo9TC_Iyn8KzDHCOsyXcazJ-2EzPtwX-52SqC6R9VOheMfRusn-fgZmQpOYbAzNO7yfufpVSbtSQ/EAGqmIFyFYJeAyAjawR8RUvXY7d3K-fA8T2sJQtJcis",
+            "filename": "Hassan Phills.png",
+            "size": 1438709,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/HNuOxj7lX_nvkyZcP7dPeQ/ve0kBaxO1cONkoljcw31QOXgZzxF0Cx61aSp35ZEQEP4hVo5pdzzYkUIJqRCzGZ9NYPH0eKKD6UrlTS4aiTx_yn1p9obfvH20V895yJyOFc6cEp-xjVjAMMAFCOLR6iZQZIMgS3A2PZiPjDIHnapdQ/Q_z3kR6jdjStvWB4VaG_dtJoDLt_a1ATWHEnXMwuyo4",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/Zf_2YHdwyqXpQSzw4wheWw/WvIrT7dFgglkR4pKgfXfJbtUq3tqdbB4QwWBxHcLrwLwsOPXzIZqkmCFvpnWRnBWehabxMYGSpdbluYbqnv4H0cRGAzrYwIDRBbpS77sYyv__nOecPiyyUR-unW0UANCbVDKzua19KnLrzQLT2YLIw/nx5gCB2ZAa-_SrRKQNDM_VZ02nVheSa-7SQQJJxhZnU",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/voJtk27xy-u5VAxU_HQpOA/26xW6UwS6-E_WAiiHspHvqoHKtDw-oNpFMRJTrzvjNMW6TGt-LEzb80VFHAM8SpzaOON-lqVL0F8rMCDqPGnwPehXGUCOlNt-KFsuuvSSaTGQzDOcpZ_skxahBtGRiKhSDW4Zw2MnLdc-5Pot8mvcg/dD1CN65KTmoDFQKE2v3DetotlX4fbE_yT4O2k2L2Dqg",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/hassan-phills-genuinely-legendary-comedy-tour",
+        "Date": "2027-02-07T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     }
@@ -14166,7 +14409,6 @@
             }
           }
         ],
-        "Contact Email": "lucia@luciaribeirocomedy.com",
         "Ticket Link": "https://admitone.com/events/victoria/community/comedy/comedy-interrogation/1NFC0Z",
         "Date": "2026-07-09T01:00:00.000Z",
         "Type": [
