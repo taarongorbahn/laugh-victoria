@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T04:43:50.533Z",
+  "fetchedAt": "2026-08-06T04:52:03.349Z",
   "current": [
     {
       "id": "recckYBDmQGU7xg8O",
@@ -604,6 +604,49 @@
       }
     },
     {
+      "id": "recq6HRrTKXdNbrEr",
+      "createdTime": "2026-08-06T04:49:29.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Dan Duvall",
+        "Venue": "Hecklers",
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att2jrV3XlOW6FQcU",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/BuQh-rBasLZ2TiUk-eTw2w/Va9dd3WKu-ABZxtN5G90aKJZJs7sX9l5gRjZv-_SNFkaoo8fjsZPngXPb-D4ZfZTUwoP5B5e78RLH-2FtiB0McbxpPo3VKFngPxPpOW_rUzxKZYuL5POWZM8Jc-ate_QGSpjagiAjx3avMHSTgQm6V3tQPr__r9b7LjFCYhDKlw/t2Xsjir5ttJNY_2ev_JPAvZjGp-V2HEn6NSoDMtg4is",
+            "filename": "Dan Duvall.png",
+            "size": 1162979,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/GYO7WXSDTcA4Cfddc7yK0Q/uxi85qPWQO0td0cswbqdFQYd8IU90ySK7vfHaK6XpUfcl42OibZGT37zp-VvXW-A9I0p10aKPEiV16QZHy4AJ-tKzSYZbKc9iM0vaNivrYCDkKBvcAwPInPPrNB_QMvqhA56D4GaTjWzhzI2lCcvBw/tfZ-O37Qu2vC7uCzaH7HLMn7U9a-uiFBUU_ysKb-kWA",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/tUX4-Vz16JfdnBNY59UQLg/x31vX5GoZrx8_puY1KnutFOvsl3NiPOMjO36dFCyUPT-hVURe59vkPxKyjU94agLXMicvZ_JKZKwP87e_8KBrUhsLB_5GhJmsSCOay2yCycEpyB61esLzax2UivQvkUucjslq5997YkxXY_Sg_mTLA/xpd8LrzxLIHqKnXiMdbAcuvWHQup8lrHv6cvh3-aLmg",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/Y7l0b_SGue_s3UqhCWzuBA/XGVXhwsOrdk5W1D6UE5u6ojeCfjjRAghrejMOV9pbsISQ3VDZkOIJ4PILnY0dfPiXEvb4sn0Uq9sKQDhTfHnFIU4uOHKMvNzq-NTIDl7twCppkCv1lI8OMhG0jL4NfKqmWBWLXl-9bX1Ly_2HvOxTg/17ky3953BFi4SA-c_8VLyAWCW5DMuIrH-dn9z_LDjP4",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-dan-duvall-idiom-domino",
+        "Date": "2026-08-14T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
       "id": "rec7trIKvzVX8ghhF",
       "createdTime": "2026-08-03T22:00:12.000Z",
       "fields": {
@@ -858,6 +901,49 @@
         "Date": "2026-08-19T02:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recSXnjRnZTDNtGSv",
+      "createdTime": "2026-08-06T04:44:53.000Z",
+      "fields": {
+        "Show": "Artemis Comedy Night",
+        "Venue": "Artmeis Whiskey Bar",
+        "Producer": "Artemis Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att9ZWNSGhVLI3rcN",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/aYkD3QtbyR5kdEDk6CGBuw/gI3CN3pCQxYBtruWeiTq-3A3spDPjP5fUlPxuRGyRi4PZZVArRI8iVCUZHn9B0OwNM5iHil4IW2zeAiXhjZlWAY_NaYULIP6InBhhJkhhTODvwPzyaxqqZAgZDIXwUGe10Oovd6iOVNtPk5lXz1JGiaBb2HwzDSq_-b_Ud1O00c/ePBtr5mhpSBIpmqtHKXwiK-LZQPTWKvucvI1p1z7CWs",
+            "filename": "Artemis Comedy Show.png",
+            "size": 1000247,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/NxMt4EvFJ45TWYKAhfawhw/Mec0-PUUZqHZPDandmEI96tYktQgx0koFE2P_aOCnJ-D-qTO2Ds2Ghb2NWpP9p4fCBy9jsIYoPTfyvglPK8SBY9xeh8NQ12yNCmk5P-1mXYWrNvvI88Zf4ssWij-JjQ60asEVfpvliCvdLmmnJwfGw/Y5WTFoX-GhojCuckcHytHfC031h63x1-W-SE_hzsHU0",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/L_k_OCiDrcdHrucVZFEqKQ/Gz78JvbfmduGvaXUhvuOdl7Rp3V9eH33OAkcKOE7ex4OQ6kYz4PeN3epA9y35DrdaEAGXduNMACz7hldVXgjW_H8Ze8n_NzBPPzrk5l12Advd2abAECtMJoXIcmn_wy-pjRNoPXORg8is1BcfzKkKg/zBwek4_-5Zijtl_VeNcWghKp3j0xBthResTmhtJBLYc",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/O1nKRJb2a8vAgNCpKChrIg/2JWZ55GK-C6VFgh4uZESdFCfU-FP0-Bv2vAJXPg62PccrZGfVe54-cI-AMuWUb-7lWrMfwblF2j28jpVH2XU7wR8MrYc-GN2KyK0XBkh-NLoGbtYDx-c4s1iQDejMkgg9Fsbh_LTx9djvLZNNAJ3IA/_g8CJCaXSNxdYQb_JK-MMV72jEOjeGRT-32dCSGxyQA",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/artemis-comedy-night-the-spice",
+        "Date": "2026-08-21T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -1243,6 +1329,21 @@
         ],
         "Ticket Link": "https://admitone.com/events/victoria/pro/other/capital-ballroom/artist/randy-s-cheeseburger-picnic-trailer-park-boys-victoria-bc/6a30b55431308e1a4ef910e1",
         "Date": "2026-09-03T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recEh6VPOKKszrq52",
+      "createdTime": "2026-08-06T04:50:54.000Z",
+      "fields": {
+        "Show": "Hecklers Comedy Fundraiser with Howie Miller",
+        "Venue": "Hecklers",
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Ticket Link": "https://www.jumpcomedy.com/e/childrens-breakfast-club-fundraiser-with-howie-miller",
+        "Date": "2026-09-04T03:00:00.000Z",
         "Type": [
           "Stand-up"
         ]
