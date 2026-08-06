@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T05:08:52.444Z",
+  "fetchedAt": "2026-08-06T05:41:06.277Z",
   "current": [
     {
       "id": "recckYBDmQGU7xg8O",
@@ -212,7 +212,8 @@
         "Ticket Link": "https://www.jumpcomedy.com/e/the-crowd-work-show-8",
         "Date": "2026-08-08T03:00:00.000Z",
         "Type": [
-          "Stand-up"
+          "Stand-up",
+          "Variety / Other"
         ]
       }
     },
@@ -1292,6 +1293,49 @@
       }
     },
     {
+      "id": "reciW8iZ84vKtRzLH",
+      "createdTime": "2026-08-06T05:36:40.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-02T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "rec1BKpTjxOaKPhhP",
       "createdTime": "2026-06-23T01:19:38.000Z",
       "fields": {
@@ -1464,6 +1508,49 @@
       }
     },
     {
+      "id": "recloPQ9w8zOiNw91",
+      "createdTime": "2026-08-06T05:37:03.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-09T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "rec4yo8J1AX0kf6MO",
       "createdTime": "2026-08-06T04:52:45.000Z",
       "fields": {
@@ -1544,6 +1631,49 @@
         ],
         "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
         "Date": "2026-09-15T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recXEk1s4fZbA7Z2v",
+      "createdTime": "2026-08-06T05:37:15.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-16T02:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
@@ -1722,6 +1852,49 @@
       }
     },
     {
+      "id": "recbJ9sHEMOTXKgdY",
+      "createdTime": "2026-08-06T05:38:52.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-23T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "recYBKSvyWAcBkCuy",
       "createdTime": "2026-08-06T04:41:03.000Z",
       "fields": {
@@ -1851,6 +2024,49 @@
       }
     },
     {
+      "id": "recJZpQr00oVJfwPQ",
+      "createdTime": "2026-08-06T05:37:24.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-30T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "rec9NowbOxpOiPzm4",
       "createdTime": "2026-08-06T04:59:43.000Z",
       "fields": {
@@ -1931,6 +2147,49 @@
         ],
         "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
         "Date": "2026-10-06T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recxyIj65zk7Prdb0",
+      "createdTime": "2026-08-06T05:37:46.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-10-07T02:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
@@ -2066,6 +2325,49 @@
       }
     },
     {
+      "id": "recXg0Jswkg6Ki2FQ",
+      "createdTime": "2026-08-06T05:37:59.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-10-14T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "recuzX8wYWeMXkZa8",
       "createdTime": "2026-05-16T05:20:15.000Z",
       "fields": {
@@ -2112,7 +2414,7 @@
       "id": "recxXdHp9kjdm5FWI",
       "createdTime": "2026-06-02T05:37:04.000Z",
       "fields": {
-        "Show": "Outback Presents: Maria Bamford (TWO SHOWS) copy",
+        "Show": "Outback Presents: Maria Bamford [TWO SHOWS]",
         "Venue": "McPherson Playhouse",
         "Producer": "Outback",
         "Status": "Active",
@@ -2195,6 +2497,49 @@
       }
     },
     {
+      "id": "recbdV51Yn9ruFn7k",
+      "createdTime": "2026-08-06T05:38:08.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-10-21T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "recCjTrLRyYhQcYG0",
       "createdTime": "2026-08-06T04:33:07.000Z",
       "fields": {
@@ -2232,6 +2577,49 @@
         ],
         "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
         "Date": "2026-10-27T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recYc7eHb2KevLQah",
+      "createdTime": "2026-08-06T05:38:24.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/lLWmSSWw6nb54gDecbXSsA/cFtBkBq4zICww-OsO_EJCTrXNnZdSuJpWSksxMNWO2InpGSdQy_OmvKUgecK18iHh3khm1YTQqZ5FWYj555lSo_m60JtV9i8SedtF3OWPojU5Xp55u2CPdZ59lZk5trxKw-mfLZEWlPjRKbQQhqNt2y5vpTHPQjjoqc5aLN3lw4/cnd28kEav0mbjsRDrXoF-I7jDS22wk6mBo-UHP54Ssc",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/2eVn1NXyi_jkDBU88Oneaw/fy0zIg74moYB_-eoSm4vs3uTuS-2G1R6DiEDXVb3boBzL6RhTpyy5l-0wpsC7IUUYBC_yn4XqWm6GanEhVa6dV1eMmiIKV3_jN39zmZ2hm6A6e_SkXdZ5XV3gG7qnFZpohsH_n2xi2XQeNrCKKz3wA/f-XnjfGb_34dO0BdlDXHnMqkRjssJ3RxuTfGqM56UXw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/disyARtqzPbzy2OzuidKWA/eK2MAt26_oeacRQiHyVIoYPOIrnXWWCM4icFgPFw5i-ZYbsBEgUdScrcsgoSFj2JITXTCPmSIj_xrwBW57X7JYjksjn5rUk-wSwSFX3BrpbK1gJj13QiGP6sYzO_6ZAG5BkxLaoFhWtl1P-UZ46GWw/v9T_EcHa9HN0bJL2k8D2xUXat-Zazu19gY3MZKiTCXk",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786003200000/G7IH42Fj1ozwreoyl0oteQ/mFRW5WxVO50V-v4KAN3_XV9DzPapAJKChppjb5jYMGS9D66J1-BByeXkZUpyx7A3ng8mF2eXG28VccmwsSgnNSfP4-ElCb1vlAt7jgh_iskCQQ-ewoOmyNlcd3Q3ufm7L-A6M-D4BagGOchtX12dHA/s01AOr6SYQwA_Bb24il2UifQwpVD363CQvL7HHDvnt8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-10-28T02:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
@@ -3317,7 +3705,8 @@
         "Ticket Link": "https://www.instagram.com/p/DTaz4vTmEXC/?img_index=1",
         "Date": "2026-01-17T04:00:00.000Z",
         "Type": [
-          "Stand-up"
+          "Stand-up",
+          "Variety / Other"
         ]
       }
     },
@@ -4564,7 +4953,8 @@
         "Ticket Link": "https://www.instagram.com/p/DUi7tIPiJg-/",
         "Date": "2026-02-14T04:00:00.000Z",
         "Type": [
-          "Stand-up"
+          "Stand-up",
+          "Variety / Other"
         ]
       }
     },
@@ -6886,7 +7276,8 @@
         "Ticket Link": "https://www.instagram.com/p/DWO_RpwCPIO/",
         "Date": "2026-03-28T03:00:00.000Z",
         "Type": [
-          "Stand-up"
+          "Stand-up",
+          "Variety / Other"
         ]
       }
     },
@@ -6980,7 +7371,7 @@
       "id": "recsBzC8FFD2JL2TR",
       "createdTime": "2026-05-12T07:54:43.000Z",
       "fields": {
-        "Show": "Paper Street Theatre: Improv Cabaret! (3 SHOWS)",
+        "Show": "Paper Street Theatre: Improv Cabaret! [3 SHOWS]",
         "Venue": "Intrepid Studio Theatre",
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
@@ -7574,8 +7965,8 @@
         "Ticket Link": "https://www.eventbrite.ca/e/keithsonic-live-tickets-1986599855646",
         "Date": "2026-04-10T02:00:00.000Z",
         "Type": [
-          "Stand-up",
-          "Variety / Other"
+          "Variety / Other",
+          "Stand-up"
         ]
       }
     },
@@ -7747,7 +8138,8 @@
         "Ticket Link": "https://www.jumpcomedy.com/e/the-crowd-work-show-8",
         "Date": "2026-04-11T03:00:00.000Z",
         "Type": [
-          "Stand-up"
+          "Stand-up",
+          "Variety / Other"
         ]
       }
     },
@@ -14068,7 +14460,8 @@
         "Ticket Link": "https://www.jumpcomedy.com/e/the-crowd-work-show-8?",
         "Date": "2026-06-28T03:00:00.000Z",
         "Type": [
-          "Stand-up"
+          "Stand-up",
+          "Variety / Other"
         ]
       }
     },
@@ -15014,7 +15407,8 @@
         "Ticket Link": "https://www.jumpcomedy.com/e/the-crowd-work-show-8?variant_id=variant_019f1194-c7ab-7d2b-93e1-e57657fc6e4c",
         "Date": "2026-07-18T03:00:00.000Z",
         "Type": [
-          "Stand-up"
+          "Stand-up",
+          "Variety / Other"
         ]
       }
     },
