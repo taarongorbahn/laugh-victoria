@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-11T00:44:27.190Z",
+  "fetchedAt": "2026-08-11T00:49:10.447Z",
   "current": [
     {
       "id": "recuY0GzSyTdyqZd3",
@@ -9,6 +9,34 @@
         "Venue": "The Mint",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attlh46BSMqAWqIpJ",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/Pw6w7JmJnqCTSBC3zHdmlg/biYK2BfsjgeE_UfgVV-wMifvy_pMLsnerY68s_jUX1MYdAlgs-skXnUKh41D8-S7cxOPCi_z6VHTKiYBGU8Z00GjE-BpIzssWe-V4t6CvXFPcrUXjgPfmDkuC09j7LlIIOoeeEFbhh-RHN_U4f7cy7BZ34W7_8TJsGlZAeaP1xU/B4P6YT8BJgIiHNCuJ64I_dt_4ZyyH2gotgSwzE30Z4I",
+            "filename": "Shoptalk Aug 10.png",
+            "size": 1907706,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/1LZ7JVXLxCVMP5G99wFUvg/ZH0Uzycgs71KkJbTYnBlNgYXUkesmz4tfTfA0R4QMhGUfq8vPmhyKh08-b3xKxxn0vOGBGBZZLBbJAaSmjHjD52MOmp0BqWX4uPiHyUL3Hdsub3OSC2coRbqeZt_n7WzbBmAO4Etkd1uPvd8enR0mw/jz6zBCD2pQcjI1ycP4yNKF7Unx7cdAXdIe8wY3_IcaE",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/fPWyM5dWa5XB2HxKRvARhQ/UgvUsQyWMNwgBaMX1ZH-TEb-RwMk6eCTw38aUyMd6QEMUsRYErylJzUOlLQrZ7VZBkNyLkAt6AgHgfM5VIpWpWqlXYuLYlCAW4Z9MU41QlhBdceV_VFuQbxSbMtnHl8afmDFi0D7tmPvsGq1926UCg/61XTkfku9Fgu7ihM2h4-HGcW5i6BZt5BnU1y7kTZdxg",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/oT8IQNfcG_qGeYxyLZEyQQ/ggbHZo7TfNhPCtAwQBB4Xmdpe-LgOtG39e1M8cfQwNdYNz-MoIhTUeSVdNKjEXjASljCS2p013WUMQ65OrhSSJw52wRD_vzmchKwHdVDnbE6ybK5Wm2FBCt2i9k5kr5UCLom12ykHzDdYShTGb0evg/xDPC6co5kSFlV4MxSLclLXXSKmXQRhcr-WvESCavRT4",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
         "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
         "Date": "2026-08-11T02:00:00.000Z",
         "Type": [
@@ -26,26 +54,26 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attIGUJJh5HM0qukb",
+            "id": "attcuhQdUoU91iej3",
             "width": 1080,
             "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/byk0GsUyZZ4rYHC7hoUMtg/Rdb3DjhWhBSwxXTQRUVfV6EoZOG4JFaAEI7Te6sifN-uBtjYNF4t4-iwVOg6le52gR1LAa5U7B-6W5Mdbw8RMyLLqB-3r1bolwPbSLU5_q9vw9_UMVB-Whdl_4eRqKTvouvVOdvBKyaQLHoUV_ALzEmlNxKfnKPZpEIWPGB4i6g/NZJ-7olo6F36OhYx--3AHinetkvKETbCJvp4LVt4oWs",
-            "filename": "Phoenix Open Mic.png",
-            "size": 1012288,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/DiHSGgDWc1IWVQerJix70Q/4jk_ItZLX_wrojFlS4Rb7dPBB4iwNotR-y6ov1K1v-8aErLbse-vnGgNAfdr2CiXTHdI8U20L1aek4o2i0XbjoVlipE-zC18YMKLAvbA_uegkyUHrDIt0juvIfmjCZzjOKRh-m1x9SBP7bospvjY0xtvn8G8rX-7AsLMm8PFox0/E-nQx-PnsY6QA_zMlzr_HwTzjYiEDPv06jkzDBxZs24",
+            "filename": "Phoenix Open Mic - aug 11.png",
+            "size": 1332892,
             "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/kBix4HpAR57GoNwIzHirdQ/F-Q1Ek2-uoakv5EoHh3PanFTtYrPVN5tOPmlcw6QCX4EFRAqmGGLQo9R1mQaKzOXv3VEG4ElNPDgVdt5Lca74Oq8pyRPNDMco3w0VHr5NgfO6mKkxn4Svk6e5WUcJeHRaKVbCr4-lvOcX-_lBc_kjA/BBZeS6JdS_syoPEZPrkouQgFx7VwJuvI8_ed-znJ-Z0",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/jBbfHmZqd7bSEjWwiaWC4w/_xK1_Z413sShNIpqstJIf1pNlXpCVqRjochMLpSiDO4aGGeihyZ9sSO8p56vZCXTHpo_aCUDlZrgFSQFo51S2j9LdDGLNJs2xKaffPXsrpyAq62Xvr7in43mQNn0UDTYLqOn2GKRz-ldCslLguOL2A/-ZlXYB2qSnxMpWgWQN-Z2ZYcz-LJubREcbF2P-25BEE",
                 "width": 29,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/uN7IOAd-Zm-uJjOtGpbK1Q/3wCrW299OD6uU4WTQ59w7YFnNLNcd2jTVFXB5Di25aT7xE8VAE__dn23eyfs7T91i-3QuupZevadNjd6wNjyDB8yMMsPtAKs5A5pDaukTEKzwWtORGq9ihu5tSI_gSZtuBV8Y5t_MscfplJh65DGvQ/ccW9DwnZ3dWGen_iWlvNaeCW4gkdftFhELUuH0_bJtI",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/dbQhovNkjSSnio3X7Wjcbw/-nQHBgwt3TC5mDIeDoTYzhRlj6Q_elGbfsFchsN1zU8pzZkYTHoqF6HGrIIXVMxCjUzjUBo06IERV_Ahnt2QAmWrVD14q-55vZOWzYZVw_MQT4y2T7Q8njN9obP9G2eaAgrP8mMzmuIGP4WnatxWwQ/6AG7Agzdp9-A9RvtgSEerQLZ1em8QkzKb_eD-fMN-QI",
                 "width": 512,
                 "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/fFxSYW3KrWonxxMShKEIEQ/n4cvZMsb-gb-NYUU_1q8rlswDeCTZ_ws8vtcKp1iAc7VaPMtsto4Ar1cLWv7D0994KDsYOusMpVLz9qwt-6AVSwftoKaWB30kK1_lvXG7P9AWy4Edg6l7Lcike3q4nhs4tzQucV12Y1sUPprv4kudQ/21tgYur19HmHDVh9qZfMyCteJTDEHCcHKaQmjAMMUPU",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/wVrtT51VVJaCsL0GWKQmig/kleCDQTl2o7Ckka6eACnf3OLEDvlmIdLhUYQhOkjm7yDXmVKFjm8_A1dz77DeK1EZYFYoQTEoCGeY0s3GNA89nRBGpfRaVmoVPJTY3wegaKp4NLPABLBmdIgOByoJguFSeQEkDMQbN9B4jUyR_rtzA/ZU7sNcUrl2hy0M2U4l1Bz_VRO6-B_q6BFMlaRqDSMog",
                 "width": 1080,
                 "height": 1350
               }
@@ -54,6 +82,49 @@
         ],
         "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
         "Date": "2026-08-12T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recfvZESs0fZpd6nj",
+      "createdTime": "2026-08-11T00:46:19.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/dL8P2TNtELDL079_1JW4SA/oXKUkTMXUmBNTCrsrEsoJXV-1fhaN2OjDhRFvW-KjSsxlrOEYtQ5Ry9PV4EOyiVDu22AvX93U0dbn1RmnB8AuvVTaHUzcb4Gs8ZzQ8z451JTOKaoRYWcVh64DmlBuh1WkfbFaKmHFswBZkDD5lopm1K7UDRZBSu3jnkPhnr01Ec/xEC7fnPKU8b6TeJCeTLTxs65qYiHUwce4bikkNjrNew",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/uF-00OZjgM294WBXuCi1cw/M9qMvONTJVLW9S9-OEq1xwGtz8B9BSaaZ_O-dgJ4i_7BdueeCBbdqFegcK2rgWo9c8_MoWlZAL4uatwOrEhL9W9r5Fhn2icb-k-_BqsE_MtOCpHXHXyUJHYbPlOlx8ZFtDyUmF41gKPsLsEQAOWJQA/4fcOtTMAt_qU45C4z7sZNonAugdEfWwLIyD1Vm0R8L0",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/hGG8RAYQ3kAS_j7kKSiWrw/MFmHGgmPqYw_G4JR2_2JSjE8UsTbr2foJh8wtTCyWS_kC7wNV-v0IcmU0j_Z4AQJM0ZAKrNU0WEqcMUf6KLWaTGaYmRHd-N-kulfi6yV6d_b1_WOiDHLqCW8gFlj5Wx5nFXnHhXBRvH8Qb9NryDx6w/lXTzKjLa9vAtBoU4HQX3eaug6UhZhGR2Nf2ZN1hnXNw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1786420800000/ZD_IGOYYj0I58MH61X-QfA/h1_q4NwITbu-RQCSThabFpLu3jbqnmbAfu-Yaecq5oRHDN22uhgsTs--feEevxsXq5oaClji3LVHDTvpEVKF2boheF7Zg3bm7gwhjxyyREzbOg5NwYeB77Kbc6AnN-p3o0oF4dSQnb79WO5JDJSX_g/YgvQq-lIG2nudjIWyb9IjziHESp2KSz_YtY6jnN9XzY",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-08-13T01:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
