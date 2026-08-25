@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T02:20:23.128Z",
+  "fetchedAt": "2026-08-25T02:23:14.110Z",
   "current": [
     {
       "id": "recdbJY6yRUlHGn7T",
@@ -125,6 +125,49 @@
         ],
         "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
         "Date": "2026-08-27T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recdJaZyiUqg39Mbo",
+      "createdTime": "2026-08-14T19:42:01.000Z",
+      "fields": {
+        "Show": "Fernwood Comedy Night",
+        "Venue": "The Fernwood Inn ",
+        "Producer": "Fernwood Comedy Night ",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attKrcKkqtpAxN0EM",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/rwViFTGnRAXaYnYKlKSN3Q/K2CluzEXlQ6I2EE4ygf3cVtU8oX-fOsJVZKMVVXhL17vtoohsnVs8e2BcOI-s7_4V0BFZSN_HOzoTdQFP_FGMbWP--dY2db68sZUX3HMFX8MSV57HzxQNU5-PRRh5Lq8CCLVNWp9FAM5G9VrmRaRzWWHd7_dr7wkw0KsRlMgJgsYOiZ-Nyfb8OBpLPnD2G3t/jjUd6ORijrPD2Qlv17Yy1ZhUcOIdX7goQYsTGrnc_sk",
+            "filename": "Fernwood Comedy Night August.jpg",
+            "size": 219475,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/3OfjgA58RcwAmv3_2qH3ZQ/z-9wuId8TMCUnnMTcgcU0bHWHq7EYXlHAj85Ts9DvVevf_Y7BaZZlL-kUeOqp4vOaKl7kpXSBH2Vb3O1jZXTCKvOq7Vs0KFvPlZjGpE52qxdIfAuH0NNkOIiUz0xj7iRMxrlLQtQp0_QG5bOvzNmvw/qY8QuiXrFgwmPw79hdWIuDdzSC1xgXVghcRXQzRs7e0",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/7yF7X5TG72drcPyCEe1DaA/-WtOdYJUU0jHfNgkKstMVYyHhLd71jINLK2bookh4mhELLDK-wKtpfkmbVK4BFasqZmXgRiL7pcCZ_FasTb9bdA-9zYvaRC3bGZmOCwbFh5WXpXv4EcKDhBIahD7MuId3JNeI5MZLZeSdtSBwjDXEw/IhSxqXU6z14EOI1I3d96O2qbPs_F4bNeSuiMfgbZKzM",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/946MgfETq-fMT712AnWJrg/xGTuAaJsTPOmxlx3oQHggzrFjqqmaVwUClfn7bZZkR8LzsrLqyoUleqRmUlo8LfBqRA3aVGpywOFIU5MfTAfT_2cOj24ZzvWV4Yk1dWphjqOrNduO7312jckQmN1BePbJ1E8RaRgqXn5jelFMSXtQg/IDTmgKpf6OhFjy5L1fq5yXpw5FdyuY47_YIk2Q58rWs",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.facebook.com/events/2825602314485701",
+        "Date": "2026-08-27T03:00:00.000Z",
         "Type": [
           "Stand-up"
         ]
