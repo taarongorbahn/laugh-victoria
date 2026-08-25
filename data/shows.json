@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T02:10:27.185Z",
+  "fetchedAt": "2026-08-25T02:20:23.128Z",
   "current": [
     {
       "id": "recdbJY6yRUlHGn7T",
@@ -167,6 +167,49 @@
           }
         ],
         "Ticket Link": "https://www.jumpcomedy.com/e/make-some-noise-august-27th",
+        "Date": "2026-08-28T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recMyfCb2YEAHtMtL",
+      "createdTime": "2026-08-25T02:19:18.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Lachlan Patterson SOLD OUT!",
+        "Venue": "Hecklers Bar and Grill",
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att6qri2C2S7Fi9ji",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/NCSoZRrfOx17cOlLtHnx9Q/xQ0EIxoART-zjNFLNlG3BP9DN7rI6OlqxieR_I5UZZq3wuzeAQk_LSxy8JGm3vhWu3zr0LiqN5AYSaJsAjNsYw4CUpcais4mWZQlwHw_g76ChKNA1lnzTHsPjBgcM9J56AIownFX6NdD5vk7OvgtmvAeGFvShwlIvpx44xA0fmk/DHEtrBBtZQLN0NGrse9SRx7F41Npadqx4kHb79Tia-c",
+            "filename": "lachlan patterson aug 27.png",
+            "size": 1068366,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/JF_7XjBkzEuzLjmPNhLL6g/FPdDpOE8lMcTWZD-UleF491en6uhqyjj7uErDxa4weFkDPoivPVxn8P3-jYxbN-j1Si_qedJ0fRkGj0XXr98dzqe3nWog0ZjwdGYh5DPPEtvB61dqfiaOzKx1Om05QJtSM8u2BfXypRYIRoBHVqkYQ/XqGLtTCP4cLh5Rb0LwPZWLmONDRcnV4ZEm_1axBXo1c",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/0gtLinEmN7dvcrco7HUyRw/lktX2IyRhgXmVkEQ67Pr8E9dr1MElsAea_nqD5DEB78X2W9pKyhghfTwXI0cV3slEnVXQtY0Eg_PXbkrrdqV15EFe_AQSHffexRKRxKs8n2AhL7ObTC5ArovM0IA2GcDmP89UUDO_4Ur1QqANo0vrw/gxog0tt8dpftnDQFsrz0KEkJp3G2R3iB-j0NE5FcBjc",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/Fw4mTBbKKbe-leFqxD9d8A/-LC4WDpMvo_XoH6UrxU8qkNfzPMHi-eEh2ug0GRivNk9K1GKt7Kkb6nXAoIpePif0wfqmOXDKqHf026PMnQ_XIb3hC0VZM5XYGYDJpqqt9kZ5YVtlyOl5M3_Je_4jpjqclLHZ5MAMqqhQL9H54w2Uw/Eg6jdKHawK6E_gGP01ZAmbeAgRu5HiMeksiBOMbE-FM",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
         "Date": "2026-08-28T03:00:00.000Z",
         "Type": [
           "Stand-up"
