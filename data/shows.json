@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T06:22:30.110Z",
+  "fetchedAt": "2026-08-25T07:33:45.191Z",
   "current": [
     {
       "id": "recdbJY6yRUlHGn7T",
@@ -49,7 +49,7 @@
       "createdTime": "2026-08-18T01:05:26.000Z",
       "fields": {
         "Show": "Keith Sonic One Night Only",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Keith Sonic",
         "Status": "Active",
         "Show Graphic": [
@@ -307,7 +307,7 @@
       "createdTime": "2026-08-25T01:23:16.000Z",
       "fields": {
         "Show": "OK DOPE: The Crowd Work Show ",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Active",
         "Show Graphic": [
@@ -393,7 +393,7 @@
       "createdTime": "2026-08-11T00:36:09.000Z",
       "fields": {
         "Show": "OK, DOPE: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Active",
         "Show Graphic": [
@@ -608,7 +608,7 @@
       "createdTime": "2026-08-25T01:18:37.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Active",
         "Show Graphic": [
@@ -737,7 +737,7 @@
       "createdTime": "2026-08-25T06:16:32.000Z",
       "fields": {
         "Show": "James Roque: The Mano Po Tour",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "The Mint",
         "Status": "Active",
         "Show Graphic": [
@@ -779,39 +779,39 @@
       "id": "rec7ESaZrBmISOAzC",
       "createdTime": "2026-08-25T06:22:24.000Z",
       "fields": {
-        "Show": "James Roque: The Mano Po Tour copy",
-        "Venue": "The Mint",
+        "Show": "Dustin Searcy: Dude This One Time Tour ft Ryan Wallace",
+        "Venue": "The Mint Restaurant",
         "Producer": "The Mint",
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attY7oJcIVXBA7NqC",
+            "id": "attmuXZcczzaQemH8",
             "width": 1080,
             "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/20ZqQru7qy3Pobo1K8QVRA/ODiMSxqQ66DbFAimXaoKIwiiqYI0Ikri43eZiX0j4k-OutB30nN9v2Ngk35bzkh1flQ-ExQms3jaMGG4FD97tFCYIkMQcEwhllmqXFNN23THEjHxsFSovqg-QL9Cx_MMU1DgU2z5AN9_mMGXRznqs8-ZQHww33sVsY4QLQ3NhxY/Ary-DK-hTkjN83sIHa_bdePb6dA7AVr7c9PIOl1RHNU",
-            "filename": "James Roque.png",
-            "size": 1590859,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/wT2zTYREw5K9LBVKKSAB9g/1c8MLEQgtpP5b8ZelBFonbsKsh-vdz4_-2K5UPXApmcsOAGhSIGQ8gzN73l9i8QbEiGRA_LbZqzMsSCW5CpQcPcgTdE2-35WkVfxLJRc5Up4CzIVQP5dc7da8cPwfDFYa45uCGtCwUZzY7CcljkmnFdKUM2CV6ooqcc_rQrcN7o/NWNKKzR8wRTDOrkgkVLqp0kPW1UrUDGLBCPAVfTral4",
+            "filename": "Dustin Searcy.png",
+            "size": 793819,
             "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/BTFiLrHAD3KINT-h_0Az7Q/M3cjERSXhZUsXOUiQ-NPs4c_7nNY1_eFVfy-sW8PEzP9tnPLx2x3wINiB__NshPq9XzGQbYdnFcFF65QoBpgQ4_7TK4ORpCe4Crc1pfkqp78BqbeCZLHAM86Yr70HIrTbmAfu4o4xN-YkzAdstV3pA/N5XfNFAIOCq29_uAHisHkwFLZf12GHxgITwOk9oVDJY",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/hsCdep297jAYtXFqQsCPVA/DArE1oFOY1Zg0Dy4kNGkKPa5wjVj_uyXrQHsc6W9q0wjWlP8I7GGM9GFayL96tolUxAjtPpRh44skJtsx05pU7LZJvogM84wQ6ameDpkNeNvcUD_cruaqChUJVe_gle0TqFfEgbLoTrb78mF1yW_vA/PUC3MBtM1aXh2Oltv35UkS6pec9APZ2thbvph40EtgM",
                 "width": 29,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/wNE361vT4Ft5xZzBv_XsWg/SYbEY777XnaZr4HJxaeBlFCAjPDMRoH34AN6v2UR0mT-syoIK51n1MfvdN73q42VSEVMcniT5-WDisrSobyiFdJnbdspY0Dhr5Z5ajEkdqV0muRk8eWcKyysrz33-iN3iuLpi1fw0EAJxW1eapTiLg/jJrIwkr8OUBQd6xW2wfeEzTCkxBZOee9cJr4pg0tZXk",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/7kj5TByS8aDa4IpIvcmdKA/nami8yUVDkmOhbtvsLtsG7KUMh6R4dLsvqP9xq3sflcArdziA-xrFXxI0eaN9PoU2jTSL_7P7wTmYd7dXqk96sln4O2NyHnHxWFtLNwAUPr4Y-AJVX2heE5v9wVK29gl_T2Sq_A6HkOl_CggWw28RA/TOwCdoE-BDIzHevnjJaO2Fs7cNm8KPMRB-38Meni8ZM",
                 "width": 512,
                 "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/FEIp_1pfUFIvTgTxf1x6Fg/Sw2aiU4M3HyzTLFHMk5JB9GaOa2qlPhxfghd2BxDZXdzTLafQ63pVPur9QmKVfP108-ozKB1ebb_hg1GrMhlWm1g6L3tSn09hlPz4tueGTEmeXG_XryvDIa6AILwZEPvXquJanAYclrd9mWGrqlfYQ/RPK99r4uVRMYY12UAuBXX1XvuoDncSgkWYBZRny1pqU",
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/42ps1Cj6hM4sR1gAYNvnYQ/kbV9vBdhm88ioo8dtmPN6E9Bx28AMAKwBGyMLh6PyNqGf2gdwluq16-xTbNBS8UPuKTvqgX66fF5Wy0aKE0qXHTclskIVGOHuExRY4C2suFGijSUWlN6yH64hgZWrFZLhDlyijTai4NZDvnEHziLDw/-4NrXiE3rc2-3HgQX5GD6-Fgs8aUEvZ5Fgpq3TVAemc",
                 "width": 1080,
                 "height": 1350
               }
             }
           }
         ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/james-roque-the-mano-po-tour-victoria-bc/IKAKJZ",
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/dude-this-one-time-comedy-tour-live-in-victoria-dustin-searcy-ryan-wallace/UN78AW",
         "Date": "2026-09-09T02:00:00.000Z",
         "Type": [
           "Variety / Other"
@@ -858,6 +858,49 @@
         "Date": "2026-09-10T01:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "rectx9RAdRssUMHmP",
+      "createdTime": "2026-08-25T06:28:26.000Z",
+      "fields": {
+        "Show": "Andrew Ivimey & Tracy Hamilton: Comedy Double Feature",
+        "Venue": "The Mint Restaurant",
+        "Producer": "The Mint",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attlL80MbS7MlpChg",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/Ly6guRUHegzu6GW5X54-sA/Ong2NWWVtMuzCy57h1tqq1Wvn3S7u0twjnCWZlEuvyhFwhiOxlLmoQNiyTk1FEp-1EaIjnbZrCoP-WYDmL-2Dq0SR8XwDcAtwI0nFfyNQjt1kDXDPITOFO6lEOQXt6Rn6dlAIAuFWPo1AOYtzkzrUDI70w5yanbOVX7nu4L127LzDc7J7Nqpytlk9-SkH_r6/mptmqSE8i8Pyr8crhe9zFuo9oHCaI0-FdOw1OO5QrZU",
+            "filename": "Andrew Ivimey and Tracy Hamilton.png",
+            "size": 810547,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/jM2JdI0zobIwDcBukwOHGg/3n5Sr1RA0XJJhTHdOVuRmY10LSKLQLw4V9ZPpkVMSWAJmasWV4Zj1x-PJ4Iyc2JZJbCvulnqNnheDbKPmixrNuHdrRxm4w49WPKEWrm_VxRS37LaghG9id2Lp3cy4Z1F3fBYGbeNMtgr7HMvYtCR1g/ieyfvRzQkMSl5JPD4FrGCE3varBDYBriQHF8qur-7Mg",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/vL44QN_GmTl8nSvtIcxzXw/xLblVnVmx7Eu0qwn8cwbZJQtHGPq0HsXvZJDZJnxLjRXk3SKFgNRBTPx2rhOGD-Q2rxAZOW_CFWlyCIM3BQXsjqrfuLRX2Y91FhPDso3NzWxawhpBBW3AcEO0Weh6oNmzPikwPpQS8PUsOY7ura2vA/wh31uqDyW8QEI1rIiBdfYxW0xB_DxH7jFsMgRkFOa1k",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/Qxos7mrqNBR_83pqSyPimg/9eC8IhMycjZeVK6YBG7d5BEiVHDr07BLio5wGnyQDajmMAYXASC5nFTd_e-GpLYcYT1n87p7rNdkEOdPc3wQPfYKKwcEOTLzktbZ6jregwX3eGAY8NiYHq6dYirxecAYpVd_k88lP-mIUL2xZWWyxQ/6cP5dx6LJiPiUsBX0XvhWm3mGJTJ8QQ0QWfw9ZvBVJY",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/dude-this-one-time-comedy-tour-live-in-victoria-dustin-searcy-ryan-wallace/UN78AW",
+        "Date": "2026-09-11T02:00:00.000Z",
+        "Type": [
+          "Variety / Other"
         ]
       }
     },
@@ -952,7 +995,7 @@
       "createdTime": "2026-08-25T01:19:37.000Z",
       "fields": {
         "Show": "The OK DOPE Last Show at The Mint",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Active",
         "Show Graphic": [
@@ -1124,7 +1167,7 @@
       "createdTime": "2026-08-25T06:11:16.000Z",
       "fields": {
         "Show": "Couples Clownselling: Victoria #2",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Couples Clownselling",
         "Status": "Active",
         "Show Graphic": [
@@ -1210,7 +1253,7 @@
       "createdTime": "2026-08-06T04:32:13.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1335,6 +1378,49 @@
       }
     },
     {
+      "id": "recrN9fSOertSf0GC",
+      "createdTime": "2026-08-25T06:42:03.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/oZ0Yc-M4m_lsFxv5ROc4Jg/Aez5NVSFXviq8H9XdDs8c6EiaMmtkzpc-WH-59o4LePKTuizE7V_dEALoRqc2YMkmeqMSgqIeUx4d8hKRfZbMQhjCTATk0sY_B_bwVOEPmd6M8ubTd1tUkkUYmE6z4179ZfAQZqia8XxHINbWI3qbFb_byKoHjTEJvp1cF1bx4A/HWyUxC9vhJcr_cZfoNvOx13KVrnzJZj7H6Cvw9d1dBk",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/5DeG5EaLXBfnfeD71NErow/T1ty-e2L8DdHBDo417HRfUP8BaDMotkzJKZyPC5jKYteCYLjmnByQ1a8tk9eMCnGGHeMNIEaUiZ6M57RxIhIeaPJVaz8BTTXmgfZyGpX-5VyRMW9xvjJwwy_IJiP0SaJJZNaShqfVOwUxltZCiXi7w/6rheucM_KG7gDb5nlWSxt5Aco7r43WK6dOC8kz8tDDU",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/9KDUKD5-39J6T0WR-GN0yw/eP5z5dPgZPunq0217cRwhtn6W_UaLHGHN9jAvFt32OHnYgcD4TlIrvK6s9Rb-KqiM-SA6xOcOgEz-TdC4q9y0BN5tDEtyKEwBxSpZdt0jUiekEUEqF4SwVp82fY5ozZxTm8gseAsNxCFlQdeumBnLg/W6qS918hla5FP5zQyoFNeYlXIzMJRUW7SZRuHdPGvRI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/PgbED06nr3LenJA6NXg5WA/nAOeVdq2CXhUcXEXeu5XRS1taoNcAe1gLSm_hqH_N-nqZiyy30MUr6_MfcZJE7eckY72gk3AjZhKS77AC0RFkcvm3-C7UTkvyeXIoG8HpztqStSrdUbVJ84-U58d-MKBAvxEWA1V8_-R7YPrxec6_A/Upc_aXAUGKePJYkHe38lTjUtQJdV99UV6EMyq4jNi5w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-09-24T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "recYBKSvyWAcBkCuy",
       "createdTime": "2026-08-06T04:41:03.000Z",
       "fields": {
@@ -1425,7 +1511,7 @@
       "createdTime": "2026-08-06T04:32:23.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1507,6 +1593,49 @@
       }
     },
     {
+      "id": "recE02DrwhJsWGMzL",
+      "createdTime": "2026-08-25T06:42:16.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/oZ0Yc-M4m_lsFxv5ROc4Jg/Aez5NVSFXviq8H9XdDs8c6EiaMmtkzpc-WH-59o4LePKTuizE7V_dEALoRqc2YMkmeqMSgqIeUx4d8hKRfZbMQhjCTATk0sY_B_bwVOEPmd6M8ubTd1tUkkUYmE6z4179ZfAQZqia8XxHINbWI3qbFb_byKoHjTEJvp1cF1bx4A/HWyUxC9vhJcr_cZfoNvOx13KVrnzJZj7H6Cvw9d1dBk",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/5DeG5EaLXBfnfeD71NErow/T1ty-e2L8DdHBDo417HRfUP8BaDMotkzJKZyPC5jKYteCYLjmnByQ1a8tk9eMCnGGHeMNIEaUiZ6M57RxIhIeaPJVaz8BTTXmgfZyGpX-5VyRMW9xvjJwwy_IJiP0SaJJZNaShqfVOwUxltZCiXi7w/6rheucM_KG7gDb5nlWSxt5Aco7r43WK6dOC8kz8tDDU",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/9KDUKD5-39J6T0WR-GN0yw/eP5z5dPgZPunq0217cRwhtn6W_UaLHGHN9jAvFt32OHnYgcD4TlIrvK6s9Rb-KqiM-SA6xOcOgEz-TdC4q9y0BN5tDEtyKEwBxSpZdt0jUiekEUEqF4SwVp82fY5ozZxTm8gseAsNxCFlQdeumBnLg/W6qS918hla5FP5zQyoFNeYlXIzMJRUW7SZRuHdPGvRI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/PgbED06nr3LenJA6NXg5WA/nAOeVdq2CXhUcXEXeu5XRS1taoNcAe1gLSm_hqH_N-nqZiyy30MUr6_MfcZJE7eckY72gk3AjZhKS77AC0RFkcvm3-C7UTkvyeXIoG8HpztqStSrdUbVJ84-U58d-MKBAvxEWA1V8_-R7YPrxec6_A/Upc_aXAUGKePJYkHe38lTjUtQJdV99UV6EMyq4jNi5w",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-10-01T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "rec9NowbOxpOiPzm4",
       "createdTime": "2026-08-06T04:59:43.000Z",
       "fields": {
@@ -1554,7 +1683,7 @@
       "createdTime": "2026-08-06T04:32:31.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1640,7 +1769,7 @@
       "createdTime": "2026-06-02T01:03:17.000Z",
       "fields": {
         "Show": "Ashwyn Singh: Live in Victoria",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "The Mint",
         "Status": "Active",
         "Show Graphic": [
@@ -1683,7 +1812,7 @@
       "createdTime": "2026-06-02T01:04:54.000Z",
       "fields": {
         "Show": "Ashwyn Singh: Live in Victoria",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "The Mint",
         "Status": "Active",
         "Show Graphic": [
@@ -1726,7 +1855,7 @@
       "createdTime": "2026-08-06T04:32:46.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1898,7 +2027,7 @@
       "createdTime": "2026-08-06T04:33:00.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1984,7 +2113,7 @@
       "createdTime": "2026-08-06T04:33:07.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -2199,7 +2328,7 @@
       "createdTime": "2026-08-06T04:33:23.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -2285,7 +2414,7 @@
       "createdTime": "2026-08-06T04:33:42.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -2367,11 +2496,54 @@
       }
     },
     {
+      "id": "rectuqsWpbrYa0pO8",
+      "createdTime": "2026-08-25T06:27:33.000Z",
+      "fields": {
+        "Show": "Hershawn Arora: The Short King Comedy Tour",
+        "Venue": "The Mint Restaurant",
+        "Producer": "The Mint",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att6052GT1YFrrvXI",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/7AwN67AaM9mfZ6UkxkzxjA/OFgSbwZnGfriMLqwl9s4j9F1GJ3niR894pDL8YIXFSTIyH8kgesYBYxFYeU05ujuOq3TfhYSuQedx60ekA7RnB2Cl0NrD_M1Ow-u56XAlYnnWmizXhxk7A1d9E7MBuA3tcfYgyD3J0W8c9qqcujNCae3nr87dxu4xaVVbWnCF5U/-hEegd8Wtk2u1ZAXscWZd3RgygAC9r1rxpdSPOI5PvY",
+            "filename": "Hershawn Arora.png",
+            "size": 964388,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/T5wsAyVR6qw1qX0S7hrlUA/P2OGPpos9zWZSn_gT3Sa9cVExySwGmuodcUA0m7hbSOALz7aFhNdpIMCb8tenY-NypisFSyCSehP7aC6NnNEAo7Cy6i5yJUorxEbgUPUwOtEFIbqyxS2_xUlhdfljDuQd0WDDfjjeGXeYAXVJrVRcA/awCAwlYjLrjjv5yMkQqAIto5-M2OLM170Qpf_mBYMyw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/MoMLaJXZNEzAfCA6B8-0Sg/zjBlFCUM4N_tzd7nndXXYkxHBWZPkU6SYfTNQvVVRANMnNhV5I0rWO9ZBA-rGGuqIUa3agJu1PpgyDtKIAegnn9AFoBiJNTvYjBdW_jcKYhu4C_acCKOoHpdaRZPlKOEcTilTEkyRlJz6wrf7vWGrQ/LGCEuwuqSG9H-a8y-ErS7772FqGU_MYcerEDhE2fYJE",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787652000000/pc9nUDwBjAOEUd_uZScqFQ/X0RDJC2MmxCqycyIR0uxodYWVVZaExAFNv1-En0vMs5uChP7HSqxfhfe84JXoKXas3B8jcJrW41NpJ2nav6MChHOB3kXHF146LhZSAuORygkRF_Z1Z3pCx4Me-aNC2pfq_-KGdL829A8Fvjc7Op9Og/8CRGOtxxanNbcadf92wnPaLEJ3qkJDs0DgXtssw2MzY",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/hershawn-arora-the-short-king-comedy-tour-live-in-victoria/C3SXJ9",
+        "Date": "2026-11-14T03:00:00.000Z",
+        "Type": [
+          "Variety / Other"
+        ]
+      }
+    },
+    {
       "id": "recBD9AXL4viJy71U",
       "createdTime": "2026-08-06T04:33:51.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -2500,7 +2672,7 @@
       "createdTime": "2026-08-06T04:34:03.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -2586,7 +2758,7 @@
       "createdTime": "2026-08-06T04:34:12.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -2724,7 +2896,7 @@
       "createdTime": "2026-05-12T00:42:52.000Z",
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -2853,8 +3025,8 @@
       "createdTime": "2026-05-11T23:54:57.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Nights",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -2896,7 +3068,7 @@
       "createdTime": "2026-05-12T00:46:21.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -3025,8 +3197,7 @@
       "createdTime": "2026-05-11T23:54:32.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -3154,7 +3325,7 @@
       "createdTime": "2026-05-12T00:43:38.000Z",
       "fields": {
         "Show": "OK DOPE Presents: The Crowd Work Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -3413,8 +3584,8 @@
       "createdTime": "2026-05-11T23:54:13.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -3499,7 +3670,7 @@
       "createdTime": "2026-05-12T00:46:42.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -3757,8 +3928,8 @@
       "createdTime": "2026-05-11T23:53:52.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -3800,7 +3971,7 @@
       "createdTime": "2026-05-12T01:39:45.000Z",
       "fields": {
         "Show": "OK DOPE Game Show: An Improv Game Show Show!",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -4015,8 +4186,8 @@
       "createdTime": "2026-05-11T23:53:36.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -4101,7 +4272,7 @@
       "createdTime": "2026-05-12T01:45:25.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -4187,7 +4358,7 @@
       "createdTime": "2026-05-12T01:45:48.000Z",
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -4316,8 +4487,8 @@
       "createdTime": "2026-05-11T23:53:18.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -4402,7 +4573,7 @@
       "createdTime": "2026-05-12T01:46:14.000Z",
       "fields": {
         "Show": "OK DOPE Presents: The Crowd Work Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -4489,7 +4660,7 @@
       "createdTime": "2026-05-12T01:46:38.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Bonus Saturday ft Dylan Williams",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -4575,7 +4746,7 @@
       "createdTime": "2026-05-11T22:03:06.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -4747,8 +4918,8 @@
       "createdTime": "2026-05-11T23:52:49.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -4833,7 +5004,7 @@
       "createdTime": "2026-05-12T01:48:13.000Z",
       "fields": {
         "Show": "OK DOPE Game Show: An Improv Game Show Show!",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -5048,7 +5219,7 @@
       "createdTime": "2026-05-11T22:17:49.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5134,7 +5305,7 @@
       "createdTime": "2026-05-12T00:50:41.000Z",
       "fields": {
         "Show": "OK, DOPE Improv Student Showcase",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -5220,8 +5391,8 @@
       "createdTime": "2026-05-11T23:52:33.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -5349,7 +5520,7 @@
       "createdTime": "2026-05-12T01:48:50.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -5521,7 +5692,7 @@
       "createdTime": "2026-05-11T23:26:28.000Z",
       "fields": {
         "Show": "Live Comedy at The Mint ft Ryan Lachance",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5564,7 +5735,7 @@
       "createdTime": "2026-05-11T22:18:00.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5650,8 +5821,8 @@
       "createdTime": "2026-05-11T23:52:14.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -5736,7 +5907,7 @@
       "createdTime": "2026-05-12T01:49:30.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -5951,7 +6122,7 @@
       "createdTime": "2026-05-11T22:18:02.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6037,8 +6208,8 @@
       "createdTime": "2026-05-11T23:52:01.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -6166,7 +6337,7 @@
       "createdTime": "2026-05-12T01:49:55.000Z",
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -6295,7 +6466,7 @@
       "createdTime": "2026-05-11T22:18:09.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6381,8 +6552,8 @@
       "createdTime": "2026-05-11T23:51:03.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -6424,7 +6595,7 @@
       "createdTime": "2026-05-12T01:50:34.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -6510,7 +6681,7 @@
       "createdTime": "2026-05-11T22:18:15.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6639,8 +6810,8 @@
       "createdTime": "2026-05-11T23:50:45.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -6725,7 +6896,7 @@
       "createdTime": "2026-05-12T01:51:02.000Z",
       "fields": {
         "Show": "OK DOPE Presents: The Crowd Work Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -6898,7 +7069,7 @@
       "createdTime": "2026-05-11T22:18:41.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7070,8 +7241,8 @@
       "createdTime": "2026-05-11T23:47:38.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -7113,7 +7284,7 @@
       "createdTime": "2026-05-12T00:49:07.000Z",
       "fields": {
         "Show": "OK, DOPE Improv: A Very Funny Improv Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -7242,7 +7413,7 @@
       "createdTime": "2026-05-12T01:51:33.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -7285,7 +7456,7 @@
       "createdTime": "2026-04-06T03:05:21.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7371,8 +7542,8 @@
       "createdTime": "2026-04-06T03:51:29.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -7414,7 +7585,7 @@
       "createdTime": "2026-04-05T09:30:20.000Z",
       "fields": {
         "Show": "Keith Sonic Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
@@ -7587,7 +7758,7 @@
       "createdTime": "2026-04-05T09:20:16.000Z",
       "fields": {
         "Show": "The Crowd Work Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -7846,7 +8017,7 @@
       "createdTime": "2026-04-06T03:07:49.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7975,8 +8146,8 @@
       "createdTime": "2026-04-06T03:59:18.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -8147,7 +8318,7 @@
       "createdTime": "2026-04-05T09:49:17.000Z",
       "fields": {
         "Show": "OK DOPE: Entertainment Village",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -8276,7 +8447,7 @@
       "createdTime": "2026-04-05T10:17:01.000Z",
       "fields": {
         "Show": "OK, DOPE: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -8362,7 +8533,7 @@
       "createdTime": "2026-04-27T16:18:48.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8448,7 +8619,7 @@
       "createdTime": "2026-04-06T06:17:44.000Z",
       "fields": {
         "Show": "Judge My Jokes",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8534,8 +8705,8 @@
       "createdTime": "2026-04-06T03:59:20.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -8620,7 +8791,7 @@
       "createdTime": "2026-04-06T06:19:28.000Z",
       "fields": {
         "Show": "Comedy Roast Battle",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8706,7 +8877,7 @@
       "createdTime": "2026-04-05T09:49:53.000Z",
       "fields": {
         "Show": "OK DOPE Game Show!",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -9050,7 +9221,7 @@
       "createdTime": "2026-04-06T03:08:07.000Z",
       "fields": {
         "Show": "Shop Talk Comedy GONG SHOW",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9179,8 +9350,8 @@
       "createdTime": "2026-04-06T03:59:21.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -9394,7 +9565,7 @@
       "createdTime": "2026-04-27T16:16:01.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Girls NIght",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -9566,7 +9737,7 @@
       "createdTime": "2026-04-27T23:20:13.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9652,8 +9823,8 @@
       "createdTime": "2026-05-05T02:38:08.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -9996,7 +10167,7 @@
       "createdTime": "2026-04-27T16:12:05.000Z",
       "fields": {
         "Show": "Couples Clownselling [EARLY AND LATE SHOW]",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Couples Clownselling",
         "Status": "Archived",
         "Show Graphic": [
@@ -10211,7 +10382,7 @@
       "createdTime": "2026-05-05T02:51:20.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10297,8 +10468,8 @@
       "createdTime": "2026-05-11T16:25:13.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -10383,7 +10554,7 @@
       "createdTime": "2026-05-11T18:36:25.000Z",
       "fields": {
         "Show": "Rock and Roll Inferno 3",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Gulabi Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -10555,7 +10726,7 @@
       "createdTime": "2026-05-05T02:49:43.000Z",
       "fields": {
         "Show": "OK DOPE: Entertainment Village",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -10813,7 +10984,7 @@
       "createdTime": "2026-05-11T16:06:31.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10899,7 +11070,7 @@
       "createdTime": "2026-05-16T11:40:12.000Z",
       "fields": {
         "Show": "Sunee Dhaliwal & Sterling Scott",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Sunee Dhaliwal and Sterling Scott",
         "Status": "Archived",
         "Show Graphic": [
@@ -10942,8 +11113,8 @@
       "createdTime": "2026-05-11T16:27:52.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -11286,7 +11457,7 @@
       "createdTime": "2026-05-12T03:49:20.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11329,7 +11500,7 @@
       "createdTime": "2026-05-16T11:44:46.000Z",
       "fields": {
         "Show": "The Clam Bake",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11458,7 +11629,7 @@
       "createdTime": "2026-05-16T11:45:47.000Z",
       "fields": {
         "Show": "Sloppy Seconds After",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11544,8 +11715,8 @@
       "createdTime": "2026-05-11T16:28:06.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -11802,7 +11973,7 @@
       "createdTime": "2026-05-12T01:57:35.000Z",
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -11888,7 +12059,7 @@
       "createdTime": "2026-05-12T03:49:38.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12017,8 +12188,8 @@
       "createdTime": "2026-05-11T16:28:14.000Z",
       "fields": {
         "Show": "Phillips Comedy Night",
-        "Venue": "The Mint",
-        "Producer": "Drew Farrance and Morgan Cranny",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -12103,7 +12274,7 @@
       "createdTime": "2026-06-01T20:22:55.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village ft Dan Duvall",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -12232,7 +12403,7 @@
       "createdTime": "2026-06-01T20:23:56.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -12361,7 +12532,7 @@
       "createdTime": "2026-05-12T03:49:59.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12447,7 +12618,7 @@
       "createdTime": "2026-06-01T21:48:01.000Z",
       "fields": {
         "Show": "Comedy Interrogation",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy and Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
@@ -12662,7 +12833,7 @@
       "createdTime": "2026-06-08T23:05:36.000Z",
       "fields": {
         "Show": "OK DOPE: Stand Up at the Mint Ft James Boyle",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -12877,7 +13048,7 @@
       "createdTime": "2026-05-12T03:50:16.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13135,7 +13306,7 @@
       "createdTime": "2026-06-02T00:59:20.000Z",
       "fields": {
         "Show": "Kansei Yasuda: \"Respect\"",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "The Mint",
         "Status": "Archived",
         "Show Graphic": [
@@ -13350,7 +13521,7 @@
       "createdTime": "2026-06-02T01:01:27.000Z",
       "fields": {
         "Show": "Go Ask Your Mom - A Father's Day Comedy Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13393,7 +13564,7 @@
       "createdTime": "2026-05-12T03:50:29.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13479,7 +13650,7 @@
       "createdTime": "2026-06-01T21:49:07.000Z",
       "fields": {
         "Show": "Buzzer Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy and Keith Sonic Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -13780,7 +13951,7 @@
       "createdTime": "2026-06-23T01:07:25.000Z",
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -13909,7 +14080,7 @@
       "createdTime": "2026-06-23T01:08:04.000Z",
       "fields": {
         "Show": "OK DOPE Presents: The Crowd Work Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -13996,7 +14167,7 @@
       "createdTime": "2026-05-12T03:50:39.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14168,7 +14339,7 @@
       "createdTime": "2026-05-12T03:50:49.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14254,7 +14425,7 @@
       "createdTime": "2026-07-02T18:52:30.000Z",
       "fields": {
         "Show": "Comedy Interrogation",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy & KeithSonic",
         "Status": "Archived",
         "Show Graphic": [
@@ -14383,7 +14554,7 @@
       "createdTime": "2026-07-07T01:00:52.000Z",
       "fields": {
         "Show": "OK DOPE: Entertainment Village ft Shane Priestley",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -14684,7 +14855,7 @@
       "createdTime": "2026-06-02T06:05:26.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14856,7 +15027,7 @@
       "createdTime": "2026-07-07T01:01:46.000Z",
       "fields": {
         "Show": "OK DOPE: The Crowd Work Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -14986,7 +15157,7 @@
       "createdTime": "2026-07-07T01:00:06.000Z",
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -15072,7 +15243,7 @@
       "createdTime": "2026-06-02T06:05:45.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15201,7 +15372,7 @@
       "createdTime": "2026-06-01T21:49:17.000Z",
       "fields": {
         "Show": "Judge My Jokes",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15416,7 +15587,7 @@
       "createdTime": "2026-06-02T06:05:57.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15631,7 +15802,7 @@
       "createdTime": "2026-07-21T04:27:08.000Z",
       "fields": {
         "Show": "OK DOPE: Improv Wars",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -15803,7 +15974,7 @@
       "createdTime": "2026-07-21T04:25:55.000Z",
       "fields": {
         "Show": "OK, DOPE: Blind Dates Live ",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -15932,7 +16103,7 @@
       "createdTime": "2026-07-28T03:13:51.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16104,7 +16275,7 @@
       "createdTime": "2026-07-21T04:25:00.000Z",
       "fields": {
         "Show": "OK DOPE: The Crowd Work Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -16277,7 +16448,7 @@
       "createdTime": "2026-08-06T04:36:01.000Z",
       "fields": {
         "Show": "OK DOPE: Another F&*KING Stand Up Show",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -16406,7 +16577,7 @@
       "createdTime": "2026-07-28T03:13:53.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16535,7 +16706,7 @@
       "createdTime": "2026-07-07T01:11:18.000Z",
       "fields": {
         "Show": "Comedy Roast Battle",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16750,7 +16921,7 @@
       "createdTime": "2026-08-11T00:36:43.000Z",
       "fields": {
         "Show": "OK DOPE: Entertainment Village ft Max Bank-Jaffee",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -17137,7 +17308,7 @@
       "createdTime": "2026-08-11T00:35:27.000Z",
       "fields": {
         "Show": "OK, DOPE: Blind Dates Live",
-        "Venue": "The Mint",
+        "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
