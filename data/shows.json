@@ -1,307 +1,6 @@
 {
-  "fetchedAt": "2026-08-25T00:30:14.856Z",
+  "fetchedAt": "2026-08-25T01:26:17.741Z",
   "current": [
-    {
-      "id": "recNJBhuZ7WoawV35",
-      "createdTime": "2026-07-28T03:12:27.000Z",
-      "fields": {
-        "Show": "Phoenix Comedy Open Mic",
-        "Venue": "Phoenix Bar and Grill",
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attCRpvWKbD8xXaQX",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/liB1_jGOHEhogy-44M2ySA/Y80L888a0kEQlX6MAKhR20JmQXPYyGtxOKqJuSaUZ4j6vCG8wow6qc5c3rVD7w05fhHpe-cxywjRUMKkHBnKPh5rcLmTF7EuOutA37T7i8ltdW4EkMc2mYUhMbHFZVAVjtcnW5g5Djumbq_WxIdV7yUFe7XdBHnrNLXj25qko-E/hIEbTwf4fEEUcUo8_0o0VUvzaMFWskQcHeHS4_E4GYc",
-            "filename": "Phoenix Open Mic - aug 18.png",
-            "size": 1335017,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/PDelsPTmS-gF_Js9I4M_FA/K6UMVHgGWtijv-wl3dRrPVRHpD045_Ob_CSJfbhOHxEqGZG8YqXCOfo6pJhjdOiqUDKR-c17B9_LFdvwp1yz-CRBghiTkCun6o1318Rsqb8_Z1YQTwrtbaHQ22Lva7cDnh5SkPrhzDRUTCQUzTnX8A/RGxRvNZkkzV6ry36ApsXZ8Zq65cbCf_3P1Slsoa-GQQ",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/zF-lOhRwZt_ukJY67R2Z5A/ZmMFkONnDdLTr3IWlWRZVE4mkdpPLSwVud9UoC3-XIHIi0SkwRZ5GmkQjecPCNTNkHLMZSP7O6S1MnnmWfWazGffeQuT9B-zMZTE4wK0wtaF-qQHR9P5LQgcFPfgCS5DVNyGjEWVY7QadUNvL_riRQ/R8BxqCrDzI6tkfoZAKdClDg1V_gc8jLpySRwr4_oo4A",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/2cWzCOi_Zf3HX05lIkccNw/Wg40r-3fiZz3BRsattoeVHm93V9HaLFzAEHgk9YbYb-ywv6edwLsTnRCfe5tMcbcc8DSCyZJoeBamoHjKrZv7LG-sUpe0pDmNc0wjX31REor1c1ToDaqVATAmtI3QCtDfbSR30Tc2kNxZdo6CGTRZQ/QHaMr6OBdBlKHqjvgzT7Ro2MeF1wTyDfwP1DIQKioSQ",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-08-19T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "recSXnjRnZTDNtGSv",
-      "createdTime": "2026-08-06T04:44:53.000Z",
-      "fields": {
-        "Show": "Artemis Comedy Night",
-        "Venue": "Artemis Whiskey Bar",
-        "Producer": "Artemis Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att9ZWNSGhVLI3rcN",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/KfiKyc-aBJG_329H8BmXKQ/Q4ycFwuJEyHdPiR8p9oWIh2tkj1tY_47ZHYQz25j6FNCEWqSDGjwIY0og0tLDnUNMufvQ29hDoBU65PKWfaEHbsyjf9fT6GIDNOKyEMFtdo9z_BsjEKmLc8ojeloqQcjkXkfy2cNTKtlevZP-olYXcnuK8oPwCG7eNE3hDbPKx0/E3SFr6jZByO58fxJCTPPVj9wCRkKXLRk6Z3hjA3vkdk",
-            "filename": "Artemis Comedy Show.png",
-            "size": 1000247,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/iWa8i9FEwB6MOWwgGXun-g/Gmoulk4uAeyWbDan7IVZPCpBHxShgNBdlDepIbkqrP2pONHBG9pNXBPm7vj1dxh0UWz0__rZgDkv7Tl3M9_mLRoYqA1Kfps8QNMW6txE0mgA5ri88Jw8GF05-iJIGMOAMInvbzpe2dnCf03D4E9tdA/-8QdZPVoNuUEhiStLQRDPcMwM8DIe_NUpbxAak-huu0",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/cmyhBjZsVwoLlLX3QDRreA/1ItzSIJ77Xe1DkDMitXTblz8BdlZyWhIYIpGmomTV8hj1GxEQaC8amYuf1Ja00JfU2UBTRKroVxmXKztWIK8Ggv8bqZ3EFWicdiystQ-ZztDBZS5Rdc__5G4RSMEJo-163gVY-BnraLcLoH6TmJ_3g/q7YmCHelDvi-GzZFPmmdgSfj9kSyyuW25BExAj8xs7w",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/eu1UHTv6uBWA7KB9TkBObw/igCGiOQdusQbdKikKC5zP5s84brTYKq-_kVFgKZpbsTGPj7PllLSx1YVmZzR934YSGWdG4vzpxadQATA93A-se8l9e0_yJttdpL-J6SjdiCOuGH85pfFwiE7dlQP9ZKZwwpQ9ARoR4sHlScITwM8Pw/V24kyi05YygTDX7reEfH4dYwyNepAx0srfvuz9f1ZtY",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/artemis-comedy-night-the-spice",
-        "Date": "2026-08-21T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recfQZyiiViVmesHg",
-      "createdTime": "2026-08-18T01:03:00.000Z",
-      "fields": {
-        "Show": "Sauvage Comedy Night",
-        "Venue": "Ile Sauvage Brewing",
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att2GwAJwnYr3ZUhR",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/1LyiWzsbpaqb27OeJ2Zhdw/GIVRHRN9IjyCZYIXbBLB9GCguYNbL-wZwUcLpFCEoIzftY-y-fl4uTpVGa35oqzWEIQ94MlFNxXe5lYOjqlus1nPsu_lh79hrCWj2o9yi0anshmqnbTfUsTgcadgtgqpbugTeNrO4jJ50ObniUw5yzcLFDj6QFuuHT9GQJiJXIQ/f3pgTti2fBSppzmAOEvIzqQ6sgarOdCa51T_iy9BuZk",
-            "filename": "Sauvage Comedy Aug 20.png",
-            "size": 1509007,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/iFGqQZkohhoSrGRQRfh2fw/E53lu6K_8pgbl_7ZOzGXOBeABo2FKTphBeLXhX0_zoSKqty3vbrbebphGxzVzHcNHJeLMxxkxOpV6iI3VyoDwy8XsHx5gBW6oQeHE2JxdbYY-ph19kXZ4FRoDnZOaczUzj19gCp8p50HHDLtPdKIVA/hh5mQQg6O6-S58Cbsk7GShCRzSUXOmtFqQ370KFpxb8",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/tHw7qygDp4B2GmiR5OGBDw/pVSTz3KCR61jw-cwGMXNOBenU_TMSkb2ZTEq9HwW3QIfT1hu1HKneaSZM0DbvF91UoBMW5_eixYC2l6541UmQ1ofcDLfeLOpHNSbe-28eb6PzNq9AzakUc2HhVwtiqqM_hz2Yra9Cps7dXci-YtoMg/6Cv3Qdr4WHt7OioDK3A3XaZV-tGKBzoh4rD9gWT8Lio",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/Du4QsnD0DIcAvK1zh9nuOA/LNpJMeB_k1XHyRqvLTKQ-vSfHlmjHSVUbGSfKLaQX5bLPas2x8Td852FFqOgsRMYs6paSm3C83PkeMAxq_-vi5K3uEWlV3MTY2xhrTnanLizh-F8fusxSY3BwUFkMKsGM_BbFyp8vBiZVAgac25PoA/MC4lo51jwrvlN9hhBmuL_DmlzlniD_FqDsgpW1bBq34",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/sauvage-comedy-night-aug-20th",
-        "Date": "2026-08-21T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recZkLtudN0f99HsO",
-      "createdTime": "2026-08-03T22:00:37.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Harold Night",
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attiMCRuib2Az4kms",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/uVFRkXzIcZ3494hroEXpLw/9LqJExRhX0gNamGRyyfHmk9oLbwuTvG8vw5rGE6kF7ywsA9J198H0_jfUl1LtrRA3_oW37zT6pNBIfXbX3gOWCTcs0XX2lT4M1ZUFgKRRFdr9s5Wt7S9Iugzr_F6dMquT4bDKHbxFTiULuQyE-YPz1lbHMhydNSo0MF9-EVbqyA/Cn8laHnyi5q7FzTb7CQT95VWAzuLGCF5JDtLT3LmEmw",
-            "filename": "harold night.png",
-            "size": 629484,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/3djslq1D75cTYODQWvmDxA/_5b5fwG_-N2bHjTDoNi5IqHy_nhpuIUC0NvA1Xa7AgjI1zLyWEOJpTg8PtGWgQMwJCdrNE-RfrtBWTOmkDYmKerIF_XpHA6Ie63grh77eQ8BqepWCPEFZAhxInwuscv1oTaxktmPR15JYwXv3stDdg/KzCCFA2prq7kgUC3crpQ5WfylxuVt7QFCYCudWwuCkw",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/6c0Hz1uotDYAxJV9-DipPg/vQHzMHlccbiJVqh6tXGBomucilN3eg9k-qcLwyprsENIYIEpJFaSKdVhAiAqz7aITEKtgrJsIxW01mT74k-gT79hHXmmIiL_ymGTvtt1isCMmuUP-auv2UeIq6AG9Mmi7XH5oAww-JQFHodcR8sb5Q/vSBYA2KlJbgBhqv3zPJmcVHVzTOoln-_UWB4vgjWFAI",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/qwgicqR_TF2IfWc2nZvVhg/dG1UdglgtHfD41BwGqBVs2KYplXAOssT7pxtRmshxIhtBKKYnW86a7Z0G9vxySrQmo8Qs9GqN6nbwVZtc2L-G2QorIMG42lYTxjjMGsrVS4K2COqgkR3ABRlTopJSC7Y0PJt30ZjjPmSpuEsL31I_g/yg3HM4uP7mc66akr97xv0f9C-LMB8R_oMY2wrSw94DY",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-aug20",
-        "Date": "2026-08-21T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recGcqWcD5ahTroiS",
-      "createdTime": "2026-08-11T00:35:27.000Z",
-      "fields": {
-        "Show": "OK, DOPE: Blind Dates Live",
-        "Venue": "The Mint",
-        "Producer": "OK, DOPE",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attDUN6i86TCSK5Tg",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/OM--9_hR_kvROKNLWhfS4w/82dBe6xLSOdbN0OFdlsUZnRZNFjNCqkaU4u5L45-B2giu-_FMyzVwx5KR531EU0lzshx-43AFBlJoFFM04WgQLaqFWOISKCpk1x8OwLacre1a2oHC79JtVOy3PKZIC04x46RNzKc_W22hP9rjWAWhAJurw7l6pq_6u7GabsO0I0/PPCkyhbqiMM8_cVI5kKMiIkqHibHSFw6OkIsz5YR-0E",
-            "filename": "Blind Dates Live.png",
-            "size": 1000525,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/ditDH5I0hNCqqBwJHOsZCw/mqk7m0abV6DFDGe_87LY61b8lBBUvsTdozv9sm-37PYl069Nvj_G978qJgMT8257iD5yec7Yd2wD-sJ9apv7n-lEdc2gevhXkNKmexyUS27-UaaRMuCml4fF7qj_Zo3s8rrt48GkJ9KDAEG9D8-pdA/13ZrStT89QWuyBMSdeCjkm8B08tm9lkZwAmW4v6ovuE",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/FqxIw-bDgNZ5bw3hcAn-7g/UYXScwuZe1J2AV_h-d2Ga-28ex344lHJ-CWpmRS4o7wRg7jyckdSzXyCFxXX21WWq6B78YX49y3dAkMLZ710Dha_ICh9FJ9191TLknGshqwht-Hrf3EoX2zpAAP4lh7LRRzZS0j31SwiUXqkAhtIUw/DkBE5PqleWk-6ar4MQARKD3hVkuXM8u1_mm1OCduzsg",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/bkTcXUHBRnjpHSvLa12pnA/wmsEVWaKRrvElBJEKc-9IRtfDvEri9D9cebtqB_NXvtSDmA1bzhiCU7VOE63PdRIDMSKM5ykIx11YTgPYyMb1ppOWm6ETyDIe0I7OujvVCPOKrORetnu6iyU6jhlhdyD1QbbhFiPvaUjLFXxHRDB8w/6upH2Q84Yl1aUnQuffETUVqZ6FfURF7FEwGAhByQoC0",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/blind-dates-live-with-alex-forman?variant_id=variant_019fd50f-cb07-796d-91e1-1a5aeb2d85ec",
-        "Date": "2026-08-22T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recwDO2VBK7ZSC6Xh",
-      "createdTime": "2026-05-11T20:33:19.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: Will Hannigan",
-        "Venue": "Hecklers Bar and Grill",
-        "Producer": "Hecklers",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attwTByGolkrIvH6y",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/ySltzswmV_71CFCUWIZaAg/owpRU9rysDLxIuxkHVnwgpxe_M-cwF7kKBg0KXITN8VoNYDXD-6wpOTfWdB-KhOTeA0XlbF0hRUktLUnH2GEzImK7rXr7YySRJRhd7y1OhccS3YH8mzaEVeMvzhoFCkU6xbp8htLj3xpiPIPhhsyNvjS3QVamsTD8ha0dnLxfb0/x6KUmoyB_IzTcY4WoGqbRGFyb-UWH4rf14GwS7yT0P0",
-            "filename": "august 22 - will hannigan.png",
-            "size": 843883,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/t77RMVOMH-WeKkrxQSjfhg/0aC2SdC_iUwiPzTdFfQD42bNxcHg1QsOAmSWpbskEdUUy-4jj1Mgmr67ABEWKJn_gNfl7f7i7UDuWVN7FJtgKv7HLHl98ofz0wyiauk-Zmi-ea1IT8vlUICsl-Dvs4EGnWAP6VWzglXRoehGTsYkQw/z3Ya9z-lo52tyPei2dJLd-UxZ-9AGzf1G0peDF3gcT8",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/pA2QABhiD-y0LoMqWGZDDw/wu_sChyPqS7v015lZvSPwlsCQ1YGXsUQov5CCqmbPAu-zlsTIS6eDLVVLSM5DBhvrHvuZ69r0pZmBngYwU2fIXu5yTO3bAOHv00nxh2C3VpZNCzmLI9PP0mbMVitwQs4-Ejs9OGquKQOKxQGPzTxRA/hOAhK78TWvj0n3jMJ8shkbRGfOQ28rHE-iJLAA8-Vdc",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/7laboMQXFn0tHywocK1-Tg/QC1W3LtJYqeJehhtMKn6_h_gjdiUpPB-janVZ3aNI36zp_zFTFMqi34MPmcT3fjC9QG1WZmFWpbc9YA-eac0o8Cj5HDEU5yFC0bmozFUxsedhiHQEL_4whTa_XiPxrelwsQDEIbxypGFxDZfvh5ykw/JE6FGrVklDy7Gqs6Of6y8l3GgQV6L3F8TFheVyl3FO4",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-will-hannigan",
-        "Date": "2026-08-23T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recaYIltKx0yNRYma",
-      "createdTime": "2026-07-28T03:20:54.000Z",
-      "fields": {
-        "Show": "Garden City Improv with Dan Bakkedahl, Becky Johnson, and Kevin Matviw",
-        "Venue": "Encore Victoria",
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attOtn6evW89ruq7Y",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/MHg4j-fbbvysTOhBXYb8YQ/FSGjST7PiDfGHbz-GvLvOeoRyRjMGNqrizIIepdRrB-9zZVC7_CcHDWUOW8-kCxYL3r3Oti2zHKDp1gOwUPM9LLEkapLkRBzsPfzCMlUMyckHIdvfKjvnLd05JBRfwGXXKNfUfUHUXrf4Fz9T3rJxdYdD4ut3nrALA7RYVeY8YLJpLY9NB2bN1n8Qnto9Q1g/CuKaBoNTJs8-gQXEYzLwSHRYEGOWhplrNTZQgMFeQ3k",
-            "filename": "Garden City Improv August 22.png",
-            "size": 650661,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/osuMw4Lqk4j37qP79bXE3Q/FiUNq34bRSIqxop6SU0m06A901Q2_QNlzrI0usnKzNYSBAIhZjGsocWEB2NU_Y4uckKe3IefMbdZHIvBw3jnPyo8xG7SLdWYEKfA1j18IgDK2vMaEWZ0jtAND6eB0RpY-3c806KgHdUjvNOjvhT5Tw/EN8V4tR-1nRDWlPS116WmZZANL65N0G9V4UmiBQA4PA",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/5ST1FMVudciB0b7iJuuzbA/Iu0LWn_9WK4F04PZuB-4oHYn-krZHzkePGU3YP7ztKL_t-SrcaD3x8hJr13srXUlji3vgEaWVZLpXOATISWofH2WMM-eWf-huQ5NVS62rjFgJOgnAyJCeGeKHtBnGOp6UgMM5TTYVjXHd3DQjYM-cw/hzNlT2MmCuQHfzTUtzAyqD9rUsRhbMOxQ2rAU_zuK6Q",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/XpnYQeHb-IHg7dmV83wfmQ/IZ33UW25ZohUP7EoelW8N_6TDIBLYzY5l0gAuDJGEEbTHDvo2rd2bewCnTPFaDYQnRIitv97-rZKqjNZE3pha2JEcmD67kugVikj_yrCQfNrmbzfTYGA3rKC8o2qldG-HbwcvDF_leIkjRCYR8IHZg/UaHHyq0KZTYq6mmq8sxkHcgeaTKBYKe6rhGLqiD1-vA",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/garden-city-improv-with-dan-bakkedahl-becky-johnson-and-kevin-matviw/SMBQ8Z",
-        "Date": "2026-08-23T03:00:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
     {
       "id": "recdbJY6yRUlHGn7T",
       "createdTime": "2026-07-28T03:13:24.000Z",
@@ -351,7 +50,7 @@
       "fields": {
         "Show": "Keith Sonic One Night Only",
         "Venue": "The Mint",
-        "Producer": "Keith Sonice",
+        "Producer": "Keith Sonic",
         "Status": "Active",
         "Show Graphic": [
           {
@@ -475,6 +174,49 @@
       }
     },
     {
+      "id": "recpNQp3PsJrS2WSD",
+      "createdTime": "2026-08-25T01:23:16.000Z",
+      "fields": {
+        "Show": "OK DOPE: The Crowd Work Show ",
+        "Venue": "The Mint",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attNJwE7WinlblLES",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/l63BmuiBQ0YTrccig82LZw/aCf-0FAzEY_QCU57xQVW4DCJi5Dddcc1vdPfJo4di3s2OoRcfXggeczo_tZPPgh0q1pSFuQBn1RQcjhLve9Y4D-SzlICjzRO-h_IfpJw-4DvEO11hLeQtUHYxLpg1ObYUsQqzKMWWhX1jQybwuxFrEAkN1VisLqe9ZeZkceFS6o/tgRi9m1glqVAA_EC8JPVAHUon8mbIO21TT8dcD72YEA",
+            "filename": "Crowd Work Show.png",
+            "size": 1169447,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/iAbDQhygcZOIWDdKIjxYtg/MJtGvvQpKMleRk_uDzM07-7cBWmruTkNzom28bDAKG5lNfKgr7s62pzE17dnypcSMWfbRADzpTe-bNVVYqdmhHbYsI3jZTI84_LPku4mrmY0CxJjhaOX8KinEqay17N3qyq4iLpCzy1D5y6sDBqsUg/WQ9mF-GxmOIYLw549mR3G7PeSK9VPklYxAiEHlScTgk",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/nLPnFtlEDfX4uRmCWVmoOg/MyFxXax9Qj1P150SBmFPZEmrCnwGx4JoR7ZWq-b22WkbESrpMXoCG5tkLoQgrNkwtRavtkmx_xKhOSVv3eYJJJZwuhlaWKhETezXgKYb2bBb_3OUi5ty_Zgv_QMK8I7v7ApgzZizxKMELw_ynWpSOA/WimCul7VYneqTLWef87XcW6jZW8FWUSFObHyaz3McGg",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/UMeyTrzWdp8LXxctOVwR_A/HQUSgT3ykSD8QzmXptpl2TH2rnlVWi_vE8nJU2VWiY_NQzb3ZWsx6qX-p2Ik39Rsp_NlWMu3FchswuMjzChYteW86LGoEnLYnN4G-BkYxFvQnieVbE5rOWF3H6TllrNL9M8fXDS9d5VH4xBSMni9ow/qAWag7t-O39R-ksQuiU8zU6DyQwk3YiCCkw4wODLJKQ",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/the-crowd-work-show-8",
+        "Date": "2026-08-29T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
       "id": "rectq8pZZQ43hH0qt",
       "createdTime": "2026-05-11T20:33:32.000Z",
       "fields": {
@@ -556,7 +298,7 @@
         "Ticket Link": "https://www.jumpcomedy.com/e/blind-dates-live-with-alex-forman?variant_id=variant_019fd50f-cb07-796d-91e1-1a5aeb2d85ec",
         "Date": "2026-08-30T03:00:00.000Z",
         "Type": [
-          "Variety / Other"
+          "Stand-up"
         ]
       }
     },
@@ -598,6 +340,49 @@
         ],
         "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
         "Date": "2026-09-02T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recZnGbwqjtQm2Hgd",
+      "createdTime": "2026-08-25T01:13:47.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/0i_Y8nHbadRHWJFU6KILkQ/N1tdCl4CdYwlUAC5KcV9-FlKnk_i8LCPwgxxxfXztEZdTTyFKoptmkHEPjwmlc4cNv2EQJX4l8pxF9lv4Zy3mVrD1OC44NtLavSwwGQjHWL5WUYCOx8gZdcQRv-IIxbtI-p--ledCruIEsql9e_xLe1aHThm4X6xZ-b6V5ylHww/PenoiiPQIjKqcHNdPSJyMynFoDOhrdxXjc6KuRVOMfk",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/HiTUeqY2SxUaQ0_4Vw0TAw/16WMm9n_ON5pIW6PzlFJDpJ-y_V8gunBTe_YzTaUZHIwTKzWOUS4yfN4jeGNrwj_nxeLDygeoV3My3htXsr3orOkGAB5Jp-qWv3WN58MM1TAsaHFK3iNWja9j94HQQZm5QbvS3W1Pc0T6zz-bFnMIA/nb4YQCKFSgfoIkHLWQFxEf-INY5Uf1LDzzOxxn05QxQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/a0heVjTIPJSvbphbfI1Psg/xQ2aKho7K_PLwJiwhdplVosjNmO2QYK2B_95ql1-Gpsu_rXnHOZZTPzUt6-ft3Dg5usAzP58C06Kawqn6ufIFbmbqzBnTSYS6miVvEyNi71cjsAE5yur4xAYaHxREn_9cEcwQysWF58TyL8E_dNmkw/TVb31ZUIvjiIL0shbZFSMNqLgmL-OxPRh2z5hOyOxN8",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/FGCMtFczFvZiqtz3iZBPvQ/UI32UiScUvBgaitY-GtcyWaC4wWnXfUpsEuJuPXj863XZmWhph5z4ZQrNDj1AlIC_VxBIh0T58NXM6nDNY9D99oh5a_xBjKoxWmzPxgYP7qt4qxfWsmZfI0xJrOhomdImg_S9BOKOTCd4s5lL0rsRQ/-xoSRxQEilg7QjGORiDqdrlQD_ltt5n_wcZrWvNM_1k",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-09-03T01:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
@@ -686,6 +471,49 @@
         "Date": "2026-09-04T03:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recZ0V9rBKrYryDwd",
+      "createdTime": "2026-08-25T01:18:37.000Z",
+      "fields": {
+        "Show": "OK DOPE Presents: Entertainment Village",
+        "Venue": "The Mint",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attsddnzX4lYYdTcT",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/eXf9PMjM3hZ1HeTBo1WxvQ/px-WTIZFuA2HYx9GRQTolfqTc8slug31elLwnkv4qz4x7H_EpIsxMBO4UYyiXgMdjwzSOdojbkS6wEESNozieF96t4XvCMsM3UwLptaLma8NlIf2PpA09U_1TFBzX7GTLd8G3LHtKu5racoogQYSfyqNcwvmfatQS5VB3uTYXh4/H38FtMf3JEKoYeD_bqfxTpj-8lmevua4a-V_d0w95D4",
+            "filename": "entertainment village.png",
+            "size": 1054972,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/6NGf0dbplhE5V8ranT1dtQ/3aO0iqMWRBxzglnp6xNyx_-OS77Tju1swVqs3T1XfGaGZSfUX3H3O7X4vFPJdrBOZnt05RY1cKPPRyUo3qRCm0m2hHgGONJgktgRHXl4aA7gIEhW0FboD2BP5X5VN79dd8ZDbe9Pevrf9rxQnmGIkA/S3eBuBtsCesC44auPB-UJZYLLT6IY2WOgQDuoZGwfzc",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/XA_s4lPvMWbHWew67D6I3Q/HGXP0IzGCi2ExCl9FesSN5t9duNpfc75UEP4uBmlvjpBD4rLVuw2vYJVZQ3hGAKxsMvMx3ez49EhAZD4V3ecDGnltvRVVCBnKCSZhKgEwJfLorORx3I2lztpCE4gZqAgxd23PBBjjQpqFyqbmb2lPA/G2KMLZym5SJG9jVua8rZFMGwXMLnI09P_cp_X_y_Ays",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/Y_890O4mlPZ-SPFB99GSaQ/FkG9KlrYSsKoqQmnImLVtKsHdBzYJO46aDXNiVq3P6ZWNood345lvvQcmibdQtTrgzdMQn3VQykJkGfc5EMmL3y4fZ3_CySS4XoRokV-QPr7mncMVdzU-AKZmrI_rEXRHkNoEEu4n7lAf4cz_ArG3w/-hIp6_FbsVA_f1iRusiosC-27rrSlbCLc4apuTZ1md0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/improv-comedy-live-at-the-mint-1",
+        "Date": "2026-09-04T03:00:00.000Z",
+        "Type": [
+          "Improv"
         ]
       }
     },
@@ -855,6 +683,49 @@
           }
         ],
         "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-steph-neale",
+        "Date": "2026-09-13T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recvGzpJ0yGya7by8",
+      "createdTime": "2026-08-25T01:19:37.000Z",
+      "fields": {
+        "Show": "The OK DOPE Last Show at The Mint",
+        "Venue": "The Mint",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attiEEuaEP31nNBeZ",
+            "width": 800,
+            "height": 1000,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/pT4YC2nsD9QTSl0Ge3btgw/_-5DADGhpq-CSNF2nEJgEZlCk5PQgBwotNOp_dgjNzcP_PHocPiTbO87ZNKnJYbRNVEFGxag_nSLvf_AKJDs3yRinCh-k8iFBXa4IABhFPLDvkJaWCBbYxAqmm2WA6jANq6nb074Y_0UfIkg2c0cD1PXHO_DB3tcd17aWKoNPGg/PJU9NyjBss10nG_mhBjF1WJP4we5pJAFcsIT7Zv6-NE",
+            "filename": "Last Show at the Mint.png",
+            "size": 112970,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/P5OrDn7ZS_GLuD4lnx3wQA/V-VbwsecW0bTHagh4yAtptsOmwnsdb5i13uf-JIM6HUeUq0Hsr3QWYnfwnThP_Bo_s2XZOE255uz0qAipZuPBovCXyla9SOa1qOIoBqe9Rnj079A8qh1u0EMWVNG349xm2OwBSPknMvu_m7F4B20Xg/Hr3M51dQOVxPypVvUuzoJkZY3Epxhz0Z-dMNVslwdlA",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/MqKdYt6xRyngCivW21T7gQ/KQd2Q3cnr57aoWPHg2H5nyhgX9o3Pn6hLYnpR3B7HBnQWPVx5C0Fp-vrSMOwYKLEAV5U6gNHPKO5F-QNbZXgj1HvPsGjSe7sGASdXJ63ShNs1tGRc2Xuw7HGf40K37yhDAC2h1P5G_WXQdcP_moswQ/bIapj__bPZdaiA2HGa9w-BeECYaK-kEU8ep7XEWoCho",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/XJPLXiZNmJvYYyl-1t1EqQ/Jh8hrslVa7QUVRs8y7wrmDpiVcqKxSy4EpfFuXELKiPLLGA7-r_dzj1zRXjBtxH3Dk-TYo_1AsSuGqYvdoJVV4-kfi2NCzeyo_ECcwsi4lkgTm1N5Kpi5KrOk7RzmaJJJvjXF-uM4jZeoxDd_GZK9A/dgOZmgVhmYMQJ9ssAPN_shFgo4a3l9CGNF54AjhcHFY",
+                "width": 800,
+                "height": 1000
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/the-ok-dope-last-show-at-the-mint",
         "Date": "2026-09-13T03:00:00.000Z",
         "Type": [
           "Stand-up"
@@ -2320,6 +2191,49 @@
         "Date": "2026-11-24T03:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recNNS9u7nXa220GK",
+      "createdTime": "2026-08-25T01:21:26.000Z",
+      "fields": {
+        "Show": "Ben Albert: Off the Couch Tour",
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attRaaZCYXw5Wlc8L",
+            "width": 800,
+            "height": 1000,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/lIFMPEnKLlJS_IONZJEpog/nvQaVyT5eQ3JwinHHY-cGEL_EreUViaGW80ZyPWFloHbo5YRi16OBH88SQegaw5rSdhMhVi3zX4KKni1l1tGhUI543QbHHIDoh6xsEO2Tn_qCvZmP1SXjrK2ZaaLoNDJXUo2lH3_E8Xopw7QmtThBBsMT9llKyCoAaMa2XQ7kHk/Q0g6IQqya4TSK1-3wHBZ2JVjBmkl8k1lywRXZpV9cbI",
+            "filename": "Ben Albert.png",
+            "size": 130658,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/Pe75FdE0PgfVQhiwKaDD8Q/GQoy9NxGp-5GLwfR-m0ERWYyfQj14Dc_Fl6R-IjMMUGpq2Q7FJ2gGfONEHbF183n-erIYRqkh5wZLqhXX-ZQBijfCXzH5iYzMHr1nc_sc0PSmTz9sK4z1VLibesfQHjATu6I4bJWtAmSFL-DoM-BlQ/7xWHK6bJH1Vrxtpu0I7dGxy857jQvCjBfJzHGjvsETU",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/elNSIEW1rh6FQExxHUZ1Vw/lPOZhaS73tbOMss20oR8TlDMYqNl2YNp4NltyjJ9jJk97d3jcKuRbZbIkg-VoS1lBL2VEMR7nEJ-wmHViESsfZ4aCUgPl0_gLHUq7JN7Hml3WqyCOUTFKuQ2fQb_aQVOIgvsEIk-xzGhzUBiDFmzNA/-OBCzsZkG3UqFtdLcRssG-9m88odOj3QwKlJZRTimJw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/_Weic3eQoCF3w0vwgZz1jQ/Wn6jXdnh5O45u7_k8CWSLZHwU4I_m6g6KnZ86zO0DoKAKwDJlrZ-2fHeBVVLO4XE_HNagiL3qvLqXEE_eGP3j7XLb_p53IVxOFPCmpwv5PaldPskLZJWwgSeefalaANI647yVnlBFmG-anu7GQ8jkQ/UbKhRaxvi6fGRJLmLRo4tpGYMGxyo80rInB2uuS2Hi4",
+                "width": 800,
+                "height": 1000
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ben-albert-off-the-couch-tour",
+        "Date": "2026-11-28T04:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -16654,6 +16568,350 @@
         ],
         "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-aug15",
         "Date": "2026-08-16T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recNJBhuZ7WoawV35",
+      "createdTime": "2026-07-28T03:12:27.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar and Grill",
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attCRpvWKbD8xXaQX",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/liB1_jGOHEhogy-44M2ySA/Y80L888a0kEQlX6MAKhR20JmQXPYyGtxOKqJuSaUZ4j6vCG8wow6qc5c3rVD7w05fhHpe-cxywjRUMKkHBnKPh5rcLmTF7EuOutA37T7i8ltdW4EkMc2mYUhMbHFZVAVjtcnW5g5Djumbq_WxIdV7yUFe7XdBHnrNLXj25qko-E/hIEbTwf4fEEUcUo8_0o0VUvzaMFWskQcHeHS4_E4GYc",
+            "filename": "Phoenix Open Mic - aug 18.png",
+            "size": 1335017,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/PDelsPTmS-gF_Js9I4M_FA/K6UMVHgGWtijv-wl3dRrPVRHpD045_Ob_CSJfbhOHxEqGZG8YqXCOfo6pJhjdOiqUDKR-c17B9_LFdvwp1yz-CRBghiTkCun6o1318Rsqb8_Z1YQTwrtbaHQ22Lva7cDnh5SkPrhzDRUTCQUzTnX8A/RGxRvNZkkzV6ry36ApsXZ8Zq65cbCf_3P1Slsoa-GQQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/zF-lOhRwZt_ukJY67R2Z5A/ZmMFkONnDdLTr3IWlWRZVE4mkdpPLSwVud9UoC3-XIHIi0SkwRZ5GmkQjecPCNTNkHLMZSP7O6S1MnnmWfWazGffeQuT9B-zMZTE4wK0wtaF-qQHR9P5LQgcFPfgCS5DVNyGjEWVY7QadUNvL_riRQ/R8BxqCrDzI6tkfoZAKdClDg1V_gc8jLpySRwr4_oo4A",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/2cWzCOi_Zf3HX05lIkccNw/Wg40r-3fiZz3BRsattoeVHm93V9HaLFzAEHgk9YbYb-ywv6edwLsTnRCfe5tMcbcc8DSCyZJoeBamoHjKrZv7LG-sUpe0pDmNc0wjX31REor1c1ToDaqVATAmtI3QCtDfbSR30Tc2kNxZdo6CGTRZQ/QHaMr6OBdBlKHqjvgzT7Ro2MeF1wTyDfwP1DIQKioSQ",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-08-19T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "reckTibaMG582d25z",
+      "createdTime": "2026-08-25T01:13:34.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/0i_Y8nHbadRHWJFU6KILkQ/N1tdCl4CdYwlUAC5KcV9-FlKnk_i8LCPwgxxxfXztEZdTTyFKoptmkHEPjwmlc4cNv2EQJX4l8pxF9lv4Zy3mVrD1OC44NtLavSwwGQjHWL5WUYCOx8gZdcQRv-IIxbtI-p--ledCruIEsql9e_xLe1aHThm4X6xZ-b6V5ylHww/PenoiiPQIjKqcHNdPSJyMynFoDOhrdxXjc6KuRVOMfk",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/HiTUeqY2SxUaQ0_4Vw0TAw/16WMm9n_ON5pIW6PzlFJDpJ-y_V8gunBTe_YzTaUZHIwTKzWOUS4yfN4jeGNrwj_nxeLDygeoV3My3htXsr3orOkGAB5Jp-qWv3WN58MM1TAsaHFK3iNWja9j94HQQZm5QbvS3W1Pc0T6zz-bFnMIA/nb4YQCKFSgfoIkHLWQFxEf-INY5Uf1LDzzOxxn05QxQ",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/a0heVjTIPJSvbphbfI1Psg/xQ2aKho7K_PLwJiwhdplVosjNmO2QYK2B_95ql1-Gpsu_rXnHOZZTPzUt6-ft3Dg5usAzP58C06Kawqn6ufIFbmbqzBnTSYS6miVvEyNi71cjsAE5yur4xAYaHxREn_9cEcwQysWF58TyL8E_dNmkw/TVb31ZUIvjiIL0shbZFSMNqLgmL-OxPRh2z5hOyOxN8",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/FGCMtFczFvZiqtz3iZBPvQ/UI32UiScUvBgaitY-GtcyWaC4wWnXfUpsEuJuPXj863XZmWhph5z4ZQrNDj1AlIC_VxBIh0T58NXM6nDNY9D99oh5a_xBjKoxWmzPxgYP7qt4qxfWsmZfI0xJrOhomdImg_S9BOKOTCd4s5lL0rsRQ/-xoSRxQEilg7QjGORiDqdrlQD_ltt5n_wcZrWvNM_1k",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-08-20T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recSXnjRnZTDNtGSv",
+      "createdTime": "2026-08-06T04:44:53.000Z",
+      "fields": {
+        "Show": "Artemis Comedy Night",
+        "Venue": "Artemis Whiskey Bar",
+        "Producer": "Artemis Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att9ZWNSGhVLI3rcN",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/KfiKyc-aBJG_329H8BmXKQ/Q4ycFwuJEyHdPiR8p9oWIh2tkj1tY_47ZHYQz25j6FNCEWqSDGjwIY0og0tLDnUNMufvQ29hDoBU65PKWfaEHbsyjf9fT6GIDNOKyEMFtdo9z_BsjEKmLc8ojeloqQcjkXkfy2cNTKtlevZP-olYXcnuK8oPwCG7eNE3hDbPKx0/E3SFr6jZByO58fxJCTPPVj9wCRkKXLRk6Z3hjA3vkdk",
+            "filename": "Artemis Comedy Show.png",
+            "size": 1000247,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/iWa8i9FEwB6MOWwgGXun-g/Gmoulk4uAeyWbDan7IVZPCpBHxShgNBdlDepIbkqrP2pONHBG9pNXBPm7vj1dxh0UWz0__rZgDkv7Tl3M9_mLRoYqA1Kfps8QNMW6txE0mgA5ri88Jw8GF05-iJIGMOAMInvbzpe2dnCf03D4E9tdA/-8QdZPVoNuUEhiStLQRDPcMwM8DIe_NUpbxAak-huu0",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/cmyhBjZsVwoLlLX3QDRreA/1ItzSIJ77Xe1DkDMitXTblz8BdlZyWhIYIpGmomTV8hj1GxEQaC8amYuf1Ja00JfU2UBTRKroVxmXKztWIK8Ggv8bqZ3EFWicdiystQ-ZztDBZS5Rdc__5G4RSMEJo-163gVY-BnraLcLoH6TmJ_3g/q7YmCHelDvi-GzZFPmmdgSfj9kSyyuW25BExAj8xs7w",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/eu1UHTv6uBWA7KB9TkBObw/igCGiOQdusQbdKikKC5zP5s84brTYKq-_kVFgKZpbsTGPj7PllLSx1YVmZzR934YSGWdG4vzpxadQATA93A-se8l9e0_yJttdpL-J6SjdiCOuGH85pfFwiE7dlQP9ZKZwwpQ9ARoR4sHlScITwM8Pw/V24kyi05YygTDX7reEfH4dYwyNepAx0srfvuz9f1ZtY",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/artemis-comedy-night-the-spice",
+        "Date": "2026-08-21T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recfQZyiiViVmesHg",
+      "createdTime": "2026-08-18T01:03:00.000Z",
+      "fields": {
+        "Show": "Sauvage Comedy Night",
+        "Venue": "Ile Sauvage Brewing",
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att2GwAJwnYr3ZUhR",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/1LyiWzsbpaqb27OeJ2Zhdw/GIVRHRN9IjyCZYIXbBLB9GCguYNbL-wZwUcLpFCEoIzftY-y-fl4uTpVGa35oqzWEIQ94MlFNxXe5lYOjqlus1nPsu_lh79hrCWj2o9yi0anshmqnbTfUsTgcadgtgqpbugTeNrO4jJ50ObniUw5yzcLFDj6QFuuHT9GQJiJXIQ/f3pgTti2fBSppzmAOEvIzqQ6sgarOdCa51T_iy9BuZk",
+            "filename": "Sauvage Comedy Aug 20.png",
+            "size": 1509007,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/iFGqQZkohhoSrGRQRfh2fw/E53lu6K_8pgbl_7ZOzGXOBeABo2FKTphBeLXhX0_zoSKqty3vbrbebphGxzVzHcNHJeLMxxkxOpV6iI3VyoDwy8XsHx5gBW6oQeHE2JxdbYY-ph19kXZ4FRoDnZOaczUzj19gCp8p50HHDLtPdKIVA/hh5mQQg6O6-S58Cbsk7GShCRzSUXOmtFqQ370KFpxb8",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/tHw7qygDp4B2GmiR5OGBDw/pVSTz3KCR61jw-cwGMXNOBenU_TMSkb2ZTEq9HwW3QIfT1hu1HKneaSZM0DbvF91UoBMW5_eixYC2l6541UmQ1ofcDLfeLOpHNSbe-28eb6PzNq9AzakUc2HhVwtiqqM_hz2Yra9Cps7dXci-YtoMg/6Cv3Qdr4WHt7OioDK3A3XaZV-tGKBzoh4rD9gWT8Lio",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/Du4QsnD0DIcAvK1zh9nuOA/LNpJMeB_k1XHyRqvLTKQ-vSfHlmjHSVUbGSfKLaQX5bLPas2x8Td852FFqOgsRMYs6paSm3C83PkeMAxq_-vi5K3uEWlV3MTY2xhrTnanLizh-F8fusxSY3BwUFkMKsGM_BbFyp8vBiZVAgac25PoA/MC4lo51jwrvlN9hhBmuL_DmlzlniD_FqDsgpW1bBq34",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/sauvage-comedy-night-aug-20th",
+        "Date": "2026-08-21T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recZkLtudN0f99HsO",
+      "createdTime": "2026-08-03T22:00:37.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attiMCRuib2Az4kms",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/uVFRkXzIcZ3494hroEXpLw/9LqJExRhX0gNamGRyyfHmk9oLbwuTvG8vw5rGE6kF7ywsA9J198H0_jfUl1LtrRA3_oW37zT6pNBIfXbX3gOWCTcs0XX2lT4M1ZUFgKRRFdr9s5Wt7S9Iugzr_F6dMquT4bDKHbxFTiULuQyE-YPz1lbHMhydNSo0MF9-EVbqyA/Cn8laHnyi5q7FzTb7CQT95VWAzuLGCF5JDtLT3LmEmw",
+            "filename": "harold night.png",
+            "size": 629484,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/3djslq1D75cTYODQWvmDxA/_5b5fwG_-N2bHjTDoNi5IqHy_nhpuIUC0NvA1Xa7AgjI1zLyWEOJpTg8PtGWgQMwJCdrNE-RfrtBWTOmkDYmKerIF_XpHA6Ie63grh77eQ8BqepWCPEFZAhxInwuscv1oTaxktmPR15JYwXv3stDdg/KzCCFA2prq7kgUC3crpQ5WfylxuVt7QFCYCudWwuCkw",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/6c0Hz1uotDYAxJV9-DipPg/vQHzMHlccbiJVqh6tXGBomucilN3eg9k-qcLwyprsENIYIEpJFaSKdVhAiAqz7aITEKtgrJsIxW01mT74k-gT79hHXmmIiL_ymGTvtt1isCMmuUP-auv2UeIq6AG9Mmi7XH5oAww-JQFHodcR8sb5Q/vSBYA2KlJbgBhqv3zPJmcVHVzTOoln-_UWB4vgjWFAI",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/qwgicqR_TF2IfWc2nZvVhg/dG1UdglgtHfD41BwGqBVs2KYplXAOssT7pxtRmshxIhtBKKYnW86a7Z0G9vxySrQmo8Qs9GqN6nbwVZtc2L-G2QorIMG42lYTxjjMGsrVS4K2COqgkR3ABRlTopJSC7Y0PJt30ZjjPmSpuEsL31I_g/yg3HM4uP7mc66akr97xv0f9C-LMB8R_oMY2wrSw94DY",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-aug20",
+        "Date": "2026-08-21T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recGcqWcD5ahTroiS",
+      "createdTime": "2026-08-11T00:35:27.000Z",
+      "fields": {
+        "Show": "OK, DOPE: Blind Dates Live",
+        "Venue": "The Mint",
+        "Producer": "OK, DOPE",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attDUN6i86TCSK5Tg",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/OM--9_hR_kvROKNLWhfS4w/82dBe6xLSOdbN0OFdlsUZnRZNFjNCqkaU4u5L45-B2giu-_FMyzVwx5KR531EU0lzshx-43AFBlJoFFM04WgQLaqFWOISKCpk1x8OwLacre1a2oHC79JtVOy3PKZIC04x46RNzKc_W22hP9rjWAWhAJurw7l6pq_6u7GabsO0I0/PPCkyhbqiMM8_cVI5kKMiIkqHibHSFw6OkIsz5YR-0E",
+            "filename": "Blind Dates Live.png",
+            "size": 1000525,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/ditDH5I0hNCqqBwJHOsZCw/mqk7m0abV6DFDGe_87LY61b8lBBUvsTdozv9sm-37PYl069Nvj_G978qJgMT8257iD5yec7Yd2wD-sJ9apv7n-lEdc2gevhXkNKmexyUS27-UaaRMuCml4fF7qj_Zo3s8rrt48GkJ9KDAEG9D8-pdA/13ZrStT89QWuyBMSdeCjkm8B08tm9lkZwAmW4v6ovuE",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/FqxIw-bDgNZ5bw3hcAn-7g/UYXScwuZe1J2AV_h-d2Ga-28ex344lHJ-CWpmRS4o7wRg7jyckdSzXyCFxXX21WWq6B78YX49y3dAkMLZ710Dha_ICh9FJ9191TLknGshqwht-Hrf3EoX2zpAAP4lh7LRRzZS0j31SwiUXqkAhtIUw/DkBE5PqleWk-6ar4MQARKD3hVkuXM8u1_mm1OCduzsg",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/bkTcXUHBRnjpHSvLa12pnA/wmsEVWaKRrvElBJEKc-9IRtfDvEri9D9cebtqB_NXvtSDmA1bzhiCU7VOE63PdRIDMSKM5ykIx11YTgPYyMb1ppOWm6ETyDIe0I7OujvVCPOKrORetnu6iyU6jhlhdyD1QbbhFiPvaUjLFXxHRDB8w/6upH2Q84Yl1aUnQuffETUVqZ6FfURF7FEwGAhByQoC0",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/blind-dates-live-with-alex-forman?variant_id=variant_019fd50f-cb07-796d-91e1-1a5aeb2d85ec",
+        "Date": "2026-08-22T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recwDO2VBK7ZSC6Xh",
+      "createdTime": "2026-05-11T20:33:19.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Will Hannigan",
+        "Venue": "Hecklers Bar and Grill",
+        "Producer": "Hecklers",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attwTByGolkrIvH6y",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/ySltzswmV_71CFCUWIZaAg/owpRU9rysDLxIuxkHVnwgpxe_M-cwF7kKBg0KXITN8VoNYDXD-6wpOTfWdB-KhOTeA0XlbF0hRUktLUnH2GEzImK7rXr7YySRJRhd7y1OhccS3YH8mzaEVeMvzhoFCkU6xbp8htLj3xpiPIPhhsyNvjS3QVamsTD8ha0dnLxfb0/x6KUmoyB_IzTcY4WoGqbRGFyb-UWH4rf14GwS7yT0P0",
+            "filename": "august 22 - will hannigan.png",
+            "size": 843883,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/t77RMVOMH-WeKkrxQSjfhg/0aC2SdC_iUwiPzTdFfQD42bNxcHg1QsOAmSWpbskEdUUy-4jj1Mgmr67ABEWKJn_gNfl7f7i7UDuWVN7FJtgKv7HLHl98ofz0wyiauk-Zmi-ea1IT8vlUICsl-Dvs4EGnWAP6VWzglXRoehGTsYkQw/z3Ya9z-lo52tyPei2dJLd-UxZ-9AGzf1G0peDF3gcT8",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/pA2QABhiD-y0LoMqWGZDDw/wu_sChyPqS7v015lZvSPwlsCQ1YGXsUQov5CCqmbPAu-zlsTIS6eDLVVLSM5DBhvrHvuZ69r0pZmBngYwU2fIXu5yTO3bAOHv00nxh2C3VpZNCzmLI9PP0mbMVitwQs4-Ejs9OGquKQOKxQGPzTxRA/hOAhK78TWvj0n3jMJ8shkbRGfOQ28rHE-iJLAA8-Vdc",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/7laboMQXFn0tHywocK1-Tg/QC1W3LtJYqeJehhtMKn6_h_gjdiUpPB-janVZ3aNI36zp_zFTFMqi34MPmcT3fjC9QG1WZmFWpbc9YA-eac0o8Cj5HDEU5yFC0bmozFUxsedhiHQEL_4whTa_XiPxrelwsQDEIbxypGFxDZfvh5ykw/JE6FGrVklDy7Gqs6Of6y8l3GgQV6L3F8TFheVyl3FO4",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-will-hannigan",
+        "Date": "2026-08-23T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recaYIltKx0yNRYma",
+      "createdTime": "2026-07-28T03:20:54.000Z",
+      "fields": {
+        "Show": "Garden City Improv with Dan Bakkedahl, Becky Johnson, and Kevin Matviw",
+        "Venue": "Encore Victoria",
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attOtn6evW89ruq7Y",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/MHg4j-fbbvysTOhBXYb8YQ/FSGjST7PiDfGHbz-GvLvOeoRyRjMGNqrizIIepdRrB-9zZVC7_CcHDWUOW8-kCxYL3r3Oti2zHKDp1gOwUPM9LLEkapLkRBzsPfzCMlUMyckHIdvfKjvnLd05JBRfwGXXKNfUfUHUXrf4Fz9T3rJxdYdD4ut3nrALA7RYVeY8YLJpLY9NB2bN1n8Qnto9Q1g/CuKaBoNTJs8-gQXEYzLwSHRYEGOWhplrNTZQgMFeQ3k",
+            "filename": "Garden City Improv August 22.png",
+            "size": 650661,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/osuMw4Lqk4j37qP79bXE3Q/FiUNq34bRSIqxop6SU0m06A901Q2_QNlzrI0usnKzNYSBAIhZjGsocWEB2NU_Y4uckKe3IefMbdZHIvBw3jnPyo8xG7SLdWYEKfA1j18IgDK2vMaEWZ0jtAND6eB0RpY-3c806KgHdUjvNOjvhT5Tw/EN8V4tR-1nRDWlPS116WmZZANL65N0G9V4UmiBQA4PA",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/5ST1FMVudciB0b7iJuuzbA/Iu0LWn_9WK4F04PZuB-4oHYn-krZHzkePGU3YP7ztKL_t-SrcaD3x8hJr13srXUlji3vgEaWVZLpXOATISWofH2WMM-eWf-huQ5NVS62rjFgJOgnAyJCeGeKHtBnGOp6UgMM5TTYVjXHd3DQjYM-cw/hzNlT2MmCuQHfzTUtzAyqD9rUsRhbMOxQ2rAU_zuK6Q",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787630400000/XpnYQeHb-IHg7dmV83wfmQ/IZ33UW25ZohUP7EoelW8N_6TDIBLYzY5l0gAuDJGEEbTHDvo2rd2bewCnTPFaDYQnRIitv97-rZKqjNZE3pha2JEcmD67kugVikj_yrCQfNrmbzfTYGA3rKC8o2qldG-HbwcvDF_leIkjRCYR8IHZg/UaHHyq0KZTYq6mmq8sxkHcgeaTKBYKe6rhGLqiD1-vA",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/garden-city-improv-with-dan-bakkedahl-becky-johnson-and-kevin-matviw/SMBQ8Z",
+        "Date": "2026-08-23T03:00:00.000Z",
         "Type": [
           "Improv"
         ]
