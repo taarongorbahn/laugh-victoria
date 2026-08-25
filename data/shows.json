@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T02:23:14.110Z",
+  "fetchedAt": "2026-08-25T02:25:42.044Z",
   "current": [
     {
       "id": "recdbJY6yRUlHGn7T",
@@ -84,6 +84,49 @@
         "Date": "2026-08-26T02:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recQdRyWMw5excCJM",
+      "createdTime": "2026-08-25T02:24:42.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/yK5kKERjqJszb-3sIaPliA/ugMNA2tPIWjrnw30HdauGZ12ZJHV367SrCoqSiDpfI9iiefokRZ8evDg_bz_TdoSxpgccO964lKLjnyLb7uXBqQ2a3KvomGncOW-cjc6kpuES_9B5LyOnrj7mXV_sXIGG6zURrUV3aIwYEeE321zHGod1NI1-h2DKFFp06DnIzY/SEz0nDtzjrpQgm06IRNUtWXpb7oNKaN1825hL93ZnQ0",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/4czdHbE6crYmjhotZB4dzA/DEspiPfDUvblxj9CLHyaJu67tQzPkjTbUQ9wloN4wl1MM4x8yiB57yzT6hWbIMRYWid-gOdvZSp3fuE7Jb859kAOp0wuU36iCVUiJiHuPqPOrrVs260MnQlACnTFHjzNMXW8ZbxEdl9bOybed6kiAA/jF300geDXUxUyH6fA1bV2dU1i87RLP8mOVNt7gqN-B4",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/Iomnoi5-X1HVBkDtOL3X1w/Sbqhsv2wMph_uXaQjp44tyjNBupiADvvVK9dd2G8N2oDbUmdanlhiQzIiuxk5z70_PSMK5hJh1EDLogfCHiE1fliv0cFyjHV8sD5_N93LssQNOIK7nIqR-kwdz3y5NQ3vSgbP-Qcg7z7jvyDp5DO-w/a23i8ABYvcLMRf3G9yf0L_5Tkmr7N-B2v35FSOowfrw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/Wy6nPve0gr2NI02W2X75dQ/_6YZlV3OEveOJRu3j5mAVG9NNmrUM8O6VVhvqSfDl12HRnd2qU6tnXAdvAvGZwO7lwZs80eUC8ErYg69BaZk2J6BPJxBfqBu8RvGCTmXeP-wnu7dU5aFsoD5gTFcT4HJDbs-9dgBsyLg9uJhB9sqvg/l4v702Gom94DWtebjTuVXpyRtJKNHV3M1GIuryb9hJ8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-08-27T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
         ]
       }
     },
@@ -690,6 +733,49 @@
       }
     },
     {
+      "id": "recT1esgoqM0udBHy",
+      "createdTime": "2026-08-25T02:24:59.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/yK5kKERjqJszb-3sIaPliA/ugMNA2tPIWjrnw30HdauGZ12ZJHV367SrCoqSiDpfI9iiefokRZ8evDg_bz_TdoSxpgccO964lKLjnyLb7uXBqQ2a3KvomGncOW-cjc6kpuES_9B5LyOnrj7mXV_sXIGG6zURrUV3aIwYEeE321zHGod1NI1-h2DKFFp06DnIzY/SEz0nDtzjrpQgm06IRNUtWXpb7oNKaN1825hL93ZnQ0",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/4czdHbE6crYmjhotZB4dzA/DEspiPfDUvblxj9CLHyaJu67tQzPkjTbUQ9wloN4wl1MM4x8yiB57yzT6hWbIMRYWid-gOdvZSp3fuE7Jb859kAOp0wuU36iCVUiJiHuPqPOrrVs260MnQlACnTFHjzNMXW8ZbxEdl9bOybed6kiAA/jF300geDXUxUyH6fA1bV2dU1i87RLP8mOVNt7gqN-B4",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/Iomnoi5-X1HVBkDtOL3X1w/Sbqhsv2wMph_uXaQjp44tyjNBupiADvvVK9dd2G8N2oDbUmdanlhiQzIiuxk5z70_PSMK5hJh1EDLogfCHiE1fliv0cFyjHV8sD5_N93LssQNOIK7nIqR-kwdz3y5NQ3vSgbP-Qcg7z7jvyDp5DO-w/a23i8ABYvcLMRf3G9yf0L_5Tkmr7N-B2v35FSOowfrw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/Wy6nPve0gr2NI02W2X75dQ/_6YZlV3OEveOJRu3j5mAVG9NNmrUM8O6VVhvqSfDl12HRnd2qU6tnXAdvAvGZwO7lwZs80eUC8ErYg69BaZk2J6BPJxBfqBu8RvGCTmXeP-wnu7dU5aFsoD5gTFcT4HJDbs-9dgBsyLg9uJhB9sqvg/l4v702Gom94DWtebjTuVXpyRtJKNHV3M1GIuryb9hJ8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-09-10T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
       "id": "rec9NeyqwqPF2Sm8t",
       "createdTime": "2026-08-18T01:11:47.000Z",
       "fields": {
@@ -856,6 +942,49 @@
         ],
         "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
         "Date": "2026-09-16T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "reckjHoAidmk6y9UZ",
+      "createdTime": "2026-08-25T02:25:13.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/yK5kKERjqJszb-3sIaPliA/ugMNA2tPIWjrnw30HdauGZ12ZJHV367SrCoqSiDpfI9iiefokRZ8evDg_bz_TdoSxpgccO964lKLjnyLb7uXBqQ2a3KvomGncOW-cjc6kpuES_9B5LyOnrj7mXV_sXIGG6zURrUV3aIwYEeE321zHGod1NI1-h2DKFFp06DnIzY/SEz0nDtzjrpQgm06IRNUtWXpb7oNKaN1825hL93ZnQ0",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/4czdHbE6crYmjhotZB4dzA/DEspiPfDUvblxj9CLHyaJu67tQzPkjTbUQ9wloN4wl1MM4x8yiB57yzT6hWbIMRYWid-gOdvZSp3fuE7Jb859kAOp0wuU36iCVUiJiHuPqPOrrVs260MnQlACnTFHjzNMXW8ZbxEdl9bOybed6kiAA/jF300geDXUxUyH6fA1bV2dU1i87RLP8mOVNt7gqN-B4",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/Iomnoi5-X1HVBkDtOL3X1w/Sbqhsv2wMph_uXaQjp44tyjNBupiADvvVK9dd2G8N2oDbUmdanlhiQzIiuxk5z70_PSMK5hJh1EDLogfCHiE1fliv0cFyjHV8sD5_N93LssQNOIK7nIqR-kwdz3y5NQ3vSgbP-Qcg7z7jvyDp5DO-w/a23i8ABYvcLMRf3G9yf0L_5Tkmr7N-B2v35FSOowfrw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787637600000/Wy6nPve0gr2NI02W2X75dQ/_6YZlV3OEveOJRu3j5mAVG9NNmrUM8O6VVhvqSfDl12HRnd2qU6tnXAdvAvGZwO7lwZs80eUC8ErYg69BaZk2J6BPJxBfqBu8RvGCTmXeP-wnu7dU5aFsoD5gTFcT4HJDbs-9dgBsyLg9uJhB9sqvg/l4v702Gom94DWtebjTuVXpyRtJKNHV3M1GIuryb9hJ8",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-09-17T01:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
