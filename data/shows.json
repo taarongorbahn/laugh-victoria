@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-01T02:43:42.175Z",
+  "fetchedAt": "2026-09-01T02:46:43.761Z",
   "current": [
     {
       "id": "reciW8iZ84vKtRzLH",
@@ -97,28 +97,28 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attQwNvJlsZIcecgc",
+            "id": "attIrlVSWwudIYkTm",
             "width": 1080,
-            "height": 1440,
-            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/6pHjmFlSE1rjj4QsMoVVNg/6uxsYQghyxSXoHF6z8lerqK9m07e5ArnUu1Y-zyn3NJ6quURm535BL5SIE6sRUjyRkw9i7fc64sIBvBAn1eBOBbAG7w4soEoc3MIB6-NvBNE5IWkLFJuChcgRCv7n02661OH8WwxsqGGs5xHfs6X8zN-CimrE9OaF1YS-Wv5_0A1cOo01gc0LffE6oPK9UO7/y0fPgCoPFCnrTEB8p0K9vJiEwExu5ehX-5MoNILlouI",
-            "filename": "Randy at Capital Ballroom September 2.jpg",
-            "size": 450580,
-            "type": "image/jpeg",
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/poBdaseQXPi1uNELLVnobw/Fu1y8rDsOvYB58zRBYPhLfClvesWoyANz_NzeHqxDsNTsGCAJNyelkXfAOIMHuM5jU_uxhTaCjvdWse92n0r4_WfsrotlVREVWyDfQeXmIOFjsdDKeriD_8X1nuG_a6gi7CxBrZuR5szm6pAk9oHBg/yEHDT4LybQRf7DE_evLcr6F_UqWMNZXT5-iXW6kXZs0",
+            "filename": "Randy.png",
+            "size": 2694540,
+            "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/DgpsoIx8n1qwK2HINdifyA/EHS0vKm92O93rF0Ui6sw_SpUcrmKovVvMr9veisxL9rVFMLXC7I-McXoYaB2tzaXG_JJbee6PC50z79t2t3esdfp7UjGdEEiTP6hRBmTR27bb3z_Rd4cfkqSTgUXl1g-oahXMHLuIfex__ZUwrWXcw/B9Nh-LeElE4HUj2yfcOzcQz_NJyKrmZ6ICFI1-IQzTs",
-                "width": 27,
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/jRbNg0WFfI4MjM4afsfiYg/iIB5eNHDxiTUZrwEebuKWN8Gwz00qwtebrEIXGebW0O1StWtPciO40GYtd7MqrHTbD3lmZCf6xiEtItrAOPngggmr-IdnR9T5B_T6T4FxV3F_5C4rXkcC6CvqhEYUgsHUa-uerrzwiORFiIISScbjA/XOw3H9YEHtKGin9b0r0c-vxcwWYTApizgazNYGEVN2Q",
+                "width": 29,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/xPMA7kaqrw_CNrLG4Tx50Q/8QCjiT8a8lyOvxMzDnG5jnVVfMwq3ueS4BtT8b1Nxuw4LtcCMBfBFJqCZ1Y9QnLUM0o2s9v7FJ3aGFwd7zCPT7Glg5Fouk45m789yu14kg7b3yYWuY20DRD6YuXHQwLlHj1KKWGv1apLvGJGRe6mCQ/icAEkFlKKHnkMXWicrqjg-6k-cw1O0w7NAkGHvfJL_Y",
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/ax5zKG581Yv2xa6szV_VLw/Z0jyOUm7ZswUFYQaLHiuvsH8_-7I-BI70Dkk1zBQkUppsaw7CM9ttr38CSQG88RmD5oS_Q6AGlrgvDo1mU4V_i2eA6-oaMcZ0WuvpHSASjrFMgxKoLrXBxPdkMRZ3D8TfIPHOL1yFyDxX9z8-9-x9w/L0Sxt63p2uxPRXRkmDrAIj0SOFYHO2h5sr6CeAig7HM",
                 "width": 512,
-                "height": 683
+                "height": 640
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/U1zfQ8qxeqs-OxASJZSN-A/vhgVWnGtOz7j2bt5qFgu0iM-Cc4FdKE8a02sfxBgcXPbdWMBns2zXRzerCZcogODUazoLrRWIQqOn0DxkANJU3Y3Uw4TeKb_vYhASL-V_ZFcgDIamRjfiJoFlp6SXdt9hHA-VOugrBOeeGFY8ml1IQ/EKZ70TtiPfW_c9p9ufHD-Y3H1i7IgZPZPOttJohf6bs",
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/YolclXqGEqHLU8t8xJxN9A/RDWEjlxMvb9SU69FUO8596K6ymIW3nUwar-6Do6-ff3D4mOzSvszSb9YPUZNHog6fKEz9nG8syIQ_1_hYgs0231rvejFlNa7SQof2IVFZO-fq8tMnzHF_F_Eq46fqZ6ruY3pxaL0iD8N5bafMMKG6g/KxXBC21AoLyoQROwMHxyCJ5bS90dXrMHt-VO_PRbjmk",
                 "width": 1080,
-                "height": 1440
+                "height": 1350
               }
             }
           }
