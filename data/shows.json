@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-01T02:46:43.761Z",
+  "fetchedAt": "2026-09-01T03:04:55.983Z",
   "current": [
     {
       "id": "reciW8iZ84vKtRzLH",
@@ -253,49 +253,6 @@
           }
         ],
         "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-nick-burden",
-        "Date": "2026-09-06T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "rec36hXUTI4KxdDFT",
-      "createdTime": "2026-09-01T02:41:06.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: Nick Burden copy",
-        "Venue": "Hecklers Bar and Grill",
-        "Producer": "Hecklers",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attRa07xp7ph2KpVz",
-            "width": 1080,
-            "height": 1350,
-            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/PX_gm24hLKSw0l295JwVSw/7WNXPRn9dD1TcIbA38IKtuC6C4qJwgLjZuMqfo0l22ju4ykZyPkqvMSSsiN0eOvQMRsbZ3Cy6hpDjdnTULqiJA2kQepERsLe09aMNQYnrpkaELFhfCZ8tXaLDTLGdFYBoDJPv1sbnACDeXiPRb2FsuZZnOYXaKXy3CEKh46rhV0/cF9LX_e2aTf-D-9AlEW32e_LlGn1A6dv8dB2nT2iiBs",
-            "filename": "Hecklers Sept 3.png",
-            "size": 1421704,
-            "type": "image/png",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/YcsUfcsshmas6dsiX8zhhg/Vkty4EMI7LFJ33B8HflUvrhMnACjhqs3kYARPAs_rUmX3yAVj5hnMABAkCfyDCX6CKzlQE4as6eqNVqMWz7iOf-TECPhfeOhTsfQnrqepkAznziue4ToPFqJ4aTpL1efV19I0ndEtT9nkctrg89Vrw/EV3CCuF4vAo9xLCvA8uob3xhOI566FhIGk4J_En1AcA",
-                "width": 29,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/QZ7hQYyjYhDE1zXEwgowHA/4WRrMEIB4aVykSjhLAST-GH1Ie3eyBCTZlcDuzDEkPn7u-YBgVjNWLuNF6z177AAeXnaFnJQK-Y27q9lbsHIzNzyBLNKug5Lou_IDVy60y-H-Ckm_kzVqvRep3Nb0NWozzjjBGibEfS6WXJJXlIRZA/AlIykv3YsPF1cou7SWxe1m1I0H2y1Zbmth_20JvPeow",
-                "width": 512,
-                "height": 640
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788242400000/-7n36KLPpWaTIb-A8nhY6A/U554rDoQ2nC52VZYyDoN_6TmXtkisCZz9Ui_gvLrA3g9Vi7FgSwIbXk6Cqkv2PM4HjLWBaWJ5Q7RmMoA1yp0qELinXYMylDca36HFdoHMe4RXbKGmijy9FhHwDO201mao3akitQ6do2AJZP2nkqyFQ/tzRB4lb_EjlCwV6OGCklwxUAsKiMZw0yLWIQRSr_pZQ",
-                "width": 1080,
-                "height": 1350
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/childrens-breakfast-club-fundraiser-with-howie-miller",
         "Date": "2026-09-06T03:00:00.000Z",
         "Type": [
           "Stand-up"
