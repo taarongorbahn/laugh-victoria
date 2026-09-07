@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T23:45:58.287Z",
+  "fetchedAt": "2026-09-07T23:58:29.749Z",
   "current": [
     {
       "id": "recloPQ9w8zOiNw91",
@@ -604,6 +604,49 @@
       }
     },
     {
+      "id": "recXWl6oFTjH2mKmp",
+      "createdTime": "2026-09-07T23:49:22.000Z",
+      "fields": {
+        "Show": "Comedy Night at Junction Cidery",
+        "Venue": "Junction Cidery",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att7VF7pP47ibmEr6",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/OIm609cVmhDtDiNHEdl2Ww/LW1uYMEBTPG-9bgwDEk_JoybRZRzsXn64UdX4RiazH247ki7W7V3DSAEbEVNjIEmNIFrNreCHkrYwMmKZEmfpsP80KVrGnHjjf5sl5ZbMLWNO-_wS7OorE9PeTJe9gzOew5TatmJDgYlp-0bxvlN9DFmaX4sJ-VkGZ6SiaNbMKI/XyCMSdW7_0PEONB2bAIBXSbdEwdx3_-5S41if1zuVdQ",
+            "filename": "Junction cidery sept 18.png",
+            "size": 1605271,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/wmWrDKdvHBUccIXMs33V8A/pUysA2IQvnpEccVTxMvfKbKbi6m5o9h4AJhe626lpum1gU3E0wSe6_Q13D0fJQv5eVsnY8cegMHe8Mwd5JltS8sQa1SFS4hXuPF6p-CvY1SelzN4qjJCGQhPHXaP9qs722H4gqfgrYhnJQtIsjBttw/Hzp1WXha7j0ZOEWRdY_um1Yoe5uoKnouTG-cXexUCas",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/iVEnHiDW88kaOeqnvUfO3g/gxfZb4EG0drb1o5uJItWCjf2b-Nxmp8FB0H2FdeBeFD0yugARmP7vrc0L6wUZX7P5Er468kgDzGzmZsIrFzQt4d03mYUWa9YAB01Oks1BuA9terUITcqjUnZpWC1Zsow3yZtSUJtIcvruH6jAAxtMw/buuNgnt4Z23B-1zFX99vphHVSr-DwnZ8BAFXkFHnvjw",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/z-ri-97yIhpRGtpQUZGyUw/-Mk8S8LMWjjLU1XuVEq3qZCU5EC9J4rbrhPFxWJfXcnUD-Ro2EfZ4Q1imwddnDLD_L2ZS9Y7Uw_Hb4YJSpuaQgKVCyALAFoi3GHBguX0XKbMxQxgz2fIr7MhLCpKmeH29RkUMKFw11hofnz-7Bpg2g/mbtzfXYSgqpXQgyVle0YwS7pzap2JoHYKm_E6eF10XE",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-sept-18th",
+        "Date": "2026-09-19T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
       "id": "rec7i5Y6mfvblwLbp",
       "createdTime": "2026-09-07T23:39:50.000Z",
       "fields": {
@@ -1073,6 +1116,49 @@
         "Date": "2026-09-25T03:30:00.000Z",
         "Type": [
           "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recT9lD0eU7hlh382",
+      "createdTime": "2026-09-07T23:47:04.000Z",
+      "fields": {
+        "Show": "Brass Monkey Showcase",
+        "Venue": "Brass Monkey Taproom",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attR9VHbORLwEgy6t",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/AQTinbt-e7IYb4x4Zdhijg/kioc6yI4ScwYW9Y9Eu_05p7Sm9NOfEu-xarQNKWqB4vKRdlc7RaPhSykpt2n2X_gqBD5DI3_HhvycHds33JiHZtfPCD6o3yg-huezBtyzQL9OeIHvMmN_CmKBVE6dy6h7UrUDupb3arGxp795_rFaiq566EOhy4s9uZlZC_EOXM/Znm8rvCjCZwU-uKIbutiyMoKd8bDFYuKtsYagtmyPY8",
+            "filename": "Brass Monkey -  sept 24.png",
+            "size": 1714275,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/8LGpRVRpEuDRKxTmZxP9HQ/zESR-mXmZ8oLWRfdHLuiQ_YXk-wk_gCRxVmeo4rlRZkKug0-E-BrHrPhQuNYjP0JUXyr7KgQNN6xx-CUNIGxXQebySrHuHmjz_kU8n0oLQfzNolNgqhv2k9P8Q8iF49Ee0sptCUEu-I9tnVcW6Nufg/DeD5ejndWDi92p1S9jKE629-REN70IqhNF3iYoGZN4g",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/QTIoO7z2vt2OXxFa08PJeA/eaVPjYmS07X8oEiucm6nRKbiWwi0L8A8LlFV1NHONUPKNqCu0qzKy-_6z2D4cDsP2LaFKqaTXYG_Di01TGYywIAQHTi9ztt2KDycj2DXq1P8pJlzrmC0QXKg5SmKMN0uzRjZRtir3iX68Tx7jfPqfA/njrxOZzfqP3VdgYxBeXWQuE0jC_5a3nhdx0ykelT7yQ",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/MnOO5OL63ULx4Wkhc5FKQA/KMcNjmRmV_UHDOgfyCBOTCXENj_ShmOOjSDiGe-SESH0e0_iNHdpkm137eg7nP1MqMk1qmLqLFy19N9wke5LynPkke9UFYZzIlvtsyaIWPIwt1kgOV-IgEB6rtSIiHXJuf4hXgTVJ2z8OrZnPxYEGg/VRXYXVMFRtN8zEGwuld1lOrEyFyzSf6h1HUsVFHY2Gs",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/brass-monkey-showcase-september-24th",
+        "Date": "2026-09-25T04:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
@@ -1593,6 +1679,49 @@
       }
     },
     {
+      "id": "recZse7QwWHY4Yjcs",
+      "createdTime": "2026-09-07T23:54:15.000Z",
+      "fields": {
+        "Show": "Plastic Meat Improv ft Baby Boy",
+        "Venue": "The Coda",
+        "Producer": "Plastic Meat Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwd2cxg1RnnGnn8",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/ciWaKF7lsZMZD4MtuAJhnA/HB2yfQdYnOGLVpSGkIHTPZHcd225kh04pz4meiJ4RAwNCEDc50eoFrSQoh1JOtnPyNPb9N4i77fFBAUmN2JZRy7lLku6Ymmm4uIWd7gyTzQK5trEicvacLgEf5tOwv4NUf3ckMZTw-7IQAy5OivJFpgE0m1bTxyhCQ5kI0XXZTo/BSWcaihiwmVLZ5q2-5vdoQZyfHIzMQ3QQSt9UD5NU-s",
+            "filename": "Plastic Meat Oct 10.png",
+            "size": 836718,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/gm6vlFn1ZIIj05-q5rls9g/WXAqTD6okSxWrTjnN-OOCo2qFTGcB9o4hcCwCTmUvRj3jcunqTpJqQL-ifR0mvwbA7di6Yv5rZFTzK4cjnjxK72Z8lMNIhDUIwSWIN8nrsTur_MZQvbSlMo2kXY5aLgRfun9sdQ5KgMxZvqcrANbJg/RnWJsF_qFWdSqpVrwRVMOwJH9nFCOuXYxOh_2AwsFho",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/9r_g461sOStR_ZDwD-P81g/PgE2ln7kVllomRnmk30yRXn_CnW4vY7Ebq9TaUGwpoBXhqmpleLd9xNjcdmjP_ajQYxfiQrgST3ZapC-58IIVd9GbrwWavfUHI7Mh37erfUCVyXfb4M3XC5eE-xfSF3uFk6GKKLzmyNNsGuDgw0GZQ/xpTSi_hs_dSXdbZIjFGSLA_YTuT77lqGtArFhh2DxU4",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/JLOcByC6rmtLpJ1tVa10HQ/aEj3JvXCM843Q7TN7oCVg4Uvp2mdQLLoN1Z_sqHLcFxgPXtOzNVc9cOPir4uOdK8_RChH2ISVl32S5Gh6bqefcBMyRY64AN4FEALOiq9lBH8irVkMwdwwBL_Laa1yP9XcoeDDoobeHJI67gYvr-w0A/Z_TV--vhCV1-TedRCNigO50b3XYp9u9sngWZ85X73RM",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://gotothecoda.com/show/plastic_meat_10oct26",
+        "Date": "2026-10-11T02:00:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
       "id": "recjlfFlzrAhbvLky",
       "createdTime": "2026-08-06T04:32:46.000Z",
       "fields": {
@@ -1765,6 +1894,49 @@
       }
     },
     {
+      "id": "rec3LOTjeOigs7jNq",
+      "createdTime": "2026-09-07T23:56:05.000Z",
+      "fields": {
+        "Show": "Mouth Full of Mystery: An Improvised Comedy Show",
+        "Venue": "Paul Phillips Hall",
+        "Producer": "Mouth Full Comedy, Upstairs Neighbours",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attgIuJ0vpBkmpHF8",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/TnhdMIEMnQP5EztcTwxYcA/Dk8KFDfuGMN8HNxREOdPQyNIlW53psm1KRltoEVa8XaAB0z-kGqHuTwgFbeT7lxK562ExF-BqACG4wCdRlchvDHDvxiWaKT3IlpQrOgbqJCZTOekl2mEwDu8e95WegPXbpl0WQH-qA2UYYVr19Ef6GG09dbebNjuR-_mCEtnCRDzJ6o7p-gn08wCKE6RS21C/tb4Q-7YNO8jMl7DEyZgfYecG1vVRH-KcEiQwRhELxDM",
+            "filename": "Mouth Full of Mystery Oct 18.png",
+            "size": 1079460,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/Sv2pYVyZgwqbkFE1oZo7Ng/6Vs8Z9OjtH8miMC9NOSzlXXNdXHYBAFZcPgqdIQjEak22EP6UAGtZoSTT38IKHuKshcq_I6Iv17rb9rjfNSrbf8tn3aRXHzbYoe557Q9kGR0PDQ8F3RVaoXV8SeUCY9lDAFjvja9iCIEAiTO0u_vYQ/sds4IGpJrkNlH28VPhB-b417ZlZvAvKtyItYDyKLUgo",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/It8xO0rD3sAdUv7qMX3wIg/kLub-a3-WEQJdL1eYuE96HvDcTo6m3uEhPLLCodwKhjsRlUQfjEvnwuxhAt-xaRKX5VllSTSmqNLeM9Gv2sclMmE4DRkDnHpT73PTGEJd70USC-opLEDuQ-6vWvss6eToedvhZk4vzmANBUBVI0n2Q/ozKQwBnhTEJ2VDyXELEvqQJ573_--QjC6cjEr08cfXs",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/CR7H23Nx7gVIlMGaDcdhtw/lficdkSK2irIDR5xJTZg1C2vy_PMyUk42Rzm_UzKSDPj9H3eWjC-fkW_OjqpPlY9taJJgJp4MrQdNUCEfAZXwaXFXoC6Yw6R_T0KBqtSWPM7-u5LlyvrKKrolbpQQ2okbhDhmiCneW5-ddQS5Wxt6w/qQYpwX2MzUwXCjmC857_9FEbeUI6xKw99i94vJbKScM",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/mouth-full-of-mystery-an-improvied-comedy-show",
+        "Date": "2026-10-19T02:00:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
       "id": "recVTagkNGFe5TrmA",
       "createdTime": "2026-08-06T04:33:00.000Z",
       "fields": {
@@ -1847,6 +2019,49 @@
         "Date": "2026-10-21T02:00:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "rec7ZDOh99mXEYSEj",
+      "createdTime": "2026-09-07T23:50:45.000Z",
+      "fields": {
+        "Show": "Comedy Night at Junction Cidery",
+        "Venue": "Junction Cidery",
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attbeBr3BXFQrZNCy",
+            "width": 1080,
+            "height": 1350,
+            "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/U2TRXVYQ5q-FblJYdlVfyg/XYhUQMdVhtDJWPSTiCiZYEM7nEaO1HWhXvwtB44kUm3myuoP2IbBb5tfdmq-ocMgxQYqPqa_lTbY4_xaUXiCYGyV2M5AdfjZAimnLgTTMUDxnwkWf0UrEHYPmnpW83nOSZ_91Kx9tyIZUMK75H2kJmRW7KmgE4ELJgz_6z238FA918fFVMfbQpyDmOkbM3by/pB5WVYmqQ2aQrvcLYk4BrA9yFE5N9oh0n9AiAmJbhPI",
+            "filename": "Junction cidery lineup tba.png",
+            "size": 1298973,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/8KRHLtIk9EIIAFothqmCEQ/jhNsTsmHtOmRslRT4UE8lhbL0zOoJzTpKStmDUSTIXUsWwkvDNz20hbXK3xXZIx7WVvtsowzULUbzL59tFS3bNcdwF7LNeBeLJmgk3lIvzWsIWu_vspFJa-RoPLzNjM_WinPtbiv3dRFYQ-6fWifpw/O_Bg1Pse9ngZn0rCk8-Ffm42bx8asdp4RrUBgxk8GKY",
+                "width": 29,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/sCnsecH_QfhY37rsMMJ1AQ/vJ-6KrkH-m6vdkVPGrleZhoXyKjZ-y0wXN9gXy1cYqRVMnyxq3y2peInj9hpLYbegVLxAQmAENU0jXf-2j5668tvJqzsULGk7iaKYvQhVlzSrWACfkfTsv3D2NkOXB_j0JNThWc5En7qiunqvHhMxg/Gs8M1_Pn-8cgB8ZgbkhIjjBXLrSwGQKPDZL6CAJflYE",
+                "width": 512,
+                "height": 640
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/57/57/1788832800000/NzIMmEpOZqeJP9Qmeh2KnQ/IYD-mwraptpWz_L7r4P40q8L_4PmdhCS9ic_dWRsP0yer_SgdU9dQHwpEXASHkc75b0HNiJwe2VVoLVJao9h28-B4guOPLy3YDV3ecBZBULo5qk3OsQWgmetiLnfQ6wUcD1wMP9gLSG9dXZ_cWL2sQ/W7WQsYx3HiiG1C0uFzYDWugwF7WlKQm3PKXJO1B9l-c",
+                "width": 1080,
+                "height": 1350
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-oct-23rd",
+        "Date": "2026-10-24T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     },
