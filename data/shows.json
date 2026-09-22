@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T03:15:53.777Z",
+  "fetchedAt": "2026-09-22T03:43:35.255Z",
   "current": [
     {
       "id": "recGhf4zULphPnZVL",
@@ -296,7 +296,10 @@
           }
         ],
         "Ticket Link": "https://www.jumpcomedy.com/e/archers-chair-event",
-        "Date": "2026-09-25T03:00:00.000Z"
+        "Date": "2026-09-25T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
       }
     },
     {
