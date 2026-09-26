@@ -2,11 +2,11 @@
 // enough for Airtable's free plan (1,000 calls per workspace per month).
 //
 // How it saves calls:
-//   - A normal run only asks Airtable for Active (or blank-status) shows. That is
-//     one API call as long as there are fewer than 100 of them.
-//   - Past shows live in the repo's archive, not in Airtable. A show moves to the
-//     archive on its own once its date is more than ARCHIVE_AFTER_DAYS old, so you
-//     can delete old records from Airtable without losing them on the site.
+//   - A normal run only asks Airtable for Active shows plus records changed in the
+//     last few days. That is one API call as long as there are fewer than 100.
+//   - Archived shows are kept in the repo, so the archive isn't re-read every run.
+//     The Status field in Airtable decides what is current and what is archived;
+//     this script never archives anything on its own.
 //   - Show graphics are downloaded into assets/shows/ once, because Airtable image
 //     links expire after a few hours.
 //
@@ -24,7 +24,7 @@ const TABLE = 'Shows';
 const DATA_FILE = 'data/shows.json';
 const IMAGE_DIR = 'assets/shows';
 const IMAGE_URL_PREFIX = '/assets/shows';
-const ARCHIVE_AFTER_DAYS = 8; // the "This Week" view shows back to Monday, so keep a week of past shows current
+const RECENT_DAYS = 3; // covers a missed run or two
 const SYNC_VERSION = 2;
 
 if (!TOKEN) {
@@ -52,12 +52,19 @@ async function airtableGet(params) {
   }
 }
 
-async function fetchRecords({ onlyActive }) {
+// Normal runs ask for Active shows plus anything changed in the last RECENT_DAYS days.
+// "Changed recently" is how the script sees a show you just flipped to Archived, or an
+// archived show you just edited, without re-reading the whole archive.
+const RECENT_FORMULA =
+  `OR({Status}='Active', {Status}=BLANK(), ` +
+  `IS_AFTER(LAST_MODIFIED_TIME(), DATEADD(NOW(), -${RECENT_DAYS}, 'days')))`;
+
+async function fetchRecords({ recentOnly }) {
   let records = [];
   let offset = '';
   do {
     const params = new URLSearchParams({ 'sort[0][field]': 'Date', 'sort[0][direction]': 'asc' });
-    if (onlyActive) params.set('filterByFormula', `OR({Status}='Active', {Status}=BLANK())`);
+    if (recentOnly) params.set('filterByFormula', RECENT_FORMULA);
     if (offset) params.set('offset', offset);
     const page = await airtableGet(params);
     records = records.concat(page.records || []);
@@ -150,37 +157,28 @@ async function mapLimit(items, limit, fn) {
 async function main() {
   const prev = loadPrevious();
   const full = process.env.FULL_SYNC === 'true' || prev.syncVersion !== SYNC_VERSION;
-  console.log(full ? 'Full sync: reading every record once' : 'Normal sync: reading active shows only');
+  console.log(full ? 'Full sync: reading every record once' : 'Normal sync: reading active and recently changed shows');
 
-  const fetched = await fetchRecords({ onlyActive: !full });
-  const archiveCutoff = new Date(Date.now() - ARCHIVE_AFTER_DAYS * 24 * 60 * 60 * 1000);
-  const now = new Date();
+  const fetched = await fetchRecords({ recentOnly: !full });
 
-  // Start from the archive already in the repo. It is the source of truth for past shows.
+  // The Status field in Airtable decides everything. The script never archives a show itself.
+  // Archived shows already in the repo stay there, so deleting old records from Airtable
+  // doesn't remove them from the site.
   const archived = new Map((prev.archived || []).map(r => [r.id, r]));
   const current = new Map();
 
   for (const r of fetched) {
     const status = statusOf(r);
-    const d = dateOf(r);
-    if (status === 'archived' || (d && d < archiveCutoff)) {
-      if (status === 'archived' || status === 'active' || status === '') archived.set(r.id, r);
-    } else if (status === 'active' || status === '') {
+    if (status === 'active' || status === '') {
       current.set(r.id, r);
+      archived.delete(r.id); // flipped back from Archived to Active
+    } else if (status === 'archived') {
+      archived.set(r.id, r);
     }
     // Pending and any other status stay off the site.
   }
-
-  // A show that was live last run but didn't come back this time was archived,
-  // unpublished or deleted in Airtable. Past shows go to the archive; future ones drop off.
-  const fetchedIds = new Set(fetched.map(r => r.id));
-  for (const r of prev.current || []) {
-    if (fetchedIds.has(r.id) || current.has(r.id)) continue;
-    const d = dateOf(r);
-    if (d && d < now) archived.set(r.id, r);
-  }
-
-  for (const id of current.keys()) archived.delete(id);
+  // A show that was Active last run and didn't come back at all was deleted, or set to
+  // Pending, more than RECENT_DAYS ago. It simply isn't in `current` any more.
 
   fs.mkdirSync(IMAGE_DIR, { recursive: true });
   const currentList = await mapLimit([...current.values()].sort(byDateAsc), 6, localizeGraphics);
