@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T06:01:57.221Z",
+  "fetchedAt": "2026-09-26T21:39:40.972Z",
   "syncVersion": 2,
   "current": [
     {
@@ -636,8 +636,8 @@
       "createdTime": "2026-09-10T23:37:23.000Z",
       "fields": {
         "Show": "Fernwood Comedy Night",
-        "Venue": "The Fernwood Inn ",
-        "Producer": "Fernwood Comedy Night ",
+        "Venue": "Fernwood Inn ",
+        "Producer": "Fernwood Comedy",
         "Status": "Active",
         "Show Graphic": [
           {
@@ -2089,7 +2089,7 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
-        "Producer": "Phillips Comedy Nights",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -2237,6 +2237,7 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -2717,7 +2718,7 @@
       "createdTime": "2026-05-21T02:12:39.000Z",
       "fields": {
         "Show": "Plastic Meat Improv ft Latt Mowen",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "Plastic Meat Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -4605,7 +4606,7 @@
       "createdTime": "2026-05-21T02:08:06.000Z",
       "fields": {
         "Show": "Freshly Squeezed",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "A Big Swing Production",
         "Status": "Archived",
         "Show Graphic": [
@@ -6310,7 +6311,7 @@
       "createdTime": "2026-04-05T09:20:16.000Z",
       "fields": {
         "Show": "Upstairs Neighbours Improv",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "Upstairs Neighbours",
         "Status": "Archived",
         "Show Graphic": [
@@ -7605,7 +7606,7 @@
       "createdTime": "2026-04-07T03:28:17.000Z",
       "fields": {
         "Show": "Giggly Bits Improv: The Group Chat",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "Giggly Bits Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8863,7 +8864,7 @@
       "createdTime": "2026-05-11T18:36:58.000Z",
       "fields": {
         "Show": "Jon David Presents: Nash Park",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "Jon David",
         "Status": "Archived",
         "Show Graphic": [
@@ -9012,7 +9013,7 @@
       "fields": {
         "Show": "Sunee Dhaliwal & Sterling Scott",
         "Venue": "The Mint Restaurant",
-        "Producer": "Sunee Dhaliwal and Sterling Scott",
+        "Producer": "The Mint",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -9159,7 +9160,7 @@
       "createdTime": "2026-05-20T04:00:09.000Z",
       "fields": {
         "Show": "Underground Comedy: Victoria",
-        "Venue": "Elements Casino Victoria",
+        "Venue": "Elements Casino",
         "Producer": "Underground Comedy Club",
         "Status": "Archived",
         "Show Graphic": [
@@ -9825,7 +9826,7 @@
       "createdTime": "2026-05-21T02:08:53.000Z",
       "fields": {
         "Show": "Off The Record",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "A Big Swing Production",
         "Status": "Archived",
         "Show Graphic": [
@@ -10344,7 +10345,7 @@
       "fields": {
         "Show": "Comedy Interrogation",
         "Venue": "The Mint Restaurant",
-        "Producer": "Lucia Ribeiro Comedy and Keith Sonic",
+        "Producer": "Lucia Ribeiro Comedy, Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -10751,7 +10752,7 @@
       "fields": {
         "Show": "Victoria vs Comedy",
         "Venue": "Paul Phillips Hall",
-        "Producer": "Figitive Films",
+        "Producer": "Fugitive Films",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -11009,7 +11010,7 @@
       "createdTime": "2026-05-12T07:47:57.000Z",
       "fields": {
         "Show": "Patch Notes: The Improv Show for Nerds",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "D'Arcy Briggs",
         "Status": "Archived",
         "Show Graphic": [
@@ -11232,7 +11233,7 @@
       "fields": {
         "Show": "Buzzer Show",
         "Venue": "The Mint Restaurant",
-        "Producer": "Lucia Ribeiro Comedy and Keith Sonic Productions",
+        "Producer": "Lucia Ribeiro Comedy, Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -11899,7 +11900,7 @@
       "fields": {
         "Show": "Comedy Interrogation",
         "Venue": "The Mint Restaurant",
-        "Producer": "Lucia Ribeiro Comedy & KeithSonic",
+        "Producer": "Lucia Ribeiro Comedy, Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
           {
@@ -13713,7 +13714,7 @@
       "createdTime": "2026-08-03T22:55:41.000Z",
       "fields": {
         "Show": "OK DOPE: Student Stand Up Showcase",
-        "Venue": "OK DOPE HQ",
+        "Venue": "OK, DOPE HQ",
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -14638,8 +14639,8 @@
       "createdTime": "2026-08-14T19:42:01.000Z",
       "fields": {
         "Show": "Fernwood Comedy Night",
-        "Venue": "The Fernwood Inn ",
-        "Producer": "Fernwood Comedy Night ",
+        "Venue": "Fernwood Inn ",
+        "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
           {
