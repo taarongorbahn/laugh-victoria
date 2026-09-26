@@ -2,8 +2,17 @@ name: Fetch Shows
 
 on:
   schedule:
-    - cron: '0 * * * *'   # every hour UTC — the Pacific-time gate below decides whether to actually fetch
-  workflow_dispatch:        # allow manual trigger — always runs regardless of time window
+    - cron: '0 * * * *'   # hourly UTC; the Pacific-time gate below only lets every 2nd hour through
+  workflow_dispatch:        # "Run workflow" button: always runs, ignores the time gate
+    inputs:
+      full_sync:
+        description: 'Re-read every record from Airtable (costs ~1 API call per 100 records)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: fetch-shows
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -12,12 +21,15 @@ jobs:
       contents: write
 
     steps:
+      # Airtable's free plan allows 1,000 API calls a month per workspace.
+      # A normal run costs 1 call, so 8 runs a day is ~240 calls a month.
       - name: Check Pacific time window
         id: gate
         run: |
-          HOUR=$(TZ="America/Vancouver" date +%H)
+          HOUR=$((10#$(TZ="America/Vancouver" date +%H)))
           echo "Local Victoria hour: $HOUR"
-          if [ "$HOUR" -ge 9 ] || [ "$HOUR" -eq 0 ]; then
+          # Runs at 10am, noon, 2, 4, 6, 8, 10pm and midnight Pacific
+          if { [ "$HOUR" -ge 10 ] || [ "$HOUR" -eq 0 ]; } && [ $((HOUR % 2)) -eq 0 ]; then
             echo "in_window=true" >> "$GITHUB_OUTPUT"
           else
             echo "in_window=false" >> "$GITHUB_OUTPUT"
@@ -27,75 +39,29 @@ jobs:
         if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v4
 
-      - name: Fetch shows from Airtable
+      - name: Set up Node
+        if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install image tool
+        if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
+        run: npm install --no-save --no-package-lock sharp@0.33.5
+
+      - name: Sync shows from Airtable
         if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
         env:
           AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
-        run: |
-          node -e "
-          const https = require('https');
-          const fs = require('fs');
-
-          const TOKEN = process.env.AIRTABLE_TOKEN;
-          const BASE  = 'app3CJU1iVnaJcQZL';
-
-          function fetchPage(offset) {
-            return new Promise((resolve, reject) => {
-              const params = new URLSearchParams({
-                'sort[0][field]': 'Date',
-                'sort[0][direction]': 'asc',
-              });
-              if (offset) params.set('offset', offset);
-              const url = \`https://api.airtable.com/v0/\${BASE}/Shows?\${params}\`;
-              const options = {
-                headers: { Authorization: 'Bearer ' + TOKEN }
-              };
-              https.get(url, options, (res) => {
-                let data = '';
-                res.on('data', chunk => data += chunk);
-                res.on('end', () => resolve(JSON.parse(data)));
-              }).on('error', reject);
-            });
-          }
-
-          async function fetchAll() {
-            let all = [], offset = '';
-            do {
-              const data = await fetchPage(offset);
-              if (data.error) throw new Error(JSON.stringify(data.error));
-              all = all.concat(data.records || []);
-              offset = data.offset || '';
-            } while (offset);
-
-            // Split by Status field — matching original Airtable filter logic
-            const current  = all.filter(r => {
-              const status = (r.fields['Status'] || '').toLowerCase();
-              return status === 'active' || status === '';
-            });
-            const archived = all.filter(r => {
-              const status = (r.fields['Status'] || '').toLowerCase();
-              return status === 'archived';
-            });
-
-            const output = {
-              fetchedAt: new Date().toISOString(),
-              current,
-              archived,
-            };
-
-            fs.mkdirSync('data', { recursive: true });
-            fs.writeFileSync('data/shows.json', JSON.stringify(output, null, 2));
-            console.log(\`Wrote \${current.length} current and \${archived.length} archived shows.\`);
-          }
-
-          fetchAll().catch(e => { console.error(e); process.exit(1); });
-          "
+          FULL_SYNC: ${{ inputs.full_sync || 'false' }}
+        run: node scripts/sync-shows.mjs
 
       - name: Commit updated shows
         if: steps.gate.outputs.in_window == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/shows.json
+          git add data/shows.json assets/shows
           git diff --staged --quiet || git commit -m "chore: update shows cache [skip ci]"
+          git pull --rebase
           git push
