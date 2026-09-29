@@ -1,525 +1,7 @@
 {
-  "fetchedAt": "2026-09-27T21:41:56.324Z",
+  "fetchedAt": "2026-09-29T03:06:16.151Z",
   "syncVersion": 2,
   "current": [
-    {
-      "id": "recGhf4zULphPnZVL",
-      "createdTime": "2026-08-06T04:32:13.000Z",
-      "fields": {
-        "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint Restaurant",
-        "Producer": "Shop Talk Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attT5PkthkJ4Hbb3X",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg",
-            "filename": "shoptalk sept 21.png",
-            "size": 1880850,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
-        "Date": "2026-09-22T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "recynvtpj1FFCRR6H",
-      "createdTime": "2026-05-16T05:20:08.000Z",
-      "fields": {
-        "Show": "MRG Live Presents: Josh Thomas",
-        "Venue": "McPherson Playhouse",
-        "Producer": "MRG Live",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attSOH9iMJ8jlPdC2",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg",
-            "filename": "Josh Thomas.png",
-            "size": 1145321,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.rmts.bc.ca/production-detail-pages/2026-mcpherson-playhouse/josh-thomas/",
-        "Date": "2026-09-23T02:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recbJ9sHEMOTXKgdY",
-      "createdTime": "2026-08-06T05:38:52.000Z",
-      "fields": {
-        "Show": "Phoenix Comedy Open Mic",
-        "Venue": "Phoenix Bar and Grill",
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attIGUJJh5HM0qukb",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attIGUJJh5HM0qukb.jpg",
-            "filename": "Phoenix Open Mic.png",
-            "size": 1012288,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-09-23T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "recrN9fSOertSf0GC",
-      "createdTime": "2026-08-25T06:42:03.000Z",
-      "fields": {
-        "Show": "Archer's Open Mic",
-        "Venue": "Archer's Community Hub",
-        "Producer": "Jayzwayz Productions",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attwwPssCnWSAzMci",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
-            "filename": "Archer's Open Mic.png",
-            "size": 1357351,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "#",
-        "Date": "2026-09-24T01:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "recYBKSvyWAcBkCuy",
-      "createdTime": "2026-08-06T04:41:03.000Z",
-      "fields": {
-        "Show": "Vancouver Island Comedy Competition",
-        "Venue": "Phoenix Bar and Grill",
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attyxY6iI3uRgrUap",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attyxY6iI3uRgrUap.jpg",
-            "filename": "Vancouver Island Comedy Competition.png",
-            "size": 708055,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attyxY6iI3uRgrUap.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attyxY6iI3uRgrUap.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attyxY6iI3uRgrUap.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-09-24T02:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recOPdbHnFvyak24H",
-      "createdTime": "2026-09-07T23:33:35.000Z",
-      "fields": {
-        "Show": "Comedy Roast Battle",
-        "Venue": "The Mint Restaurant",
-        "Producer": "Lucia Ribeiro Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attrEaIVqLYi0FfoO",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg",
-            "filename": "Copy of CRB Sept. 24 2026 Laugh Victoria.png",
-            "size": 1459430,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/comedy-roast-battle/4UVEUG",
-        "Date": "2026-09-25T01:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "rectVQ0a1GQy4HGMK",
-      "createdTime": "2026-09-22T03:11:49.000Z",
-      "fields": {
-        "Show": "Archer's Chair-ity Show",
-        "Venue": "Archer's Community Hub",
-        "Producer": "Jayzwayz Productions",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attXj4SfcVqDm6YOZ",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg",
-            "filename": "chairity show.png",
-            "size": 1546702,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/archers-chair-event",
-        "Date": "2026-09-25T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recEEdAU8oMr2LFJN",
-      "createdTime": "2026-09-07T23:37:19.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Harold Night",
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attiMCRuib2Az4kms",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attiMCRuib2Az4kms.jpg",
-            "filename": "harold night.png",
-            "size": 629484,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-sep24",
-        "Date": "2026-09-25T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recT9lD0eU7hlh382",
-      "createdTime": "2026-09-07T23:47:04.000Z",
-      "fields": {
-        "Show": "Brass Monkey Showcase",
-        "Venue": "Brass Monkey Taproom",
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attR9VHbORLwEgy6t",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attR9VHbORLwEgy6t.jpg",
-            "filename": "Brass Monkey -  sept 24.png",
-            "size": 1714275,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attR9VHbORLwEgy6t.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attR9VHbORLwEgy6t.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attR9VHbORLwEgy6t.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/brass-monkey-showcase-september-24th",
-        "Date": "2026-09-25T04:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "rec1FRPLbrQBQO6xY",
-      "createdTime": "2026-09-08T00:10:33.000Z",
-      "fields": {
-        "Show": "Laugh With Us: Therapy is Expensive",
-        "Venue": "Friendship Hall",
-        "Producer": "Victoria Native Friendship Centre",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attCdQJ8o09eHb7EN",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg",
-            "filename": "Laugh with us.png",
-            "size": 1240064,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.eventbrite.ca/e/laugh-with-us-therapy-is-expensive-comedy-show-tickets-1999719531951",
-        "Date": "2026-09-26T01:30:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recVzOw3RwvyjlrX6",
-      "createdTime": "2026-09-22T03:06:29.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Improv The Musical",
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att5wx710xenhXBAk",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att5wx710xenhXBAk.jpg",
-            "filename": "GCI Presents Improv The Musical.png",
-            "size": 592162,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att5wx710xenhXBAk.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att5wx710xenhXBAk.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att5wx710xenhXBAk.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/improv-the-musical-sep25",
-        "Date": "2026-09-26T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recoFqqeTA8P57ZlW",
-      "createdTime": "2026-08-06T05:00:59.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: Kelly Taylor [TWO SHOWS]",
-        "Venue": "Hecklers Bar and Grill",
-        "Producer": "Hecklers",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attIOxgwsbOHcLGx0",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg",
-            "filename": "Kelly Taylor.png",
-            "size": 974023,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-kelly-taylor",
-        "Date": "2026-09-27T02:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recH6VQDGdaPHjwet",
-      "createdTime": "2026-09-22T03:07:25.000Z",
-      "fields": {
-        "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw copy",
-        "Venue": "Encore Victoria",
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att4rJZ73E3E2aTtl",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg",
-            "filename": "Garden city Improv with dan bakkedahl.png",
-            "size": 655484,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/garden-city-improv-with-dan-bakkedahl-and-kevin-matviw/YC2YK3",
-        "Date": "2026-09-27T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recMb5vJV4mFs2DWa",
-      "createdTime": "2026-09-22T03:05:32.000Z",
-      "fields": {
-        "Show": "Pinhalla Open Mic Night",
-        "Venue": "Pinhalla",
-        "Producer": "Pinhalla",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attr5FA2yMVyTqqsB",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg",
-            "filename": "pinhalla mic 3.png",
-            "size": 1058734,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://pinhalla.com/open-mic-nights/",
-        "Date": "2026-09-28T02:30:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
     {
       "id": "recvXkOpAMGjgMVD9",
       "createdTime": "2026-08-06T04:32:23.000Z",
@@ -530,22 +12,22 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attBdvLXwRHn5z35w",
+            "id": "att0591frxRqtXD2x",
             "width": 1080,
             "height": 1350,
-            "url": "/assets/shows/attBdvLXwRHn5z35w.jpg",
-            "filename": "ShopTalk Comedy Open Mic.png",
-            "size": 1863674,
+            "url": "/assets/shows/att0591frxRqtXD2x.jpg",
+            "filename": "shoptalk sept 28.png",
+            "size": 1779827,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "/assets/shows/attBdvLXwRHn5z35w.jpg"
+                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
               },
               "large": {
-                "url": "/assets/shows/attBdvLXwRHn5z35w.jpg"
+                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
               },
               "full": {
-                "url": "/assets/shows/attBdvLXwRHn5z35w.jpg"
+                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
               }
             }
           }
@@ -567,22 +49,22 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attIGUJJh5HM0qukb",
+            "id": "attizrVe3GlNRdPMD",
             "width": 1080,
             "height": 1350,
-            "url": "/assets/shows/attIGUJJh5HM0qukb.jpg",
-            "filename": "Phoenix Open Mic.png",
-            "size": 1012288,
+            "url": "/assets/shows/attizrVe3GlNRdPMD.jpg",
+            "filename": "phoneix open mic sept 29.png",
+            "size": 1303443,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
               },
               "large": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
               },
               "full": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
               }
             }
           }
@@ -663,6 +145,43 @@
         ],
         "Ticket Link": "https://www.showpass.com/comedy-night-at-the-fernwood-inn-2026/",
         "Date": "2026-10-01T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recwmAF9iUfCxSkhO",
+      "createdTime": "2026-09-29T03:02:28.000Z",
+      "fields": {
+        "Show": "Mostly Open_Mike",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "atthW8xXYieDdItUt",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/atthW8xXYieDdItUt.jpg",
+            "filename": "mostly open mike - sept 30.png",
+            "size": 1419823,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/mostly-open-mike",
+        "Date": "2026-10-01T03:02:00.000Z",
         "Type": [
           "Stand-up"
         ]
@@ -774,6 +293,43 @@
         ],
         "Ticket Link": "https://www.gardencityimprov.com/events/student-improv-night-oct2",
         "Date": "2026-10-03T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recTOYyCesAaK3m4u",
+      "createdTime": "2026-09-29T03:03:52.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv All-Stars",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attvaovE2ZQUXCqMQ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg",
+            "filename": "Improv All Stars.png",
+            "size": 466442,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-oct3",
+        "Date": "2026-10-04T03:30:00.000Z",
         "Type": [
           "Improv"
         ]
@@ -15852,6 +15408,524 @@
         "Date": "2026-09-20T03:30:00.000Z",
         "Type": [
           "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recGhf4zULphPnZVL",
+      "createdTime": "2026-08-06T04:32:13.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Shop Talk Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attT5PkthkJ4Hbb3X",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg",
+            "filename": "shoptalk sept 21.png",
+            "size": 1880850,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attT5PkthkJ4Hbb3X.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
+        "Date": "2026-09-22T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recynvtpj1FFCRR6H",
+      "createdTime": "2026-05-16T05:20:08.000Z",
+      "fields": {
+        "Show": "MRG Live Presents: Josh Thomas",
+        "Venue": "McPherson Playhouse",
+        "Producer": "MRG Live",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attSOH9iMJ8jlPdC2",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg",
+            "filename": "Josh Thomas.png",
+            "size": 1145321,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attSOH9iMJ8jlPdC2.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.rmts.bc.ca/production-detail-pages/2026-mcpherson-playhouse/josh-thomas/",
+        "Date": "2026-09-23T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recbJ9sHEMOTXKgdY",
+      "createdTime": "2026-08-06T05:38:52.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar and Grill",
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attIGUJJh5HM0qukb.jpg",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-23T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recrN9fSOertSf0GC",
+      "createdTime": "2026-08-25T06:42:03.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-09-24T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recYBKSvyWAcBkCuy",
+      "createdTime": "2026-08-06T04:41:03.000Z",
+      "fields": {
+        "Show": "Vancouver Island Comedy Competition",
+        "Venue": "Phoenix Bar and Grill",
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attyxY6iI3uRgrUap",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attyxY6iI3uRgrUap.jpg",
+            "filename": "Vancouver Island Comedy Competition.png",
+            "size": 708055,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attyxY6iI3uRgrUap.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attyxY6iI3uRgrUap.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attyxY6iI3uRgrUap.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-24T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recOPdbHnFvyak24H",
+      "createdTime": "2026-09-07T23:33:35.000Z",
+      "fields": {
+        "Show": "Comedy Roast Battle",
+        "Venue": "The Mint Restaurant",
+        "Producer": "Lucia Ribeiro Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attrEaIVqLYi0FfoO",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg",
+            "filename": "Copy of CRB Sept. 24 2026 Laugh Victoria.png",
+            "size": 1459430,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attrEaIVqLYi0FfoO.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/comedy-roast-battle/4UVEUG",
+        "Date": "2026-09-25T01:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "rectVQ0a1GQy4HGMK",
+      "createdTime": "2026-09-22T03:11:49.000Z",
+      "fields": {
+        "Show": "Archer's Chair-ity Show",
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attXj4SfcVqDm6YOZ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg",
+            "filename": "chairity show.png",
+            "size": 1546702,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attXj4SfcVqDm6YOZ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/archers-chair-event",
+        "Date": "2026-09-25T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recEEdAU8oMr2LFJN",
+      "createdTime": "2026-09-07T23:37:19.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attiMCRuib2Az4kms",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attiMCRuib2Az4kms.jpg",
+            "filename": "harold night.png",
+            "size": 629484,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-sep24",
+        "Date": "2026-09-25T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recT9lD0eU7hlh382",
+      "createdTime": "2026-09-07T23:47:04.000Z",
+      "fields": {
+        "Show": "Brass Monkey Showcase",
+        "Venue": "Brass Monkey Taproom",
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attR9VHbORLwEgy6t",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attR9VHbORLwEgy6t.jpg",
+            "filename": "Brass Monkey -  sept 24.png",
+            "size": 1714275,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attR9VHbORLwEgy6t.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attR9VHbORLwEgy6t.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attR9VHbORLwEgy6t.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/brass-monkey-showcase-september-24th",
+        "Date": "2026-09-25T04:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "rec1FRPLbrQBQO6xY",
+      "createdTime": "2026-09-08T00:10:33.000Z",
+      "fields": {
+        "Show": "Laugh With Us: Therapy is Expensive",
+        "Venue": "Friendship Hall",
+        "Producer": "Victoria Native Friendship Centre",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attCdQJ8o09eHb7EN",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg",
+            "filename": "Laugh with us.png",
+            "size": 1240064,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attCdQJ8o09eHb7EN.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.eventbrite.ca/e/laugh-with-us-therapy-is-expensive-comedy-show-tickets-1999719531951",
+        "Date": "2026-09-26T01:30:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recVzOw3RwvyjlrX6",
+      "createdTime": "2026-09-22T03:06:29.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv The Musical",
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att5wx710xenhXBAk",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att5wx710xenhXBAk.jpg",
+            "filename": "GCI Presents Improv The Musical.png",
+            "size": 592162,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att5wx710xenhXBAk.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att5wx710xenhXBAk.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att5wx710xenhXBAk.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-the-musical-sep25",
+        "Date": "2026-09-26T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recoFqqeTA8P57ZlW",
+      "createdTime": "2026-08-06T05:00:59.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Kelly Taylor [TWO SHOWS]",
+        "Venue": "Hecklers Bar and Grill",
+        "Producer": "Hecklers",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attIOxgwsbOHcLGx0",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg",
+            "filename": "Kelly Taylor.png",
+            "size": 974023,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attIOxgwsbOHcLGx0.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://tickets.hecklers.ca/e/hecklers-presents-kelly-taylor",
+        "Date": "2026-09-27T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recH6VQDGdaPHjwet",
+      "createdTime": "2026-09-22T03:07:25.000Z",
+      "fields": {
+        "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw copy",
+        "Venue": "Encore Victoria",
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att4rJZ73E3E2aTtl",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg",
+            "filename": "Garden city Improv with dan bakkedahl.png",
+            "size": 655484,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att4rJZ73E3E2aTtl.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/garden-city-improv-with-dan-bakkedahl-and-kevin-matviw/YC2YK3",
+        "Date": "2026-09-27T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recMb5vJV4mFs2DWa",
+      "createdTime": "2026-09-22T03:05:32.000Z",
+      "fields": {
+        "Show": "Pinhalla Open Mic Night",
+        "Venue": "Pinhalla",
+        "Producer": "Pinhalla",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attr5FA2yMVyTqqsB",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg",
+            "filename": "pinhalla mic 3.png",
+            "size": 1058734,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attr5FA2yMVyTqqsB.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://pinhalla.com/open-mic-nights/",
+        "Date": "2026-09-28T02:30:00.000Z",
+        "Type": [
+          "Open Mic"
         ]
       }
     }
