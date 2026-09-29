@@ -1,50 +1,19 @@
 {
-  "fetchedAt": "2026-09-29T03:18:13.611Z",
+  "fetchedAt": "2026-09-29T03:23:11.599Z",
   "syncVersion": 2,
   "current": [
-    {
-      "id": "recXhQnXdkobqG7Ht",
-      "createdTime": "2026-09-29T03:16:54.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: Erica Sigurdson [TWO SHOWS]",
-        "Venue": "Hecklers Bar and Grill",
-        "Producer": "Hecklers",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att7LPa9KNWFbtki5",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att7LPa9KNWFbtki5.jpg",
-            "filename": "hecklers - erica sigurdson.png",
-            "size": 975297,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-erica-sigurdson-santana-dance",
-        "Date": "2026-09-27T02:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
     {
       "id": "recvXkOpAMGjgMVD9",
       "createdTime": "2026-08-06T04:32:23.000Z",
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -82,6 +51,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -162,6 +137,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn ",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -199,6 +180,12 @@
       "fields": {
         "Show": "Mostly Open_Mike",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Active",
         "Show Graphic": [
@@ -279,6 +266,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Active",
         "Show Graphic": [
@@ -354,11 +347,60 @@
       }
     },
     {
+      "id": "recXhQnXdkobqG7Ht",
+      "createdTime": "2026-09-29T03:16:54.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Erica Sigurdson [TWO SHOWS]",
+        "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att7LPa9KNWFbtki5",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att7LPa9KNWFbtki5.jpg",
+            "filename": "hecklers - erica sigurdson.png",
+            "size": 975297,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-erica-sigurdson-santana-dance",
+        "Date": "2026-10-04T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
       "id": "recTOYyCesAaK3m4u",
       "createdTime": "2026-09-29T03:03:52.000Z",
       "fields": {
         "Show": "Garden City Improv: Improv All-Stars",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Active",
         "Show Graphic": [
@@ -396,6 +438,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -433,6 +481,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -513,6 +567,12 @@
       "fields": {
         "Show": "Ashwyn Singh: Live in Victoria",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recwad946e1090dAz"
+        ],
         "Producer": "The Mint",
         "Status": "Active",
         "Show Graphic": [
@@ -593,6 +653,12 @@
       "fields": {
         "Show": "Plastic Meat Improv ft Baby Boy",
         "Venue": "The Coda",
+        "Venue Link": [
+          "recCJ3mszywANiih3"
+        ],
+        "Producer Links": [
+          "rec0wGT29cixZeCxC"
+        ],
         "Producer": "Plastic Meat Improv",
         "Status": "Active",
         "Show Graphic": [
@@ -630,6 +696,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -667,6 +739,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -704,6 +782,12 @@
       "fields": {
         "Show": "Live Nation Presents: Steph Tolev",
         "Venue": "McPherson Playhouse",
+        "Venue Link": [
+          "recgxJBdfZyYkT52E"
+        ],
+        "Producer Links": [
+          "recNFjez3A89d9uwx"
+        ],
         "Producer": "Live Nation",
         "Status": "Active",
         "Show Graphic": [
@@ -741,6 +825,12 @@
       "fields": {
         "Show": "Outback Presents: Maria Bamford [TWO SHOWS]",
         "Venue": "McPherson Playhouse",
+        "Venue Link": [
+          "recgxJBdfZyYkT52E"
+        ],
+        "Producer Links": [
+          "reclY1pGbtWqLuFHm"
+        ],
         "Producer": "Outback",
         "Status": "Active",
         "Show Graphic": [
@@ -822,6 +912,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -859,6 +955,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -982,6 +1084,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1019,6 +1127,12 @@
       "fields": {
         "Show": "Vancouver Island Comedy Competition",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1056,6 +1170,12 @@
       "fields": {
         "Show": "Live Nation Presents: Laura Ramoso",
         "Venue": "Royal Theatre",
+        "Venue Link": [
+          "recwr5s9CjgDl06jR"
+        ],
+        "Producer Links": [
+          "recNFjez3A89d9uwx"
+        ],
         "Producer": "Live Nation",
         "Status": "Active",
         "Show Graphic": [
@@ -1093,6 +1213,12 @@
       "fields": {
         "Show": "Live Nation Presents: Laura Ramoso",
         "Venue": "Royal Theatre",
+        "Venue Link": [
+          "recwr5s9CjgDl06jR"
+        ],
+        "Producer Links": [
+          "recNFjez3A89d9uwx"
+        ],
         "Producer": "Live Nation",
         "Status": "Active",
         "Show Graphic": [
@@ -1130,6 +1256,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1253,6 +1385,12 @@
       "fields": {
         "Show": "MRG Live Presents: John Mulaney",
         "Venue": "Save-On-Foods Memorial Center",
+        "Venue Link": [
+          "rec3kX29L1R93zGWf"
+        ],
+        "Producer Links": [
+          "rechMH2CCIRr1mo5L"
+        ],
         "Producer": "MRG Live",
         "Status": "Active",
         "Show Graphic": [
@@ -1290,6 +1428,12 @@
       "fields": {
         "Show": "Hershawn Arora: The Short King Comedy Tour",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recwad946e1090dAz"
+        ],
         "Producer": "The Mint",
         "Status": "Active",
         "Show Graphic": [
@@ -1413,6 +1557,12 @@
       "fields": {
         "Show": "Hungry for Laughs Comedy Tour",
         "Venue": "McPherson Playhouse",
+        "Venue Link": [
+          "recgxJBdfZyYkT52E"
+        ],
+        "Producer Links": [
+          "recchRRmRzFFO31sU"
+        ],
         "Producer": "ECL Productions",
         "Status": "Active",
         "Show Graphic": [
@@ -1450,6 +1600,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1487,6 +1643,12 @@
       "fields": {
         "Show": "Ben Albert: Off the Couch Tour",
         "Venue": "OK, DOPE Comedy Club",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Active",
         "Show Graphic": [
@@ -1524,6 +1686,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Active",
         "Show Graphic": [
@@ -1604,6 +1772,12 @@
       "fields": {
         "Show": "Hassan Phills: Genuinely Legendary Comedy Tour [TWO SHOWS]",
         "Venue": "OK, DOPE Comedy Club",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Active",
         "Show Graphic": [
@@ -1736,6 +1910,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -1773,6 +1953,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -1810,6 +1996,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -1847,6 +2039,12 @@
       "fields": {
         "Show": "Hecklers Presents: Arthur Simeon [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -1927,6 +2125,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -1964,6 +2168,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -2001,6 +2211,12 @@
       "fields": {
         "Show": "Comedy Night at Junction Cidery",
         "Venue": "Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -2038,6 +2254,12 @@
       "fields": {
         "Show": "OK DOPE Presents: The Crowd Work Show",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -2162,6 +2384,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -2199,6 +2427,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Improv Cabaret! (3 SHOWS)",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -2279,6 +2513,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -2316,6 +2556,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -2353,6 +2599,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -2390,6 +2642,12 @@
       "fields": {
         "Show": "Hecklers Presents: Adrienne Fish [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -2427,6 +2685,12 @@
       "fields": {
         "Show": "Plastic Meat Improv ft Latt Mowen",
         "Venue": "OK, DOPE HQ",
+        "Venue Link": [
+          "rec1CTWtotrPzTLx9"
+        ],
+        "Producer Links": [
+          "rec0wGT29cixZeCxC"
+        ],
         "Producer": "Plastic Meat Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -2464,6 +2728,12 @@
       "fields": {
         "Show": "Garden City Improv: Dungeons Yes & Dragons",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -2501,6 +2771,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -2538,6 +2814,12 @@
       "fields": {
         "Show": "High-Tide Comedy ft Syd Bosel",
         "Venue": "Ross Bay Pub",
+        "Venue Link": [
+          "recEpYPPL8vjDdczO"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -2618,6 +2900,12 @@
       "fields": {
         "Show": "OK DOPE Game Show: An Improv Game Show Show!",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -2698,6 +2986,12 @@
       "fields": {
         "Show": "Hecklers Presents: Chris Gordon [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -2735,6 +3029,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv Against Humanity",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -2772,6 +3072,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -2809,6 +3115,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -2846,6 +3158,12 @@
       "fields": {
         "Show": "Dialed In Comedy Showcase",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -2883,6 +3201,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -2920,6 +3244,12 @@
       "fields": {
         "Show": "Hecklers Presents: Howie Miller [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -2957,6 +3287,12 @@
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -2994,6 +3330,12 @@
       "fields": {
         "Show": "Garden City Improv with Becky Johnson",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -3031,6 +3373,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -3068,6 +3416,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -3105,6 +3459,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -3186,6 +3546,12 @@
       "fields": {
         "Show": "Hecklers Presents: Bryan O'Gorman [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -3223,6 +3589,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Bonus Saturday ft Dylan Williams",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -3432,6 +3804,12 @@
       "fields": {
         "Show": "Harbour Comedy: The Perils of Parenthood",
         "Venue": "Brass Monkey Taproom",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -3469,6 +3847,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -3549,6 +3933,12 @@
       "fields": {
         "Show": "OK DOPE Game Show: An Improv Game Show Show!",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -3629,6 +4019,12 @@
       "fields": {
         "Show": "Hecklers Presents: Andy Haynes [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -3795,6 +4191,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -3832,6 +4234,12 @@
       "fields": {
         "Show": "OK, DOPE Improv Student Showcase",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -3869,6 +4277,12 @@
       "fields": {
         "Show": "High-Tide Comedy ft Dylan Williams",
         "Venue": "Ross Bay Pub",
+        "Venue Link": [
+          "recEpYPPL8vjDdczO"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -3906,6 +4320,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -3943,6 +4363,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -3980,6 +4406,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -4017,6 +4449,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -4054,6 +4492,12 @@
       "fields": {
         "Show": "Hecklers Presents: Kate Davis [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -4091,6 +4535,12 @@
       "fields": {
         "Show": "Plastic Meat Improv ft Wes Carroll",
         "Venue": "The Coda",
+        "Venue Link": [
+          "recCJ3mszywANiih3"
+        ],
+        "Producer Links": [
+          "rec0wGT29cixZeCxC"
+        ],
         "Producer": "Plastic Meat Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -4128,6 +4578,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv The Musical",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -4165,6 +4621,12 @@
       "fields": {
         "Show": "Live Comedy at The Mint ft Ryan Lachance",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -4202,6 +4664,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -4411,6 +4879,12 @@
       "fields": {
         "Show": "Freshly Squeezed",
         "Venue": "OK, DOPE HQ",
+        "Venue Link": [
+          "rec1CTWtotrPzTLx9"
+        ],
+        "Producer Links": [
+          "recTM0VAglgAtQM06"
+        ],
         "Producer": "A Big Swing Production",
         "Status": "Archived",
         "Show Graphic": [
@@ -4491,6 +4965,12 @@
       "fields": {
         "Show": "Hecklers: Prairie Invasion Tour",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -4528,6 +5008,12 @@
       "fields": {
         "Show": "Paper Street Theatre Improvathon",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -4651,6 +5137,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -4688,6 +5180,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -4725,6 +5223,12 @@
       "fields": {
         "Show": "Comedy Night at Junction Cidery",
         "Venue": "Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -4762,6 +5266,12 @@
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -4799,6 +5309,12 @@
       "fields": {
         "Show": "Garden City Improv with Dan Bakkedahl",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -4836,6 +5352,12 @@
       "fields": {
         "Show": "Hecklers Presents: Kevin Banner [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -4873,6 +5395,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -4953,6 +5481,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -5033,6 +5567,12 @@
       "fields": {
         "Show": "Hecklers Presents: Rob Bebenek [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -5070,6 +5610,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5107,6 +5653,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5144,6 +5696,12 @@
       "fields": {
         "Show": "High-Tide Comedy ft Mikey Dubs",
         "Venue": "Ross Bay Pub",
+        "Venue Link": [
+          "recEpYPPL8vjDdczO"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5181,6 +5739,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -5218,6 +5782,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5255,6 +5825,12 @@
       "fields": {
         "Show": "OK DOPE Presents: The Crowd Work Show",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -5293,6 +5869,12 @@
       "fields": {
         "Show": "Hecklers Presents: John Beuhler [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -5330,6 +5912,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv The Musical",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -5367,6 +5955,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Improv Cabaret! [3 SHOWS]",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -5447,6 +6041,12 @@
       "fields": {
         "Show": "Garden City Improv: Student Improv Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -5484,6 +6084,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5521,6 +6127,12 @@
       "fields": {
         "Show": "Brass Monkey Comedy Night",
         "Venue": "Brass Monkey Taproom",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5558,6 +6170,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -5681,6 +6299,12 @@
       "fields": {
         "Show": "Hecklers Presents: Faris Hytiaa [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -5718,6 +6342,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -5841,6 +6471,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -5922,6 +6558,12 @@
       "fields": {
         "Show": "Lotsa Love: An Improvised Dating Show",
         "Venue": "Paul Phillips Hall",
+        "Venue Link": [
+          "recjrRMg2DfLJKUxm"
+        ],
+        "Producer Links": [
+          "recgiYTRQUNdHD2Bi"
+        ],
         "Producer": "Feral Cats",
         "Status": "Archived",
         "Show Graphic": [
@@ -5959,6 +6601,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -5996,6 +6644,12 @@
       "fields": {
         "Show": "Hecklers Comedy Fundraiser with Howie Miller",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -6033,6 +6687,12 @@
       "fields": {
         "Show": "The Crowd Work Show",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -6071,6 +6731,12 @@
       "fields": {
         "Show": "Comedy Night at Junction Cidery",
         "Venue": "Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6108,6 +6774,12 @@
       "fields": {
         "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -6188,6 +6860,12 @@
       "fields": {
         "Show": "Upstairs Neighbours Improv",
         "Venue": "OK, DOPE HQ",
+        "Venue Link": [
+          "rec1CTWtotrPzTLx9"
+        ],
+        "Producer Links": [
+          "recYEZk9an2oGEISH"
+        ],
         "Producer": "Upstairs Neighbours",
         "Status": "Archived",
         "Show Graphic": [
@@ -6225,6 +6903,12 @@
       "fields": {
         "Show": "Garden City: Dungeons Yes & Dragons",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -6305,6 +6989,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6342,6 +7032,12 @@
       "fields": {
         "Show": "OK, DOPE Improv Student Showcase",
         "Venue": "The Other Guise Theatre",
+        "Venue Link": [
+          "rec1ouBkpUzClb6gZ"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -6379,6 +7075,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -6416,6 +7118,12 @@
       "fields": {
         "Show": "OK, DOPE Improv Masterclass Showcase",
         "Venue": "The Other Guise Theatre",
+        "Venue Link": [
+          "rec1ouBkpUzClb6gZ"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -6453,6 +7161,12 @@
       "fields": {
         "Show": "Langford Laughs ft Emily Woods [SOLD OUT]",
         "Venue": "Ryes and Shine",
+        "Venue Link": [
+          "rec54ilanEBVkdEIj"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6490,6 +7204,12 @@
       "fields": {
         "Show": "The Funny and Fabulous Tour",
         "Venue": "Artemis Whiskey Bar",
+        "Venue Link": [
+          "rec8ZpqHFEucFsFAd"
+        ],
+        "Producer Links": [
+          "reczH6BdNMWlbRk8O"
+        ],
         "Producer": "Apeshit Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6527,6 +7247,12 @@
       "fields": {
         "Show": "OK DOPE: Entertainment Village",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -6564,6 +7290,12 @@
       "fields": {
         "Show": "Garden City Improv: Theatresports",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -6644,6 +7376,12 @@
       "fields": {
         "Show": "OK, DOPE: Blind Dates Live",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -6681,6 +7419,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv Against Humanity",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -6761,6 +7505,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6798,6 +7548,12 @@
       "fields": {
         "Show": "Judge My Jokes",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6835,6 +7591,12 @@
       "fields": {
         "Show": "Paper Street Improv Festival",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -6872,6 +7634,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -6909,6 +7677,12 @@
       "fields": {
         "Show": "Paper Street Improv Festival",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -6946,6 +7720,12 @@
       "fields": {
         "Show": "Comedy Roast Battle",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -6983,6 +7763,12 @@
       "fields": {
         "Show": "Paper Street Improv Festival",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -7020,6 +7806,12 @@
       "fields": {
         "Show": "OK DOPE Game Show!",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -7057,6 +7849,12 @@
       "fields": {
         "Show": "Paper Street Improv Festival [TWO SHOWS]",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -7094,6 +7892,12 @@
       "fields": {
         "Show": "Coup Comedy at Vinyl Envy",
         "Venue": "Vinyl Envy",
+        "Venue Link": [
+          "recMqRjZi8mfDm5wd"
+        ],
+        "Producer Links": [
+          "recj56a54jfgj0i9r"
+        ],
         "Producer": "Coup Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7131,6 +7935,12 @@
       "fields": {
         "Show": "Garden City Student Improv Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -7168,6 +7978,12 @@
       "fields": {
         "Show": "Hecklers Presents: Jeremy Scippio [EARLY AND LATE SHOW]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -7205,6 +8021,12 @@
       "fields": {
         "Show": "Garden City Student Improv Night: Musical Improv",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -7242,6 +8064,12 @@
       "fields": {
         "Show": "Paper Street Improv Festival [TWO SHOWS]",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -7279,6 +8107,12 @@
       "fields": {
         "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -7359,6 +8193,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7396,6 +8236,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7433,6 +8279,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -7470,6 +8322,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -7507,6 +8365,12 @@
       "fields": {
         "Show": "Giggly Bits Improv: The Group Chat",
         "Venue": "OK, DOPE HQ",
+        "Venue Link": [
+          "rec1CTWtotrPzTLx9"
+        ],
+        "Producer Links": [
+          "recwLA3u13udZOqs9"
+        ],
         "Producer": "Giggly Bits Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7544,6 +8408,12 @@
       "fields": {
         "Show": "Abbas Wahab: Dialed-In Tour",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -7581,6 +8451,12 @@
       "fields": {
         "Show": "OK DOPE Presents Brittany Lyseng Live",
         "Venue": "Elements Casino",
+        "Venue Link": [
+          "recXBtkA5MN3rzSpr"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -7618,6 +8494,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Girls NIght",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -7655,6 +8537,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv Karaoke",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -7692,6 +8580,12 @@
       "fields": {
         "Show": "Hecklers Presents: Mayce Galon [EARLY AND LATE SHOW]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -7772,6 +8666,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7895,6 +8795,12 @@
       "fields": {
         "Show": "Brass Monkey Comedy Night",
         "Venue": "Brass Monkey Taproom",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -7932,6 +8838,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Upstairs Downstairs",
         "Venue": "Craigdarroch Castle",
+        "Venue Link": [
+          "recq9lOgZWnAtN6fs"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -7969,6 +8881,12 @@
       "fields": {
         "Show": "Excuse Me Comedy ft James Boyle",
         "Venue": "Cinderbloc Studios",
+        "Venue Link": [
+          "recYCQ4BDibtdnVH2"
+        ],
+        "Producer Links": [
+          "recKWi0oU4a7Nl65G"
+        ],
         "Producer": "Excuse Me Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8006,6 +8924,12 @@
       "fields": {
         "Show": "Hecklers Presents: Bo Johnson",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -8043,6 +8967,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -8080,6 +9010,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Upstairs Downstairs",
         "Venue": "Craigdarroch Castle",
+        "Venue Link": [
+          "recq9lOgZWnAtN6fs"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -8160,6 +9096,12 @@
       "fields": {
         "Show": "Couples Clownselling [EARLY AND LATE SHOW]",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "rectN6zsx5k66oDPD"
+        ],
         "Producer": "Couples Clownselling",
         "Status": "Archived",
         "Show Graphic": [
@@ -8197,6 +9139,12 @@
       "fields": {
         "Show": "Hecklers Presents: Jono Zalay [EARLY AND LATE SHOW]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -8234,6 +9182,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Upstairs Downstairs",
         "Venue": "Craigdarroch Castle",
+        "Venue Link": [
+          "recq9lOgZWnAtN6fs"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -8271,6 +9225,12 @@
       "fields": {
         "Show": "The Bakery: I Say! An Improvised PG Wodehouse",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPVbKXwLrSs7jAG"
+        ],
         "Producer": "The Bakery Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -8308,6 +9268,12 @@
       "fields": {
         "Show": "Garden City Improv: Dungeons Yes & Dragons",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -8388,6 +9354,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8425,6 +9397,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -8462,6 +9440,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8542,6 +9526,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Upstairs Downstairs",
         "Venue": "Craigdarroch Castle",
+        "Venue Link": [
+          "recq9lOgZWnAtN6fs"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -8579,6 +9569,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -8702,6 +9698,12 @@
       "fields": {
         "Show": "Garden City Improv with Becky Johnson",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -8739,6 +9741,12 @@
       "fields": {
         "Show": "Hecklers Presents: Emily Woods",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -8776,6 +9784,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Upstairs Downstairs",
         "Venue": "Craigdarroch Castle",
+        "Venue Link": [
+          "recq9lOgZWnAtN6fs"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -8899,6 +9913,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8936,6 +9956,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -8973,6 +9999,12 @@
       "fields": {
         "Show": "Sunee Dhaliwal & Sterling Scott",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recwad946e1090dAz"
+        ],
         "Producer": "The Mint",
         "Status": "Archived",
         "Show Graphic": [
@@ -9096,6 +10128,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -9133,6 +10171,12 @@
       "fields": {
         "Show": "Underground Comedy: Victoria",
         "Venue": "Elements Casino",
+        "Venue Link": [
+          "recXBtkA5MN3rzSpr"
+        ],
+        "Producer Links": [
+          "recQbpTgLGZVlWq9f"
+        ],
         "Producer": "Underground Comedy Club",
         "Status": "Archived",
         "Show Graphic": [
@@ -9170,6 +10214,12 @@
       "fields": {
         "Show": "Ramped Up Stand Up",
         "Venue": "Influence Board Shop",
+        "Venue Link": [
+          "recn5K9icyXfbFrEZ"
+        ],
+        "Producer Links": [
+          "rec0hrqjrXQljZuT5"
+        ],
         "Producer": "All Ways Funny Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9207,6 +10257,12 @@
       "fields": {
         "Show": "Garden City Improv: Theatresports",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -9287,6 +10343,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Improv Cabaret! (3 Shows)",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -9324,6 +10386,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9361,6 +10429,12 @@
       "fields": {
         "Show": "The Clam Bake",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9398,6 +10472,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9435,6 +10515,12 @@
       "fields": {
         "Show": "OK, DOPE Student Showcase: Improv and Stand-up",
         "Venue": "The Other Guise Theatre",
+        "Venue Link": [
+          "rec1ouBkpUzClb6gZ"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -9472,6 +10558,12 @@
       "fields": {
         "Show": "Sloppy Seconds After",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9552,6 +10644,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -9589,6 +10687,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -9626,6 +10730,12 @@
       "fields": {
         "Show": "Hecklers Comedy Fundraiser with Howie Miller",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -9749,6 +10859,12 @@
       "fields": {
         "Show": "Hecklers Presents: Kristeen von Hagen",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -9829,6 +10945,12 @@
       "fields": {
         "Show": "Off The Record",
         "Venue": "OK, DOPE HQ",
+        "Venue Link": [
+          "rec1CTWtotrPzTLx9"
+        ],
+        "Producer Links": [
+          "recTM0VAglgAtQM06"
+        ],
         "Producer": "A Big Swing Production",
         "Status": "Archived",
         "Show Graphic": [
@@ -9952,6 +11074,12 @@
       "fields": {
         "Show": "Comedy Night Kick-Off",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -9989,6 +11117,12 @@
       "fields": {
         "Show": "Phillips Comedy Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recyM3Api4qW9dsiX"
+        ],
         "Producer": "Phillips Comedy Night",
         "Status": "Archived",
         "Show Graphic": [
@@ -10026,6 +11160,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -10063,6 +11203,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village ft Dan Duvall",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -10100,6 +11246,12 @@
       "fields": {
         "Show": "Garden City Improv: Theatresports",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -10137,6 +11289,12 @@
       "fields": {
         "Show": "Hecklers Presents: Damonde Tschritter",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -10174,6 +11332,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -10211,6 +11375,12 @@
       "fields": {
         "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -10248,6 +11418,12 @@
       "fields": {
         "Show": "Pinhalla Open Mic Night",
         "Venue": "Pinhalla",
+        "Venue Link": [
+          "recASU20Bff35kCQj"
+        ],
+        "Producer Links": [
+          "recJKAj6Byx0imqHx"
+        ],
         "Producer": "Pinhalla",
         "Status": "Archived",
         "Show Graphic": [
@@ -10285,6 +11461,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10322,6 +11504,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10359,6 +11547,13 @@
       "fields": {
         "Show": "Comedy Interrogation",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS",
+          "recZEovgFyyYFsZ12"
+        ],
         "Producer": "Lucia Ribeiro Comedy, Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
@@ -10439,6 +11634,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10476,6 +11677,12 @@
       "fields": {
         "Show": "JFL Vancouver Presents: Ivan Decker",
         "Venue": "McPherson Playhouse",
+        "Venue Link": [
+          "recgxJBdfZyYkT52E"
+        ],
+        "Producer Links": [
+          "recFhtBi7eDJPLMNQ"
+        ],
         "Producer": "JFL Vancouver Presents",
         "Status": "Archived",
         "Show Graphic": [
@@ -10513,6 +11720,12 @@
       "fields": {
         "Show": "Comedy Night at Junction Cidery",
         "Venue": "Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10550,6 +11763,12 @@
       "fields": {
         "Show": "OK DOPE: Stand Up at the Mint Ft James Boyle",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -10587,6 +11806,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv Karaoke",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -10667,6 +11892,12 @@
       "fields": {
         "Show": "Hecklers Presents: Dan Quinn",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -10704,6 +11935,12 @@
       "fields": {
         "Show": "Garden City Improv: Dungeons Yes & Dragons",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -10741,6 +11978,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10778,6 +12021,12 @@
       "fields": {
         "Show": "Victoria vs Comedy",
         "Venue": "Paul Phillips Hall",
+        "Venue Link": [
+          "recjrRMg2DfLJKUxm"
+        ],
+        "Producer Links": [
+          "rec4Vl8F0BlfYh6k6"
+        ],
         "Producer": "Fugitive Films",
         "Status": "Archived",
         "Show Graphic": [
@@ -10858,6 +12107,12 @@
       "fields": {
         "Show": "Brass Monkey Comedy Night",
         "Venue": "Brass Monkey Taproom",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -10895,6 +12150,12 @@
       "fields": {
         "Show": "OK, DOPE Improv Student Showcase",
         "Venue": "Paul Phillips Hall",
+        "Venue Link": [
+          "recjrRMg2DfLJKUxm"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -10932,6 +12193,12 @@
       "fields": {
         "Show": "Hecklers Comedy Fundraiser with Dan Duvall",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -10969,6 +12236,12 @@
       "fields": {
         "Show": "Kansei Yasuda: \"Respect\"",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recwad946e1090dAz"
+        ],
         "Producer": "The Mint",
         "Status": "Archived",
         "Show Graphic": [
@@ -11006,6 +12279,12 @@
       "fields": {
         "Show": "Hecklers Presents: Dan Duvall",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -11043,6 +12322,12 @@
       "fields": {
         "Show": "Patch Notes: The Improv Show for Nerds",
         "Venue": "OK, DOPE HQ",
+        "Venue Link": [
+          "rec1CTWtotrPzTLx9"
+        ],
+        "Producer Links": [
+          "reclW51MGxH0vD6tU"
+        ],
         "Producer": "D'Arcy Briggs",
         "Status": "Archived",
         "Show Graphic": [
@@ -11080,6 +12365,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv Against Humanity",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -11117,6 +12408,12 @@
       "fields": {
         "Show": "Pretty Good Comedy ft Dan Duvall",
         "Venue": "Fernwood Inn",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recyP6aOu3E5dHU3o"
+        ],
         "Producer": "Pretty Good Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11154,6 +12451,12 @@
       "fields": {
         "Show": "Go Ask Your Mom - A Father's Day Comedy Show",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11191,6 +12494,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11228,6 +12537,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11309,6 +12624,12 @@
       "fields": {
         "Show": "Phoenix Showcase: Pride and Punchlines",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11389,6 +12710,12 @@
       "fields": {
         "Show": "Feral Cats and Friends",
         "Venue": "Paul Phillips Hall",
+        "Venue Link": [
+          "recjrRMg2DfLJKUxm"
+        ],
+        "Producer Links": [
+          "recgiYTRQUNdHD2Bi"
+        ],
         "Producer": "Feral Cats",
         "Status": "Archived",
         "Show Graphic": [
@@ -11426,6 +12753,12 @@
       "fields": {
         "Show": "Hecklers Presents: Mikey Dubs [Special Taping]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -11463,6 +12796,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night ",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -11500,6 +12839,12 @@
       "fields": {
         "Show": "Friday Night Feature at Spiral Cafe",
         "Venue": "Spiral Cafe",
+        "Venue Link": [
+          "recqzTXG5mqRmcN9l"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11537,6 +12882,12 @@
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -11617,6 +12968,12 @@
       "fields": {
         "Show": "Hecklers Presents: Mikey Dubs [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -11654,6 +13011,12 @@
       "fields": {
         "Show": "OK DOPE Presents: The Crowd Work Show",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -11692,6 +13055,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Improv Cabaret! (3 SHOWS)",
         "Venue": "Intrepid Studio Theatre",
+        "Venue Link": [
+          "recQWJf9Yl5OzPvk3"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -11729,6 +13098,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11809,6 +13184,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -11846,6 +13227,12 @@
       "fields": {
         "Show": "Hecklers Presents: Ron Josol",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -11926,6 +13313,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -11963,6 +13356,13 @@
       "fields": {
         "Show": "Comedy Interrogation",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS",
+          "recZEovgFyyYFsZ12"
+        ],
         "Producer": "Lucia Ribeiro Comedy, Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
@@ -12000,6 +13400,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -12037,6 +13443,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12074,6 +13486,12 @@
       "fields": {
         "Show": "OK DOPE: Entertainment Village ft Shane Priestley",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -12111,6 +13529,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -12148,6 +13572,12 @@
       "fields": {
         "Show": "Paper Street Theatre: Yes and Yesteryear: An Improvised Jane Austen",
         "Venue": "Emily Carr House",
+        "Venue Link": [
+          "recEJ3ZeoWDX7DF60"
+        ],
+        "Producer Links": [
+          "recPRrVqhUX23t0c1"
+        ],
         "Producer": "Paper Street Theatre",
         "Status": "Archived",
         "Show Graphic": [
@@ -12185,6 +13615,12 @@
       "fields": {
         "Show": "Get Down Comedy Jam",
         "Venue": "Lucky Bar",
+        "Venue Link": [
+          "recgMwmBIN9T6pHzX"
+        ],
+        "Producer Links": [
+          "rec51jcl37CvxltwI"
+        ],
         "Producer": "Lucky Bar",
         "Status": "Archived",
         "Show Graphic": [
@@ -12222,6 +13658,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv All-Stars",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -12259,6 +13701,12 @@
       "fields": {
         "Show": "Hecklers Presents: Pride Week with Steev Letts",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -12296,6 +13744,12 @@
       "fields": {
         "Show": "Garden City Improv: Dungeons Yes & Dragons",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -12333,6 +13787,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12370,6 +13830,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12407,6 +13873,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -12444,6 +13916,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -12481,6 +13959,12 @@
       "fields": {
         "Show": "OK DOPE: The Crowd Work Show",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -12519,6 +14003,12 @@
       "fields": {
         "Show": "Garden City Improv: Theatresports",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -12556,6 +14046,12 @@
       "fields": {
         "Show": "Hecklers Presents: Sam Burns",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -12593,6 +14089,12 @@
       "fields": {
         "Show": "OK, DOPE Presents: Blind Dates Live",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -12673,6 +14175,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12710,6 +14218,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12790,6 +14304,12 @@
       "fields": {
         "Show": "Judge My Jokes",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12827,6 +14347,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -12864,6 +14390,12 @@
       "fields": {
         "Show": "Comedy Night at Junction Cidery",
         "Venue": "Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -12901,6 +14433,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv The Musical",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -12981,6 +14519,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13018,6 +14562,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13098,6 +14648,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13135,6 +14691,12 @@
       "fields": {
         "Show": "Make Some Noise",
         "Venue": "Brass Monkey Taproom",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13172,6 +14734,12 @@
       "fields": {
         "Show": "OK DOPE: Improv Wars",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -13209,6 +14777,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -13246,6 +14820,12 @@
       "fields": {
         "Show": "Garden City Improv: Student Improv Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -13283,6 +14863,12 @@
       "fields": {
         "Show": "Hecklers Presents: Taylor Clark",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -13320,6 +14906,12 @@
       "fields": {
         "Show": "OK, DOPE: Blind Dates Live ",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -13357,6 +14949,12 @@
       "fields": {
         "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw ",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -13394,6 +14992,12 @@
       "fields": {
         "Show": "Pinhalla Open Mic Night",
         "Venue": "Pinhalla",
+        "Venue Link": [
+          "recASU20Bff35kCQj"
+        ],
+        "Producer Links": [
+          "recJKAj6Byx0imqHx"
+        ],
         "Producer": "Pinhalla",
         "Status": "Archived",
         "Show Graphic": [
@@ -13431,6 +15035,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13511,6 +15121,12 @@
       "fields": {
         "Show": "Hecklers Presents: Kellen Erskine",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -13548,6 +15164,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -13672,6 +15294,12 @@
       "fields": {
         "Show": "Garden City Improv: Theatresports",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -13709,6 +15337,12 @@
       "fields": {
         "Show": "Hecklers Presents: Andy Noble",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -13746,6 +15380,12 @@
       "fields": {
         "Show": "OK DOPE: Another F&*KING Stand Up Show",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -13783,6 +15423,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv All-Stars",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -13820,6 +15466,12 @@
       "fields": {
         "Show": "OK DOPE: Student Stand Up Showcase",
         "Venue": "OK, DOPE HQ",
+        "Venue Link": [
+          "rec1CTWtotrPzTLx9"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -13857,6 +15509,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -13937,6 +15595,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -14017,6 +15681,12 @@
       "fields": {
         "Show": "Hecklers Presents: Dan Duvall",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -14097,6 +15767,12 @@
       "fields": {
         "Show": "OK, DOPE Improv Student Showcase",
         "Venue": "Paul Phillips Hall",
+        "Venue Link": [
+          "recjrRMg2DfLJKUxm"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -14134,6 +15810,12 @@
       "fields": {
         "Show": "Standup for Recovery: Soberfest",
         "Venue": "Elements Casino",
+        "Venue Link": [
+          "recXBtkA5MN3rzSpr"
+        ],
+        "Producer Links": [
+          "recq4dZx2b7WDamtX"
+        ],
         "Producer": "Mark Smith",
         "Status": "Archived",
         "Show Graphic": [
@@ -14171,6 +15853,12 @@
       "fields": {
         "Show": "OK DOPE: Entertainment Village ft Max Bank-Jaffee",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -14208,6 +15896,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv The Musical",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -14245,6 +15939,12 @@
       "fields": {
         "Show": "Hecklers Presents: Mike Masilotti",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -14282,6 +15982,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv All-Stars",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -14319,6 +16025,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14356,6 +16068,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -14393,6 +16111,12 @@
       "fields": {
         "Show": "Artemis Comedy Night",
         "Venue": "Artemis Whiskey Bar",
+        "Venue Link": [
+          "rec8ZpqHFEucFsFAd"
+        ],
+        "Producer Links": [
+          "recuX9cyMi5kXyeWZ"
+        ],
         "Producer": "Artemis Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14430,6 +16154,12 @@
       "fields": {
         "Show": "Sauvage Comedy Night",
         "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14467,6 +16197,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -14504,6 +16240,12 @@
       "fields": {
         "Show": "OK, DOPE: Blind Dates Live",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -14541,6 +16283,12 @@
       "fields": {
         "Show": "Hecklers Presents: Will Hannigan",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -14578,6 +16326,12 @@
       "fields": {
         "Show": "Garden City Improv with Dan Bakkedahl, Becky Johnson, and Kevin Matviw",
         "Venue": "Encore Victoria",
+        "Venue Link": [
+          "recgXzswrN3Vf1kdp"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -14615,6 +16369,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14652,6 +16412,12 @@
       "fields": {
         "Show": "Keith Sonic One Night Only",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recZEovgFyyYFsZ12"
+        ],
         "Producer": "Keith Sonic",
         "Status": "Archived",
         "Show Graphic": [
@@ -14689,6 +16455,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -14769,6 +16541,12 @@
       "fields": {
         "Show": "Fernwood Comedy Night",
         "Venue": "Fernwood Inn ",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
         "Producer": "Fernwood Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14806,6 +16584,12 @@
       "fields": {
         "Show": "Make Some Noise",
         "Venue": "Brass Monkey Taproom",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -14843,6 +16627,12 @@
       "fields": {
         "Show": "Hecklers Presents: Lachlan Patterson SOLD OUT!",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -14880,6 +16670,12 @@
       "fields": {
         "Show": "OK DOPE: The Crowd Work Show ",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -14917,6 +16713,12 @@
       "fields": {
         "Show": "Hecklers Presents: Andrew Barr",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -14997,6 +16799,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15034,6 +16842,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -15157,6 +16971,12 @@
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -15194,6 +17014,12 @@
       "fields": {
         "Show": "Hecklers Presents: Nick Burden",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -15231,6 +17057,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15268,6 +17100,12 @@
       "fields": {
         "Show": "James Roque: The Mano Po Tour",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recwad946e1090dAz"
+        ],
         "Producer": "The Mint",
         "Status": "Archived",
         "Show Graphic": [
@@ -15305,6 +17143,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -15342,6 +17186,12 @@
       "fields": {
         "Show": "Andrew Ivimey & Tracy Hamilton: Comedy Double Feature",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recwad946e1090dAz"
+        ],
         "Producer": "The Mint",
         "Status": "Archived",
         "Show Graphic": [
@@ -15422,6 +17272,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -15545,6 +17401,12 @@
       "fields": {
         "Show": "The OK DOPE Last Show at The Mint",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
         "Producer": "OK, DOPE",
         "Status": "Archived",
         "Show Graphic": [
@@ -15582,6 +17444,12 @@
       "fields": {
         "Show": "Garden City Improv with Becky Johnson",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -15619,6 +17487,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15656,6 +17530,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15693,6 +17573,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -15816,6 +17702,12 @@
       "fields": {
         "Show": "Garden City Improv: Harold Night",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -15853,6 +17745,12 @@
       "fields": {
         "Show": "Comedy Night at Junction Cidery",
         "Venue": "Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -15933,6 +17831,12 @@
       "fields": {
         "Show": "Couples Clownselling: Victoria #2",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "rectN6zsx5k66oDPD"
+        ],
         "Producer": "Couples Clownselling",
         "Status": "Archived",
         "Show Graphic": [
@@ -15970,6 +17874,12 @@
       "fields": {
         "Show": "Hecklers Presents: Sean McDonnell",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -16007,6 +17917,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv All-Stars",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -16044,6 +17960,12 @@
       "fields": {
         "Show": "Shop Talk Comedy Open Mic",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
         "Producer": "Shop Talk Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16081,6 +18003,12 @@
       "fields": {
         "Show": "MRG Live Presents: Josh Thomas",
         "Venue": "McPherson Playhouse",
+        "Venue Link": [
+          "recgxJBdfZyYkT52E"
+        ],
+        "Producer Links": [
+          "rechMH2CCIRr1mo5L"
+        ],
         "Producer": "MRG Live",
         "Status": "Archived",
         "Show Graphic": [
@@ -16118,6 +18046,12 @@
       "fields": {
         "Show": "Phoenix Comedy Open Mic",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16155,6 +18089,12 @@
       "fields": {
         "Show": "Archer's Open Mic",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -16192,6 +18132,12 @@
       "fields": {
         "Show": "Vancouver Island Comedy Competition",
         "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16229,6 +18175,12 @@
       "fields": {
         "Show": "Comedy Roast Battle",
         "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
         "Producer": "Lucia Ribeiro Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16266,6 +18218,12 @@
       "fields": {
         "Show": "Archer's Chair-ity Show",
         "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
         "Producer": "Jayzwayz Productions",
         "Status": "Archived",
         "Show Graphic": [
@@ -16346,6 +18304,12 @@
       "fields": {
         "Show": "Brass Monkey Showcase",
         "Venue": "Brass Monkey Taproom",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
         "Producer": "Harbour Comedy",
         "Status": "Archived",
         "Show Graphic": [
@@ -16426,6 +18390,12 @@
       "fields": {
         "Show": "Garden City Improv: Improv The Musical",
         "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -16463,6 +18433,12 @@
       "fields": {
         "Show": "Hecklers Presents: Kelly Taylor [TWO SHOWS]",
         "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
         "Producer": "Hecklers",
         "Status": "Archived",
         "Show Graphic": [
@@ -16500,6 +18476,12 @@
       "fields": {
         "Show": "Garden City Improv with Dan Bakkedahl and Kevin Matviw copy",
         "Venue": "Encore Victoria",
+        "Venue Link": [
+          "recgXzswrN3Vf1kdp"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
         "Producer": "Garden City Improv",
         "Status": "Archived",
         "Show Graphic": [
@@ -16537,6 +18519,12 @@
       "fields": {
         "Show": "Pinhalla Open Mic Night",
         "Venue": "Pinhalla",
+        "Venue Link": [
+          "recASU20Bff35kCQj"
+        ],
+        "Producer Links": [
+          "recJKAj6Byx0imqHx"
+        ],
         "Producer": "Pinhalla",
         "Status": "Archived",
         "Show Graphic": [
