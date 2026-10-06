@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T01:48:18.733Z",
+  "fetchedAt": "2026-10-06T01:49:21.726Z",
   "syncVersion": 2,
   "current": [
     {
@@ -83,6 +83,49 @@
         ],
         "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
         "Date": "2026-10-07T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recepUiXEU7LsIaA6",
+      "createdTime": "2026-10-06T01:48:41.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
+        "Producer": "Jayzwayz Productions",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-10-08T01:00:00.000Z",
         "Type": [
           "Open Mic"
         ]
