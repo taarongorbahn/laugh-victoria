@@ -1,437 +1,7 @@
 {
-  "fetchedAt": "2026-10-05T07:48:06.088Z",
+  "fetchedAt": "2026-10-06T01:48:18.733Z",
   "syncVersion": 2,
   "current": [
-    {
-      "id": "recvXkOpAMGjgMVD9",
-      "createdTime": "2026-08-06T04:32:23.000Z",
-      "fields": {
-        "Show": "Shop Talk Comedy Open Mic",
-        "Venue": "The Mint Restaurant",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recbYFcvB7zUrdJ6U"
-        ],
-        "Producer": "Shop Talk Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att0591frxRqtXD2x",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att0591frxRqtXD2x.jpg",
-            "filename": "shoptalk sept 28.png",
-            "size": 1779827,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
-        "Date": "2026-09-29T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "recJZpQr00oVJfwPQ",
-      "createdTime": "2026-08-06T05:37:24.000Z",
-      "fields": {
-        "Show": "Phoenix Comedy Open Mic",
-        "Venue": "Phoenix Bar and Grill",
-        "Venue Link": [
-          "recNrd0ERVssBzIt2"
-        ],
-        "Producer Links": [
-          "rec1wz3kLL95vJqbV"
-        ],
-        "Producer": "Harbour Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attizrVe3GlNRdPMD",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attizrVe3GlNRdPMD.jpg",
-            "filename": "phoneix open mic sept 29.png",
-            "size": 1303443,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-09-30T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "recE02DrwhJsWGMzL",
-      "createdTime": "2026-08-25T06:42:16.000Z",
-      "fields": {
-        "Show": "Archer's Open Mic",
-        "Venue": "Archer's Community Hub",
-        "Venue Link": [
-          "recYpe9UlV1Nksr3X"
-        ],
-        "Producer Links": [
-          "recuiRMJoNWfUMLnr"
-        ],
-        "Producer": "Jayzwayz Productions",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attwwPssCnWSAzMci",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
-            "filename": "Archer's Open Mic.png",
-            "size": 1357351,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "#",
-        "Date": "2026-10-01T01:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "recpHGfoeCkIDR0Jz",
-      "createdTime": "2026-09-10T23:37:23.000Z",
-      "fields": {
-        "Show": "Fernwood Comedy Night",
-        "Venue": "Fernwood Inn ",
-        "Venue Link": [
-          "recG6Gac6yNffMr18"
-        ],
-        "Producer Links": [
-          "recXgypLDVoSOiwts"
-        ],
-        "Producer": "Fernwood Comedy",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attfn0DTEkNbIa5EZ",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg",
-            "filename": "Fernwood Comedy Sept 30.png",
-            "size": 978265,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.showpass.com/comedy-night-at-the-fernwood-inn-2026/",
-        "Date": "2026-10-01T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recwmAF9iUfCxSkhO",
-      "createdTime": "2026-09-29T03:02:28.000Z",
-      "fields": {
-        "Show": "Mostly Open_Mike",
-        "Venue": "Archer's Community Hub",
-        "Venue Link": [
-          "recYpe9UlV1Nksr3X"
-        ],
-        "Producer Links": [
-          "recuiRMJoNWfUMLnr"
-        ],
-        "Producer": "Jayzwayz Productions",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "atthW8xXYieDdItUt",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/atthW8xXYieDdItUt.jpg",
-            "filename": "mostly open mike - sept 30.png",
-            "size": 1419823,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/mostly-open-mike",
-        "Date": "2026-10-01T03:02:00.000Z",
-        "Type": [
-          "Open Mic"
-        ]
-      }
-    },
-    {
-      "id": "rec9NowbOxpOiPzm4",
-      "createdTime": "2026-08-06T04:59:43.000Z",
-      "fields": {
-        "Show": "Luke Kidgell: Live at Hecklers [TWO SHOWS] SOLD OUT!",
-        "Venue": "Hecklers Bar and Grill",
-        "Venue Link": [
-          "rectX9NI65ZLhbZ8d"
-        ],
-        "Producer Links": [
-          "recygXgATuK6HeYDk"
-        ],
-        "Producer": "KEG Touring",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attjH6XWUKdHLxy6j",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg",
-            "filename": "Luke Kidgell.png",
-            "size": 1424081,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "#",
-        "Date": "2026-10-02T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recmdPFPzIzKW87ax",
-      "createdTime": "2026-09-07T23:37:21.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Harold Night",
-        "Venue": "TheatreSKAM",
-        "Venue Link": [
-          "recvk4EprhoHQlSOx"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attiMCRuib2Az4kms",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attiMCRuib2Az4kms.jpg",
-            "filename": "harold night.png",
-            "size": 629484,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-oct1",
-        "Date": "2026-10-02T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "rec42OL7xt1K57XRi",
-      "createdTime": "2026-09-07T23:41:24.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Student Improv Night",
-        "Venue": "TheatreSKAM",
-        "Venue Link": [
-          "recvk4EprhoHQlSOx"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att4zIyDEjkD2aTgo",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg",
-            "filename": "Garden City Student Improv Night .png",
-            "size": 723776,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/student-improv-night-oct2",
-        "Date": "2026-10-03T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
-    {
-      "id": "recXhQnXdkobqG7Ht",
-      "createdTime": "2026-09-29T03:16:54.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: Erica Sigurdson [TWO SHOWS]",
-        "Venue": "Hecklers Bar and Grill",
-        "Venue Link": [
-          "rectX9NI65ZLhbZ8d"
-        ],
-        "Producer Links": [
-          "rec5iSlHliKvneIWL"
-        ],
-        "Producer": "Hecklers",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att7LPa9KNWFbtki5",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att7LPa9KNWFbtki5.jpg",
-            "filename": "hecklers - erica sigurdson.png",
-            "size": 975297,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-erica-sigurdson-santana-dance",
-        "Date": "2026-10-04T02:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ]
-      }
-    },
-    {
-      "id": "recTOYyCesAaK3m4u",
-      "createdTime": "2026-09-29T03:03:52.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Improv All-Stars",
-        "Venue": "TheatreSKAM",
-        "Venue Link": [
-          "recvk4EprhoHQlSOx"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Producer": "Garden City Improv",
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attvaovE2ZQUXCqMQ",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg",
-            "filename": "Improv All Stars.png",
-            "size": 466442,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-oct3",
-        "Date": "2026-10-04T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ]
-      }
-    },
     {
       "id": "recY8SwcXvqV1NPDy",
       "createdTime": "2026-08-06T04:32:31.000Z",
@@ -448,22 +18,22 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attBdvLXwRHn5z35w",
+            "id": "attTYCmG8Ycp3VXS7",
             "width": 1080,
             "height": 1350,
-            "url": "/assets/shows/attBdvLXwRHn5z35w.jpg",
-            "filename": "ShopTalk Comedy Open Mic.png",
-            "size": 1863674,
+            "url": "/assets/shows/attTYCmG8Ycp3VXS7.jpg",
+            "filename": "shoptalk oct 5.png",
+            "size": 1477237,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "/assets/shows/attBdvLXwRHn5z35w.jpg"
+                "url": "/assets/shows/attTYCmG8Ycp3VXS7.jpg"
               },
               "large": {
-                "url": "/assets/shows/attBdvLXwRHn5z35w.jpg"
+                "url": "/assets/shows/attTYCmG8Ycp3VXS7.jpg"
               },
               "full": {
-                "url": "/assets/shows/attBdvLXwRHn5z35w.jpg"
+                "url": "/assets/shows/attTYCmG8Ycp3VXS7.jpg"
               }
             }
           }
@@ -562,6 +132,135 @@
       }
     },
     {
+      "id": "recCLtXGUCoYrGIcU",
+      "createdTime": "2026-10-06T01:30:49.000Z",
+      "fields": {
+        "Show": "Sauvage Comedy Night",
+        "Venue": "Ile Sauvage Brewing",
+        "Venue Link": [
+          "recgB0aw18nMPrOKz"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Producer": "Harbour Comedy",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attP8JiVzgG7Ke1Cw",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attP8JiVzgG7Ke1Cw.jpg",
+            "filename": "Sauvage Comedy Oct 8.png",
+            "size": 1545167,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attP8JiVzgG7Ke1Cw.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attP8JiVzgG7Ke1Cw.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attP8JiVzgG7Ke1Cw.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/sauvage-comedy-show-oct-8th",
+        "Date": "2026-10-09T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "rec4Uv5SXH5dRloqc",
+      "createdTime": "2026-10-06T01:33:41.000Z",
+      "fields": {
+        "Show": "OK DOPE Presents: Entertainment Village",
+        "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att10pU66L7AKNVOZ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att10pU66L7AKNVOZ.jpg",
+            "filename": "Entertainment Village at OK DOPE.png",
+            "size": 1726666,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/entertainment-village",
+        "Date": "2026-10-09T03:00:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recDAfFd73TMc1qW6",
+      "createdTime": "2026-10-06T01:45:58.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attiMCRuib2Az4kms",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attiMCRuib2Az4kms.jpg",
+            "filename": "harold night.png",
+            "size": 629484,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-oct8",
+        "Date": "2026-10-09T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
       "id": "rechAiBXgtQdmIFdH",
       "createdTime": "2026-06-02T01:03:17.000Z",
       "fields": {
@@ -601,6 +300,92 @@
         "Date": "2026-10-10T02:00:00.000Z",
         "Type": [
           "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recgA0dWEz6n4gHr2",
+      "createdTime": "2026-10-06T01:38:42.000Z",
+      "fields": {
+        "Show": "OK DOPE: The Crowd Work Show",
+        "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attNJwE7WinlblLES",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attNJwE7WinlblLES.jpg",
+            "filename": "Crowd Work Show.png",
+            "size": 1169447,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attNJwE7WinlblLES.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attNJwE7WinlblLES.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attNJwE7WinlblLES.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/the-crowd-work-show-8",
+        "Date": "2026-10-10T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recdbUE1AUOdRvPI4",
+      "createdTime": "2026-10-06T01:46:37.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv Against Humanity",
+        "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attqBh3oCApRakRca",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attqBh3oCApRakRca.jpg",
+            "filename": "improv against humanity.png",
+            "size": 147151,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-against-humanity-oct9",
+        "Date": "2026-10-10T03:30:00.000Z",
+        "Type": [
+          "Improv"
         ]
       }
     },
@@ -685,6 +470,135 @@
         ],
         "Ticket Link": "https://gotothecoda.com/show/plastic_meat_10oct26",
         "Date": "2026-10-11T02:00:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "rec8Uw8Pj9DuCu2oy",
+      "createdTime": "2026-10-06T01:42:05.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Paul Myrehaug [TWO SHOWS]",
+        "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
+        "Producer": "Hecklers",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att9gBLY9KorLPx7b",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att9gBLY9KorLPx7b.jpg",
+            "filename": "hecklers - paul myrehaug.png",
+            "size": 844668,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att9gBLY9KorLPx7b.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att9gBLY9KorLPx7b.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att9gBLY9KorLPx7b.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-paul-myrehaug-image-polygon",
+        "Date": "2026-10-11T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recd4siar0a2IPbfN",
+      "createdTime": "2026-10-06T01:37:37.000Z",
+      "fields": {
+        "Show": "OK, DOPE: Blind Dates Live",
+        "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Producer": "OK, DOPE",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att5jDzPC8Xc3ANl5",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg",
+            "filename": "Blind Dates Live at OK DOPE.png",
+            "size": 1056604,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/blind-dates-live-with-alex-forman",
+        "Date": "2026-10-11T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recetraxaOUnxEWSP",
+      "createdTime": "2026-10-06T01:45:27.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv All-Stars",
+        "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Producer": "Garden City Improv",
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attvaovE2ZQUXCqMQ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg",
+            "filename": "Improv All Stars.png",
+            "size": 466442,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-oct10",
+        "Date": "2026-10-11T03:30:00.000Z",
         "Type": [
           "Improv"
         ]
@@ -1814,6 +1728,13 @@
     {
       "id": "rec5mvrkz1STinqd7",
       "createdTime": "2026-07-28T03:16:35.000Z",
+      "fields": {
+        "Status": "Archived"
+      }
+    },
+    {
+      "id": "rec3HcrwLQzeG7que",
+      "createdTime": "2026-10-06T01:41:36.000Z",
       "fields": {
         "Status": "Archived"
       }
@@ -18553,6 +18474,479 @@
         "Date": "2026-09-28T02:30:00.000Z",
         "Type": [
           "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recvXkOpAMGjgMVD9",
+      "createdTime": "2026-08-06T04:32:23.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
+        "Producer": "Shop Talk Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att0591frxRqtXD2x",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att0591frxRqtXD2x.jpg",
+            "filename": "shoptalk sept 28.png",
+            "size": 1779827,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att0591frxRqtXD2x.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
+        "Date": "2026-09-29T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recJZpQr00oVJfwPQ",
+      "createdTime": "2026-08-06T05:37:24.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue": "Phoenix Bar and Grill",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Producer": "Harbour Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attizrVe3GlNRdPMD",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attizrVe3GlNRdPMD.jpg",
+            "filename": "phoneix open mic sept 29.png",
+            "size": 1303443,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attizrVe3GlNRdPMD.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-09-30T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recE02DrwhJsWGMzL",
+      "createdTime": "2026-08-25T06:42:16.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
+        "Producer": "Jayzwayz Productions",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-10-01T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "recpHGfoeCkIDR0Jz",
+      "createdTime": "2026-09-10T23:37:23.000Z",
+      "fields": {
+        "Show": "Fernwood Comedy Night",
+        "Venue": "Fernwood Inn ",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
+        "Producer": "Fernwood Comedy",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attfn0DTEkNbIa5EZ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg",
+            "filename": "Fernwood Comedy Sept 30.png",
+            "size": 978265,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attfn0DTEkNbIa5EZ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.showpass.com/comedy-night-at-the-fernwood-inn-2026/",
+        "Date": "2026-10-01T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recwmAF9iUfCxSkhO",
+      "createdTime": "2026-09-29T03:02:28.000Z",
+      "fields": {
+        "Show": "Mostly Open_Mike",
+        "Venue": "Archer's Community Hub",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
+        "Producer": "Jayzwayz Productions",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "atthW8xXYieDdItUt",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/atthW8xXYieDdItUt.jpg",
+            "filename": "mostly open mike - sept 30.png",
+            "size": 1419823,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/atthW8xXYieDdItUt.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/mostly-open-mike",
+        "Date": "2026-10-01T03:02:00.000Z",
+        "Type": [
+          "Open Mic"
+        ]
+      }
+    },
+    {
+      "id": "rec9NowbOxpOiPzm4",
+      "createdTime": "2026-08-06T04:59:43.000Z",
+      "fields": {
+        "Show": "Luke Kidgell: Live at Hecklers [TWO SHOWS] SOLD OUT!",
+        "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "recygXgATuK6HeYDk"
+        ],
+        "Producer": "KEG Touring",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attjH6XWUKdHLxy6j",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg",
+            "filename": "Luke Kidgell.png",
+            "size": 1424081,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attjH6XWUKdHLxy6j.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-10-02T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recmdPFPzIzKW87ax",
+      "createdTime": "2026-09-07T23:37:21.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attiMCRuib2Az4kms",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attiMCRuib2Az4kms.jpg",
+            "filename": "harold night.png",
+            "size": 629484,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-oct1",
+        "Date": "2026-10-02T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "rec42OL7xt1K57XRi",
+      "createdTime": "2026-09-07T23:41:24.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Student Improv Night",
+        "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att4zIyDEjkD2aTgo",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg",
+            "filename": "Garden City Student Improv Night .png",
+            "size": 723776,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/student-improv-night-oct2",
+        "Date": "2026-10-03T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recXhQnXdkobqG7Ht",
+      "createdTime": "2026-09-29T03:16:54.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Erica Sigurdson [TWO SHOWS]",
+        "Venue": "Hecklers Bar and Grill",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
+        "Producer": "Hecklers",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att7LPa9KNWFbtki5",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att7LPa9KNWFbtki5.jpg",
+            "filename": "hecklers - erica sigurdson.png",
+            "size": 975297,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att7LPa9KNWFbtki5.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-erica-sigurdson-santana-dance",
+        "Date": "2026-10-04T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ]
+      }
+    },
+    {
+      "id": "recTOYyCesAaK3m4u",
+      "createdTime": "2026-09-29T03:03:52.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv All-Stars",
+        "Venue": "TheatreSKAM",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Producer": "Garden City Improv",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attvaovE2ZQUXCqMQ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg",
+            "filename": "Improv All Stars.png",
+            "size": 466442,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-oct3",
+        "Date": "2026-10-04T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ]
+      }
+    },
+    {
+      "id": "recQE5goYgJigqm47",
+      "createdTime": "2026-10-06T01:39:32.000Z",
+      "fields": {
+        "Show": "OK DOPE: The Crowd Work Show",
+        "Venue": "The Mint Restaurant",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Producer": "OK, DOPE",
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attNJwE7WinlblLES",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attNJwE7WinlblLES.jpg",
+            "filename": "Crowd Work Show.png",
+            "size": 1169447,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attNJwE7WinlblLES.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attNJwE7WinlblLES.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attNJwE7WinlblLES.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/the-crowd-work-show-8",
+        "Date": "2026-10-10T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
         ]
       }
     }
