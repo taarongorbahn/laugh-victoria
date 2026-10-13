@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T03:06:11.704Z",
+  "fetchedAt": "2026-10-13T03:08:39.936Z",
   "syncVersion": 2,
   "current": [
     {
@@ -256,7 +256,8 @@
         "Date": "2026-10-15T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -264,9 +265,9 @@
       "createdTime": "2026-10-13T02:22:30.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Entertainment Village",
-        "Venue": "The Mint Restaurant",
+        "Venue": "OK, DOPE Comedy Club",
         "Venue Link": [
-          "recWqls30QYvPiYUD"
+          "reckVMUT5OWSICIvV"
         ],
         "Producer Links": [
           "recXR6FMbSNASkiNr"
@@ -436,7 +437,7 @@
       "createdTime": "2026-10-13T02:23:05.000Z",
       "fields": {
         "Show": "OK DOPE Presents: Girls Night",
-        "Venue": "The Mint Restaurant",
+        "Venue": "OK, DOPE Comedy Club",
         "Venue Link": [
           "reckVMUT5OWSICIvV"
         ],
@@ -555,7 +556,8 @@
         "Date": "2026-10-18T02:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -563,7 +565,7 @@
       "createdTime": "2026-10-13T02:24:05.000Z",
       "fields": {
         "Show": "OK DOPE Game Show!",
-        "Venue": "The Mint Restaurant",
+        "Venue": "OK, DOPE Comedy Club",
         "Venue Link": [
           "reckVMUT5OWSICIvV"
         ],
@@ -769,7 +771,8 @@
         "Date": "2026-10-20T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -853,7 +856,8 @@
         "Date": "2026-10-21T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -937,7 +941,8 @@
         "Date": "2026-10-22T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -978,7 +983,8 @@
         "Date": "2026-10-23T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -1148,7 +1154,8 @@
         "Date": "2026-10-24T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -1232,7 +1239,8 @@
         "Date": "2026-10-25T02:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -1273,7 +1281,8 @@
         "Date": "2026-10-25T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -1615,7 +1624,8 @@
         "Date": "2026-10-30T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -1656,7 +1666,8 @@
         "Date": "2026-11-01T02:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -1783,7 +1794,8 @@
         "Date": "2026-11-08T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -1996,7 +2008,8 @@
         "Date": "2026-11-15T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -2123,7 +2136,8 @@
         "Date": "2026-11-20T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -2207,7 +2221,8 @@
         "Date": "2026-11-21T04:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -2248,7 +2263,8 @@
         "Date": "2026-11-22T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -2289,7 +2305,8 @@
         "Date": "2026-11-22T04:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "OK, DOPE Comedy Club"
       }
     },
     {
@@ -2502,7 +2519,8 @@
         "Date": "2026-12-06T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -2543,7 +2561,8 @@
         "Date": "2026-12-13T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
@@ -2584,7 +2603,8 @@
         "Date": "2026-12-20T03:00:00.000Z",
         "Type": [
           "Stand-up"
-        ]
+        ],
+        "Venue": "Hecklers Bar and Grill"
       }
     },
     {
