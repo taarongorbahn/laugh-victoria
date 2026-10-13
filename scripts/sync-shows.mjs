@@ -79,6 +79,17 @@ const statusOf = r => (r.fields?.Status || '').toLowerCase();
 const dateOf = r => (r.fields?.Date ? new Date(r.fields.Date) : null);
 const byDateAsc = (a, b) => (dateOf(a)?.getTime() ?? 0) - (dateOf(b)?.getTime() ?? 0);
 
+// The page reads the plain-text Venue field. Venue Link only comes back from the API as
+// record IDs, so Airtable has a "Venue Name" lookup that resolves the linked venue's name.
+// When a venue is linked, its name wins; otherwise the old text field is kept.
+function resolveVenue(record) {
+  const looked = record.fields?.['Venue Name'];
+  const name = Array.isArray(looked) ? looked.filter(Boolean).join(', ') : '';
+  if (!name) return record;
+  const { 'Venue Name': _, ...fields } = record.fields;
+  return { ...record, fields: { ...fields, Venue: name } };
+}
+
 function loadPrevious() {
   try {
     return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
@@ -159,7 +170,7 @@ async function main() {
   const full = process.env.FULL_SYNC === 'true' || prev.syncVersion !== SYNC_VERSION;
   console.log(full ? 'Full sync: reading every record once' : 'Normal sync: reading active and recently changed shows');
 
-  const fetched = await fetchRecords({ recentOnly: !full });
+  const fetched = (await fetchRecords({ recentOnly: !full })).map(resolveVenue);
 
   // The Status field in Airtable decides everything. The script never archives a show itself.
   // Archived shows already in the repo stay there, so deleting old records from Airtable
