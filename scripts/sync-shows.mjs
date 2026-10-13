@@ -79,15 +79,21 @@ const statusOf = r => (r.fields?.Status || '').toLowerCase();
 const dateOf = r => (r.fields?.Date ? new Date(r.fields.Date) : null);
 const byDateAsc = (a, b) => (dateOf(a)?.getTime() ?? 0) - (dateOf(b)?.getTime() ?? 0);
 
-// The page reads the plain-text Venue field. Venue Link only comes back from the API as
-// record IDs, so Airtable has a "Venue Name" lookup that resolves the linked venue's name.
-// When a venue is linked, its name wins; otherwise the old text field is kept.
-function resolveVenue(record) {
-  const looked = record.fields?.['Venue Name'];
-  const name = Array.isArray(looked) ? looked.filter(Boolean).join(', ') : '';
-  if (!name) return record;
-  const { 'Venue Name': _, ...fields } = record.fields;
-  return { ...record, fields: { ...fields, Venue: name } };
+// The page reads the plain-text Venue and Producer fields. Linked fields (Venue Link,
+// Producer Links) only come back from the API as record IDs, so Airtable has lookup
+// fields that resolve the linked names. When something is linked, its name wins;
+// otherwise the old text field is kept. Maps lookup field -> text field the page reads.
+const LINKED_NAMES = { 'Venue Name': 'Venue', 'Producer Name': 'Producer' };
+
+function resolveLinkedNames(record) {
+  const fields = { ...record.fields };
+  for (const [lookup, target] of Object.entries(LINKED_NAMES)) {
+    const looked = fields[lookup];
+    delete fields[lookup];
+    const name = Array.isArray(looked) ? looked.filter(Boolean).join(', ') : '';
+    if (name) fields[target] = name;
+  }
+  return { ...record, fields };
 }
 
 function loadPrevious() {
@@ -170,7 +176,7 @@ async function main() {
   const full = process.env.FULL_SYNC === 'true' || prev.syncVersion !== SYNC_VERSION;
   console.log(full ? 'Full sync: reading every record once' : 'Normal sync: reading active and recently changed shows');
 
-  const fetched = (await fetchRecords({ recentOnly: !full })).map(resolveVenue);
+  const fetched = (await fetchRecords({ recentOnly: !full })).map(resolveLinkedNames);
 
   // The Status field in Airtable decides everything. The script never archives a show itself.
   // Archived shows already in the repo stay there, so deleting old records from Airtable
