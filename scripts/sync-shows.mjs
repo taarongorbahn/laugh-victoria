@@ -79,10 +79,11 @@ const statusOf = r => (r.fields?.Status || '').toLowerCase();
 const dateOf = r => (r.fields?.Date ? new Date(r.fields.Date) : null);
 const byDateAsc = (a, b) => (dateOf(a)?.getTime() ?? 0) - (dateOf(b)?.getTime() ?? 0);
 
-// The page reads the plain-text Venue and Producer fields. Linked fields (Venue Link,
-// Producer Links) only come back from the API as record IDs, so Airtable has lookup
-// fields that resolve the linked names. When something is linked, its name wins;
-// otherwise the old text field is kept. Maps lookup field -> text field the page reads.
+// The page reads `Venue` and `Producer` from shows.json. In Airtable those come only
+// from the linked Venues and Producers tables: linked fields (Venue Link, Producer
+// Links) come back from the API as record IDs, so lookup fields (Venue Name, Producer
+// Name) resolve them to names. A show with nothing linked gets no venue/producer.
+// Maps lookup field -> key the page reads.
 const LINKED_NAMES = { 'Venue Name': 'Venue', 'Producer Name': 'Producer' };
 
 function resolveLinkedNames(record) {
@@ -90,6 +91,7 @@ function resolveLinkedNames(record) {
   for (const [lookup, target] of Object.entries(LINKED_NAMES)) {
     const looked = fields[lookup];
     delete fields[lookup];
+    delete fields[target]; // never fall back to the retired plain-text fields
     const name = Array.isArray(looked) ? looked.filter(Boolean).join(', ') : '';
     if (name) fields[target] = name;
   }
