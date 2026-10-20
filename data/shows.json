@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T04:00:35.067Z",
+  "fetchedAt": "2026-10-20T21:58:03.331Z",
   "syncVersion": 2,
   "current": [
     {
@@ -101,26 +101,6 @@
         ],
         "Status": "Active",
         "Show Graphic": [
-          {
-            "id": "attV1PEi3ZrS9urEJ",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attV1PEi3ZrS9urEJ.jpg",
-            "filename": "Jon Dore at OK DOPE.png",
-            "size": 1274120,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attV1PEi3ZrS9urEJ.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attV1PEi3ZrS9urEJ.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attV1PEi3ZrS9urEJ.jpg"
-              }
-            }
-          },
           {
             "id": "attQYM7mQZeziuyWb",
             "width": 1080,
@@ -638,22 +618,22 @@
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attrGROkmIFOdqPBQ",
+            "id": "attr1lOVS8FwiKDpY",
             "width": 1080,
             "height": 1350,
-            "url": "/assets/shows/attrGROkmIFOdqPBQ.jpg",
+            "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg",
             "filename": "hecklers - Marito Lopez.png",
-            "size": 1299495,
+            "size": 1305543,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "/assets/shows/attrGROkmIFOdqPBQ.jpg"
+                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
               },
               "large": {
-                "url": "/assets/shows/attrGROkmIFOdqPBQ.jpg"
+                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
               },
               "full": {
-                "url": "/assets/shows/attrGROkmIFOdqPBQ.jpg"
+                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
               }
             }
           }
