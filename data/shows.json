@@ -1,738 +1,7 @@
 {
-  "fetchedAt": "2026-10-27T01:04:05.312Z",
+  "fetchedAt": "2026-10-28T00:02:21.648Z",
   "syncVersion": 2,
   "current": [
-    {
-      "id": "recVTagkNGFe5TrmA",
-      "createdTime": "2026-08-06T04:33:00.000Z",
-      "fields": {
-        "Show": "Shop Talk Comedy Open Mic",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recbYFcvB7zUrdJ6U"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attE7X5mqmMGiRIiD",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg",
-            "filename": "Shop Talk Open Mic Oct 19.jpg",
-            "size": 564948,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
-        "Date": "2026-10-20T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "The Mint Restaurant",
-        "Producer": "Shop Talk Comedy"
-      }
-    },
-    {
-      "id": "recbdV51Yn9ruFn7k",
-      "createdTime": "2026-08-06T05:38:08.000Z",
-      "fields": {
-        "Show": "Phoenix Comedy Open Mic",
-        "Venue Link": [
-          "recNrd0ERVssBzIt2"
-        ],
-        "Producer Links": [
-          "rec1wz3kLL95vJqbV"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attQy6HMXvdCWMorS",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attQy6HMXvdCWMorS.jpg",
-            "filename": "Phoenix Open Mic New.png",
-            "size": 1510586,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attQy6HMXvdCWMorS.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attQy6HMXvdCWMorS.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attQy6HMXvdCWMorS.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-10-21T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "Phoenix Bar and Grill",
-        "Producer": "Harbour Comedy"
-      }
-    },
-    {
-      "id": "recQ72bkKbtzt3xY8",
-      "createdTime": "2026-10-13T02:33:16.000Z",
-      "fields": {
-        "Show": "OK, DOPE Presents: Jon Dore Night One",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attQYM7mQZeziuyWb",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attQYM7mQZeziuyWb.jpg",
-            "filename": "jon dore 1.png",
-            "size": 1554395,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attQYM7mQZeziuyWb.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attQYM7mQZeziuyWb.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attQYM7mQZeziuyWb.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
-        "Date": "2026-10-21T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "recWu2XDUpWZ2pqNi",
-      "createdTime": "2026-10-13T01:42:40.000Z",
-      "fields": {
-        "Show": "Archer's Open Mic",
-        "Venue Link": [
-          "recYpe9UlV1Nksr3X"
-        ],
-        "Producer Links": [
-          "recuiRMJoNWfUMLnr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attwwPssCnWSAzMci",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
-            "filename": "Archer's Open Mic.png",
-            "size": 1357351,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "#",
-        "Date": "2026-10-22T01:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "Archer's Community Hub",
-        "Producer": "Jayzwayz Productions"
-      }
-    },
-    {
-      "id": "rec5fzNnev4mMqNXu",
-      "createdTime": "2026-10-13T02:33:28.000Z",
-      "fields": {
-        "Show": "OK, DOPE Presents: Jon Dore Night Two",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attOXq24dyF7RUMPl",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attOXq24dyF7RUMPl.jpg",
-            "filename": "jon dore 2.png",
-            "size": 1562050,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attOXq24dyF7RUMPl.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attOXq24dyF7RUMPl.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attOXq24dyF7RUMPl.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
-        "Date": "2026-10-22T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "recsQVGiamSxtLUjg",
-      "createdTime": "2026-10-14T00:57:51.000Z",
-      "fields": {
-        "Show": "Fernwood Comedy Night",
-        "Venue Link": [
-          "recG6Gac6yNffMr18"
-        ],
-        "Producer Links": [
-          "recXgypLDVoSOiwts"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "atthTcNTqQziY8ccS",
-            "width": 1065,
-            "height": 1331,
-            "url": "/assets/shows/atthTcNTqQziY8ccS.jpg",
-            "filename": "Fernwood Comedy October 21.jpg",
-            "size": 197635,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/atthTcNTqQziY8ccS.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/atthTcNTqQziY8ccS.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/atthTcNTqQziY8ccS.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.showpass.com/comedy-night-at-the-fernwood-inn-2026",
-        "Date": "2026-10-22T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Fernwood Inn",
-        "Producer": "Fernwood Comedy"
-      }
-    },
-    {
-      "id": "recDIJkd028tbYJWC",
-      "createdTime": "2026-10-14T01:11:55.000Z",
-      "fields": {
-        "Show": "Judge My Jokes",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recphYcXsH66lAPuS"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attir8rZmcANvdWCX",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attir8rZmcANvdWCX.jpg",
-            "filename": "JMJ OCT 22  2026 ONLINE Insta.png",
-            "size": 614651,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attir8rZmcANvdWCX.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attir8rZmcANvdWCX.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attir8rZmcANvdWCX.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/judge-my-jokes/9WDIMH",
-        "Date": "2026-10-23T01:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "The Mint Restaurant",
-        "Producer": "Lucia Ribeiro Comedy"
-      }
-    },
-    {
-      "id": "reckEbYMJ2K5H7DPp",
-      "createdTime": "2026-10-13T02:33:39.000Z",
-      "fields": {
-        "Show": "OK, DOPE Presents: Jon Dore Night Three",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attq4CLOZIVSfHwsw",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg",
-            "filename": "jon dore 3.png",
-            "size": 1560908,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
-        "Date": "2026-10-23T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "reccpS3qCHuGo5UIR",
-      "createdTime": "2026-10-13T02:36:43.000Z",
-      "fields": {
-        "Show": "Hecklers Comedy Fundraiser with Howie Miller",
-        "Venue Link": [
-          "rectX9NI65ZLhbZ8d"
-        ],
-        "Producer Links": [
-          "rec5iSlHliKvneIWL"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attpqSzQQGpDR6PaI",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg",
-            "filename": "Hecklers Comedy Fundraiser.png",
-            "size": 850346,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/amys-bunny-barn-fundraiser",
-        "Date": "2026-10-23T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Hecklers Bar and Grill",
-        "Producer": "Hecklers"
-      }
-    },
-    {
-      "id": "recnnuirBZwPcj1Ne",
-      "createdTime": "2026-10-13T02:13:19.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Harold Night",
-        "Venue Link": [
-          "recvk4EprhoHQlSOx"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attiMCRuib2Az4kms",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attiMCRuib2Az4kms.jpg",
-            "filename": "harold night.png",
-            "size": 629484,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-oct22",
-        "Date": "2026-10-23T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ],
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv"
-      }
-    },
-    {
-      "id": "recoKI0lS8AjrzEW2",
-      "createdTime": "2026-10-14T01:27:49.000Z",
-      "fields": {
-        "Show": "Admirals Coffee Roast Battle",
-        "Venue Link": [
-          "recxC1Q7UnAbgZbSp"
-        ],
-        "Producer Links": [
-          "recxsczvqHCjJNF0y"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att264eW1um4hvlMR",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att264eW1um4hvlMR.jpg",
-            "filename": "Admirals Coffee Roasters Roast Battle.png",
-            "size": 1838233,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att264eW1um4hvlMR.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att264eW1um4hvlMR.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att264eW1um4hvlMR.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/admirals-coffee-roas",
-        "Date": "2026-10-24T02:30:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Admirals Coffee Roasters",
-        "Producer": "Mike Dietering Presents"
-      }
-    },
-    {
-      "id": "rec7ZDOh99mXEYSEj",
-      "createdTime": "2026-09-07T23:50:45.000Z",
-      "fields": {
-        "Show": "Comedy Night at Junction Cidery",
-        "Venue Link": [
-          "recKdOnRR66jH69g8"
-        ],
-        "Producer Links": [
-          "rec1wz3kLL95vJqbV"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attmif1W3fgmEermY",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attmif1W3fgmEermY.jpg",
-            "filename": "Comedy Night at Junction Cidery Oct 23.png",
-            "size": 1565324,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attmif1W3fgmEermY.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attmif1W3fgmEermY.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attmif1W3fgmEermY.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-oct-23rd",
-        "Date": "2026-10-24T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Junction Cidery",
-        "Producer": "Harbour Comedy"
-      }
-    },
-    {
-      "id": "recLoLijSiLsSHqPo",
-      "createdTime": "2026-10-13T02:33:50.000Z",
-      "fields": {
-        "Show": "OK, DOPE Presents: Jon Dore (SPECIAL RECORDING)",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attjfcHcxBEZcBb2G",
-            "width": 800,
-            "height": 1000,
-            "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg",
-            "filename": "jon dore night 4.png",
-            "size": 120476,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
-        "Date": "2026-10-24T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "recFLD6Dkf3rjWZ9X",
-      "createdTime": "2026-10-13T02:13:56.000Z",
-      "fields": {
-        "Show": "Garden City Improv with Dan Bakkedahl, Kevin Matviw, and Becky Johnson",
-        "Venue Link": [
-          "recgXzswrN3Vf1kdp"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attOtn6evW89ruq7Y",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attOtn6evW89ruq7Y.jpg",
-            "filename": "Garden City Improv August 22.png",
-            "size": 650661,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attOtn6evW89ruq7Y.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attOtn6evW89ruq7Y.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attOtn6evW89ruq7Y.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/garden-city-improv-with-dan-bakkedahl-and-kevin-matviw/YC2YK3",
-        "Date": "2026-10-24T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ],
-        "Venue": "Encore Victoria",
-        "Producer": "Garden City Improv"
-      }
-    },
-    {
-      "id": "recOKcBChCGq0joSC",
-      "createdTime": "2026-10-13T02:52:21.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: Marito Lopez [TWO SHOWS]",
-        "Venue Link": [
-          "rectX9NI65ZLhbZ8d"
-        ],
-        "Producer Links": [
-          "rec5iSlHliKvneIWL"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attr1lOVS8FwiKDpY",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg",
-            "filename": "hecklers - Marito Lopez.png",
-            "size": 1305543,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-marito-lopez-linear-alarm",
-        "Date": "2026-10-25T02:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Hecklers Bar and Grill",
-        "Producer": "Hecklers"
-      }
-    },
-    {
-      "id": "recioOEhpe4vMOuVn",
-      "createdTime": "2026-10-13T02:34:13.000Z",
-      "fields": {
-        "Show": "OK, DOPE Presents: Jon Dore (SPECIAL RECORDING)",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attp3cuhCRGxg2P9r",
-            "width": 800,
-            "height": 1000,
-            "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg",
-            "filename": "jon dore night 5.png",
-            "size": 117246,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
-        "Date": "2026-10-25T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "rec2NCXd55iqI2qrs",
-      "createdTime": "2026-10-13T02:15:05.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Dungeons Yes & Dragons",
-        "Venue Link": [
-          "recvk4EprhoHQlSOx"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attJzJ2jCeaZyCBpx",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg",
-            "filename": "dungeons yes and dragons.png",
-            "size": 474133,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/dungeons-yes-and-dragons-oct24",
-        "Date": "2026-10-25T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ],
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv"
-      }
-    },
     {
       "id": "recCjTrLRyYhQcYG0",
       "createdTime": "2026-08-06T04:33:07.000Z",
@@ -813,7 +82,7 @@
         "Ticket Link": "https://admitone.com/events/victoria/community/comedy/the-hilarious-cabaret-of-frightenstein/ZNP9MU",
         "Date": "2026-10-28T01:00:00.000Z",
         "Type": [
-          "Variety / Other"
+          "Stand-up"
         ],
         "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy"
@@ -1207,6 +476,92 @@
       }
     },
     {
+      "id": "recE8bNFrNrOtDhAT",
+      "createdTime": "2026-10-27T23:54:37.000Z",
+      "fields": {
+        "Show": "Brass Monkey Showcase",
+        "Venue Link": [
+          "recC9DwyfFtyjjU2a"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attRME5UOFBMNodJ8",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attRME5UOFBMNodJ8.jpg",
+            "filename": "Brass Monkey.png",
+            "size": 1724792,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attRME5UOFBMNodJ8.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attRME5UOFBMNodJ8.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attRME5UOFBMNodJ8.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/brass-monkey-showcase-october-29th-winnipeg-comedy-festival-submission-taping",
+        "Date": "2026-10-30T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Brass Monkey Taproom",
+        "Producer": "Harbour Comedy"
+      }
+    },
+    {
+      "id": "recEzmSsJNymafnuC",
+      "createdTime": "2026-10-27T23:58:01.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Student Improv Night",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att4zIyDEjkD2aTgo",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg",
+            "filename": "Garden City Student Improv Night .png",
+            "size": 723776,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att4zIyDEjkD2aTgo.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/student-improv-night-oct29",
+        "Date": "2026-10-30T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
+      }
+    },
+    {
       "id": "rec8VKeYHHwy9fHrZ",
       "createdTime": "2026-10-14T01:12:57.000Z",
       "fields": {
@@ -1247,6 +602,49 @@
         ],
         "Venue": "The Mint Restaurant",
         "Producer": "Lucia Ribeiro Comedy"
+      }
+    },
+    {
+      "id": "recDVkaOF9QLvF45J",
+      "createdTime": "2026-10-27T23:58:33.000Z",
+      "fields": {
+        "Show": "Garden City Improv with Becky Johnson",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att0LjyljgWGPnOpW",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att0LjyljgWGPnOpW.jpg",
+            "filename": "becky johnson.png",
+            "size": 406254,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att0LjyljgWGPnOpW.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att0LjyljgWGPnOpW.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att0LjyljgWGPnOpW.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/garden-city-improv-with-becky-johnson-halloween",
+        "Date": "2026-10-31T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
       }
     },
     {
@@ -1333,6 +731,49 @@
         ],
         "Venue": "The Mint Restaurant",
         "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recWWpPqnkkFseP32",
+      "createdTime": "2026-10-27T23:59:57.000Z",
+      "fields": {
+        "Show": "David Lynch Improvised",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "atts7H28kS3W74vcn",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/atts7H28kS3W74vcn.jpg",
+            "filename": "david lynch improvised.png",
+            "size": 769237,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/atts7H28kS3W74vcn.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/atts7H28kS3W74vcn.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/atts7H28kS3W74vcn.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/david-lynch-improvised",
+        "Date": "2026-11-01T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
       }
     },
     {
@@ -21376,6 +20817,135 @@
       }
     },
     {
+      "id": "recVTagkNGFe5TrmA",
+      "createdTime": "2026-08-06T04:33:00.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attE7X5mqmMGiRIiD",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg",
+            "filename": "Shop Talk Open Mic Oct 19.jpg",
+            "size": 564948,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attE7X5mqmMGiRIiD.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
+        "Date": "2026-10-20T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "The Mint Restaurant",
+        "Producer": "Shop Talk Comedy"
+      }
+    },
+    {
+      "id": "recbdV51Yn9ruFn7k",
+      "createdTime": "2026-08-06T05:38:08.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attQy6HMXvdCWMorS",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attQy6HMXvdCWMorS.jpg",
+            "filename": "Phoenix Open Mic New.png",
+            "size": 1510586,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attQy6HMXvdCWMorS.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attQy6HMXvdCWMorS.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attQy6HMXvdCWMorS.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-10-21T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "Phoenix Bar and Grill",
+        "Producer": "Harbour Comedy"
+      }
+    },
+    {
+      "id": "recQ72bkKbtzt3xY8",
+      "createdTime": "2026-10-13T02:33:16.000Z",
+      "fields": {
+        "Show": "OK, DOPE Presents: Jon Dore Night One",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attQYM7mQZeziuyWb",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attQYM7mQZeziuyWb.jpg",
+            "filename": "jon dore 1.png",
+            "size": 1554395,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attQYM7mQZeziuyWb.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attQYM7mQZeziuyWb.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attQYM7mQZeziuyWb.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
+        "Date": "2026-10-21T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
       "id": "recSs00P8hHzFEsrE",
       "createdTime": "2026-10-20T03:43:47.000Z",
       "fields": {
@@ -21416,6 +20986,608 @@
         ],
         "Venue": "Archer's Community Hub",
         "Producer": "Jayzwayz Productions"
+      }
+    },
+    {
+      "id": "recWu2XDUpWZ2pqNi",
+      "createdTime": "2026-10-13T01:42:40.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-10-22T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions"
+      }
+    },
+    {
+      "id": "rec5fzNnev4mMqNXu",
+      "createdTime": "2026-10-13T02:33:28.000Z",
+      "fields": {
+        "Show": "OK, DOPE Presents: Jon Dore Night Two",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attOXq24dyF7RUMPl",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attOXq24dyF7RUMPl.jpg",
+            "filename": "jon dore 2.png",
+            "size": 1562050,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attOXq24dyF7RUMPl.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attOXq24dyF7RUMPl.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attOXq24dyF7RUMPl.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
+        "Date": "2026-10-22T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recsQVGiamSxtLUjg",
+      "createdTime": "2026-10-14T00:57:51.000Z",
+      "fields": {
+        "Show": "Fernwood Comedy Night",
+        "Venue Link": [
+          "recG6Gac6yNffMr18"
+        ],
+        "Producer Links": [
+          "recXgypLDVoSOiwts"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "atthTcNTqQziY8ccS",
+            "width": 1065,
+            "height": 1331,
+            "url": "/assets/shows/atthTcNTqQziY8ccS.jpg",
+            "filename": "Fernwood Comedy October 21.jpg",
+            "size": 197635,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/atthTcNTqQziY8ccS.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/atthTcNTqQziY8ccS.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/atthTcNTqQziY8ccS.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.showpass.com/comedy-night-at-the-fernwood-inn-2026",
+        "Date": "2026-10-22T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Fernwood Inn",
+        "Producer": "Fernwood Comedy"
+      }
+    },
+    {
+      "id": "recDIJkd028tbYJWC",
+      "createdTime": "2026-10-14T01:11:55.000Z",
+      "fields": {
+        "Show": "Judge My Jokes",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attir8rZmcANvdWCX",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attir8rZmcANvdWCX.jpg",
+            "filename": "JMJ OCT 22  2026 ONLINE Insta.png",
+            "size": 614651,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attir8rZmcANvdWCX.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attir8rZmcANvdWCX.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attir8rZmcANvdWCX.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/judge-my-jokes/9WDIMH",
+        "Date": "2026-10-23T01:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "The Mint Restaurant",
+        "Producer": "Lucia Ribeiro Comedy"
+      }
+    },
+    {
+      "id": "reckEbYMJ2K5H7DPp",
+      "createdTime": "2026-10-13T02:33:39.000Z",
+      "fields": {
+        "Show": "OK, DOPE Presents: Jon Dore Night Three",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attq4CLOZIVSfHwsw",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg",
+            "filename": "jon dore 3.png",
+            "size": 1560908,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attq4CLOZIVSfHwsw.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
+        "Date": "2026-10-23T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "reccpS3qCHuGo5UIR",
+      "createdTime": "2026-10-13T02:36:43.000Z",
+      "fields": {
+        "Show": "Hecklers Comedy Fundraiser with Howie Miller",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attpqSzQQGpDR6PaI",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg",
+            "filename": "Hecklers Comedy Fundraiser.png",
+            "size": 850346,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attpqSzQQGpDR6PaI.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/amys-bunny-barn-fundraiser",
+        "Date": "2026-10-23T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Hecklers Bar and Grill",
+        "Producer": "Hecklers"
+      }
+    },
+    {
+      "id": "recnnuirBZwPcj1Ne",
+      "createdTime": "2026-10-13T02:13:19.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attiMCRuib2Az4kms",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attiMCRuib2Az4kms.jpg",
+            "filename": "harold night.png",
+            "size": 629484,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attiMCRuib2Az4kms.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-oct22",
+        "Date": "2026-10-23T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
+      }
+    },
+    {
+      "id": "recoKI0lS8AjrzEW2",
+      "createdTime": "2026-10-14T01:27:49.000Z",
+      "fields": {
+        "Show": "Admirals Coffee Roast Battle",
+        "Venue Link": [
+          "recxC1Q7UnAbgZbSp"
+        ],
+        "Producer Links": [
+          "recxsczvqHCjJNF0y"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att264eW1um4hvlMR",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att264eW1um4hvlMR.jpg",
+            "filename": "Admirals Coffee Roasters Roast Battle.png",
+            "size": 1838233,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att264eW1um4hvlMR.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att264eW1um4hvlMR.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att264eW1um4hvlMR.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/admirals-coffee-roas",
+        "Date": "2026-10-24T02:30:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Admirals Coffee Roasters",
+        "Producer": "Mike Dietering Presents"
+      }
+    },
+    {
+      "id": "rec7ZDOh99mXEYSEj",
+      "createdTime": "2026-09-07T23:50:45.000Z",
+      "fields": {
+        "Show": "Comedy Night at Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attmif1W3fgmEermY",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attmif1W3fgmEermY.jpg",
+            "filename": "Comedy Night at Junction Cidery Oct 23.png",
+            "size": 1565324,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attmif1W3fgmEermY.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attmif1W3fgmEermY.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attmif1W3fgmEermY.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-oct-23rd",
+        "Date": "2026-10-24T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Junction Cidery",
+        "Producer": "Harbour Comedy"
+      }
+    },
+    {
+      "id": "recLoLijSiLsSHqPo",
+      "createdTime": "2026-10-13T02:33:50.000Z",
+      "fields": {
+        "Show": "OK, DOPE Presents: Jon Dore (SPECIAL RECORDING)",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attjfcHcxBEZcBb2G",
+            "width": 800,
+            "height": 1000,
+            "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg",
+            "filename": "jon dore night 4.png",
+            "size": 120476,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attjfcHcxBEZcBb2G.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
+        "Date": "2026-10-24T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recFLD6Dkf3rjWZ9X",
+      "createdTime": "2026-10-13T02:13:56.000Z",
+      "fields": {
+        "Show": "Garden City Improv with Dan Bakkedahl, Kevin Matviw, and Becky Johnson",
+        "Venue Link": [
+          "recgXzswrN3Vf1kdp"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attOtn6evW89ruq7Y",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attOtn6evW89ruq7Y.jpg",
+            "filename": "Garden City Improv August 22.png",
+            "size": 650661,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attOtn6evW89ruq7Y.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attOtn6evW89ruq7Y.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attOtn6evW89ruq7Y.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/garden-city-improv-with-dan-bakkedahl-and-kevin-matviw/YC2YK3",
+        "Date": "2026-10-24T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "Encore Victoria",
+        "Producer": "Garden City Improv"
+      }
+    },
+    {
+      "id": "recOKcBChCGq0joSC",
+      "createdTime": "2026-10-13T02:52:21.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: Marito Lopez [TWO SHOWS]",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attr1lOVS8FwiKDpY",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg",
+            "filename": "hecklers - Marito Lopez.png",
+            "size": 1305543,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attr1lOVS8FwiKDpY.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-marito-lopez-linear-alarm",
+        "Date": "2026-10-25T02:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Hecklers Bar and Grill",
+        "Producer": "Hecklers"
+      }
+    },
+    {
+      "id": "recioOEhpe4vMOuVn",
+      "createdTime": "2026-10-13T02:34:13.000Z",
+      "fields": {
+        "Show": "OK, DOPE Presents: Jon Dore (SPECIAL RECORDING)",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attp3cuhCRGxg2P9r",
+            "width": 800,
+            "height": 1000,
+            "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg",
+            "filename": "jon dore night 5.png",
+            "size": 117246,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attp3cuhCRGxg2P9r.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-presents-a-jon-dore-residency",
+        "Date": "2026-10-25T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "rec2NCXd55iqI2qrs",
+      "createdTime": "2026-10-13T02:15:05.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Dungeons Yes & Dragons",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attJzJ2jCeaZyCBpx",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg",
+            "filename": "dungeons yes and dragons.png",
+            "size": 474133,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attJzJ2jCeaZyCBpx.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/dungeons-yes-and-dragons-oct24",
+        "Date": "2026-10-25T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
       }
     }
   ]
