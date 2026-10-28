@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T00:02:21.648Z",
+  "fetchedAt": "2026-10-28T00:04:13.906Z",
   "syncVersion": 2,
   "current": [
     {
@@ -14,28 +14,6 @@
           "recbYFcvB7zUrdJ6U"
         ],
         "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att0vu42mq4Zxtu9f",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att0vu42mq4Zxtu9f.jpg",
-            "filename": "Taping Showcase.png",
-            "size": 997612,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att0vu42mq4Zxtu9f.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att0vu42mq4Zxtu9f.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att0vu42mq4Zxtu9f.jpg"
-              }
-            }
-          }
-        ],
         "Ticket Link": "https://admitone.com/events/victoria/community/comedy/winnipeg-comedy-submission-taping-showcase/KKP2L9",
         "Date": "2026-10-27T02:00:00.000Z",
         "Type": [
@@ -297,6 +275,9 @@
         ],
         "Ticket Link": "https://www.jumpcomedy.com/e/mostly-open-mike",
         "Date": "2026-10-29T03:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
         "Venue": "Archer's Community Hub",
         "Producer": "Mike Dietering Presents, Jayzwayz Productions"
       }
