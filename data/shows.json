@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T00:04:13.906Z",
+  "fetchedAt": "2026-10-28T00:07:02.546Z",
   "syncVersion": 2,
   "current": [
     {
@@ -14,6 +14,28 @@
           "recbYFcvB7zUrdJ6U"
         ],
         "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att6r73OVzv3a1XEX",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att6r73OVzv3a1XEX.jpg",
+            "filename": "shoptalk showcase.png",
+            "size": 1507901,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
+              }
+            }
+          }
+        ],
         "Ticket Link": "https://admitone.com/events/victoria/community/comedy/winnipeg-comedy-submission-taping-showcase/KKP2L9",
         "Date": "2026-10-27T02:00:00.000Z",
         "Type": [
