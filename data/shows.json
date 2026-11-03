@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T01:37:22.419Z",
+  "fetchedAt": "2026-11-03T01:42:40.482Z",
   "syncVersion": 2,
   "current": [
     {
@@ -344,7 +344,7 @@
         "Type": [
           "Stand-up"
         ],
-        "Venue": "TBA",
+        "Venue": "Secret Venue",
         "Producer": "The West Coast Speakeasy"
       }
     },
@@ -395,7 +395,7 @@
       "id": "recRnWhCrJHVkhubo",
       "createdTime": "2026-11-03T01:26:51.000Z",
       "fields": {
-        "Show": "Garden City Improv: Improv Against Humanity copy",
+        "Show": "Garden City Improv: Improv Against Humanity",
         "Venue Link": [
           "recgXzswrN3Vf1kdp"
         ],
