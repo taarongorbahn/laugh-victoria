@@ -1,136 +1,7 @@
 {
-  "fetchedAt": "2026-11-02T01:56:04.116Z",
+  "fetchedAt": "2026-11-03T01:22:18.384Z",
   "syncVersion": 2,
   "current": [
-    {
-      "id": "recCjTrLRyYhQcYG0",
-      "createdTime": "2026-08-06T04:33:07.000Z",
-      "fields": {
-        "Show": "Shop Talk WCF Submission Showcase",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recbYFcvB7zUrdJ6U"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att6r73OVzv3a1XEX",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att6r73OVzv3a1XEX.jpg",
-            "filename": "shoptalk showcase.png",
-            "size": 1507901,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/winnipeg-comedy-submission-taping-showcase/KKP2L9",
-        "Date": "2026-10-27T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "The Mint Restaurant",
-        "Producer": "Shop Talk Comedy"
-      }
-    },
-    {
-      "id": "recl44fDfF4ROqxCM",
-      "createdTime": "2026-10-14T01:12:32.000Z",
-      "fields": {
-        "Show": "The Hilarious Cabaret of Frightenstein",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recphYcXsH66lAPuS"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att8QC2OWz9Xsb3gb",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg",
-            "filename": "Hilarious Cabaret of Frightenstein.png",
-            "size": 388269,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/the-hilarious-cabaret-of-frightenstein/ZNP9MU",
-        "Date": "2026-10-28T01:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "The Mint Restaurant",
-        "Producer": "Lucia Ribeiro Comedy"
-      }
-    },
-    {
-      "id": "recYc7eHb2KevLQah",
-      "createdTime": "2026-08-06T05:38:24.000Z",
-      "fields": {
-        "Show": "Phoenix Comedy Open Mic",
-        "Venue Link": [
-          "recNrd0ERVssBzIt2"
-        ],
-        "Producer Links": [
-          "rec1wz3kLL95vJqbV"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attIGUJJh5HM0qukb",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attIGUJJh5HM0qukb.jpg",
-            "filename": "Phoenix Open Mic.png",
-            "size": 1012288,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-10-28T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "Phoenix Bar and Grill",
-        "Producer": "Harbour Comedy"
-      }
-    },
     {
       "id": "reck6slcuy9GbO5ak",
       "createdTime": "2026-10-13T01:42:53.000Z",
@@ -864,6 +735,49 @@
         ],
         "Venue": "OK, DOPE Comedy Club",
         "Producer": "OK, DOPE, Phillips Comedy Night"
+      }
+    },
+    {
+      "id": "recyZw3dnDFTjpmbS",
+      "createdTime": "2026-11-03T01:22:01.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-11-06T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions"
       }
     },
     {
@@ -21591,6 +21505,135 @@
         ],
         "Venue": "TheatreSKAM",
         "Producer": "Garden City Improv"
+      }
+    },
+    {
+      "id": "recCjTrLRyYhQcYG0",
+      "createdTime": "2026-08-06T04:33:07.000Z",
+      "fields": {
+        "Show": "Shop Talk WCF Submission Showcase",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att6r73OVzv3a1XEX",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att6r73OVzv3a1XEX.jpg",
+            "filename": "shoptalk showcase.png",
+            "size": 1507901,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att6r73OVzv3a1XEX.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/winnipeg-comedy-submission-taping-showcase/KKP2L9",
+        "Date": "2026-10-27T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "The Mint Restaurant",
+        "Producer": "Shop Talk Comedy"
+      }
+    },
+    {
+      "id": "recl44fDfF4ROqxCM",
+      "createdTime": "2026-10-14T01:12:32.000Z",
+      "fields": {
+        "Show": "The Hilarious Cabaret of Frightenstein",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att8QC2OWz9Xsb3gb",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg",
+            "filename": "Hilarious Cabaret of Frightenstein.png",
+            "size": 388269,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att8QC2OWz9Xsb3gb.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/the-hilarious-cabaret-of-frightenstein/ZNP9MU",
+        "Date": "2026-10-28T01:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "The Mint Restaurant",
+        "Producer": "Lucia Ribeiro Comedy"
+      }
+    },
+    {
+      "id": "recYc7eHb2KevLQah",
+      "createdTime": "2026-08-06T05:38:24.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attIGUJJh5HM0qukb",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attIGUJJh5HM0qukb.jpg",
+            "filename": "Phoenix Open Mic.png",
+            "size": 1012288,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attIGUJJh5HM0qukb.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-10-28T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "Phoenix Bar and Grill",
+        "Producer": "Harbour Comedy"
       }
     }
   ]
