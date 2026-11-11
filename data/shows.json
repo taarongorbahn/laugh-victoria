@@ -1,654 +1,7 @@
 {
-  "fetchedAt": "2026-11-11T01:31:57.373Z",
+  "fetchedAt": "2026-11-11T04:21:49.187Z",
   "syncVersion": 2,
   "current": [
-    {
-      "id": "recIOEh3uLZ29b4IU",
-      "createdTime": "2026-08-06T04:33:23.000Z",
-      "fields": {
-        "Show": "Shop Talk Comedy Open Mic",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recbYFcvB7zUrdJ6U"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attJ6ey8Q8ZdLrXDF",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg",
-            "filename": "883300536_17894551767684575_7990361087593738306_n.jpg",
-            "size": 560970,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
-        "Date": "2026-11-03T03:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "The Mint Restaurant",
-        "Producer": "Shop Talk Comedy"
-      }
-    },
-    {
-      "id": "reccOTsFBKPl58prz",
-      "createdTime": "2026-11-03T01:22:57.000Z",
-      "fields": {
-        "Show": "Phoenix Comedy Open Mic",
-        "Venue Link": [
-          "recNrd0ERVssBzIt2"
-        ],
-        "Producer Links": [
-          "rec1wz3kLL95vJqbV"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attYntJdV72cSgzAd",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attYntJdV72cSgzAd.jpg",
-            "filename": "phoneix open mic.png",
-            "size": 1200345,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attYntJdV72cSgzAd.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attYntJdV72cSgzAd.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attYntJdV72cSgzAd.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
-        "Date": "2026-11-04T02:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "Phoenix Bar and Grill",
-        "Producer": "Harbour Comedy"
-      }
-    },
-    {
-      "id": "recHs5wGHdP6hhbAs",
-      "createdTime": "2026-11-03T01:24:43.000Z",
-      "fields": {
-        "Show": "The Total Riff-Off",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recwad946e1090dAz"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attY472mk4F4T5mkI",
-            "width": 1328,
-            "height": 1680,
-            "url": "/assets/shows/attY472mk4F4T5mkI.jpg",
-            "filename": "total riff off.jpg",
-            "size": 292951,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attY472mk4F4T5mkI.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attY472mk4F4T5mkI.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attY472mk4F4T5mkI.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/the-total-riff-off-featuring-elton-smurf/DHQXUU",
-        "Date": "2026-11-04T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "The Mint Restaurant",
-        "Producer": "The Mint"
-      }
-    },
-    {
-      "id": "recyZw3dnDFTjpmbS",
-      "createdTime": "2026-11-03T01:22:01.000Z",
-      "fields": {
-        "Show": "Archer's Open Mic",
-        "Venue Link": [
-          "recYpe9UlV1Nksr3X"
-        ],
-        "Producer Links": [
-          "recuiRMJoNWfUMLnr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attwwPssCnWSAzMci",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
-            "filename": "Archer's Open Mic.png",
-            "size": 1357351,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "#",
-        "Date": "2026-11-05T01:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "Archer's Community Hub",
-        "Producer": "Jayzwayz Productions"
-      }
-    },
-    {
-      "id": "recbeifMVgiRnIWj5",
-      "createdTime": "2026-10-14T01:53:35.000Z",
-      "fields": {
-        "Show": "Phillips Comedy Night",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr",
-          "recyM3Api4qW9dsiX"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attQQDjNUxJYlP6eB",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg",
-            "filename": "Phillips Comedy Night at  OK DOPE.png",
-            "size": 1883881,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/phillips-comedy-night",
-        "Date": "2026-11-05T04:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE, Phillips Comedy Night"
-      }
-    },
-    {
-      "id": "recpZE6HfeXTJCMhh",
-      "createdTime": "2026-10-14T01:13:21.000Z",
-      "fields": {
-        "Show": "Comedy Interrogation",
-        "Venue Link": [
-          "recWqls30QYvPiYUD"
-        ],
-        "Producer Links": [
-          "recphYcXsH66lAPuS"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attxQET2HMJyy82iU",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attxQET2HMJyy82iU.jpg",
-            "filename": "CIS1E3 NOV 5 2026 Insta w qr code.png",
-            "size": 798731,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attxQET2HMJyy82iU.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attxQET2HMJyy82iU.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attxQET2HMJyy82iU.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/comedy-interrogation/8CI8S8",
-        "Date": "2026-11-06T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "The Mint Restaurant",
-        "Producer": "Lucia Ribeiro Comedy"
-      }
-    },
-    {
-      "id": "recrMSgmoWfNrZ4eh",
-      "createdTime": "2026-10-14T01:55:08.000Z",
-      "fields": {
-        "Show": "OK DOPE Presents: Entertainment Village",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr",
-          "recjFSy2S99vCbhzR"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "att10pU66L7AKNVOZ",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/att10pU66L7AKNVOZ.jpg",
-            "filename": "Entertainment Village at OK DOPE.png",
-            "size": 1726666,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/entertainment-village",
-        "Date": "2026-11-06T04:00:00.000Z",
-        "Type": [
-          "Improv"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE, Entertainment Village"
-      }
-    },
-    {
-      "id": "recmHhNApJ0G7HJIJ",
-      "createdTime": "2026-10-14T01:06:23.000Z",
-      "fields": {
-        "Show": "West Coast Speakeasy Live",
-        "Venue Link": [
-          "rec4cK6RvuQsn6a9A"
-        ],
-        "Producer Links": [
-          "recZ0rFROs3W8w2i3"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attLMrhHD85Yggv4g",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attLMrhHD85Yggv4g.jpg",
-            "filename": "West Coast Speakeasy Live.png",
-            "size": 667486,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attLMrhHD85Yggv4g.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attLMrhHD85Yggv4g.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attLMrhHD85Yggv4g.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.facebook.com/events/1092746033150646/",
-        "Date": "2026-11-07T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Secret Venue",
-        "Producer": "The West Coast Speakeasy"
-      }
-    },
-    {
-      "id": "recX3sgQax85CuRk6",
-      "createdTime": "2026-11-03T01:33:02.000Z",
-      "fields": {
-        "Show": "OK DOPE Presents: Girls Night",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attEWn1Oau15MFCUE",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attEWn1Oau15MFCUE.jpg",
-            "filename": "Girls Night at OK DOPE.png",
-            "size": 1552756,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attEWn1Oau15MFCUE.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attEWn1Oau15MFCUE.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attEWn1Oau15MFCUE.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/girls-night-2?variant_id=variant_01a108ce-e8bd-7739-856f-86c32acd0609",
-        "Date": "2026-11-07T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "recRnWhCrJHVkhubo",
-      "createdTime": "2026-11-03T01:26:51.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Improv Against Humanity",
-        "Venue Link": [
-          "recgXzswrN3Vf1kdp"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attqBh3oCApRakRca",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attqBh3oCApRakRca.jpg",
-            "filename": "improv against humanity.png",
-            "size": 147151,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/improv-against-humanity/WKG4GW",
-        "Date": "2026-11-07T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ],
-        "Venue": "Encore Victoria",
-        "Producer": "Garden City Improv"
-      }
-    },
-    {
-      "id": "receVoDbZEcqpoMbJ",
-      "createdTime": "2026-10-13T02:53:03.000Z",
-      "fields": {
-        "Show": "Hecklers Presents: JJ Whitehead [TWO SHOWS]",
-        "Venue Link": [
-          "rectX9NI65ZLhbZ8d"
-        ],
-        "Producer Links": [
-          "rec5iSlHliKvneIWL"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attnHqvTt5RHcztSJ",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg",
-            "filename": "hecklers - jj whitehead.png",
-            "size": 773902,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-jj-whitehead",
-        "Date": "2026-11-08T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Hecklers Bar and Grill",
-        "Producer": "Hecklers"
-      }
-    },
-    {
-      "id": "recxgfByZFy9nCxTw",
-      "createdTime": "2026-11-03T01:33:50.000Z",
-      "fields": {
-        "Show": "Ryan Williams Live at OK, DOPE Comedy Club",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attX9tPpfOsSNhPy2",
-            "width": 800,
-            "height": 1000,
-            "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg",
-            "filename": "Ryan Williams.png",
-            "size": 138094,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/ryan-williams-live-at-ok-dope-comedy-club",
-        "Date": "2026-11-08T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "recvjaNjgxI14GxLF",
-      "createdTime": "2026-11-03T01:27:37.000Z",
-      "fields": {
-        "Show": "Garden City Improv: Improv All-Stars",
-        "Venue Link": [
-          "recvk4EprhoHQlSOx"
-        ],
-        "Producer Links": [
-          "rec6BoXot49GLfyfK"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attvaovE2ZQUXCqMQ",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg",
-            "filename": "Improv All Stars.png",
-            "size": 466442,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-nov7",
-        "Date": "2026-11-08T03:30:00.000Z",
-        "Type": [
-          "Improv"
-        ],
-        "Venue": "TheatreSKAM",
-        "Producer": "Garden City Improv"
-      }
-    },
-    {
-      "id": "recfhJih8TYscdFFe",
-      "createdTime": "2026-11-03T01:34:56.000Z",
-      "fields": {
-        "Show": "OK, DOPE Open Mic and Karaoke",
-        "Venue Link": [
-          "reckVMUT5OWSICIvV"
-        ],
-        "Producer Links": [
-          "recXR6FMbSNASkiNr"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attNBhnkrbejxZNVH",
-            "width": 800,
-            "height": 1000,
-            "url": "/assets/shows/attNBhnkrbejxZNVH.jpg",
-            "filename": "OK Dope Open Mic.png",
-            "size": 85764,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attNBhnkrbejxZNVH.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attNBhnkrbejxZNVH.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attNBhnkrbejxZNVH.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-open-mic-then-karaoke",
-        "Date": "2026-11-09T01:00:00.000Z",
-        "Type": [
-          "Open Mic"
-        ],
-        "Venue": "OK, DOPE Comedy Club",
-        "Producer": "OK, DOPE"
-      }
-    },
-    {
-      "id": "recEtN5xgJkbhAmiH",
-      "createdTime": "2026-06-23T01:21:43.000Z",
-      "fields": {
-        "Show": "Outback Presents: Jim Jeffries: Son of a Carpenter",
-        "Venue Link": [
-          "rec3kX29L1R93zGWf"
-        ],
-        "Producer Links": [
-          "reclY1pGbtWqLuFHm"
-        ],
-        "Status": "Active",
-        "Show Graphic": [
-          {
-            "id": "attKmimG5g7xHqefz",
-            "width": 1080,
-            "height": 1350,
-            "url": "/assets/shows/attKmimG5g7xHqefz.jpg",
-            "filename": "Jim Jeffries November 8.png",
-            "size": 1355626,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "/assets/shows/attKmimG5g7xHqefz.jpg"
-              },
-              "large": {
-                "url": "/assets/shows/attKmimG5g7xHqefz.jpg"
-              },
-              "full": {
-                "url": "/assets/shows/attKmimG5g7xHqefz.jpg"
-              }
-            }
-          }
-        ],
-        "Ticket Link": "https://sofmc.com/event/jim-jefferies/",
-        "Date": "2026-11-09T03:00:00.000Z",
-        "Type": [
-          "Stand-up"
-        ],
-        "Venue": "Save-On-Foods Memorial Center",
-        "Producer": "Outback"
-      }
-    },
     {
       "id": "rec4G82N0BwC4eYpf",
       "createdTime": "2026-08-06T04:33:42.000Z",
@@ -780,46 +133,89 @@
       }
     },
     {
-      "id": "recaZeIyomlr9XcKX",
-      "createdTime": "2026-05-16T05:20:38.000Z",
+      "id": "recs6BeES0OzSXFeL",
+      "createdTime": "2026-11-04T20:47:23.000Z",
       "fields": {
-        "Show": "MRG Live Presents: John Mulaney",
+        "Show": "Baddies in the Basement",
         "Venue Link": [
-          "rec3kX29L1R93zGWf"
+          "recClmGwr8CuaXUDz"
         ],
         "Producer Links": [
-          "rechMH2CCIRr1mo5L"
+          "recxxg320yxQ2SlmH"
         ],
         "Status": "Active",
         "Show Graphic": [
           {
-            "id": "attnnNmUHQJ9arBJO",
+            "id": "att1OcZF9UzUM0vJB",
             "width": 1080,
             "height": 1350,
-            "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg",
-            "filename": "John Mulaney.png",
-            "size": 1213736,
+            "url": "/assets/shows/att1OcZF9UzUM0vJB.jpg",
+            "filename": "baddies in the basement.png",
+            "size": 286276,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg"
+                "url": "/assets/shows/att1OcZF9UzUM0vJB.jpg"
               },
               "large": {
-                "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg"
+                "url": "/assets/shows/att1OcZF9UzUM0vJB.jpg"
               },
               "full": {
-                "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg"
+                "url": "/assets/shows/att1OcZF9UzUM0vJB.jpg"
               }
             }
           }
         ],
-        "Ticket Link": "https://sofmc.com/event/john-mulaney/",
-        "Date": "2026-11-13T04:00:00.000Z",
+        "Ticket Link": "https://www.jumpcomedy.com/e/baddies-in-the-basement/",
+        "Date": "2026-11-13T03:00:00.000Z",
         "Type": [
           "Stand-up"
         ],
-        "Venue": "Save-On-Foods Memorial Center",
-        "Producer": "MRG Live"
+        "Venue": "Pour and Famous",
+        "Producer": "Jon David Presents"
+      }
+    },
+    {
+      "id": "recraXevKM21oXZ1z",
+      "createdTime": "2026-11-11T04:13:00.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Harold Night",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attLhcVEa45gxE7h9",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attLhcVEa45gxE7h9.jpg",
+            "filename": "GCI Harold Night.png",
+            "size": 1614356,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attLhcVEa45gxE7h9.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attLhcVEa45gxE7h9.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attLhcVEa45gxE7h9.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/harold-night-nov5",
+        "Date": "2026-11-13T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
       }
     },
     {
@@ -910,6 +306,92 @@
       }
     },
     {
+      "id": "recAuzMSvKXvJC3MK",
+      "createdTime": "2026-11-11T04:10:14.000Z",
+      "fields": {
+        "Show": "Comedy Night at Junction Cidery",
+        "Venue Link": [
+          "recKdOnRR66jH69g8"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attWuypV9fVuusYfL",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attWuypV9fVuusYfL.jpg",
+            "filename": "junction nov 13.png",
+            "size": 2352420,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attWuypV9fVuusYfL.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attWuypV9fVuusYfL.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attWuypV9fVuusYfL.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/comedy-night-at-junction-cidery-nov-13",
+        "Date": "2026-11-14T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Junction Cidery",
+        "Producer": "Harbour Comedy"
+      }
+    },
+    {
+      "id": "rect8OT1C3qzcLx6o",
+      "createdTime": "2026-11-11T04:17:39.000Z",
+      "fields": {
+        "Show": "The Late Night Show with Nash Park",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attoK3hvCrkGgW040",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attoK3hvCrkGgW040.jpg",
+            "filename": "late night show with nash park.png",
+            "size": 1720234,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attoK3hvCrkGgW040.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attoK3hvCrkGgW040.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attoK3hvCrkGgW040.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/the-late-night-show-with-nash-park-judo-food",
+        "Date": "2026-11-14T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
       "id": "recZv3Et6MG39Bo6C",
       "createdTime": "2026-11-03T01:28:22.000Z",
       "fields": {
@@ -993,6 +475,92 @@
         ],
         "Venue": "Hecklers Bar and Grill",
         "Producer": "Hecklers"
+      }
+    },
+    {
+      "id": "recNIrRiHVlS96qXT",
+      "createdTime": "2026-11-11T04:18:53.000Z",
+      "fields": {
+        "Show": "OK, DOPE: Blind Dates Live",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att5jDzPC8Xc3ANl5",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg",
+            "filename": "Blind Dates Live at OK DOPE.png",
+            "size": 1056604,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/blind-dates-live-with-alex-forman?variant_id=variant_01a108df-d90f-7a1c-8297-003b23bd84cf",
+        "Date": "2026-11-15T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recukko8dzjhExbn9",
+      "createdTime": "2026-11-11T04:13:34.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv All-Stars",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attvaovE2ZQUXCqMQ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg",
+            "filename": "Improv All Stars.png",
+            "size": 466442,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-oct17",
+        "Date": "2026-11-15T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
       }
     },
     {
@@ -1685,6 +1253,49 @@
       }
     },
     {
+      "id": "rec93B3Dxf9YAXI7s",
+      "createdTime": "2026-11-11T04:19:24.000Z",
+      "fields": {
+        "Show": "OK, DOPE: Blind Dates Live: Queer Edition",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attzETXmogRyGeIzI",
+            "width": 800,
+            "height": 1000,
+            "url": "/assets/shows/attzETXmogRyGeIzI.jpg",
+            "filename": "blind dates queer.png",
+            "size": 67430,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attzETXmogRyGeIzI.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attzETXmogRyGeIzI.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attzETXmogRyGeIzI.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/blind-dates-live-with-alex-forman?variant_id=variant_01a108df-d90f-7a1c-8297-003b23bd84cf",
+        "Date": "2026-11-29T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
       "id": "rec9aLwFDAVtcmqEQ",
       "createdTime": "2026-11-03T01:36:26.000Z",
       "fields": {
@@ -1857,6 +1468,49 @@
       }
     },
     {
+      "id": "recIzC32K7BlUhfnc",
+      "createdTime": "2026-11-11T04:20:26.000Z",
+      "fields": {
+        "Show": "OK, DOPE: Blind Dates Live",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "att5jDzPC8Xc3ANl5",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg",
+            "filename": "Blind Dates Live at OK DOPE.png",
+            "size": 1056604,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att5jDzPC8Xc3ANl5.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/blind-dates-live-with-alex-forman?variant_id=variant_01a108df-d90f-7a1c-8297-003b23bd84cf",
+        "Date": "2026-12-12T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
       "id": "recdcWiR2vIBV3UdQ",
       "createdTime": "2026-10-13T02:54:47.000Z",
       "fields": {
@@ -2026,6 +1680,49 @@
         ],
         "Venue": "OK, DOPE Comedy Club",
         "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recaZeIyomlr9XcKX",
+      "createdTime": "2026-05-16T05:20:38.000Z",
+      "fields": {
+        "Show": "MRG Live Presents: John Mulaney",
+        "Venue Link": [
+          "rec3kX29L1R93zGWf"
+        ],
+        "Producer Links": [
+          "rechMH2CCIRr1mo5L"
+        ],
+        "Status": "Active",
+        "Show Graphic": [
+          {
+            "id": "attnnNmUHQJ9arBJO",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg",
+            "filename": "John Mulaney.png",
+            "size": 1213736,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attnnNmUHQJ9arBJO.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://sofmc.com/event/john-mulaney/",
+        "Date": "2027-03-06T04:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Save-On-Foods Memorial Center",
+        "Producer": "MRG Live"
       }
     },
     {
@@ -22239,6 +21936,265 @@
       }
     },
     {
+      "id": "recIOEh3uLZ29b4IU",
+      "createdTime": "2026-08-06T04:33:23.000Z",
+      "fields": {
+        "Show": "Shop Talk Comedy Open Mic",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recbYFcvB7zUrdJ6U"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attJ6ey8Q8ZdLrXDF",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg",
+            "filename": "883300536_17894551767684575_7990361087593738306_n.jpg",
+            "size": 560970,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attJ6ey8Q8ZdLrXDF.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/organizer/shop_talk_comedy/6993bf325053704227fb4ef8",
+        "Date": "2026-11-03T03:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "The Mint Restaurant",
+        "Producer": "Shop Talk Comedy"
+      }
+    },
+    {
+      "id": "reccOTsFBKPl58prz",
+      "createdTime": "2026-11-03T01:22:57.000Z",
+      "fields": {
+        "Show": "Phoenix Comedy Open Mic",
+        "Venue Link": [
+          "recNrd0ERVssBzIt2"
+        ],
+        "Producer Links": [
+          "rec1wz3kLL95vJqbV"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attYntJdV72cSgzAd",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attYntJdV72cSgzAd.jpg",
+            "filename": "phoneix open mic.png",
+            "size": 1200345,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attYntJdV72cSgzAd.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attYntJdV72cSgzAd.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attYntJdV72cSgzAd.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/b/harbour-comedy-25",
+        "Date": "2026-11-04T02:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "Phoenix Bar and Grill",
+        "Producer": "Harbour Comedy"
+      }
+    },
+    {
+      "id": "recHs5wGHdP6hhbAs",
+      "createdTime": "2026-11-03T01:24:43.000Z",
+      "fields": {
+        "Show": "The Total Riff-Off",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recwad946e1090dAz"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attY472mk4F4T5mkI",
+            "width": 1328,
+            "height": 1680,
+            "url": "/assets/shows/attY472mk4F4T5mkI.jpg",
+            "filename": "total riff off.jpg",
+            "size": 292951,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attY472mk4F4T5mkI.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attY472mk4F4T5mkI.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attY472mk4F4T5mkI.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/the-total-riff-off-featuring-elton-smurf/DHQXUU",
+        "Date": "2026-11-04T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "The Mint Restaurant",
+        "Producer": "The Mint"
+      }
+    },
+    {
+      "id": "recyZw3dnDFTjpmbS",
+      "createdTime": "2026-11-03T01:22:01.000Z",
+      "fields": {
+        "Show": "Archer's Open Mic",
+        "Venue Link": [
+          "recYpe9UlV1Nksr3X"
+        ],
+        "Producer Links": [
+          "recuiRMJoNWfUMLnr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attwwPssCnWSAzMci",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attwwPssCnWSAzMci.jpg",
+            "filename": "Archer's Open Mic.png",
+            "size": 1357351,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attwwPssCnWSAzMci.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "#",
+        "Date": "2026-11-05T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "Archer's Community Hub",
+        "Producer": "Jayzwayz Productions"
+      }
+    },
+    {
+      "id": "recbeifMVgiRnIWj5",
+      "createdTime": "2026-10-14T01:53:35.000Z",
+      "fields": {
+        "Show": "Phillips Comedy Night",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr",
+          "recyM3Api4qW9dsiX"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attQQDjNUxJYlP6eB",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg",
+            "filename": "Phillips Comedy Night at  OK DOPE.png",
+            "size": 1883881,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attQQDjNUxJYlP6eB.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/phillips-comedy-night",
+        "Date": "2026-11-05T04:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE, Phillips Comedy Night"
+      }
+    },
+    {
+      "id": "recpZE6HfeXTJCMhh",
+      "createdTime": "2026-10-14T01:13:21.000Z",
+      "fields": {
+        "Show": "Comedy Interrogation",
+        "Venue Link": [
+          "recWqls30QYvPiYUD"
+        ],
+        "Producer Links": [
+          "recphYcXsH66lAPuS"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attxQET2HMJyy82iU",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attxQET2HMJyy82iU.jpg",
+            "filename": "CIS1E3 NOV 5 2026 Insta w qr code.png",
+            "size": 798731,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attxQET2HMJyy82iU.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attxQET2HMJyy82iU.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attxQET2HMJyy82iU.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/comedy-interrogation/8CI8S8",
+        "Date": "2026-11-06T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "The Mint Restaurant",
+        "Producer": "Lucia Ribeiro Comedy"
+      }
+    },
+    {
       "id": "recLkjAzXKC5SEvei",
       "createdTime": "2026-11-03T01:26:14.000Z",
       "fields": {
@@ -22279,6 +22235,394 @@
         ],
         "Venue": "TheatreSKAM",
         "Producer": "Garden City Improv"
+      }
+    },
+    {
+      "id": "recrMSgmoWfNrZ4eh",
+      "createdTime": "2026-10-14T01:55:08.000Z",
+      "fields": {
+        "Show": "OK DOPE Presents: Entertainment Village",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr",
+          "recjFSy2S99vCbhzR"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "att10pU66L7AKNVOZ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/att10pU66L7AKNVOZ.jpg",
+            "filename": "Entertainment Village at OK DOPE.png",
+            "size": 1726666,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/att10pU66L7AKNVOZ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/entertainment-village",
+        "Date": "2026-11-06T04:00:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE, Entertainment Village"
+      }
+    },
+    {
+      "id": "recmHhNApJ0G7HJIJ",
+      "createdTime": "2026-10-14T01:06:23.000Z",
+      "fields": {
+        "Show": "West Coast Speakeasy Live",
+        "Venue Link": [
+          "rec4cK6RvuQsn6a9A"
+        ],
+        "Producer Links": [
+          "recZ0rFROs3W8w2i3"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attLMrhHD85Yggv4g",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attLMrhHD85Yggv4g.jpg",
+            "filename": "West Coast Speakeasy Live.png",
+            "size": 667486,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attLMrhHD85Yggv4g.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attLMrhHD85Yggv4g.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attLMrhHD85Yggv4g.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.facebook.com/events/1092746033150646/",
+        "Date": "2026-11-07T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Secret Venue",
+        "Producer": "The West Coast Speakeasy"
+      }
+    },
+    {
+      "id": "recX3sgQax85CuRk6",
+      "createdTime": "2026-11-03T01:33:02.000Z",
+      "fields": {
+        "Show": "OK DOPE Presents: Girls Night",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attEWn1Oau15MFCUE",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attEWn1Oau15MFCUE.jpg",
+            "filename": "Girls Night at OK DOPE.png",
+            "size": 1552756,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attEWn1Oau15MFCUE.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attEWn1Oau15MFCUE.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attEWn1Oau15MFCUE.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/girls-night-2?variant_id=variant_01a108ce-e8bd-7739-856f-86c32acd0609",
+        "Date": "2026-11-07T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recRnWhCrJHVkhubo",
+      "createdTime": "2026-11-03T01:26:51.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv Against Humanity",
+        "Venue Link": [
+          "recgXzswrN3Vf1kdp"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attqBh3oCApRakRca",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attqBh3oCApRakRca.jpg",
+            "filename": "improv against humanity.png",
+            "size": 147151,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attqBh3oCApRakRca.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://admitone.com/events/victoria/community/comedy/improv-against-humanity/WKG4GW",
+        "Date": "2026-11-07T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "Encore Victoria",
+        "Producer": "Garden City Improv"
+      }
+    },
+    {
+      "id": "receVoDbZEcqpoMbJ",
+      "createdTime": "2026-10-13T02:53:03.000Z",
+      "fields": {
+        "Show": "Hecklers Presents: JJ Whitehead [TWO SHOWS]",
+        "Venue Link": [
+          "rectX9NI65ZLhbZ8d"
+        ],
+        "Producer Links": [
+          "rec5iSlHliKvneIWL"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attnHqvTt5RHcztSJ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg",
+            "filename": "hecklers - jj whitehead.png",
+            "size": 773902,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attnHqvTt5RHcztSJ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/hecklers-presents-jj-whitehead",
+        "Date": "2026-11-08T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Hecklers Bar and Grill",
+        "Producer": "Hecklers"
+      }
+    },
+    {
+      "id": "recxgfByZFy9nCxTw",
+      "createdTime": "2026-11-03T01:33:50.000Z",
+      "fields": {
+        "Show": "Ryan Williams Live at OK, DOPE Comedy Club",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attX9tPpfOsSNhPy2",
+            "width": 800,
+            "height": 1000,
+            "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg",
+            "filename": "Ryan Williams.png",
+            "size": 138094,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attX9tPpfOsSNhPy2.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ryan-williams-live-at-ok-dope-comedy-club",
+        "Date": "2026-11-08T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recvjaNjgxI14GxLF",
+      "createdTime": "2026-11-03T01:27:37.000Z",
+      "fields": {
+        "Show": "Garden City Improv: Improv All-Stars",
+        "Venue Link": [
+          "recvk4EprhoHQlSOx"
+        ],
+        "Producer Links": [
+          "rec6BoXot49GLfyfK"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attvaovE2ZQUXCqMQ",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg",
+            "filename": "Improv All Stars.png",
+            "size": 466442,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attvaovE2ZQUXCqMQ.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.gardencityimprov.com/events/improv-all-stars-nov7",
+        "Date": "2026-11-08T03:30:00.000Z",
+        "Type": [
+          "Improv"
+        ],
+        "Venue": "TheatreSKAM",
+        "Producer": "Garden City Improv"
+      }
+    },
+    {
+      "id": "recfhJih8TYscdFFe",
+      "createdTime": "2026-11-03T01:34:56.000Z",
+      "fields": {
+        "Show": "OK, DOPE Open Mic and Karaoke",
+        "Venue Link": [
+          "reckVMUT5OWSICIvV"
+        ],
+        "Producer Links": [
+          "recXR6FMbSNASkiNr"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attNBhnkrbejxZNVH",
+            "width": 800,
+            "height": 1000,
+            "url": "/assets/shows/attNBhnkrbejxZNVH.jpg",
+            "filename": "OK Dope Open Mic.png",
+            "size": 85764,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attNBhnkrbejxZNVH.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attNBhnkrbejxZNVH.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attNBhnkrbejxZNVH.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://www.jumpcomedy.com/e/ok-dope-open-mic-then-karaoke",
+        "Date": "2026-11-09T01:00:00.000Z",
+        "Type": [
+          "Open Mic"
+        ],
+        "Venue": "OK, DOPE Comedy Club",
+        "Producer": "OK, DOPE"
+      }
+    },
+    {
+      "id": "recEtN5xgJkbhAmiH",
+      "createdTime": "2026-06-23T01:21:43.000Z",
+      "fields": {
+        "Show": "Outback Presents: Jim Jeffries: Son of a Carpenter",
+        "Venue Link": [
+          "rec3kX29L1R93zGWf"
+        ],
+        "Producer Links": [
+          "reclY1pGbtWqLuFHm"
+        ],
+        "Status": "Archived",
+        "Show Graphic": [
+          {
+            "id": "attKmimG5g7xHqefz",
+            "width": 1080,
+            "height": 1350,
+            "url": "/assets/shows/attKmimG5g7xHqefz.jpg",
+            "filename": "Jim Jeffries November 8.png",
+            "size": 1355626,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "/assets/shows/attKmimG5g7xHqefz.jpg"
+              },
+              "large": {
+                "url": "/assets/shows/attKmimG5g7xHqefz.jpg"
+              },
+              "full": {
+                "url": "/assets/shows/attKmimG5g7xHqefz.jpg"
+              }
+            }
+          }
+        ],
+        "Ticket Link": "https://sofmc.com/event/jim-jefferies/",
+        "Date": "2026-11-09T03:00:00.000Z",
+        "Type": [
+          "Stand-up"
+        ],
+        "Venue": "Save-On-Foods Memorial Center",
+        "Producer": "Outback"
       }
     }
   ]
